@@ -1,3 +1,5 @@
+# For Security Research Device Holders Only
+
 # Cryptex Example
 
 This directory contains a working example of a cryptex designed to
