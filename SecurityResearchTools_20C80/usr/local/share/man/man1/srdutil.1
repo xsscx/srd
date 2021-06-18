@@ -1,0 +1,33 @@
+.Dd August 14, 2020
+.Dt SRDUTIL 1
+.Os Darwin
+.Sh NAME
+.Nm srdutil
+.Nd Security Research Device management utility
+.Sh SYNOPSIS \" Section Header - required - don't modify
+.Nm
+.Ar SUBCOMMAND
+.Sh DESCRIPTION \" Section Header - required - don't modify
+.Nm
+is the management utility for the Security Research Device. It handles functions
+related to the device itself such as restoring the device or checking the device
+in with the Security Research Device Program
+.Pq SRDP .
+.Sh SUBCOMMANDS
+List of subcommands and their descriptions:
+.Bl -tag -width -indent
+.It Ar restore
+Restore a Security Research Device with a given IPSW.
+See
+.Xr srdutil-restore 1 .
+.It Ar checkin
+Signal to the SRDP checkin server that the user positively
+affirms possession of a given device. See
+.Xr srdutil-checkin 1 .
+.El
+.Sh SEE ALSO
+.Xr cryptexctl 1 ,
+.Xr srdutil-checkin 1 ,
+.Xr srdutil-restore 1
+.Sh HISTORY
+Introduced in macOS 11.0

@@ -1,0 +1,85 @@
+.Dd August 14, 2020
+.Dt SRDUTIL-CHECKIN 1
+.Os Darwin
+.Sh NAME
+.Nm srdutil checkin
+.Nd Security Research Device checkin utility
+.Sh SYNOPSIS \" Section Header - required - don't modify
+.Nm srdutil checkin
+.Op Fl v | Fl -verbose
+.Op Fl e | Fl -ecid Ar ECID
+.Op Fl t | Fl -token Ar API-TOKEN
+.Op Fl u | Fl -user Ar USER
+.Sh DESCRIPTION \" Section Header - required - don't modify
+.Nm srdutil checkin
+is the
+.Nm srdutil
+subcommand for affirming with the Security Research Device Program
+.Pq SRDP
+that a device is in a given user's physical posession.
+.Pp
+The device does not need to be connected to be checked in with the
+SRDP checkin server.
+.Sh OPTIONS
+List of options and their descriptions:
+.Bl -tag -width -indent
+.It Fl e | Fl -ecid Ar ECID
+The
+.Ar ECID
+of the device to affirm is in the user's physical possession.
+.Pp
+The ECID can be retrieved from the
+.Ar list
+subcommand of
+.Xr cryptexctl-device 1
+or from
+.Xr srdutil-restore 1 .
+.Pp
+Defaults to the value of the environment variable
+.Ev SRDUTIL_CHECKIN_ECID .
+.It Fl t | Fl -token Ar API-TOKEN
+The API token to be used for the request to the
+SRDP checkin server.
+.Pp
+This is currently baked into the
+.Nm
+utility, but will be provided separately in the future.
+.Pp
+Defaults to the value of the environment variable
+.Ev SRDUTIL_CHECKIN_TOKEN .
+.It Fl u | Fl -user Ar USER
+The Apple ID of the user
+.Em affirming physical possession
+of the device.
+.Pp
+In the future this will be tied to a particular
+.Ar API-TOKEN .
+.Pp
+Defaults to the value of the environment variable
+.Ev SRDUTIL_CHECKIN_USER .
+.It Fl v | Fl -verbose
+Enable verbose output.
+.El
+.Sh ENVIRONMENT
+The following environment variables are used by
+.Nm srdutil checkin .
+.Bl -tag -width -indent
+.It Ev SRDUTIL_CHECKIN_ECID
+Sets a default value for the
+.Fl -ecid
+option.
+.It Ev SRDUTIL_CHECKIN_TOKEN
+Sets a default value for the
+.Fl -token
+option.
+.It Ev SRDUTIL_CHECKIN_USER
+Sets a default value for the
+.Fl -user
+option.
+.El
+.Sh SEE ALSO
+.Xr cryptexctl 1 ,
+.Xr cryptexctl-device 1 ,
+.Xr srdutil-restore 1
+.Sh HISTORY
+Introduced in macOS 11.0
