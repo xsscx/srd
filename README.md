@@ -114,8 +114,8 @@ when launching a launchd plist that can be used by a binary to locate the
 cryptex it is a part of.
 
 A simple example of using this variable can be found in
-[cryptex-run](srd/cryptex-run). A more comprehensive example can
-be seen in the patches made to [dropbear](src/dropbear).
+cryptex-run. A more comprehensive example can
+be seen in the patches made to src/dropbear.
 
 ### Offline installation
 
