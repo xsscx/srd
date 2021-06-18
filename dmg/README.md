@@ -1,3 +1,5 @@
+## For Apple Security Research Device Holders Only
+
 # Example DMG for a Sample Cryptex
 
 -----------
