@@ -149,6 +149,277 @@ s3_6_c15_c1_6 bit 61: 2020000030200000
 s3_6_c15_c1_6 bit 62: 2020000030200000
 s3_6_c15_c1_6 bit 63: 2020000030200000
 ```
+```
+# ./s3_6_c15_c1_5-read
+s3_6_c15_c1_5 bit 00: 2010000030100000
+s3_6_c15_c1_5 bit 01: 2010000030100000
+s3_6_c15_c1_5 bit 02: 2010000030100000
+s3_6_c15_c1_5 bit 03: 2010000030100000
+s3_6_c15_c1_5 bit 04: 2010000030100000
+s3_6_c15_c1_5 bit 05: 2010000030100000
+s3_6_c15_c1_5 bit 06: 2010000030100000
+s3_6_c15_c1_5 bit 07: 2010000030100000
+s3_6_c15_c1_5 bit 08: 2010000030100000
+s3_6_c15_c1_5 bit 09: 2010000030100000
+s3_6_c15_c1_5 bit 10: 2010000030100000
+s3_6_c15_c1_5 bit 11: 2010000030100000
+s3_6_c15_c1_5 bit 12: 2010000030100000
+s3_6_c15_c1_5 bit 13: 2010000030100000
+s3_6_c15_c1_5 bit 14: 2010000030100000
+s3_6_c15_c1_5 bit 15: 2010000030100000
+s3_6_c15_c1_5 bit 16: 2010000030100000
+s3_6_c15_c1_5 bit 17: 2010000030100000
+s3_6_c15_c1_5 bit 18: 2010000030100000
+s3_6_c15_c1_5 bit 19: 2010000030100000
+s3_6_c15_c1_5 bit 20: 2010000030100000
+s3_6_c15_c1_5 bit 21: 2010000030100000
+s3_6_c15_c1_5 bit 22: 2010000030100000
+s3_6_c15_c1_5 bit 23: 2010000030100000
+s3_6_c15_c1_5 bit 24: 2010000030100000
+s3_6_c15_c1_5 bit 25: 2010000030100000
+s3_6_c15_c1_5 bit 26: 2010000030100000
+s3_6_c15_c1_5 bit 27: 2010000030100000
+s3_6_c15_c1_5 bit 28: 2010000030100000
+s3_6_c15_c1_5 bit 29: 2010000030100000
+s3_6_c15_c1_5 bit 30: 2010000030100000
+s3_6_c15_c1_5 bit 31: 2010000030100000
+s3_6_c15_c1_5 bit 32: 2010000030100000
+s3_6_c15_c1_5 bit 33: 2010000030100000
+s3_6_c15_c1_5 bit 34: 2010000030100000
+s3_6_c15_c1_5 bit 35: 2010000030100000
+s3_6_c15_c1_5 bit 36: 2010000030100000
+s3_6_c15_c1_5 bit 37: 2010000030100000
+s3_6_c15_c1_5 bit 38: 2010000030100000
+s3_6_c15_c1_5 bit 39: 2010000030100000
+s3_6_c15_c1_5 bit 40: 2010000030100000
+s3_6_c15_c1_5 bit 41: 2010000030100000
+s3_6_c15_c1_5 bit 42: 2010000030100000
+s3_6_c15_c1_5 bit 43: 2010000030100000
+s3_6_c15_c1_5 bit 44: 2010000030100000
+s3_6_c15_c1_5 bit 45: 2010000030100000
+s3_6_c15_c1_5 bit 46: 2010000030100000
+s3_6_c15_c1_5 bit 47: 2010000030100000
+s3_6_c15_c1_5 bit 48: 2010000030100000
+s3_6_c15_c1_5 bit 49: 2010000030100000
+s3_6_c15_c1_5 bit 50: 2010000030100000
+s3_6_c15_c1_5 bit 51: 2010000030100000
+s3_6_c15_c1_5 bit 52: 2010000030100000
+s3_6_c15_c1_5 bit 53: 2010000030100000
+s3_6_c15_c1_5 bit 54: 2010000030100000
+s3_6_c15_c1_5 bit 55: 2010000030100000
+s3_6_c15_c1_5 bit 56: 2010000030100000
+s3_6_c15_c1_5 bit 57: 2010000030100000
+s3_6_c15_c1_5 bit 58: 2010000030100000
+s3_6_c15_c1_5 bit 59: 2010000030100000
+s3_6_c15_c1_5 bit 60: 2010000030100000
+s3_6_c15_c1_5 bit 61: 2010000030100000
+s3_6_c15_c1_5 bit 62: 2010000030100000
+s3_6_c15_c1_5 bit 63: 2010000030100000
+# ./s3_6_c15_c1_6-read
+s3_6_c15_c1_6 bit 00: 2020000030200000
+s3_6_c15_c1_6 bit 01: 2020000030200000
+s3_6_c15_c1_6 bit 02: 2020000030200000
+s3_6_c15_c1_6 bit 03: 2020000030200000
+s3_6_c15_c1_6 bit 04: 2020000030200000
+s3_6_c15_c1_6 bit 05: 2020000030200000
+s3_6_c15_c1_6 bit 06: 2020000030200000
+s3_6_c15_c1_6 bit 07: 2020000030200000
+s3_6_c15_c1_6 bit 08: 2020000030200000
+s3_6_c15_c1_6 bit 09: 2020000030200000
+s3_6_c15_c1_6 bit 10: 2020000030200000
+s3_6_c15_c1_6 bit 11: 2020000030200000
+s3_6_c15_c1_6 bit 12: 2020000030200000
+s3_6_c15_c1_6 bit 13: 2020000030200000
+s3_6_c15_c1_6 bit 14: 2020000030200000
+s3_6_c15_c1_6 bit 15: 2020000030200000
+s3_6_c15_c1_6 bit 16: 2020000030200000
+s3_6_c15_c1_6 bit 17: 2020000030200000
+s3_6_c15_c1_6 bit 18: 2020000030200000
+s3_6_c15_c1_6 bit 19: 2020000030200000
+s3_6_c15_c1_6 bit 20: 2020000030200000
+s3_6_c15_c1_6 bit 21: 2020000030200000
+s3_6_c15_c1_6 bit 22: 2020000030200000
+s3_6_c15_c1_6 bit 23: 2020000030200000
+s3_6_c15_c1_6 bit 24: 2020000030200000
+s3_6_c15_c1_6 bit 25: 2020000030200000
+s3_6_c15_c1_6 bit 26: 2020000030200000
+s3_6_c15_c1_6 bit 27: 2020000030200000
+s3_6_c15_c1_6 bit 28: 2020000030200000
+s3_6_c15_c1_6 bit 29: 2020000030200000
+s3_6_c15_c1_6 bit 30: 2020000030200000
+s3_6_c15_c1_6 bit 31: 2020000030200000
+s3_6_c15_c1_6 bit 32: 2020000030200000
+s3_6_c15_c1_6 bit 33: 2020000030200000
+s3_6_c15_c1_6 bit 34: 2020000030200000
+s3_6_c15_c1_6 bit 35: 2020000030200000
+s3_6_c15_c1_6 bit 36: 2020000030200000
+s3_6_c15_c1_6 bit 37: 2020000030200000
+s3_6_c15_c1_6 bit 38: 2020000030200000
+s3_6_c15_c1_6 bit 39: 2020000030200000
+s3_6_c15_c1_6 bit 40: 2020000030200000
+s3_6_c15_c1_6 bit 41: 2020000030200000
+s3_6_c15_c1_6 bit 42: 2020000030200000
+s3_6_c15_c1_6 bit 43: 2020000030200000
+s3_6_c15_c1_6 bit 44: 2020000030200000
+s3_6_c15_c1_6 bit 45: 2020000030200000
+s3_6_c15_c1_6 bit 46: 2020000030200000
+s3_6_c15_c1_6 bit 47: 2020000030200000
+s3_6_c15_c1_6 bit 48: 2020000030200000
+s3_6_c15_c1_6 bit 49: 2020000030200000
+s3_6_c15_c1_6 bit 50: 2020000030200000
+s3_6_c15_c1_6 bit 51: 2020000030200000
+s3_6_c15_c1_6 bit 52: 2020000030200000
+s3_6_c15_c1_6 bit 53: 2020000030200000
+s3_6_c15_c1_6 bit 54: 2020000030200000
+s3_6_c15_c1_6 bit 55: 2020000030200000
+s3_6_c15_c1_6 bit 56: 2020000030200000
+s3_6_c15_c1_6 bit 57: 2020000030200000
+s3_6_c15_c1_6 bit 58: 2020000030200000
+s3_6_c15_c1_6 bit 59: 2020000030200000
+s3_6_c15_c1_6 bit 60: 2020000030200000
+s3_6_c15_c1_6 bit 61: 2020000030200000
+s3_6_c15_c1_6 bit 62: 2020000030200000
+s3_6_c15_c1_6 bit 63: 2020000030200000
+# ./s3_6_c15_c1_7-read
+# uname -a
+Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
+# ls
+0x00201420  aslr      catv    clear  crc32        dirname   env        file    getconf  hexedit    ios-play3  killall5  md5sum    nc      od        pwdx      rmdir                s3_6_c15_c1_5-flip  s3_6_c15_c2_5-read  simple-server  stat     test     true      unlink    vs     who
+0x910003fd  base64    chain3  cmp    cryptex-run  dos2unix  expand     find    grep     hostname   ios-play4  link      microcom  netcat  paste     readlink  s1_0_c7_c8_2-flip    s3_6_c15_c1_5-read  sed                 simple-shell   strings  time     truncate  usleep    w      whoami
+0xD503201F  basename  chgrp   comm   cut          dropbear  factor     flock   groups   iconv      ios-play5  ln        mkdir     nice    patch     realpath  s1_0_c7_c8_2-read    s3_6_c15_c1_6-flip  seq                 sleep          tac      timeout  tty       uudecode  watch  xargs
+2flip       bash      chmod   count  date         du        fallocate  fmt     head     id         ios-play6  logger    mkfifo    nl      printenv  renice    s3_4_c15_c10_5-read  s3_6_c15_c1_6-read  setsid              sort           tail     touch    uname     uuencode  wc     xxd
+[           cal       chown   cp     debugserver  echo      false      ftpget  hello    ios-play   ios-play7  logname   mktemp    nohup   printf    rev       s3_4_c15_c2_0-read   s3_6_c15_c1_7-flip  sh                  split          tar      toybox   uniq      uuidgen   wget   yes
+ascii       cat       cksum   cpio   df           egrep     fgrep      ftpput  help     ios-play2  kill       ls        mv        nvram   pwd       rm        s3_6_c15_c1_4-read   s3_6_c15_c1_7-read  sha1sum             srd-reg        tee      toysh    unix2dos  vi        which
+# ./s3_6_c15_c1_5-flip
+Read Initial Register bit 00: 2010000030100000
+Read Initial Register bit 01: 2010000030100000
+Read Initial Register bit 02: 2010000030100000
+Read Initial Register bit 03: 2010000030100000
+Read Initial Register bit 04: 2010000030100000
+Read Initial Register bit 05: 2010000030100000
+Read Initial Register bit 06: 2010000030100000
+Read Initial Register bit 07: 2010000030100000
+Read Initial Register bit 08: 2010000030100000
+Read Initial Register bit 09: 2010000030100000
+Read Initial Register bit 10: 2010000030100000
+Read Initial Register bit 11: 2010000030100000
+Read Initial Register bit 12: 2010000030100000
+Read Initial Register bit 13: 2010000030100000
+Read Initial Register bit 14: 2010000030100000
+Read Initial Register bit 15: 2010000030100000
+Read Initial Register bit 16: 2010000030100000
+Read Initial Register bit 17: 2010000030100000
+Read Initial Register bit 18: 2010000030100000
+Read Initial Register bit 19: 2010000030100000
+Read Initial Register bit 20: 2010000030100000
+Read Initial Register bit 21: 2010000030100000
+Read Initial Register bit 22: 2010000030100000
+Read Initial Register bit 23: 2010000030100000
+Read Initial Register bit 24: 2010000030100000
+Read Initial Register bit 25: 2010000030100000
+Read Initial Register bit 26: 2010000030100000
+Read Initial Register bit 27: 2010000030100000
+Read Initial Register bit 28: 2010000030100000
+Read Initial Register bit 29: 2010000030100000
+Read Initial Register bit 30: 2010000030100000
+Read Initial Register bit 31: 2010000030100000
+Read Initial Register bit 32: 2010000030100000
+Read Initial Register bit 33: 2010000030100000
+Read Initial Register bit 34: 2010000030100000
+Read Initial Register bit 35: 2010000030100000
+Read Initial Register bit 36: 2010000030100000
+Read Initial Register bit 37: 2010000030100000
+Read Initial Register bit 38: 2010000030100000
+Read Initial Register bit 39: 2010000030100000
+Read Initial Register bit 40: 2010000030100000
+Read Initial Register bit 41: 2010000030100000
+Read Initial Register bit 42: 2010000030100000
+Read Initial Register bit 43: 2010000030100000
+Read Initial Register bit 44: 2010000030100000
+Read Initial Register bit 45: 2010000030100000
+Read Initial Register bit 46: 2010000030100000
+Read Initial Register bit 47: 2010000030100000
+Read Initial Register bit 48: 2010000030100000
+Read Initial Register bit 49: 2010000030100000
+Read Initial Register bit 50: 2010000030100000
+Read Initial Register bit 51: 2010000030100000
+Read Initial Register bit 52: 2010000030100000
+Read Initial Register bit 53: 2010000030100000
+Read Initial Register bit 54: 2010000030100000
+Read Initial Register bit 55: 2010000030100000
+Read Initial Register bit 56: 2010000030100000
+Read Initial Register bit 57: 2010000030100000
+Read Initial Register bit 58: 2010000030100000
+Read Initial Register bit 59: 2010000030100000
+Read Initial Register bit 60: 2010000030100000
+Read Initial Register bit 61: 2010000030100000
+Read Initial Register bit 62: 2010000030100000
+Read Initial Register bit 63: 2010000030100000
+Flipped Register bit 00: 2010000030100000
+Flipped Register bit 01: 2010000030100000
+Flipped Register bit 02: 2010000030100000
+Flipped Register bit 03: 2010000030100000
+Flipped Register bit 04: 2010000030100000
+Flipped Register bit 05: 2010000030100000
+Flipped Register bit 06: 2010000030100000
+Flipped Register bit 07: 2010000030100000
+Flipped Register bit 08: 2010000030100000
+Flipped Register bit 09: 2010000030100000
+Flipped Register bit 10: 2010000030100000
+Flipped Register bit 11: 2010000030100000
+Flipped Register bit 12: 2010000030100000
+Flipped Register bit 13: 2010000030100000
+Flipped Register bit 14: 2010000030100000
+Flipped Register bit 15: 2010000030100000
+Flipped Register bit 16: 2010000030100000
+Flipped Register bit 17: 2010000030100000
+Flipped Register bit 18: 2010000030100000
+Flipped Register bit 19: 2010000030100000
+Flipped Register bit 20: 2010000030100000
+Flipped Register bit 21: 2010000030100000
+Flipped Register bit 22: 2010000030100000
+Flipped Register bit 23: 2010000030100000
+Flipped Register bit 24: 2010000030100000
+Flipped Register bit 25: 2010000030100000
+Flipped Register bit 26: 2010000030100000
+Flipped Register bit 27: 2010000030100000
+Flipped Register bit 28: 2010000030100000
+Flipped Register bit 29: 2010000030100000
+Flipped Register bit 30: 2010000030100000
+Flipped Register bit 31: 2010000030100000
+Flipped Register bit 32: 2010000030100000
+Flipped Register bit 33: 2010000030100000
+Flipped Register bit 34: 2010000030100000
+Flipped Register bit 35: 2010000030100000
+Flipped Register bit 36: 2010000030100000
+Flipped Register bit 37: 2010000030100000
+Flipped Register bit 38: 2010000030100000
+Flipped Register bit 39: 2010000030100000
+Flipped Register bit 40: 2010000030100000
+Flipped Register bit 41: 2010000030100000
+Flipped Register bit 42: 2010000030100000
+Flipped Register bit 43: 2010000030100000
+Flipped Register bit 44: 2010000030100000
+Flipped Register bit 45: 2010000030100000
+Flipped Register bit 46: 2010000030100000
+Flipped Register bit 47: 2010000030100000
+Flipped Register bit 48: 2010000030100000
+Flipped Register bit 49: 2010000030100000
+Flipped Register bit 50: 2010000030100000
+Flipped Register bit 51: 2010000030100000
+Flipped Register bit 52: 2010000030100000
+Flipped Register bit 53: 2010000030100000
+Flipped Register bit 54: 2010000030100000
+Flipped Register bit 55: 2010000030100000
+Flipped Register bit 56: 2010000030100000
+Flipped Register bit 57: 2010000030100000
+Flipped Register bit 58: 2010000030100000
+Flipped Register bit 59: 2010000030100000
+Flipped Register bit 60: 2010000030100000
+Flipped Register bit 61: 2010000030100000
+Flipped Register bit 62: 2010000030100000
+Flipped Register bit 63: 2010000030100000
+```
 
 M1 T8010 Register Definitions
 ==========
