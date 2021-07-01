@@ -12,6 +12,10 @@ An interesting Read but no additional information was provided with respect to F
 iPhone 11 Register Tests
 =========
 ```
+uname -a
+Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
+```
+```
 # ./s3_6_c15_c1_5-read
 s3_6_c15_c1_5 bit 00: 2010000030100000
 s3_6_c15_c1_5 bit 01: 2010000030100000
