@@ -1,4 +1,4 @@
-# Welcome to the SRD0009 Repo for the Apple Security Research Device (SRD)
+# SRD0009 Repo for the Apple Security Research Device (SRD)
 
 This is the (limited, new) Code Collection for Public Domain that is run on an Apple Security Research Device, the Apple SRD.
 The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
