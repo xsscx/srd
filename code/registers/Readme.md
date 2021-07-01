@@ -12,6 +12,7 @@ An interesting Read but no additional information was provided with respect to F
 iPhone 11 Register Tests
 =========
 ```
+iPhone OS 14.7 (18G5052d)
 uname -a
 Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
 ```
