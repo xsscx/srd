@@ -13,3 +13,10 @@ This Repo answer the question.. what happens when we run Sven Peter's Code on th
 Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
 
 Check out the 2021 SRD Cohort Website at https://srd.cx
+
+## CODE CONTRIBUTIONS ACCEPTED
+
+Do you want to see you Code run on an SRD? Malware? Scareware? Sure.... Give us some Fresh Meat! 
+Ninja? Include your entitlements.plist so we can use a Hammer with your Code.. 
+
+Contribute your Code to be Run on the Apple SRD, we will Post the Results quickly :-)
