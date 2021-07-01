@@ -15,6 +15,8 @@ Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
 What is here?
 This is the Default SRDI out of the Box. I got tired of not having a Public Git Repo when sharing Code for the SRD. I sync off the ../example-cryptex/src/ and higher code/ trees with customary convenience targets. Contribute your Code and ideas with a PR or Issue.
 
+I'll Post more Makefile Examples for Cross Compilation, open an Issue with any Questions. There are example Makefiles and Source Code in this Repo to get you going. All Source Code is either provided by Apple Corporation, all their Rights are Reserved even if the Code Example does not contain typical Apple Marks. Other Code is Ripped from the Internet, Github and elsewhere. Credit is given, when possible, to those who have Code shown here. If I have missed you, please Open an Issue so I can properly Credit you and your Code, and Thank You!
+
 # Cryptex Example
 
 This directory contains a working example of a cryptex designed to
