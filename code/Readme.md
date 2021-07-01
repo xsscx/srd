@@ -16,7 +16,7 @@ Check out the 2021 SRD Cohort Website at https://srd.cx
 
 ## CODE CONTRIBUTIONS ACCEPTED
 
-Do you want to see you Code run on an SRD? Malware? Scareware? Sure.... Give us some Fresh Meat! 
+Do you want to see your Code run on an SRD? Malware? Scareware? Sure.... Give us some Fresh Meat! 
 Ninja? Include your entitlements.plist so we can use a Hammer with your Code.. 
 
 Contribute your Code to be Run on the Apple SRD, we will Post the Results quickly :-)
