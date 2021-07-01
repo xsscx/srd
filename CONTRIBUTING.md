@@ -1,4 +1,4 @@
-### All Contributions Welcome
+### All Code Contributions Welcome
 
 Open an Issue and include a Link to your Xcoce Project, App or Code. Include entitlements.plist and a read.me.
 
