@@ -13,7 +13,7 @@ Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
 # For Apple Security Research Device Holders Only
 
 What is here?
-This is the Default SRDI out of the Box. I got tired of not having a Public Git Repo when sharing Code for the SRD. I sync off the src/ and code/ trees with convenience targets. Contribute your Code and ideas with a PR or Issue.
+This is the Default SRDI out of the Box. I got tired of not having a Public Git Repo when sharing Code for the SRD. I sync off the ../example-cryptex/src/ and higher code/ trees with customary convenience targets. Contribute your Code and ideas with a PR or Issue.
 
 # Cryptex Example
 
