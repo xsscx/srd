@@ -14,6 +14,8 @@ FB9221261 - debugserver crash - null hostname.. (choke)..
 
 FB9223349 - debugserver crash - cryptex cwd.. (choke)..
 
+SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
+
 --------------------------------------------------
 Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
 --------------------------------------------------
