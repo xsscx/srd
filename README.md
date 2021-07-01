@@ -1,3 +1,14 @@
+# Welcome to Hoyt's (SRD0009) SRD Repo
+
+This is the (limited, new) Code Collection for Public Domain that is run on an Apple Security Research Device, the Apple SRD.
+The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
+
+JFTR - iOS 15Beta2 and jetsam make Research nearly impossible and I've filed a Feedback Request asking for jetsam relaxation or entitlement changes.
+
+This Repo is Public Domain, but the main Focus is Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples.
+
+Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
+
 # For Apple Security Research Device Holders Only
 
 # Cryptex Example
