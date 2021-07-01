@@ -12,4 +12,4 @@ This Repo answer the question.. what happens when we run Sven Peter's Code on th
 
 Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
 
-Check out the 2021 ARD Cohort Website at https://srd.cx
+Check out the 2021 SRD Cohort Website at https://srd.cx
