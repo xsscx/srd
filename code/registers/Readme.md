@@ -1,8 +1,3 @@
-### SRD Code Repo
-
-This Repo contains various Code for the Apple Security Research Device, the Apple SRD.
-Initial Commits contain the SPRR Code by Sven Peter and a TFTP Server ripped and canabalized for the SRD. TFTP Server & Client work perfectly for iOS 14.3 -> 14Beta7.
-
 ### iPhone 11 SPRR Permission Configuration Register (EL0) SPRR_PERM_EL0 s3_6_c15_c1_5 Check & Other iPhone 11 Register Fuzzing Code
 
 Caveat - This Code is targeted to Apple Security Research Device Holders and Your Mileage May Vary if you do not posess a SRD.
@@ -11,9 +6,9 @@ On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR a
 
 For the M1 Apple Silicon Platform, I've Posted some Results at URL https://github.com/xsscx/macos-research/tree/main/sprr
 
-What happens when we run the Code on an SRD???
+An interesting Read but no additional information was provided with respect to Fuzzing those 64 Register Bits, just performing a Bit Flip with the provided example SPRR JIT test code. My first thoughts were: What happens when the Program Counter (PC) and/or Link Register (LR) are lightly Fuzzed? Pitchfork / Clusterbomb, and what happens when we run the Code on an SRD.
 
-This Repo answers the question.. what happens when we run Sven Peter's Code on the SRD... 
+This Repo answer the question.. what happens when we run Sven Peter's Code on the SRD... 
 
 Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
 
