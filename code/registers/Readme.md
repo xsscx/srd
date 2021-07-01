@@ -11,6 +11,7 @@ An interesting Read but no additional information was provided with respect to F
 
 iPhone 11 Register Tests
 =========
+CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
 ```
 Hardware Model:      iPhone12,1
 iPhone OS 14.7 (18G5052d)
