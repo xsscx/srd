@@ -11,6 +11,7 @@ An interesting Read but no additional information was provided with respect to F
 
 iPhone 11 Register Tests
 =========
+```
 # ./s3_6_c15_c1_5-read
 s3_6_c15_c1_5 bit 00: 2010000030100000
 s3_6_c15_c1_5 bit 01: 2010000030100000
@@ -141,6 +142,7 @@ s3_6_c15_c1_6 bit 60: 2020000030200000
 s3_6_c15_c1_6 bit 61: 2020000030200000
 s3_6_c15_c1_6 bit 62: 2020000030200000
 s3_6_c15_c1_6 bit 63: 2020000030200000
+```
 
 M1 T8010 Register Definitions
 ==========
