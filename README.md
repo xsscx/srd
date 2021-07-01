@@ -3,7 +3,10 @@
 This is the (limited, new) Code Collection for Public Domain that is run on an Apple Security Research Device, the Apple SRD.
 The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
 
+Can someone from Apple (please) look at:
 FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible.. (cough).. 
+FB9221261 - debugserver crash
+FB9223349 - debugserver crash
 
 This Repo is Public Domain, but the main Focus is Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples.
 
