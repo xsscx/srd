@@ -2,4 +2,10 @@
 
 Caveat - This Code is targeted to Apple Security Research Device Holders and Your Mileage May Vary if you do not posess a SRD.
 
+On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR and Guarded Exception Levels (GXF) at URL https://blog.svenpeter.dev/posts/m1_sprr_gxf/ appeared in my Timeline. I had just been reviewing https://github.com/AsahiLinux/m1n1/blob/main/tools/apple_regs.json.
 
+An interesting Read but no additional information was provided with respect to Fuzzing those 64 Register Bits, just performing a Bit Flip with the provided example SPRR JIT test code. My first thoughts were: What happens when the Program Counter (PC) and/or Link Register (LR) are lightly Fuzzed? Pitchfork / Clusterbomb, and what happens when we run the Code on an SRD.
+
+This Repo answer the question.. what happens when we run Sven Peter's Code on the SRD... 
+
+Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
