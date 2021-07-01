@@ -19,3 +19,5 @@ SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/proj
 --------------------------------------------------
 Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
 --------------------------------------------------
+
+Open an Issue with Details and a Link to your Xcode Project, App or Code and I will attempt to run your Code on the SRD and post Results.
