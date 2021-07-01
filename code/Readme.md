@@ -11,9 +11,9 @@ On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR a
 
 For the M1 Apple Silicon Platform, I've Posted some Results at URL https://github.com/xsscx/macos-research/tree/main/sprr
 
-An interesting Read but no additional information was provided with respect to Fuzzing those 64 Register Bits, just performing a Bit Flip with the provided example SPRR JIT test code. My first thoughts were: What happens when the Program Counter (PC) and/or Link Register (LR) are lightly Fuzzed? Pitchfork / Clusterbomb, and what happens when we run the Code on an SRD.
+What happens when we run the Code on an SRD???
 
-This Repo answer the question.. what happens when we run Sven Peter's Code on the SRD... 
+This Repo answers the question.. what happens when we run Sven Peter's Code on the SRD... 
 
 Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
 
