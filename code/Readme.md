@@ -1,6 +1,9 @@
 ### SRD Code Repo
 
-This Repo contains various Code for the Apple Security Research Device, the Apple SRD.
+Hello! This is my SRD Repo and the iPhone 11 Public Domain Register Fuzzing Project using the Apple Security Research Device, the Apple SRD.
+
+Please contribute your Code, Project, Comments, Pro Tips or anything.... Open an Issue or PR.
+
 Initial Commits contain the SPRR Code by Sven Peter and a TFTP Server ripped and canabalized for the SRD. TFTP Server & Client work perfectly for iOS 14.3 -> 14Beta7.
 
 ### iPhone 11 SPRR Permission Configuration Register (EL0) SPRR_PERM_EL0 s3_6_c15_c1_5 Check & Other iPhone 11 Register Fuzzing Code
