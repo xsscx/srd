@@ -1,13 +1,13 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
-This is the (limited, new) Code Collection for Public Domain that is run on an Apple Security Research Device, the Apple SRD.
+* To ALL - Open a PR or Issue with Suggestions - Collaborative Research - All Code and Questions are Welcome
+* 
+This is the Public Domain & Collaboration Research Code Collection that is run on an Apple Security Research Device, the Apple SRD.
 The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
 
-* Updated July 4, 2021: Note that Issue #1 is Open and I failed to include the entitlements.plist due to operator error... Updates pending for the coming week. I added a generic.plist as placeholder
-
-* To ALL - Open a PR or Issue with Suggestions - Collaborative Research - All Code and Questions are Welcome
-
 * Industry Participation Requested, See URL https://srd.cx/industry-participation/
+
+* Updated July 4, 2021: Note that Issue #1 is Open and I failed to include the entitlements.plist due to operator error... Updates pending for the coming week. I added a generic.plist as placeholder
 
 This Repo is Public Domain, but the main Focus is Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples.
 
