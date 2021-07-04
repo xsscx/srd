@@ -17,14 +17,15 @@ Open an Issue
 
 -------------
 How do it work?
-If you have read the Makesfile and Documentation thenyou can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. this DMG has Toybox Unstripped for Debugging.. Its critical to have the Unstripped.. how can you see anything??? (cough).
+If you have read the Makefile and Documentation thenyou can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. this DMG has Toybox Unstripped for Debugging.. Its critical to have the Unstripped.. how can you see anything??? (cough).
 
 So rip out the code and then start hand-rolling, or just wait for my CopyPasta Instructions... here is a sample..
 
 This is where I'm dropping you at in the Build Pipeline:
+```
 created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/com.example.cryptex.dmg
-
-Now you have this DMG, lets walk thru the hand-roll and smoke out cryptex....
+```
+Now you have this DMG, lets walk thru the hand-roll and smoke out cryptex.... 
 
 This is how the Makefile does it.. no magic.. follow along.. if you get it.. cool.. but if not, Open an Issue, ping me on Slack, hit me up on Twitter.. this is a critical hurdle to get over...
 
