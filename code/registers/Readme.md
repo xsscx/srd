@@ -1,7 +1,5 @@
 ### Contribute to the iPhone 11 Register Fuzzing Project
 
-Caveat - This Code is targeted to Apple Security Research Device Holders and Your Mileage May Vary if you do not posess a SRD.
-
 Reference: M1 Apple Silicon SPRR Permission Checks https://github.com/xsscx/macos-research/tree/main/sprr
 
 On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR and Guarded Exception Levels (GXF) at URL https://blog.svenpeter.dev/posts/m1_sprr_gxf/ appeared in my Timeline. I had just been reviewing https://github.com/AsahiLinux/m1n1/blob/main/tools/apple_regs.json.
@@ -33,3 +31,7 @@ Do you want to see your Code run on an SRD? Malware? Scareware? Sure.... Give us
 Ninja? Include your entitlements.plist so we can use a Hammer with your Code.. 
 
 Contribute your Code to be Run on the Apple SRD, we will Post the Results quickly :-)
+
+
+Caveat - This Code is targeted to Apple Security Research Device Holders and Your Mileage May Vary if you do not posess a SRD.
+
