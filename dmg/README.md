@@ -17,10 +17,14 @@ Open an Issue
 
 -------------
 How do it work?
+
 If you have read the Makefile and Documentation then you can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. this DMG has Toybox Unstripped for Debugging.. Its critical to have the Unstripped.. how can you see anything??? (cough).
 
 So rip out the code and then start hand-rolling, or just wait for my CopyPasta Instructions... here is a sample..
-
+```
+uname -a
+Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
+```
 This is where I'm dropping you at in the Build Pipeline:
 ```
 created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/com.example.cryptex.dmg
