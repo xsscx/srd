@@ -9,7 +9,9 @@ The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
 
 * Updated July 4, 2021: Note that Issue #1 is Open and I failed to include the entitlements.plist due to operator error... Updates pending for the coming week. I added a generic.plist as placeholder
 
-This Repo is Public Domain, but the main Focus is Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples.
+This Repo is Public Domain and I hope you will contribute your Code, Suggestions & Pro Tip's.
+
+The main Focus had been Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples, now I want to _your_ input!
 
 --------------------------------------------------
 Can someone from Apple (please) look at:
