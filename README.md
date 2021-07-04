@@ -8,11 +8,11 @@ This Repo is Public Domain, but the main Focus is Onboarding the 2021 SRD Cohort
 --------------------------------------------------
 Can someone from Apple (please) look at:
 
-FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible.. (cough).. 
+FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible..  
 
-FB9221261 - debugserver crash - null hostname.. (choke)..
+FB9221261 - debugserver crash - null hostname.. 
 
-FB9223349 - debugserver crash - cryptex cwd.. (choke)..
+FB9223349 - debugserver crash - cryptex cwd.. 
 
 SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
 
