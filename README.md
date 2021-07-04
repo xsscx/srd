@@ -2,7 +2,7 @@
 
 * To ALL - Open a PR or Issue with Suggestions - Collaborative Research - All Code and Questions are Welcome
  
-This is the Public Domain & Collaboration Research Code Collection that is run on an Apple Security Research Device, the Apple SRD.
+This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] that is run on an Apple Security Research Device, the Apple SRD.
 The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
 
 * Industry Participation Requested, See URL https://srd.cx/industry-participation/
