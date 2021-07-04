@@ -1,6 +1,6 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
-* To ALL - Open a PR or Issue with Suggestions - Collaborative Research - All Code and Questions are Welcome
+* To ALL - Open a PR or Issue with Suggestions - Collaborative Research - All Code and Questions are Welcome. If you see Code Errors, Fails or LOL's.. Please Open an Issue... Thanks!
  
 This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] that is run on an Apple Security Research Device, the Apple SRD.
 The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
