@@ -1,7 +1,5 @@
 # s3_6_c15_c1_6
 
-CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
-
 iPhone 11 Register Tests
 =========
 CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
