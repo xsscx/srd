@@ -14,3 +14,12 @@ IF you need help.. Connect on Slack at srdcx.slack.com
 Open an Issue
 
 @h02332 on twitter
+
+---------
+Do youwant your Code loaded on an Example Cryptex for the SRD Cohort?
+
+Open an Issue with a Link to your Coce
+
+Create a PR
+
+Thanks!
