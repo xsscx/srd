@@ -1,5 +1,5 @@
 # s3_6_c15_c1_5
-Note that this is a PlaceHolder Report due to the fact that an EL0 Test is being reported from the EL1 permission level and the Code needs to be changed. PR's welcome!
+Note that this is a PlaceHolder Report due to the fact that an EL0 Test is being reported from the EL1 permission level and the Code needs to be changed. PR's welcome! See EL1 SPRR Test as Example at URL https://github.com/xsscx/srd/tree/main/code/registers/S3_6_c15_c1_6
 
 iPhone 11 Register Tests
 =========
