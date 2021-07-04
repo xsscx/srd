@@ -16,7 +16,7 @@ Open an Issue
 @h02332 on twitter
 
 ---------
-Do youwant your Code loaded on an Example Cryptex for the SRD Cohort?
+Do you want your Code loaded on an Example Cryptex for the SRD Cohort?
 
 Open an Issue with a Link to your Coce
 
