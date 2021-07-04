@@ -9,8 +9,6 @@ Some of the code is compiled to Crash.
 
 Some of the Code works.
 
-There is a DMG in the Private Repo that will save you hours of time :-)
-
 IF you need help.. Connect on Slack at srdcx.slack.com
 
 Open an Issue
