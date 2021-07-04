@@ -1,6 +1,6 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
-* To ALL - Open a PR or Issue with Suggestions 
+* To ALL - Open a Discussion, PR or Issue with Suggestions, Comments, Bugs, Feedback, Tips etc..
 * Collaborative Research
 * All Code and Questions are Welcome 
 * When you see Code Errors, Fails or LOL's.. Please Open an Issue... Thanks!
