@@ -18,7 +18,7 @@ Open an Issue
 ---------
 Do you want your Code loaded on an Example Cryptex for the SRD Cohort?
 
-Open an Issue with a Link to your Coce
+Open an Issue with a Link to your Code
 
 Create a PR
 
