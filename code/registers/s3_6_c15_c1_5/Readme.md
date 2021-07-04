@@ -1,4 +1,5 @@
 # s3_6_c15_c1_5
+Note that this is a PlaceHolder Report due to the fact that an EL0 Test is being reported from the EL1 permission level and the Code needs to be changed. PR's welcome!
 
 iPhone 11 Register Tests
 =========
