@@ -19,7 +19,7 @@ uname -a
 Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
 ```
 ```
-# ./s3_6_c15_c1_5-read
+# ./s3_6_c15_c1_5-read - Note: no entitlements.plist are first iterations of testing, then add entitlements 1:1, this is on purpose and with intent
 s3_6_c15_c1_5 bit 00: 2010000030100000
 s3_6_c15_c1_5 bit 01: 2010000030100000
 s3_6_c15_c1_5 bit 02: 2010000030100000
