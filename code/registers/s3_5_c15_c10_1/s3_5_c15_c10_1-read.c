@@ -1,16 +1,30 @@
-#include <stdio.h>
+#include <stdbool.h>
 #include <stdint.h>
-#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
-int main(int argc, char **argv)
+
+void write_sprr(uint64_t v)
 {
-     uint64_t val;
-     if (argc > 1) {
-         val = atoi(argv[1]);
-         asm("msr s3_5_c15_c10_1, %x0" : : "r"(val));
-     } else {
-         asm("mrs %x0, s3_5_c15_c10_1" : "=r"(val));
-         printf("%llu\n", val);
-     }
-     return 0;
+    __asm__ __volatile__("msr s3_6_c15_c1_5, %0\n"
+                         "isb sy\n" ::"r"(v)
+                         :);
+}
+
+uint64_t read_sprr(void)
+{
+    uint64_t v;
+    __asm__ __volatile__("isb sy\n"
+                         "mrs %0, s3_6_c15_c1_5\n"
+                         : "=r"(v)::"memory");
+    return v;
+}
+
+
+int main(int argc, char *argv[])
+{
+    for (int i = 0; i < 64; ++i) {
+
+        printf("s3_6_c15_c1_5 bit %02d: %016llx\n", i, read_sprr());
+    }
 }
