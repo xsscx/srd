@@ -11,7 +11,7 @@ iPhone OS 14.7 (18G5052d)
 uname -a
 Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
 ```
-
+```
 ./s3_6_c15_c1_6-read
 s3_6_c15_c1_6 bit 00: 2020000030200000
 s3_6_c15_c1_6 bit 01: 2020000030200000
@@ -77,8 +77,8 @@ s3_6_c15_c1_6 bit 60: 2020000030200000
 s3_6_c15_c1_6 bit 61: 2020000030200000
 s3_6_c15_c1_6 bit 62: 2020000030200000
 s3_6_c15_c1_6 bit 63: 2020000030200000
-
-
+```
+```
 ./s3_6_c15_c1_6-flip
 Flipped Register bit 00: 2010000030100000
 Flipped Register bit 01: 2010000030100000
@@ -144,3 +144,4 @@ Flipped Register bit 60: 2010000030100000
 Flipped Register bit 61: 2010000030100000
 Flipped Register bit 62: 2010000030100000
 Flipped Register bit 63: 2010000030100000
+```
