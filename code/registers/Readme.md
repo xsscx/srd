@@ -8,6 +8,9 @@ An interesting Read but no additional information was provided with respect to F
 
 This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. I can not find any similar resource.
 
+IF you are Landing here, the Code is run on an Apple Security Research Device. 
+
+Please contribute Code and Knowledge into the Public Domain.
 
 iPhone 11 Register Tests
 =========
