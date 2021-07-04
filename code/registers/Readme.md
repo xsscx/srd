@@ -6,6 +6,8 @@ On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR a
 
 An interesting Read but no additional information was provided with respect to Fuzzing those 64 Register Bits, just performing a Bit Flip with the provided example SPRR JIT test code. My first thoughts were: What happens when the Program Counter (PC) and/or Link Register (LR) are lightly Fuzzed? Pitchfork / Clusterbomb.
 
+This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. I can not find any similar resource.
+
 
 iPhone 11 Register Tests
 =========
