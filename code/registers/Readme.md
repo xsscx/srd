@@ -6,6 +6,45 @@ This Public Domain Repo is meant to Document the Results of Testing the iPhone 1
 
 IF you are Landing here, the Code is run on an Apple Security Research Device. 
 
+Toolchain Details
+-----
+XNU Export
+```
+export XNU_VERSION=xnu-7195.81.3
+```
+X86_64
+```
+xcode-select -p
+/Applications/Xcode.app/Contents/Developer
+
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.18.6)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+```
+
+M1 Apple Silicon
+```
+xcode-select -p
+/Applications/Xcode-beta.app/Contents/Developer
+
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.18.6)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+iOS SDK at /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+```
+```
+iOS SDK 15
+iOS SDK 14
+iOS 14Beta7
+iOS 15Beta2
+```
+
 Please contribute Code and Knowledge into the Public Domain.
 
 The Code is CopyPasta from Sven Peter and I'm in the process of (slowly) refactoring the Code for iOS and the SRD. If you have ideas, or Code, and want to help get results, please make a PR, Issue or Discussion.
