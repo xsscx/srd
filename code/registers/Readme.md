@@ -12,6 +12,10 @@ IF you are Landing here, the Code is run on an Apple Security Research Device.
 
 Please contribute Code and Knowledge into the Public Domain.
 
+The Code is CopyPasta from Sven Peter and I'm in the process of (slowly) refactoring the Code for iOS and the SRD. If you have ideas, or Code, and want to help get results, please make a PR, Issue or Discussion.
+
+Thank You
+
 iPhone 11 Register Tests
 =========
 CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
