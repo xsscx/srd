@@ -1,17 +1,16 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
-Toolchain
+Toolchain Details
 -----
-```
-xcode-select -p
-/Applications/Xcode-beta.app/Contents/Developer
-```
 XNU Export
 ```
 export XNU_VERSION=xnu-7195.81.3
 ```
 X86_64
 ```
+xcode-select -p
+/Applications/Xcode.app/Contents/Developer
+
 clang -v
 Apple clang version 13.0.0 (clang-1300.0.18.6)
 Target: arm64-apple-darwin20.5.0
@@ -23,6 +22,9 @@ iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platfor
 
 M1 Apple Silicon
 ```
+xcode-select -p
+/Applications/Xcode-beta.app/Contents/Developer
+
 clang -v
 Apple clang version 13.0.0 (clang-1300.0.18.6)
 Target: arm64-apple-darwin20.5.0
