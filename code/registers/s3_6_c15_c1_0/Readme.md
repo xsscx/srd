@@ -1,5 +1,9 @@
 # iPhone 11 Register Fuzzing on the Apple Security Research Device as 'root' (EL1) from the cryptex
 
+The Register s3_6_c15_c1_0 was brought to my attention by https://github.com/TrungNguyen1909 via Issue https://github.com/xsscx/srd/issues/1 .. THANK YOU!
+
+If anyone has more Regsiter Info for iPhone 11, please share!
+
 CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
 ```
 Hardware Model:      iPhone12,1
