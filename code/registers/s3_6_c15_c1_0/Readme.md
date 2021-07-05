@@ -1,4 +1,4 @@
-# iPhone 11 Register Fuzzing on the Apple Security Research Device as 'root' (EL1) from the cryptex
+# iPhone 11 Register Fuzzing on the Apple Security Research Device as 'root' from the cryptex
 
 The Register s3_6_c15_c1_0 was brought to my attention by https://github.com/TrungNguyen1909 via Issue https://github.com/xsscx/srd/issues/1 .. THANK YOU!
 
