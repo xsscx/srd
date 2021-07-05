@@ -33,6 +33,6 @@ int main(int argc, char *argv[])
 
     for (int i = 0; i < 64; ++i) {
         write_sprr(1ULL<<i);
-        printf("Flipped Register bit %02d: %016llx\n", i, read_sprr());
+        printf("Flipped Register s3_6_c15_c1_5 bit %02d: %016llx\n", i, read_sprr());
     }
 }

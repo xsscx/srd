@@ -4,12 +4,12 @@ all: s3_6_c15_c1_6
 include ../../logging.mk
 include ../../build_env.mk
 
-s3_6_c15_c1_6-read: s3_6_c15_c1_6-read s3_6_c15_c1_6.plist
+s3_6_c15_c1_6-read:
 	@$(log_build)
 	${CC} ${CFLAGS} ${LDFLAGS} -g -O0 -o s3_6_c15_c1_6-read s3_6_c15_c1_6-read.c
 	codesign -s - --entitlements s3_6_c15_c1_6.plist s3_6_c15_c1_6-read
 
-s3_6_c15_c1_6-flip: s3_6_c15_c1_6-flip s3_6_c15_c1_6.plist
+s3_6_c15_c1_6-flip: s3_6_c15_c1_6-flip
 	@$(log_build)
 	${CC} ${CFLAGS} ${LDFLAGS} -g -O0 -o s3_6_c15_c1_6-flip s3_6_c15_c1_6-flip.c
 	codesign -s - --entitlements s3_6_c15_c1_6.plist s3_6_c15_c1_6-flip

@@ -6,7 +6,7 @@
 
 void write_sprr(uint64_t v)
 {
-    __asm__ __volatile__("msr s3_6_c15_c1_7, %0\n"
+    __asm__ __volatile__("msr S3_6_c15_c1_7, %0\n"
                          "isb sy\n" ::"r"(v)
                          :);
 }
@@ -15,7 +15,7 @@ uint64_t read_sprr(void)
 {
     uint64_t v;
     __asm__ __volatile__("isb sy\n"
-                         "mrs %0, s3_6_c15_c1_7\n"
+                         "mrs %0, S3_6_c15_c1_7\n"
                          : "=r"(v)::"memory");
     return v;
 }
@@ -24,11 +24,11 @@ uint64_t read_sprr(void)
 int main(int argc, char *argv[])
 {
 
-{
-    for (int j = 0; j < 64; ++j) {
-        printf("Read Initial Register s3_6_c15_c1_7 bit %02d: %016llx\n", j, read_sprr());
-    }
-}
+// {
+//    for (int j = 0; j < 64; ++j) {
+//        printf("Read Initial Register bit %02d: %016llx\n", j, read_sprr());
+//    }
+//  }
 
 
     for (int i = 0; i < 64; ++i) {
@@ -36,4 +36,3 @@ int main(int argc, char *argv[])
         printf("Flipped Register s3_6_c15_c1_7 bit %02d: %016llx\n", i, read_sprr());
     }
 }
-
