@@ -2,10 +2,6 @@
 
 Reference: M1 Apple Silicon SPRR Permission Checks https://github.com/xsscx/macos-research/tree/main/sprr
 
-On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR and Guarded Exception Levels (GXF) at URL https://blog.svenpeter.dev/posts/m1_sprr_gxf/ appeared in my Timeline. I had just been reviewing https://github.com/AsahiLinux/m1n1/blob/main/tools/apple_regs.json.
-
-An interesting Read but no additional information was provided with respect to Fuzzing those 64 Register Bits, just performing a Bit Flip with the provided example SPRR JIT test code. My first thoughts were: What happens when the Program Counter (PC) and/or Link Register (LR) are lightly Fuzzed? Pitchfork / Clusterbomb.
-
 This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. I can not find any similar resource.
 
 IF you are Landing here, the Code is run on an Apple Security Research Device. 
@@ -13,6 +9,8 @@ IF you are Landing here, the Code is run on an Apple Security Research Device.
 Please contribute Code and Knowledge into the Public Domain.
 
 The Code is CopyPasta from Sven Peter and I'm in the process of (slowly) refactoring the Code for iOS and the SRD. If you have ideas, or Code, and want to help get results, please make a PR, Issue or Discussion.
+
+Note - I'm in learning mode, not a ninja. Your _input_ is requested.
 
 Thank You
 
