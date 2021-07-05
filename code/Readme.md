@@ -4,7 +4,9 @@ Hello! This is my SRD Repo and the iPhone 11 Public Domain Register Fuzzing Proj
 
 Please contribute your Code, Project, Comments, Pro Tips or anything.... Open an Issue or PR.
 
-Initial Commits contain the SPRR Code by Sven Peter and a TFTP Server ripped and canabalized for the SRD. TFTP Server & Client work perfectly for iOS 14.3 -> 14Beta7.
+Initial Commits contain the SPRR Code by Sven Peter for M1 Apple Silicon. The Code is being refactored for iOS. 
+
+Also available is a TFTP Server ripped and canabalized for the SRD. TFTP Server & Client work perfectly for iOS 14.3 -> 14Beta7.
 
 ## iPhone 11 Register Fuzzing Code
 
