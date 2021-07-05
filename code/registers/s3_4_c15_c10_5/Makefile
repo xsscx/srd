@@ -9,7 +9,7 @@ s3_4_c15_c10_5-read: s3_4_c15_c10_5-read s3_4_c15_c10_5.plist
 	${CC} ${CFLAGS} ${LDFLAGS} -g -O0 -o s3_4_c15_c10_5-read s3_4_c15_c10_5-read.c
 	codesign -s - --entitlements s3_4_c15_c10_5.plist s3_4_c15_c10_5-read
 
-s3_4_c15_c10_5flip: s3_4_c15_c10_5-flip s3_4_c15_c10_5.plist
+s3_4_c15_c10_5-flip: s3_4_c15_c10_5-flip s3_4_c15_c10_5.plist
 	@$(log_build)
 	${CC} ${CFLAGS} ${LDFLAGS} -g -O0 -o s3_4_c15_c10_5-flip s3_4_c15_c10_5-flip.c
 	codesign -s - --entitlements s3_4_c15_c10_5.plist s3_4_c15_c10_5-flip
