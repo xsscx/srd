@@ -12,3 +12,8 @@ Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021;
 SIGILL for EL1 Read on 
 s3_6_c15_c1_0 - Will add full Crash Report soon
 ```
+Here is my command line.. both the Read and Flip Crash...
+```
+# ./s3_6_c15_c1_0-read
+# ./s3_6_c15_c1_0-flip
+```
