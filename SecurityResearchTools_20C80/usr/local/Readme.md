@@ -1,4 +1,58 @@
-# For Apple Security Research Device Holders Only
+Toolchain Details
+-----
+XNU Export
+```
+export XNU_VERSION=xnu-7195.81.3
+```
+X86_64
+```
+xcode-select -p
+/Applications/Xcode.app/Contents/Developer
+
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.18.6)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+or
+iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+```
+
+M1 Apple Silicon
+```
+xcode-select -p
+/Applications/Xcode-beta.app/Contents/Developer
+
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.18.6)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+iOS SDK at /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+```
+```
+iOS SDK 15
+iOS SDK 14
+iOS 14Beta7
+iOS 15Beta2
+```
+How long does it take to Build a Cryptex on a M1 Mini?
+```
+machdep.cpu.brand_string: Apple M1
+
+real	1m8.671s
+user	0m34.686s
+sys	0m15.253s
+```
+
+How long does it take to Build a Cryptex on a MacBook Pro:
+```
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+make  89.26s user 47.00s system 93% cpu 2:26.04 total
+
+```
+# Audience: Apple Security Research Device Holders
 
 What is here?
 This is the Default SRDI out of the Box. I got tired of not having a Public Git Repo when sharing Code for the SRD. I sync off the ../example-cryptex/src/ and higher code/ trees with customary convenience targets. Contribute your Code and ideas with a PR or Issue.
