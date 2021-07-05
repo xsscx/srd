@@ -53,6 +53,11 @@ iOS SDK 14
 iOS 14Beta7
 iOS 15Beta2
 ```
+Example Build Alternative
+```
+clang -arch arm64e -g -O0 -o a.out test.c
+```
+
 * To ALL - Open a Discussion, PR or Issue with Suggestions, Comments, Bugs, Feedback, Tips etc..
 * Collaborative Research
 * All Code and Questions are Welcome 
