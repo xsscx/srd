@@ -3,6 +3,15 @@
 Toolchain:
 ```
 export XNU_VERSION=xnu-7195.81.3
+```
+```
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.18.6)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+```
+```
 iOS SDK 15
 iOS SDK 14
 iOS 14Beta7
