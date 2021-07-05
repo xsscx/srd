@@ -36,7 +36,7 @@ iOS SDK 14
 iOS 14Beta7
 iOS 15Beta2
 ```
-How long does it take to Build a Cryptex on an M1 Mini?
+How long does it take to Build a Cryptex on a M1 Mini?
 ```
 machdep.cpu.brand_string: Apple M1
 
@@ -45,7 +45,7 @@ user	0m34.686s
 sys	0m15.253s
 ```
 
-Also using a MacBook Pro:
+How long does it take to Build a Cryptex on a MacBook Pro:
 ```
 machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
 
