@@ -1,6 +1,4 @@
-# iPhone 11 Register Fuzzing on the Apple Security Research Device as 'root' (EL1) from the cryptex | 
-s3_5_c15_c10_1
- | aka M1racles Register
+# iPhone 11 Register Fuzzing on the Apple Security Research Device as 'root' (EL1) from the cryptex | s3_5_c15_c10_1 | aka M1racles Register
 
 CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
 ```
