@@ -36,6 +36,12 @@ iOS SDK 14
 iOS 14Beta7
 iOS 15Beta2
 ```
+How long does it take to Build a Cryptex on an M1 Mini?
+```
+real	1m8.671s
+user	0m34.686s
+sys	0m15.253s
+```
 
 # For Apple Security Research Device Holders Only
 
