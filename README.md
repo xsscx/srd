@@ -1,6 +1,11 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
-Toolchain:
+Toolchain
+-----
+```
+xcode-select -p
+/Applications/Xcode-beta.app/Contents/Developer
+```
 ```
 export XNU_VERSION=xnu-7195.81.3
 ```
