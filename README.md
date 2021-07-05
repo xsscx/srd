@@ -4,6 +4,11 @@ Toolchain Details
 -----
 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
 
+Target
+```
+-triple arm64-apple-ios14.5.0
+```
+
 XNU Export
 ```
 export XNU_VERSION=xnu-7195.81.3
