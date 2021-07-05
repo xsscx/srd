@@ -49,6 +49,7 @@ sys	0m15.253s
 How long does it take to Build a Cryptex on a MacBook Pro:
 ```
 machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+make  89.26s user 47.00s system 93% cpu 2:26.04 total
 
 ```
 # Audience: Apple Security Research Device Holders
