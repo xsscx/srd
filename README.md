@@ -8,6 +8,10 @@ export XNU_VERSION=xnu-7195.81.3
 ```
 X86_64
 ```
+sysctl -a | grep Intel
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+```
+```
 xcode-select -p
 /Applications/Xcode.app/Contents/Developer
 
@@ -21,6 +25,10 @@ iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platfor
 ```
 
 M1 Apple Silicon
+```
+sysctl -a | grep M1
+machdep.cpu.brand_string: Apple M1
+```
 ```
 xcode-select -p
 /Applications/Xcode-beta.app/Contents/Developer
