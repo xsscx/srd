@@ -38,11 +38,18 @@ iOS 15Beta2
 ```
 How long does it take to Build a Cryptex on an M1 Mini?
 ```
+machdep.cpu.brand_string: Apple M1
+
 real	1m8.671s
 user	0m34.686s
 sys	0m15.253s
 ```
 
+Also using a MacBook Pro:
+```
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+
+```
 # For Apple Security Research Device Holders Only
 
 What is here?
