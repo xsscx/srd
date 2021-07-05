@@ -16,6 +16,7 @@ s3_4_c15_c2_1-flip: s3_4_c15_c2_1-flip s3_4_c15_c2_1.plist
 
 install: s3_4_c15_c2_1-read s3_4_c15_c2_1-flip
 	@$(log_install)
+	cp s3_4_c15_c2_1-flip ${CRYPTEX_BIN_DIR}
 	cp s3_4_c15_c2_1-read ${CRYPTEX_BIN_DIR}
 	cp s3_4_c15_c2_1.plist ${CRYPTEX_LAUNCHD_DIR}
 
