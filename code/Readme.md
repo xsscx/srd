@@ -42,6 +42,7 @@ iOS SDK 14
 iOS 14Beta7
 iOS 15Beta2
 ```
+* Results of Accessing a restricted system register from an application generates an exception and ends up in SIGILL being delivered to the process
 
 Initial Commits contain the SPRR Code by Sven Peter for M1 Apple Silicon. The Code is being refactored for iOS. 
 
