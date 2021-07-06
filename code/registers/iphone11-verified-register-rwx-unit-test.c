@@ -4,6 +4,8 @@ Original Code by Sven Peter for M1 Apple Silicon
 Modified by SRD0009 | @h02332 | David Hoyt to run on iPhone 11 and iOS 14.3 or greater
 OPEN SOURCE - PUBLIC DOMAIN
 
+This Code HANGS at -> can_read when reading the PTR. What is the correct address?
+
 */
 
 #define _XOPEN_SOURCE
