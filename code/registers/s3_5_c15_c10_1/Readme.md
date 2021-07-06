@@ -20,7 +20,7 @@ id -G
 0
 
 ```
-### Contribute to the iPhone 11 Register Fuzzing Project
+### Please Contribute to the iPhone 11 Register Fuzzing Project
 
 Reference: M1 Apple Silicon SPRR Permission Checks https://github.com/xsscx/macos-research/tree/main/sprr
 
