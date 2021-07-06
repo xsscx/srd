@@ -1,3 +1,6 @@
+# iPhone 11 Register Fuzzing on the Apple Security Research Device as 'root' from the cryptex
+
+CAVEAT: User = root and I'm Side-loading executable code onto the device with arbitrary entitlements at the same permission level as Apple operating system components.
 ```
 IPSW: iPhone11,8,iPhone12,1_14.7_18G5052d_Restore.ipsw
 
