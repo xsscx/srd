@@ -1,7 +1,7 @@
 // This is a working file with only readable iphone 11 registers.. the Repo contains a very high Signal to Noise Ratio and this file is meant to provide clarity on what you should expect to READ on the iPhone 11
 // Last updated Tuesday 6 June 2021 at 1100 US Eastern by SRD0009 | @h02332
 // Target Audience = Anyone
-// Target Use = Apple Security Reseaerch Device
+// Target Use = Apple Security Research Device
 //
 #include <stdbool.h>
 #include <stdint.h>
