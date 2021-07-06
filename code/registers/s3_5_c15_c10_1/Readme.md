@@ -72,6 +72,7 @@ Please contribute Code and Knowledge into the Public Domain.
 
 RESULT
 ------
+```
 ./s3_5_c15_c10_1-flip
 Flipped Register s3_5_c15_c10_1 bit 00: 0000000000000001
 Flipped Register s3_5_c15_c10_1 bit 01: 0000000000000002
@@ -137,3 +138,4 @@ Flipped Register s3_5_c15_c10_1 bit 60: 0000000000000000
 Flipped Register s3_5_c15_c10_1 bit 61: 0000000000000000
 Flipped Register s3_5_c15_c10_1 bit 62: 0000000000000000
 Flipped Register s3_5_c15_c10_1 bit 63: 0000000000000000
+```
