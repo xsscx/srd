@@ -50,7 +50,7 @@ Also available is a TFTP Server ripped and canabalized for the SRD. TFTP Server 
 
 ## iPhone 11 Register Fuzzing Code
 
-Caveat - This Code is targeted to Apple Security Research Device Holders and Your Mileage May Vary if you do not posess a SRD.
+DATAPOINT https://www.kernel.org/doc/Documentation/arm64/cpu-feature-registers.txt
 
 On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR and Guarded Exception Levels (GXF) at URL https://blog.svenpeter.dev/posts/m1_sprr_gxf/ appeared in my Timeline. I had just been reviewing https://github.com/AsahiLinux/m1n1/blob/main/tools/apple_regs.json.
 
