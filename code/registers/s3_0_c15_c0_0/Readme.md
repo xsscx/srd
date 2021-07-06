@@ -18,3 +18,8 @@ id -G
 0
 
 ```
+RESULT
+------
+SIGILL
+
+Full Crash Report to Follow........
