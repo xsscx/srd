@@ -4,6 +4,12 @@ Reference: M1 Apple Silicon SPRR Permission Checks https://github.com/xsscx/maco
 
 This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. I can not find any similar resource.
 
+Summary as of 6 June 2021
+------
+```
+s3_5_c15_c10_1      : 0x0000000000000000
+s3_6_c15_c1_6       : 0x2020000030200000
+```
 IF you are Landing here, the Code is run on an Apple Security Research Device. 
 
 Toolchain Details
