@@ -4,12 +4,11 @@ Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with
 
 Connect with me if any questions.. 
 
-IF you need help.. Connect on Slack at srdcx.slack.com
+IF you need help.. start by Connecting with me on Twitter @h02332 https://twitter.com/h02332
 
-Open an Issue
+Then, you will Login to the Slack Channel and communicate outside the SRD Forum with the 2021 SRD Cohort that has opt-in to the Slack Channel.
 
-@h02332 on twitter
-
+OR.. Open an Issue .. Discussion.. Contribute Code.. Get in Touch! @h02332 on twitter
 -------------
 How do it work?
 
