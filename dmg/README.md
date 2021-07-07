@@ -7,7 +7,9 @@ This is a sample cryptex with various files included as examples.
 
 Some of the code is compiled to Crash.
 
-Some of the Code works.
+Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption.
+
+Connect with me if any questions.. 
 
 IF you need help.. Connect on Slack at srdcx.slack.com
 
