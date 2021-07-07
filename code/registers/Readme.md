@@ -5,6 +5,7 @@ Reference: M1 Apple Silicon SPRR Permission Checks https://github.com/xsscx/maco
 This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. 
 
 DATAPOINT: https://gist.github.com/bazad/42054285391c6e0dcd0ede4b5f969ad2
+DATAPOINT: https://github.com/xsscx/srd/blob/main/code/registers/data/iphone11-registers-cleaned-uniq-fuzz-input-001.txt
 
 Summary as of 6 June 2021
 ------
