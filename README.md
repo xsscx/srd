@@ -119,14 +119,10 @@ brew install gnu-sed automake
 
 Here is a suggested reading order.
 
-0. This README
-1. The [build_env.mk](build_env.mk) Makefile
-2. The root [Makefile](Makefile)
-3. [Hello researcher](src/hello)
-4. [simple-server](src/simple-server)
-5. [nvram](src/nvram)
-6. [toybox](src/toybox)
-7. [dropbear](src/dropbear)
+1. Readme
+2. Makefile
+3. Example src code
+4. See https://srd.cx/apple-security-research-device-cohort-2021/
 
 ## The build process
 
