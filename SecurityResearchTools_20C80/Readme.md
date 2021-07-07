@@ -1,3 +1,5 @@
+The SRDI and all Contents are property of Apple Corporation, All Rights Reserved.
+
 # Cryptex Example
 
 This directory contains a working example of a cryptex designed to
