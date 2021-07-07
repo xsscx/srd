@@ -22,6 +22,22 @@ Results
 ```
 2010000030300000 2010000030100000
 ```
+
+Code
+```
+#include <stdio.h>
+#include <stdint.h>
+
+int main(int argc, char *argv[])
+{
+  uint64_t *sprr = (uint64_t *)0xfffffc118;
+  printf("%llx %llx\n", sprr[0], sprr[1]);
+}
+```
+Results
+```
+2010000030100000 40f647ea7e
+```
 iPhone 11 Register Summary as of 6 June 2021
 ------
 ```
