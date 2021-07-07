@@ -2,7 +2,9 @@
 
 Reference: M1 Apple Silicon SPRR Permission Checks https://github.com/xsscx/macos-research/tree/main/sprr
 
-This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. I can not find any similar resource.
+This Public Domain Repo is meant to Document the Results of Testing the iPhone 11 Registers. 
+
+DATAPOINT: https://gist.github.com/bazad/42054285391c6e0dcd0ede4b5f969ad2
 
 Summary as of 6 June 2021
 ------
