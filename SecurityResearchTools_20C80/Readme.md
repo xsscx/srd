@@ -31,14 +31,10 @@ brew install gnu-sed automake
 
 Here is a suggested reading order.
 
-0. This README
-1. The [build_env.mk](build_env.mk) Makefile
-2. The root [Makefile](Makefile)
-3. [Hello researcher](src/hello)
-4. [simple-server](src/simple-server)
-5. [nvram](src/nvram)
-6. [toybox](src/toybox)
-7. [dropbear](src/dropbear)
+1. Readme
+2. Makefile
+3. Example src code
+4. See https://srd.cx/apple-security-research-device-cohort-2021/
 
 ## The build process
 
@@ -46,7 +42,7 @@ For simplicity this project mainly uses Make as a build
 system as it is expected this will be more familiar to
 most people.
 
-The [build_env.mk](build_env.mk) Makefile is a template
+The build_env.mk Makefile is a template
 that can be included into other Makefiles to set up cross
 compilation for arm64e iOS targets. We essentially locate
 the iOS SDK and add a `-isysroot` flag when we call the compiler
@@ -63,8 +59,8 @@ Once the appropriate `CFLAGS` and `LDFLAGS` are exported,
 cross compilation is largely a matter of grafting required
 headers into the include path and porting your software.
 
-The [root Makefile](Makefile) includes this template
-(as do the various projects under the [src/](src/)
+The root Makefile includes this template
+(as do the various projects under the src
 directory).
 
 The root Makefile is responsible for creating the cryptex,
@@ -72,12 +68,12 @@ distribution root and disk image, while `build_env.mk` is
 responsible for cross compilation, and the various
 `src/*/Makefile`s are responsible for building individual tools.
 
-Anything in the [bin/](bin/) directory will be copied into
+Anything in the bin directory will be copied into
 the distribution root's `/usr/bin/` directory for inclusion
 into the cryptex. Binaries in this directory should be
 at-least ad-hoc signed. This is an easy way to get prebuilt
 binaries into your cryptex. Alternatively you could make
-a project under [src/](src/) which downloads the binary
+a project under src which downloads the binary
 and installs it into the distribution root, similar to the
 other projects in the src directory.
 
@@ -125,8 +121,8 @@ when launching a launchd plist that can be used by a binary to locate the
 cryptex it is a part of.
 
 A simple example of using this variable can be found in
-[cryptex-run](srd/cryptex-run). A more comprehensive example can
-be seen in the patches made to [dropbear](src/dropbear).
+cryptex-run. A more comprehensive example can
+be seen in the patches made to dropbear.
 
 ### Offline installation
 
