@@ -1,5 +1,5 @@
 .PHONY: all install clean
-all: s3_6_c15_c3_0
+all: s3_6_c15_c3_0-read s3_6_c15_c3_0-flip
 
 include ../../logging.mk
 include ../../build_env.mk
