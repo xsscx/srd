@@ -1,7 +1,4 @@
-## For Apple Security Research Device Holders Only
-
 # Example DMG for a Sample Cryptex with Toybox Unstripped for Debugging the SRD Command Line Terminal
-
 -----------
 Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption.
 
