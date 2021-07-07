@@ -88,6 +88,15 @@ brew install gnu-sed automake
 6. Run `nc ${IP} 7777`, if you see "Hello!" it's all working!
 7. Now SSH in! `ssh root@${IP}`
 
+## Follow along
+
+Here is a suggested reading order.
+
+1. Readme
+2. Makefile
+3. Example src code
+4. See https://srd.cx/apple-security-research-device-cohort-2021/
+
 ## The build process
 
 For simplicity this project mainly uses Make as a build
@@ -111,8 +120,8 @@ Once the appropriate `CFLAGS` and `LDFLAGS` are exported,
 cross compilation is largely a matter of grafting required
 headers into the include path and porting your software.
 
-The Makefile includes this template
-(as do the various projects under the src/
+The root Makefile includes this template
+(as do the various projects under the src
 directory).
 
 The root Makefile is responsible for creating the cryptex,
@@ -120,12 +129,12 @@ distribution root and disk image, while `build_env.mk` is
 responsible for cross compilation, and the various
 `src/*/Makefile`s are responsible for building individual tools.
 
-Anything in the bin/ directory will be copied into
+Anything in the bin directory will be copied into
 the distribution root's `/usr/bin/` directory for inclusion
 into the cryptex. Binaries in this directory should be
 at-least ad-hoc signed. This is an easy way to get prebuilt
 binaries into your cryptex. Alternatively you could make
-a project under src/ which downloads the binary
+a project under src which downloads the binary
 and installs it into the distribution root, similar to the
 other projects in the src directory.
 
@@ -174,7 +183,7 @@ cryptex it is a part of.
 
 A simple example of using this variable can be found in
 cryptex-run. A more comprehensive example can
-be seen in the patches made to src/dropbear.
+be seen in the patches made to dropbear.
 
 ### Offline installation
 
