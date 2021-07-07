@@ -3,11 +3,7 @@
 # Example DMG for a Sample Cryptex with Toybox Unstripped for Debugging the SRD Command Line Terminal
 
 -----------
-This is a sample cryptex with various files included as examples.
-
-Some of the code is compiled to Crash.
-
-Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption.
+Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption.
 
 Connect with me if any questions.. 
 
