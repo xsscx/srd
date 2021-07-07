@@ -72,8 +72,6 @@ Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021;
 
 * Results of Accessing a restricted system register from an application generates an exception and ends up in SIGILL being delivered to the process
 
-This Repo will answer the question.. what happens when we run Sven Peter's Code on the SRD... and more...
-
 Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
 
 Check out the 2021 SRD Cohort Website at https://srd.cx
