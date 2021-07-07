@@ -4,7 +4,11 @@
 <dict>
 <key>dynamic-codesigning</key>
 <true/>
+<key>platform-application</key>
+<true/>
 <key>com.apple.private.security.no-container</key>
+<true/>
+<key>com.apple.security.cs.allow-jit</key>
 <true/>
 </dict>
 </plist>
