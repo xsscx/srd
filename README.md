@@ -124,9 +124,7 @@ brew install gnu-sed automake
 Here is a suggested reading order.
 
 1. Readme
-2. Makefile
-3. Example src code
-4. See https://srd.cx/apple-security-research-device-cohort-2021/
+2. See https://srd.cx/apple-security-research-device-cohort-2021/
 
 ## The build process
 
