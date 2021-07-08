@@ -4,9 +4,7 @@ Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with
 
 Example DMG's for multiple Toolchains and iOS Flavors... 
 
-IF you need help.. start by Connecting with me on Twitter @h02332 https://twitter.com/h02332
-
-Then, you will Login to the Slack Channel and communicate outside the SRD Forum with the 2021 SRD Cohort that has opt-in to the Slack Channel.
+IF you need help.. start by Connecting with me on Twitter @h02332 https://twitter.com/h02332 and I'll get you on the Slack Channel.
 
 OR.. Open an Issue .. Discussion.. Contribute Code.. Get in Touch! @h02332 on twitter
 -------------
