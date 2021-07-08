@@ -4,6 +4,13 @@ Still working on the right mix of entitlements to make debugserver work on the A
 
 Here is where I'm at:
 ```
+# uname -a
+Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
+# date
+Wed Jul  7 22:05:33 EDT 2021
+#
+```
+```
 # ps ax|grep ios-play
  1477 s000  U+     0:00.00 grep ios-play
  1474 s001  R+     0:07.96 ./ios-play
