@@ -63,18 +63,17 @@ xcode-select -p
 /Applications/Xcode-beta.app/Contents/Developer
 
 clang -v
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+clang -v
 Apple clang version 13.0.0 (clang-1300.0.18.6)
 Target: arm64-apple-darwin20.5.0
 Thread model: posix
 InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 iOS SDK at /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
-```
-```
-clang -v
-Apple clang version 12.0.5 (clang-1205.0.22.11)
-Target: arm64-apple-darwin20.5.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 ```
 iOS SDK 15
