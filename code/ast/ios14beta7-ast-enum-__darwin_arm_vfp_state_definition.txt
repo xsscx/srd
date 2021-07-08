@@ -1,0 +1,40 @@
+|-RecordDecl 0x149949d70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/mach/arm/_structs.h:421:31, line:426:1> line:421:38 struct __darwin_arm_vfp_state definition
+| |-FieldDecl 0x149949ef0 <line:424:2, col:19> col:13 __r '__uint32_t [64]'
+| `-FieldDecl 0x149949f50 <line:425:2, col:13> col:13 __fpscr '__uint32_t':'unsigned int'
+|-RecordDecl 0x149949fa0 <line:437:34, line:446:1> line:437:41 struct __darwin_arm_neon_state64 definition
+| |-FieldDecl 0x14994a150 <line:443:2, col:20> col:14 __v '__uint128_t [32]'
+| |-FieldDecl 0x14994a1b0 <line:444:2, col:14> col:14 __fpsr '__uint32_t':'unsigned int'
+| `-FieldDecl 0x14994a210 <line:445:2, col:14> col:14 __fpcr '__uint32_t':'unsigned int'
+|-RecordDecl 0x14994a260 <line:438:34, line:453:1> line:438:41 struct __darwin_arm_neon_state definition
+| |-FieldDecl 0x149957000 <line:450:2, col:20> col:14 __v '__uint128_t [16]'
+| |-FieldDecl 0x149957060 <line:451:2, col:14> col:14 __fpsr '__uint32_t':'unsigned int'
+| `-FieldDecl 0x1499570c0 <line:452:2, col:14> col:14 __fpcr '__uint32_t':'unsigned int'
+|-RecordDecl 0x149957110 <line:511:34, line:518:1> line:511:41 struct __darwin_arm_amx_state_v1 definition
+| |-AlignedAttr 0x1499576d8 <line:518:18, col:28> aligned
+| | `-ConstantExpr 0x1499576c0 <col:26> 'int'
+| |   `-IntegerLiteral 0x1499576a0 <col:26> 'int' 64
+| |-FieldDecl 0x149957390 <line:514:2, col:22> col:13 __x '__uint8_t [8][64]'
+| |-FieldDecl 0x149957480 <line:515:2, col:22> col:13 __y '__uint8_t [8][64]'
+| |-FieldDecl 0x1499575f0 <line:516:2, col:23> col:13 __z '__uint8_t [64][64]'
+| `-FieldDecl 0x149957650 <line:517:2, col:13> col:13 __amx_state_t_el1 '__uint64_t':'unsigned long long'
+|-RecordDecl 0x149957738 <line:530:34, line:534:1> line:530:41 struct __arm_pagein_state definition
+| `-FieldDecl 0x149957800 <line:533:2, col:6> col:6 __pagein_error 'int'
+|-RecordDecl 0x149957850 <line:567:40, line:574:1> line:567:47 struct __arm_legacy_debug_state definition
+| |-FieldDecl 0x1499579d0 <line:570:2, col:21> col:13 __bvr '__uint32_t [16]'
+| |-FieldDecl 0x149957a78 <line:571:2, col:21> col:13 __bcr '__uint32_t [16]'
+| |-FieldDecl 0x149957b20 <line:572:2, col:21> col:13 __wvr '__uint32_t [16]'
+| `-FieldDecl 0x149957bc8 <line:573:2, col:21> col:13 __wcr '__uint32_t [16]'
+|-RecordDecl 0x149957c18 <line:590:35, line:598:1> line:590:42 struct __darwin_arm_debug_state32 definition
+| |-FieldDecl 0x149957d20 <line:593:2, col:21> col:13 __bvr '__uint32_t [16]'
+| |-FieldDecl 0x149957dc8 <line:594:2, col:21> col:13 __bcr '__uint32_t [16]'
+| |-FieldDecl 0x149957e70 <line:595:2, col:21> col:13 __wvr '__uint32_t [16]'
+| |-FieldDecl 0x149957f18 <line:596:2, col:21> col:13 __wcr '__uint32_t [16]'
+| `-FieldDecl 0x149957f78 <line:597:2, col:13> col:13 __mdscr_el1 '__uint64_t':'unsigned long long'
+|-RecordDecl 0x1498bae00 <line:600:35, line:608:1> line:600:42 struct __darwin_arm_debug_state64 definition
+| |-FieldDecl 0x1498baf80 <line:603:2, col:21> col:13 __bvr '__uint64_t [16]'
+| |-FieldDecl 0x1498bb028 <line:604:2, col:21> col:13 __bcr '__uint64_t [16]'
+| |-FieldDecl 0x1498bb0d0 <line:605:2, col:21> col:13 __wvr '__uint64_t [16]'
+| |-FieldDecl 0x1498bb178 <line:606:2, col:21> col:13 __wcr '__uint64_t [16]'
+| `-FieldDecl 0x1498bb1d8 <line:607:2, col:13> col:13 __mdscr_el1 '__uint64_t':'unsigned long long'
+|-RecordDecl 0x1498bb228 <line:632:34, line:636:1> line:632:41 struct __darwin_arm_cpmu_state64 definition
+| `-FieldDecl 0x1498bb330 <line:635:2, col:22> col:13 __ctrs '__uint64_t [16]'
