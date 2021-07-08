@@ -14,6 +14,30 @@ To make a Code Contribution via Pull Request please use the example Makefiles as
 
 If you have an Xcode Project, please Open a PR or Issue and Results will be Posted quickly.
 
+Stub Makefile for Apple Security Research Device
+```
+.PHONY: all clean install
+all: hello
+
+include ../../logging.mk
+include ../../build_env.mk
+
+hello:
+	@$(log_build)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o hello hello.c
+	codesign -s - hello
+
+clean:
+	rm -f hello
+	rm -f ${CRYPTEX_BIN_DIR}/hello
+
+install: hello hello.plist
+	@$(log_install)
+	cp hello ${CRYPTEX_BIN_DIR}
+	cp hello.plist ${CRYPTEX_LAUNCHD_DIR}
+
+```
+
 Please Contribute Code to be run on the Apple Security Research Device
 
-THank You
+Thank You
