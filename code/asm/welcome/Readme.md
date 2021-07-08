@@ -2,8 +2,6 @@
 
 Assembly Code Example for the Apple Security Research Device Cryptex - This is a Hello World Example.
 
-Hello! This is my SRD Repo and the iPhone 11 Public Domain Register Fuzzing Project using the Apple Security Research Device, the Apple SRD.
-
 Please contribute your Code, Project, Comments, Pro Tips or anything.... Open an Issue or PR.
 
 Toolchain Details
