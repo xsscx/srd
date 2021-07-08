@@ -1,5 +1,20 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
+--------------------------------------------------
+Can someone from Apple (please) look at:
+
+FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible..  
+
+FB9221261 - debugserver crash - null hostname.. 
+
+FB9223349 - debugserver crash - cryptex cwd.. 
+
+FB9289266 - ASAN Compile Options for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
+
+SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
+
+----------
+
 Toolchain Details
 -----
 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
@@ -68,19 +83,6 @@ The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
 This Repo is Public Domain and I hope you will contribute your Code, Suggestions & Pro Tip's.
 
 The main Focus had been Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples, now I want to _your_ input!
-
---------------------------------------------------
-Can someone from Apple (please) look at:
-
-FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible..  
-
-FB9221261 - debugserver crash - null hostname.. 
-
-FB9223349 - debugserver crash - cryptex cwd.. 
-
-FB9289266 - ASAN Compile Options for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
-
-SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
 
 --------------------------------------------------
 Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
