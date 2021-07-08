@@ -275,3 +275,28 @@ cryptexctl log show -- --archive ./system_logs.logarchive
 
 If you get errors about missing SDKs or headers, double check that you've selected your
 Xcode install with `xcode-select(1)`.
+
+## Sample Stub Makefile
+Stub Makefile for Apple Security Research Device
+```
+.PHONY: all clean install
+all: hello
+
+include ../../logging.mk
+include ../../build_env.mk
+
+hello:
+	@$(log_build)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o hello hello.c
+	codesign -s - hello
+
+clean:
+	rm -f hello
+	rm -f ${CRYPTEX_BIN_DIR}/hello
+
+install: hello hello.plist
+	@$(log_install)
+	cp hello ${CRYPTEX_BIN_DIR}
+	cp hello.plist ${CRYPTEX_LAUNCHD_DIR}
+
+```
