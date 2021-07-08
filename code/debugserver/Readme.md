@@ -15,6 +15,8 @@ error: failed to attach process 1474: unable to start the exception thread
 Exiting.
 ```
 I've tried both the entitlements shown in the .plist files.. same result with both. Re-checked signing etc..
+
+Resigned etc... codesign --force  -s -  src/debugserver/debugserver and the .plist
 ```
 
 codesign -d --entitlements :- ~/example-cryptex/src/debugserver/debugserver
