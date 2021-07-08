@@ -1,6 +1,6 @@
 # Example DMG for a Sample Cryptex with Toybox Unstripped for Debugging the SRD Command Line Terminal
 -----------
-Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption.
+Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption. Also included is debugserver with the signed entitlement and other goodies to you get thinking.
 
 Connect with me if any questions.. 
 
