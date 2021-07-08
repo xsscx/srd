@@ -78,6 +78,8 @@ FB9221261 - debugserver crash - null hostname..
 
 FB9223349 - debugserver crash - cryptex cwd.. 
 
+FB9289266 - ASAN Compile Options for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
+
 SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
 
 --------------------------------------------------
