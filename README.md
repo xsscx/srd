@@ -34,15 +34,14 @@ sysctl -a | grep Intel
 machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
 ```
 ```
+xcode-select -p
+/Applications/Xcode.app/Contents/Developer
+
 clang -v
 Apple clang version 12.0.5 (clang-1205.0.22.11)
 Target: arm64-apple-darwin20.5.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-```
-```
-xcode-select -p
-/Applications/Xcode.app/Contents/Developer
 
 clang -v
 Apple clang version 13.0.0 (clang-1300.0.18.6)
