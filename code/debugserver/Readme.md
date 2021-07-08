@@ -21,7 +21,7 @@ ls /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/
 10.0	10.1	10.2	10.3	11.0	11.1	11.2	11.3	11.4	12.0	12.1	12.2	12.3	12.4	13.0	13.1	13.2	13.3	13.4	13.5	13.6	13.7	14.0	14.1	14.2	14.3	14.4	14.5	15.0	9.0	9.1	9.2	9.3
 ```
 ```
- /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/14.5/
+ls /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/14.5/
 DeveloperDiskImage.dmg			DeveloperDiskImage.dmg.signature
 ```
 ```
