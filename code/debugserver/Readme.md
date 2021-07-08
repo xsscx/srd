@@ -1,6 +1,6 @@
 # Landing for debugserver
 
-Still working on the right mix of entitlements to make sebugserver work on the Apple Secyrity Research Device.
+Still working on the right mix of entitlements to make debugserver work on the Apple Secyrity Research Device.
 
 Here is here I'm at:
 ```
