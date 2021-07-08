@@ -15,6 +15,26 @@ Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021;
 Wed Jul  7 22:05:33 EDT 2021
 #
 ```
+Ninja Instructions for setting up debugserver - I'll do a full walk-thru on setting up debugserver on https://srd.cx soon.....
+```
+ls /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/
+10.0	10.1	10.2	10.3	11.0	11.1	11.2	11.3	11.4	12.0	12.1	12.2	12.3	12.4	13.0	13.1	13.2	13.3	13.4	13.5	13.6	13.7	14.0	14.1	14.2	14.3	14.4	14.5	15.0	9.0	9.1	9.2	9.3
+```
+```
+ /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/14.5/
+DeveloperDiskImage.dmg			DeveloperDiskImage.dmg.signature
+```
+```
+hdiutil attach /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/14.5/DeveloperDiskImage.dmg
+Checksumming Whole_Disk…
+.......................................................................................................................................................................................................................................................................................................................................................
+                          Whole_Disk: verified   CRC32 $336540CD
+verified   CRC32 $986A7090
+/dev/disk4          	                               	/Volumes/DeveloperDiskImage
+```
+```
+ cp /Volumes/DeveloperDiskImage/usr/bin/debugserver ~/example-cryptex/src/debugserver/
+```
 ```
 # ps ax|grep ios-play
  1477 s000  U+     0:00.00 grep ios-play
