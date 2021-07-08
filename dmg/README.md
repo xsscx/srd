@@ -1,8 +1,8 @@
-# Example DMG for a Sample Cryptex with Toybox Unstripped for Debugging the SRD Command Line Terminal
+# Example DMG Files to side-load on Cryptex File System for Apple Security Research Device
 -----------
 Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption. Also included is debugserver with the signed entitlement and other goodies to you get thinking.
 
-Connect with me if any questions.. 
+Example DMG's for multiple Toolchains and iOS Flavors... 
 
 IF you need help.. start by Connecting with me on Twitter @h02332 https://twitter.com/h02332
 
