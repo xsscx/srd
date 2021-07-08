@@ -2,7 +2,7 @@
 
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
 
-Here is here I'm at:
+Here is where I'm at:
 ```
 # ps ax|grep ios-play
  1477 s000  U+     0:00.00 grep ios-play
