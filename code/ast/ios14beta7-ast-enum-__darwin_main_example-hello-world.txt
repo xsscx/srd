@@ -1,0 +1,114 @@
+|-FunctionDecl 0x13b32b380 <hello.c:5:1, line:11:1> line:5:5 main 'int ()'
+| `-CompoundStmt 0x13b3315d0 <col:12, line:11:1>
+|   |-DeclStmt 0x13b32b570 <line:6:5, col:25>
+|   | `-VarDecl 0x13b32b430 <col:5, col:24> col:11 used pid 'pid_t':'int' cinit
+|   |   `-CallExpr 0x13b32b550 <col:17, col:24> 'pid_t':'int'
+|   |     `-ImplicitCastExpr 0x13b32b538 <col:17> 'pid_t (*)(void)' <FunctionToPointerDecay>
+|   |       `-DeclRefExpr 0x13b32b498 <col:17> 'pid_t (void)' Function 0x13b2f1e58 'getpid' 'pid_t (void)'
+|   |-CallExpr 0x13b32b6b0 <line:7:2, col:47> 'int'
+|   | |-ImplicitCastExpr 0x13b32b698 <col:2> 'int (*)(const char *, ...)' <FunctionToPointerDecay>
+|   | | `-DeclRefExpr 0x13b32b588 <col:2> 'int (const char *, ...)' Function 0x13b1c8970 'printf' 'int (const char *, ...)'
+|   | |-ImplicitCastExpr 0x13b32b6f8 <col:9> 'const char *' <NoOp>
+|   | | `-ImplicitCastExpr 0x13b32b6e0 <col:9> 'char *' <ArrayToPointerDecay>
+|   | |   `-StringLiteral 0x13b32b5f0 <col:9> 'char [31]' lvalue "Hello researcher from pid %d!\n"
+|   | `-ImplicitCastExpr 0x13b32b710 <col:44> 'pid_t':'int' <LValueToRValue>
+|   |   `-DeclRefExpr 0x13b32b628 <col:44> 'pid_t':'int' lvalue Var 0x13b32b430 'pid' 'pid_t':'int'
+|   |-DeclStmt 0x13b32b930 <line:8:5, col:65>
+|   | `-VarDecl 0x13b32b738 <col:5, col:64> col:14 used log 'os_log_t':'struct os_log_s *' cinit
+|   |   `-CallExpr 0x13b32b8a0 <col:20, col:64> 'os_log_t':'struct os_log_s *'
+|   |     |-ImplicitCastExpr 0x13b32b888 <col:20> 'os_log_t (*)(const char *, const char *)' <FunctionToPointerDecay>
+|   |     | `-DeclRefExpr 0x13b32b7a0 <col:20> 'os_log_t (const char *, const char *)' Function 0x13b324260 'os_log_create' 'os_log_t (const char *, const char *)'
+|   |     |-ImplicitCastExpr 0x13b32b8e8 <col:34> 'const char *' <NoOp>
+|   |     | `-ImplicitCastExpr 0x13b32b8d0 <col:34> 'char *' <ArrayToPointerDecay>
+|   |     |   `-StringLiteral 0x13b32b7c0 <col:34> 'char [20]' lvalue "com.example.cryptex"
+|   |     `-ImplicitCastExpr 0x13b32b918 <col:57> 'const char *' <NoOp>
+|   |       `-ImplicitCastExpr 0x13b32b900 <col:57> 'char *' <ArrayToPointerDecay>
+|   |         `-StringLiteral 0x13b32b7f0 <col:57> 'char [6]' lvalue "hello"
+|   |-UnaryOperator 0x13b331588 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/log.h:177:50, line:184:2> 'void' prefix '__extension__' cannot overflow
+|   | `-StmtExpr 0x13b331568 <line:177:63, line:184:2> 'void'
+|   |   `-CompoundStmt 0x13b331540 <line:177:64, line:183:7>
+|   |     |-DeclStmt 0x13b32ba18 <line:178:5, col:30>
+|   |     | `-VarDecl 0x13b32b958 <col:5, col:29> col:14 used _log_tmp 'os_log_t':'struct os_log_s *' cinit
+|   |     |   `-ImplicitCastExpr 0x13b32ba00 <col:25, col:29> 'os_log_t':'struct os_log_s *' <LValueToRValue>
+|   |     |     `-ParenExpr 0x13b32b9e0 <col:25, col:29> 'os_log_t':'struct os_log_s *' lvalue
+|   |     |       `-DeclRefExpr 0x13b32b9c0 <hello.c:9:17> 'os_log_t':'struct os_log_s *' lvalue Var 0x13b32b738 'log' 'os_log_t':'struct os_log_s *'
+|   |     |-DeclStmt 0x13b32bb00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/log.h:179:5, col:37>
+|   |     | `-VarDecl 0x13b32ba40 <col:5, col:36> col:19 used _type_tmp 'os_log_type_t':'os_log_type_t' cinit
+|   |     |   `-ImplicitCastExpr 0x13b32bae8 <col:31, col:36> 'os_log_type_t':'os_log_type_t' <IntegralCast>
+|   |     |     `-ParenExpr 0x13b32bac8 <col:31, col:36> 'uint8_t':'unsigned char'
+|   |     |       `-DeclRefExpr 0x13b32baa8 <line:247:31> 'uint8_t':'unsigned char' EnumConstant 0x13b323d18 'OS_LOG_TYPE_INFO' 'uint8_t':'unsigned char'
+|   |     `-IfStmt 0x13b331528 <line:180:5, line:183:5>
+|   |       |-CallExpr 0x13b330218 <line:180:9, col:48> '_Bool'
+|   |       | |-ImplicitCastExpr 0x13b330200 <col:9> '_Bool (*)(os_log_t, os_log_type_t)' <FunctionToPointerDecay>
+|   |       | | `-DeclRefExpr 0x13b32bb18 <col:9> '_Bool (os_log_t, os_log_type_t)' Function 0x13b324840 'os_log_type_enabled' '_Bool (os_log_t, os_log_type_t)'
+|   |       | |-ImplicitCastExpr 0x13b330248 <col:29> 'os_log_t':'struct os_log_s *' <LValueToRValue>
+|   |       | | `-DeclRefExpr 0x13b32bb38 <col:29> 'os_log_t':'struct os_log_s *' lvalue Var 0x13b32b958 '_log_tmp' 'os_log_t':'struct os_log_s *'
+|   |       | `-ImplicitCastExpr 0x13b330260 <col:39> 'os_log_type_t':'os_log_type_t' <LValueToRValue>
+|   |       |   `-DeclRefExpr 0x13b32bb58 <col:39> 'os_log_type_t':'os_log_type_t' lvalue Var 0x13b32ba40 '_type_tmp' 'os_log_type_t':'os_log_type_t'
+|   |       `-CompoundStmt 0x13b331510 <col:51, line:183:5>
+|   |         `-UnaryOperator 0x13b3314f8 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:86:58, line:92:2> 'void' prefix '__extension__' cannot overflow
+|   |           `-StmtExpr 0x13b3314d8 <line:86:71, line:92:2> 'void'
+|   |             `-CompoundStmt 0x13b3314a8 <line:86:72, line:91:67>
+|   |               |-DeclStmt 0x13b330478 <line:78:9, line:79:79>
+|   |               | `-StaticAssertDecl 0x13b330438 <line:78:9, line:79:78> line:78:9
+|   |               |   |-ImplicitCastExpr 0x13b330408 <col:24, col:49> '_Bool' <IntegralToBoolean>
+|   |               |   | `-CallExpr 0x13b330330 <col:24, col:49> 'int'
+|   |               |   |   |-ImplicitCastExpr 0x13b330318 <col:24> 'int (*)()' <BuiltinFnToFnPtr>
+|   |               |   |   | `-DeclRefExpr 0x13b330278 <col:24> '<builtin fn type>' Function 0x13b230800 '__builtin_constant_p' 'int ()'
+|   |               |   |   `-ImplicitCastExpr 0x13b330358 <hello.c:9:22> 'char *' <ArrayToPointerDecay>
+|   |               |   |     `-StringLiteral 0x13b3302e0 <col:22> 'char [30]' lvalue "Hello researcher from pid %d!"
+|   |               |   `-StringLiteral 0x13b3303b0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:79:17> 'char [60]' lvalue "format/label/description argument must be a string constant"
+|   |               |-DeclStmt 0x13b330780 <line:80:9, line:87:64>
+|   |               | `-VarDecl 0x13b3305b0 <line:80:9, hello.c:9:22> /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:87:47 used _os_fmt_str 'const char [30]' static cinit
+|   |               |   |-StringLiteral 0x13b330708 <hello.c:9:22> 'const char [30]' "Hello researcher from pid %d!"
+|   |               |   |-SectionAttr 0x13b330618 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:80:24, col:71> section "__TEXT,__oslogstring,cstring_literals"
+|   |               |   |-InternalLinkageAttr 0x13b3306a0 <col:73>
+|   |               |   `-AsmLabelAttr 0x13b3306c8 <<scratch space>:87:1> "LOS_LOG0" IsLiteralLabel
+|   |               |-DeclStmt 0x13b330ce8 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:88:9, col:119>
+|   |               | `-VarDecl 0x13b330be0 <col:9, col:118> col:51 used _os_fmt_buf 'uint8_t [8]'
+|   |               |   |-AlignedAttr 0x13b330c60 <col:17> _Alignas
+|   |               |   | `-ConstantExpr 0x13b330c48 <col:26> 'int'
+|   |               |   |   `-IntegerLiteral 0x13b330798 <col:26> 'int' 16
+|   |               |   `-UninitializedAttr 0x13b330cc0 <line:72:45>
+|   |               `-ExprWithCleanups 0x13b331490 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/log.h:181:33, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:91:46> 'void'
+|   |                 `-CallExpr 0x13b3313e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/log.h:181:33, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:91:46> 'void'
+|   |                   |-ImplicitCastExpr 0x13b3313c8 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/log.h:181:33> 'void (*)(void *, os_log_t, os_log_type_t, const char *, uint8_t *, uint32_t)' <FunctionToPointerDecay>
+|   |                   | `-DeclRefExpr 0x13b330d00 <col:33> 'void (void *, os_log_t, os_log_type_t, const char *, uint8_t *, uint32_t)' Function 0x13b325080 '_os_log_impl' 'void (void *, os_log_t, os_log_type_t, const char *, uint8_t *, uint32_t)'
+|   |                   |-ImplicitCastExpr 0x13b331430 <line:182:18, col:19> 'void *' <BitCast>
+|   |                   | `-UnaryOperator 0x13b330db8 <col:18, col:19> 'struct mach_header *' prefix '&' cannot overflow
+|   |                   |   `-DeclRefExpr 0x13b330d20 <col:19> 'struct mach_header':'struct mach_header' lvalue Var 0x13b3180f8 '__dso_handle' 'struct mach_header':'struct mach_header'
+|   |                   |-ImplicitCastExpr 0x13b331448 <col:33> 'os_log_t':'struct os_log_s *' <LValueToRValue>
+|   |                   | `-DeclRefExpr 0x13b330dd0 <col:33> 'os_log_t':'struct os_log_s *' lvalue Var 0x13b32b958 '_log_tmp' 'os_log_t':'struct os_log_s *'
+|   |                   |-ImplicitCastExpr 0x13b331460 <col:43> 'os_log_type_t':'os_log_type_t' <LValueToRValue>
+|   |                   | `-DeclRefExpr 0x13b330df0 <col:43> 'os_log_type_t':'os_log_type_t' lvalue Var 0x13b32ba40 '_type_tmp' 'os_log_type_t':'os_log_type_t'
+|   |                   |-ImplicitCastExpr 0x13b331478 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:89:44> 'const char *' <ArrayToPointerDecay>
+|   |                   | `-DeclRefExpr 0x13b330e10 <col:44> 'const char [30]' lvalue Var 0x13b3305b0 '_os_fmt_str' 'const char [30]'
+|   |                   |-CStyleCastExpr 0x13b331290 <line:90:17, col:83> 'uint8_t *' <BitCast>
+|   |                   | `-CallExpr 0x13b3311d0 <col:28, col:83> 'void *'
+|   |                   |   |-ImplicitCastExpr 0x13b3311b8 <col:28> 'void *(*)(void *, const char *, ...)' <BuiltinFnToFnPtr>
+|   |                   |   | `-DeclRefExpr 0x13b3310b0 <col:28> '<builtin fn type>' Function 0x13b330e78 '__builtin_os_log_format' 'void *(void *, const char *, ...)'
+|   |                   |   |-ImplicitCastExpr 0x13b331220 <col:52> 'void *' <BitCast>
+|   |                   |   | `-ImplicitCastExpr 0x13b331208 <col:52> 'uint8_t *' <ArrayToPointerDecay>
+|   |                   |   |   `-DeclRefExpr 0x13b3310d0 <col:52> 'uint8_t [8]' lvalue Var 0x13b330be0 '_os_fmt_buf' 'uint8_t [8]'
+|   |                   |   |-ImplicitCastExpr 0x13b331250 <hello.c:9:22> 'const char *' <NoOp>
+|   |                   |   | `-ImplicitCastExpr 0x13b331238 <col:22> 'char *' <ArrayToPointerDecay>
+|   |                   |   |   `-StringLiteral 0x13b3310f0 <col:22> 'char [30]' lvalue "Hello researcher from pid %d!"
+|   |                   |   `-ImplicitCastExpr 0x13b331268 <col:55> 'pid_t':'int' <LValueToRValue>
+|   |                   |     `-DeclRefExpr 0x13b331128 <col:55> 'pid_t':'int' lvalue Var 0x13b32b430 'pid' 'pid_t':'int'
+|   |                   `-CStyleCastExpr 0x13b331328 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:91:17, col:45> 'uint32_t':'unsigned int' <IntegralCast>
+|   |                     `-UnaryExprOrTypeTraitExpr 0x13b3312f8 <col:27, col:45> 'unsigned long' sizeof
+|   |                       `-ParenExpr 0x13b3312d8 <col:33, col:45> 'uint8_t [8]' lvalue
+|   |                         `-DeclRefExpr 0x13b3312b8 <col:34> 'uint8_t [8]' lvalue Var 0x13b330be0 '_os_fmt_buf' 'uint8_t [8]' non_odr_use_unevaluated
+|   `-ReturnStmt 0x13b3315c0 <hello.c:10:2, col:9>
+|     `-IntegerLiteral 0x13b3315a0 <col:9> 'int' 0
+|-FunctionDecl 0x13b330800 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/os/trace_base.h:88:63> col:63 implicit used __builtin_os_log_format_buffer_size 'unsigned long (const char *, ...)' extern
+| |-ParmVarDecl 0x13b3308f8 <<invalid sloc>> <invalid sloc> 'const char *'
+| |-BuiltinAttr 0x13b3308a0 <<invalid sloc>> Implicit 1185
+| |-FormatAttr 0x13b330968 <col:63> Implicit printf 1 2
+| `-NoThrowAttr 0x13b3309a0 <col:63> Implicit
+`-FunctionDecl 0x13b330e78 <line:90:28> col:28 implicit used __builtin_os_log_format 'void *(void *, const char *, ...)' extern
+  |-ParmVarDecl 0x13b330f70 <<invalid sloc>> <invalid sloc> 'void *'
+  |-ParmVarDecl 0x13b330fd8 <<invalid sloc>> <invalid sloc> 'const char *'
+  |-BuiltinAttr 0x13b330f18 <<invalid sloc>> Implicit 1186
+  |-FormatAttr 0x13b331050 <col:28> Implicit printf 1 2
+  `-NoThrowAttr 0x13b331088 <col:28> Implicit
