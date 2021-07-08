@@ -85,3 +85,13 @@ Executable=/Users/xss/example-cryptex/src/debugserver/debugserver
 </dict>
 </plist>
 ```
+```
+Code Coverage works.. 
+
+# pwd
+/private/var/root
+# LLVM_PROFILE_FILE="foo.profraw" /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.YzdC1G/usr/bin/hello-code-cov
+Hello researcher from pid 8749!
+# ls -la foo.profraw
+-rw-r--r--  1 root wheel  160 2021-07-08 16:52 foo.profraw
+```
