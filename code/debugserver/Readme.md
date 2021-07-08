@@ -3,7 +3,10 @@
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
 
 Feedback ID: FB9289266
-
+```
+./sprr-srd-asan
+dyld: dependent dylib '@rpath/libclang_rt.asan_ios_dynamic.dylib' not found for '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.WzpoMU/usr/bin/./sprr-srd-asan', tried but didn't find: '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.WzpoMU/usr/bin/.//libclang_rt.asan_ios_dynamic.dylib' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.asan_ios_dynamic.dylib' '@rpath/libclang_rt.asan_ios_dynamic.dylib' '/usr/local/lib/libclang_rt.asan_ios_dynamic.dylib' '/usr/lib/libclang_rt.asan_ios_dynamic.dylib'
+```
 Here is where I'm at:
 ```
 # uname -a
