@@ -86,7 +86,7 @@ Executable=/Users/xss/example-cryptex/src/debugserver/debugserver
 </plist>
 ```
 ```
-Code Coverage works.. 
+Code Coverage works.. -fprofile-instr-generate -fcoverage-mapping
 
 # pwd
 /private/var/root
