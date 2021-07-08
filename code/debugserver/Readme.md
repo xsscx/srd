@@ -2,6 +2,19 @@
 
 Still working on the right mix of entitlements to make sebugserver work on the Apple Secyrity Research Device.
 
+Here is here I'm at:
+```
+# ps ax|grep ios-play
+ 1477 s000  U+     0:00.00 grep ios-play
+ 1474 s001  R+     0:07.96 ./ios-play
+# ./debugserver *:1921 --attach=1474
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
+ for arm64.
+Attaching to process 1474...
+error: failed to attach process 1474: unable to start the exception thread
+Exiting.
+```
+I've tried both the entitlements shown in the .plist files.. same result with both. Re-checked signing etc..
 ```
 
 codesign -d --entitlements :- ~/example-cryptex/src/debugserver/debugserver
