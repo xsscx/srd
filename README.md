@@ -34,6 +34,13 @@ sysctl -a | grep Intel
 machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
 ```
 ```
+clang -v
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+```
+```
 xcode-select -p
 /Applications/Xcode.app/Contents/Developer
 
@@ -61,6 +68,13 @@ Target: arm64-apple-darwin20.5.0
 Thread model: posix
 InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 iOS SDK at /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+```
+```
+clang -v
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 ```
 iOS SDK 15
