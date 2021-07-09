@@ -11,7 +11,7 @@ FB9221261 - debugserver crash - null hostname..
 
 FB9223349 - debugserver crash - cryptex cwd.. 
 
-FB9289266 - ASAN Compile Options for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
+FB9289266 - ASAN Compile Options -fsanitize=address for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
 
 FB9289266 - clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0' 
 
