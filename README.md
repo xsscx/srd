@@ -15,6 +15,7 @@ SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/proj
 
 SRD Details
 ----------
+```
 release:            20.6.0
 version:            root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030
 machine:            iPhone12,1
@@ -23,7 +24,7 @@ cpu subtype:        0x2  (ARM64E)
 cpus:               6 cores / 6 threads
 memory:             0xf1200000  (3.8G)
 page size:          0x4000  (16K)
-
+```
 Toolchain Details
 -----
 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
