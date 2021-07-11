@@ -1,0 +1,20 @@
+ ioreg -w0 -rc AppleUSBHostController
++-o AppleT8030USBXHCI@00000000  <class AppleT8030USBXHCI, id 0x100000275, registered, matched, active, busy 0 (3336 ms), retain 35>
+  | {
+  |   "IOClass" = "AppleT8030USBXHCI"
+  |   "CFBundleIdentifier" = "com.apple.driver.usb.AppleUSBXHCIARM"
+  |   "IOProviderClass" = "AppleARMIODevice"
+  |   "kUSBSleepSupported" = Yes
+  |   "IOPowerManagement" = {"ChildrenPowerState"=0,"DevicePowerState"=0,"CurrentPowerState"=0,"CapabilityFlags"=0,"MaxPowerState"=3,"DriverPowerState"=0}
+  |   "Revision" = <0103>
+  |   "IOProbeScore" = 9999
+  |   "IONameMatch" = "usb-drd,t8030"
+  |   "locationID" = 0
+  |   "IOMatchCategory" = "usb-host"
+  |   "UsbHostControllerTierLimit" = 6
+  |   "controller-statistics" = {"kControllerStatIOCount"=0,"kControllerStatPowerStateTime"={"kPowerStateOff"="36517689ms (99%)","kPowerStateSleep"="0ms (0%)","kPowerStateOn"="3356ms (0%)","kPowerStateSuspended"="3ms (0%)"},"kControllerStatSpuriousInterruptCount"=0}
+  |   "IONameMatched" = "usb-drd,t8030"
+  |   "CFBundleIdentifierKernel" = "com.apple.driver.usb.AppleUSBXHCIARM"
+  | }
+  |
+  +-o usb-drd-port-hs@00100000  <class AppleT8101USB20XHCILightningPort, id 0x10000018d, registered, matched, active, busy 0 (3 ms), retain 13>
