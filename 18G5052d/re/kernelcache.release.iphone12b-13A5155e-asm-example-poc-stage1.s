@@ -1,3 +1,4 @@
+	;xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpedantic -Wno-gnu -Werror -Wunused-variable -o z.out stage1.s
 	.section	__TEXT,__text,regular,pure_instructions
 	.build_version ios, 15, 0	sdk_version 15, 0
 	.file	1 "/Users/xss/Downloads/awdl_exploit_release/shellcode" "poc-stage1.s"
