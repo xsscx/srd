@@ -13,6 +13,10 @@ Then, Go Open Xcode-beta and look at the Crash Report
 
 What is here are multiple Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious DMG for your to install to your SRD via cryptex for your enjoyment. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details and consider a write-up for https://srd.cx.
 
+```
+If you are having issues with Compilation, Toolchain or have hit a wall, hit me up! I will compile your Code and Build a DMG with Installation Shell Script so everything is installed to your SRD automagically and you can FOCUS on Research.
+```
+
 -------------
 How does the Installation of a Hand-Rolled DMG work?
 ```
