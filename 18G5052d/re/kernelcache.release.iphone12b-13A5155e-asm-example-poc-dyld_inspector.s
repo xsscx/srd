@@ -12,7 +12,7 @@
 	.file	2 "dyld_inspector" "dyld_inspector/AppDelegate.h"
 	.private_extern	_isReadable             ; -- Begin function isReadable
 	.globl	_isReadable
-	.p2align	2
+	.p2align	4
 _isReadable:                            ; @isReadable
 Lfunc_begin0:
 	.loc	1 14 0                          ; dyld_inspector/AppDelegate.m:14:0
