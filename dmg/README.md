@@ -46,13 +46,6 @@ Next Steps:
 cryptexctl uninstall com.example.cryptex 
 ```
 ```
-hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot/ com.example.cryptex.dmg  
-```
-```
-...................................................
-created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/com.example.cryptex.dmg
-```
-```
 cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v H.O.Y.T com.example.cryptex.dmg
 ```
 ```
