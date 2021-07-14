@@ -5,7 +5,8 @@
 ;
 	.section	__TEXT,__text,regular,pure_instructions
 	.build_version ios, 14, 0	sdk_version 14, 3
-	.ptrauth_abi_version 0
+; 
+;.ptrauth_abi_version 0
 	; .build_version ios, 14, 0	sdk_version 14, 0
 	.globl	_main                          ; -- Begin function main entry point
 	.p2align	4
