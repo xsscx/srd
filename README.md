@@ -95,9 +95,9 @@ iOS SDK 14
 iOS 14Beta7
 iOS 15Beta2
 ```
-```
 How-To Compile for iOS
-
+-----
+```
 xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpedantic -Wno-gnu -Werror -Wunused-variable -o a.out code.s
 ```
 * To ALL - Open a Discussion, PR or Issue with Suggestions, Comments, Bugs, Feedback, Tips etc..
