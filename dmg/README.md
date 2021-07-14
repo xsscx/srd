@@ -25,6 +25,9 @@ IF you need help.. start by Connecting with me on Twitter @h02332 https://twitte
 OR.. Open an Issue .. Discussion.. Contribute Code.. Get in Touch! @h02332 on twitter
 -------------
 How do it work?
+```
+HEADSUP: When working with cryptexctl, DO NOT USE XCODE!! You have been Warned!
+```
 
 If you have read the Makefile and Documentation then you can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. this DMG has Toybox Unstripped for Debugging.. Its critical to have the Unstripped.. how can you see anything??? (cough).
 
