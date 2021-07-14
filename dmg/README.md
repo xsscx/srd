@@ -2,7 +2,7 @@
 -----------
 Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details... We are all BLIND, so share the knopwledge!! 
 
-As of WED July 14, 2021 you can ONLY use X86_64 for cryptex personalizations.
+Reminder - ONLY use X86_64 for cryptex personalizations.
 
 Last Updated: WED 14 July 2021 0000Z
 
