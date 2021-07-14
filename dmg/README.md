@@ -2,6 +2,22 @@
 -----------
 Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details... We are all BLIND, so share the knopwledge!! 
 
+As of WED July 14, 2021 you can ONLY use X86_64 for cryptex personalizations.
+
+Last Updated: WED 14 July 2021 0000Z
+
+Can someone from Apple (please) look at:
+```
+FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible..  
+FB9221261 - debugserver crash - null hostname.. 
+FB9223349 - debugserver crash - cryptex cwd.. 
+FB9289266 - ASAN Compile Options -fsanitize=address for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
+FB9289266 - clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0' 
+FB9323197 - SRD | macOS 11.4 (20F71) | Xcode Version 13.0 beta (13A5155e) | UNCAUGHT EXCEPTION .. unrecognized selector
+FB9326490 - SRD | macOS 11.4 (20F71) | 13A5155e | X86_64 | DDI | SecurityResearchTools
+```
+SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
+
 Example DMG's for multiple Toolchains and iOS Flavors... 
 
 IF you need help.. start by Connecting with me on Twitter @h02332 https://twitter.com/h02332 and I'll get you on the Slack Channel.
