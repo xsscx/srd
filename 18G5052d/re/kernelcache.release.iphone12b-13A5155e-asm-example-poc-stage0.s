@@ -1,5 +1,8 @@
 ; xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpedantic -Wno-gnu -Werror -Wunused-variable -o o.out stage0.s
 ; Hand Rolled by David Hoyt | SRD0009 | @h02332 for Apple Security Research Device on Wednesday June 14, 2021
+; EDIT - This is an example.. you should recognize Code :-)
+; Your Mileage May Vary
+;
 	.section	__TEXT,__text,regular,pure_instructions
 	.build_version ios, 14, 0	sdk_version 14, 3
 	.ptrauth_abi_version 0
