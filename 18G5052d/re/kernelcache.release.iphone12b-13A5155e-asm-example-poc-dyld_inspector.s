@@ -1,7 +1,8 @@
 ;xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpedantic -Wno-gnu -Werror -Wunused-variable -o j.out code.s
 ;
-; This code was Released into the Public Domain and written by @5aelo of Google Project Zero 
-; Hand-Rolled for your smoking enjoyment on the Apple Security Research Device by David Hoyt | SRD0009 | @h02332
+; This code was Released into the Public Domain and written by @5aelo of Google Project Zero as an Xcode Project
+;
+; The Assembler has been Hand-Rolled for your smoking enjoyment on the Apple Security Research Device by David Hoyt | SRD0009 | @h02332
 ;
 ;
   .section	__TEXT,__text,regular,pure_instructions
