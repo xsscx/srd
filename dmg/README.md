@@ -1,7 +1,15 @@
 # Example DMG Files to side-load on Cryptex File System for Apple Security Research Device
 -----------
-Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details... We are all BLIND, so share the knopwledge!! 
+What is here?
 
+DMG's with PoC from Google Project Zero, ZecOps, ZDI and more.. all ready to (Crash). Most of these just express some form of Program Counter (PC Register) Control via 0x4141 ... 0x4242 ... 0xdeadbeef ... etc.. Some of the Code has been massaged or hand-rolled for your smoking enjoyment. All Credit goes to those Authors, I just happen to know a little C and Assembler.....
+
+
+What is here are multiple Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious cryptex for your consumption. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details. 
+
+```
+We are all BLIND, so share the knopwledge!! 
+```
 Reminder - ONLY use X86_64 for cryptex personalizations.
 
 Last Updated: WED 14 July 2021 0000Z
