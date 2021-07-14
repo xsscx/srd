@@ -26,12 +26,19 @@ OR.. Open an Issue .. Discussion.. Contribute Code.. Get in Touch! @h02332 on tw
 -------------
 How does the Installation of a Hand-Rolled DMG work?
 ```
-HEADSUP: When working with cryptexctl, DO NOT USE XCODE!! CLOSE XCODE!! You have been Warned!
+HEADSUP: When working with cryptexctl, DO NOT USE XCODE!! CLOSE XCODE!! REBOOT SRD!!! You have been Warned! 
 ```
 
 If you have read the Makefile and Documentation then you can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. this DMG has Toybox Unstripped for Debugging.. Its critical to have the Unstripped.. how can you see anything??? (cough).
 
-So rip out the code and then start hand-rolling, or just wait for my CopyPasta Instructions... here is a sample..
+So rip out the code and then start hand-rolling, or just wait for my CopyPasta Instructions... here is a sample of my Devices:
+
+X86_64
+```
+uname -a
+Darwin xsss-MacBook-Pro.local 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64 x86_64
+```
+iPhone 12,1
 ```
 uname -a
 Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
