@@ -16,6 +16,43 @@ What is here are multiple Cryptex with Working code examples already Compiled, S
 ```
 If you are having issues with Compilation, Toolchain or have hit a wall, hit me up! I will compile your Code and Build a DMG with Installation Shell Script so everything is installed to your SRD automagically and you can FOCUS on Research.
 ```
+File Listing Example DMG
+-----
+```
+tree bin/
+bin/
+├── aslr
+├── binbag
+├── c1.exr
+├── c2.exr
+├── chain3
+├── crash.pvr
+├── disarm
+├── envprint
+├── fuzzed.tif
+├── hello-code-cov
+├── hostname
+├── image.jpeg
+├── ioclass
+├── ioprint
+├── ioreg
+├── ios-13_voucher_leak
+├── ios-14-voucher_leak
+├── ioscan
+├── jtool2
+├── leak64
+├── libarchive.a
+├── libmemctl_core.a
+├── memctl
+├── optool
+├── orig.tif
+├── skywalktest
+├── stage0
+├── stage1
+├── stage2
+├── vs_cli
+└── welcome
+```
 
 -------------
 How does the Installation of a Hand-Rolled DMG work?
