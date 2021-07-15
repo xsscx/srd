@@ -4,7 +4,7 @@ Jumpstart your Research with Example DMG Files for a Cryptex
 -----------
 What is here?
 
-DMG's with PoC's from Google Project Zero, ZecOps, ZDI and more.. all ready to (Crash). Most of these just express some form of Program Counter (PC Register) Control via 0x4141 ... 0x4242 ... 0xdeadbeef ... etc.. Some of the Code has been massaged or hand-rolled for your smoking enjoyment. All Credit goes to those Authors, I just happen to know a little C and Assembler and Built the DMG's for you!
+DMG's with PoC's from Google Project Zero, ZecOps, ZDI and more.. all ready to (Crash). Most of these just express some form of Program Counter (PC Register) Control via 0x4141 ... 0x4242 ... 0xdeadbeef ... etc.. Some of the Code has been massaged or hand-rolled for your smoking enjoyment. All Credit goes to those Authors, I just happen to know a little C and Assembler then Built the DMG's for you!
 
 ```
 #./a.out
