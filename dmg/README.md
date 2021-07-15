@@ -1,4 +1,6 @@
-# Example DMG Files to side-load on Cryptex File System for Apple Security Research Device
+# SRD Cohort Cryptex Research Image Information
+
+Example DMG Files to side-load on Cryptex File System for Apple Security Research Device
 -----------
 What is here?
 
