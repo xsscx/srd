@@ -13,7 +13,7 @@ Then, Go Open Xcode-beta and look at the Crash Report
 ```
 
 
-What is here are multiple Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious DMG for your to install to your SRD via cryptex for your enjoyment. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details and consider a write-up for https://srd.cx.
+What is here are multiple Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious DMG for you to install to your SRD via cryptex for your enjoyment. Also included is debugserver with the signed entitlement and other goodies to you get thinking... reminder.. we're still sorting out debugserver and there is no working example.. so if you are the first to get it working on the SRD, please put together a PR with the details and consider a write-up for https://srd.cx.
 
 ```
 If you are having issues with Compilation, Toolchain or have hit a wall, hit me up! I will compile your Code and Build a DMG with Installation Shell Script so everything is installed to your SRD automagically and you can FOCUS on Research.
@@ -59,14 +59,17 @@ bin/
 -------------
 How does the Installation of a Hand-Rolled DMG work?
 ```
-HEADSUP: When working with cryptexctl, DO NOT USE XCODE!! CLOSE XCODE!! REBOOT SRD!!! You have been Warned! 
+Pro Tip: When working with cryptexctl, DO NOT USE XCODE, CLOSE XCODE, REBOOT SRD, then use cryptexctl! 
 ```
+If you have read the Makefile and Documentation then you can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. there is an example DMG that has Toybox Unstripped for Debugging. There will be an Updated SRDCRI DMG Released very soon with Toybox Unstripped and other Instrumentation. If you have been following my Twitter Feed at https://twitter.com/h02332 you have seen some of the Build Issues that have been hit transitioning from the the X86_64 Build Pipeline to an Apple Silicon based Worlflow. 
 
-If you have read the Makefile and Documentation then you can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. this DMG has Toybox Unstripped for Debugging.. Its critical to have the Unstripped.. how can you see anything??? (cough).
+Note that LLVM has not reached parity with the Coverage for ARM vs X86_64.
 
-So rip out the code and then start hand-rolling, or just wait for my CopyPasta Instructions... here is a sample of my Devices:
+Ready to Isntall the SMG to a Cryptex now you have read some more information?
 
-X86_64
+X86_64 Cryptex Installation 
+------
+Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 ```
 uname -a
 Darwin xsss-MacBook-Pro.local 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64 x86_64
