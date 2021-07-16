@@ -19,6 +19,7 @@ SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/proj
 SRD Details
 ----------
 ```
+Model: 		    MWL72LL/A
 release:            20.6.0
 version:            root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030
 machine:            iPhone12,1
@@ -109,7 +110,7 @@ xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpeda
 Welcome
 -----
 This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] that is run on an Apple Security Research Device, the Apple SRD.
-The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11.
+The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A.
 
 * Industry Participation Requested, See URL https://srd.cx/industry-participation/
 
