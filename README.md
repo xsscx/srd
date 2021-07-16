@@ -20,6 +20,7 @@ SRD Details
 ----------
 ```
 Model: 		    MWL72LL/A
+Model Name:         iPhone 11
 release:            20.6.0
 version:            root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030
 machine:            iPhone12,1
