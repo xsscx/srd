@@ -137,7 +137,7 @@ FB9289266 - ASAN Compile Options -fsanitize=address for Command Line Cryptex res
 FB9289266 - clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0' 
 FB9323197 - SRD | macOS 11.4 (20F71) | Xcode Version 13.0 beta (13A5155e) | UNCAUGHT EXCEPTION .. unrecognized selector
 FB9326490 - SRD | macOS 11.4 (20F71) | 13A5155e | X86_64 | DDI | SecurityResearchTools
-FB9331017 - 20F71 | 13A5155e | com.apple.dt.GitHubHostBuiltInExtension | malloc: Double free of object
+FB9331017 - 20F71 | 13A5155e \
 ```
 SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
 
