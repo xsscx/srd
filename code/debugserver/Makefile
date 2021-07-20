@@ -1,4 +1,4 @@
-all: dropbear
+all: debugserver
 
 include ../../logging.mk
 include ../../build_env.mk
