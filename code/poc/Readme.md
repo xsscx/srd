@@ -13,3 +13,4 @@ What is here?
 Inventory
 -------
 dyld_inspector is the first addition. Its an Xcode project written by Google Project Zero
+chain3 is the second addition. Its a Command Line Project Published by ZecOps
