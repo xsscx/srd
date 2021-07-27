@@ -102,6 +102,45 @@ install: hello hello.plist
 
 ```
 
+Code Profiling Example
+=======
+```
+xcrun llvm-profdata merge -sparse default.profraw -o a.profdata
+xcrun llvm-cov show ./a.out -instr-profile=a.profdata
+    1|       |#include <stdio.h>
+    2|       |#include <os/log.h>
+    3|       |#include <unistd.h>
+    4|       |
+    5|      1|int main() {
+    6|      1|    pid_t pid = getpid();
+    7|      1|	printf("Hello researcher from pid %d!\n", pid);
+    8|      1|    os_log_t log = os_log_create("com.example.cryptex", "hello");
+    9|      1|    os_log_info(log, "Hello researcher from pid %d!", pid);
+   10|      1|	return 0;
+   11|      1|}
+
+Ds-Mac-mini:re xss$ xcrun llvm-cov show ./a.out -instr-profile=a.profdata --show-regions=0 -show-line-counts-or-regions -show-instantiation-summary
+    1|       |#include <stdio.h>
+    2|       |#include <os/log.h>
+    3|       |#include <unistd.h>
+    4|       |
+    5|      1|int main() {
+    6|      1|    pid_t pid = getpid();
+    7|      1|	printf("Hello researcher from pid %d!\n", pid);
+    8|      1|    os_log_t log = os_log_create("com.example.cryptex", "hello");
+    9|      1|    os_log_info(log, "Hello researcher from pid %d!", pid);
+   10|      1|	return 0;
+   11|      1|}
+
+Ds-Mac-mini:re xss$ xcrun llvm-cov report ./a.out -instr-profile=a.profdata
+Filename                                         Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover    Branches   Missed Branches     Cover
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+/Users/xss/example-cryptex/src/hello/hello.c           1                 0   100.00%           1                 0   100.00%           7                 0   100.00%           0                 0         -
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                  1                 0   100.00%           1                 0   100.00%           7                 0   100.00%           0                 0         -
+
+```
+
 Please Contribute Code to be run on the Apple Security Research Device
 
 Thank You
