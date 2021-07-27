@@ -146,7 +146,7 @@ Ds-Mac-mini:re xss$ xcrun llvm-cov show ./a.out -instr-profile=a.profdata --show
    10|      1|	return 0;
    11|      1|}
 
-Ds-Mac-mini:re xss$ xcrun llvm-cov report ./a.out -instr-profile=a.profdata
+xcrun llvm-cov report ./a.out -instr-profile=a.profdata
 Filename                                         Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover    Branches   Missed Branches     Cover
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 /Users/xss/example-cryptex/src/hello/hello.c           1                 0   100.00%           1                 0   100.00%           7                 0   100.00%           0                 0         -
