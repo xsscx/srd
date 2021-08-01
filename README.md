@@ -93,8 +93,6 @@ InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDe
 ```
 iOS SDK 15
 iOS SDK 14
-iOS 14Beta7
-iOS 15Beta2
 ```
 How-To Compile for iOS
 -----
