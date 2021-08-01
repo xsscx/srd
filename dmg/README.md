@@ -11,10 +11,7 @@ DMG's with PoC's from Google Project Zero, ZecOps, ZDI and more.. all ready to (
 
 Then, Go Open Xcode-beta and look at the Crash Report
 ```
-
-
 What is here are multiple Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious DMG for you to install to your SRD via cryptex for your enjoyment. 
-
 
 Download the DMG, copy to ../example-cryptex/ .. follow the simple instructions below to complete the Cryptex Personalization & Installation.
 
@@ -64,14 +61,8 @@ bin/
 -------------
 How does the Installation of a Hand-Rolled DMG work?
 ```
-Pro Tip: When working with cryptexctl, DO NOT USE XCODE, CLOSE XCODE, REBOOT SRD, then use cryptexctl! 
+Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then do your workflow with cryptexctl. 
 ```
-If you have read the Makefile and Documentation then you can download the dmg and put it in ../example-cryptex/ and use it. I'll Post a How-to here and on https://srd.cx with look at hand-rolling a cryptex, but, its very easy.. just look at the example in the Makefile.. there is an example DMG that has Toybox Unstripped for Debugging. There will be an Updated SRDCRI DMG Released very soon with Toybox Unstripped and other Instrumentation. If you have been following my Twitter Feed at https://twitter.com/h02332 you have seen some of the Build Issues that have been hit transitioning from the the X86_64 Build Pipeline to an Apple Silicon based Worlflow. 
-
-Note that LLVM has not reached parity with the Coverage for ARM vs X86_64.
-
-Ready to Isntall the SMG to a Cryptex now you have read some more information?
-
 X86_64 Cryptex Installation 
 ------
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
