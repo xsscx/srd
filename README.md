@@ -6,7 +6,7 @@ Last Updated: SAT 31 July 2021 0000Z
 Welcome
 -----
 This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] that is run on an Apple Security Research Device, the Apple SRD.
-The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A.
+The Target iOS ranges are 14Beta -> 15Beta. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A.
 
 * Industry Participation Requested, See URL https://srd.cx/industry-participation/
 
