@@ -3,18 +3,16 @@
 --------------------------------------------------
 Last Updated: SAT 31 July 2021 0000Z
 
-Can someone from Apple (please) look at:
-```
-FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible..  
-FB9221261 - debugserver crash - null hostname.. 
-FB9223349 - debugserver crash - cryptex cwd.. 
-FB9289266 - ASAN Compile Options -fsanitize=address for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
-FB9289266 - clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0' 
-FB9323197 - SRD | macOS 11.4 (20F71) | Xcode Version 13.0 beta (13A5155e) | UNCAUGHT EXCEPTION .. unrecognized selector
-FB9326490 - SRD | macOS 11.4 (20F71) | 13A5155e | X86_64 | DDI | SecurityResearchTools
-FB9331017 - 20F71 | 13A5155e 
-```
-SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
+Welcome
+-----
+This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] that is run on an Apple Security Research Device, the Apple SRD.
+The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A.
+
+* Industry Participation Requested, See URL https://srd.cx/industry-participation/
+
+* Updated July 4, 2021: Note that Issue #1 is Open and I failed to include the entitlements.plist due to operator error... Now updated
+
+This Repo is Public Domain and I hope you will contribute your Code, Comments and Suggestions.
 
 SRD Details
 ----------
@@ -113,20 +111,6 @@ xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpeda
 * All Code and Questions are Welcome 
 * When you see Code Errors, Fails or LOL's.. Please Open an Issue... Thanks!
 
-Welcome
------
-This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] that is run on an Apple Security Research Device, the Apple SRD.
-The Target iOS ranges are 14Beta7 -> 15Beta2. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A.
-
-* Industry Participation Requested, See URL https://srd.cx/industry-participation/
-
-* Updated July 4, 2021: Note that Issue #1 is Open and I failed to include the entitlements.plist due to operator error... Now updated
-
-This Repo is Public Domain and I hope you will contribute your Code, Suggestions & Pro Tip's.
-
-The main Focus had been Onboarding the 2021 SRD Cohort with a Working Cryptex and Code Examples, now I want to _your_ input!
-
---------------------------------------------------
 Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
 --------------------------------------------------
 
@@ -329,3 +313,5 @@ install: hello hello.plist
 	cp hello.plist ${CRYPTEX_LAUNCHD_DIR}
 
 ```
+
+SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
