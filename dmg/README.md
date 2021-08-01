@@ -111,8 +111,6 @@ com.example.cryptex
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bAa5aS
 ```
 
-
----------
 Do you want your Code loaded on an Example Cryptex for the SRD Cohort?
 
 Open an Issue with a Link to your Code
@@ -121,24 +119,6 @@ Create a PR
 
 Thanks!
 
-```
-We are all BLIND, so share the knowledge!! 
-```
-Reminder - ONLY use X86_64 for cryptex personalizations.
-
-Last Updated: WED 14 July 2021 0000Z
-
-Can someone from Apple (please) look at:
-```
-FB9221569 - iOS 15Beta2 and jetsam make Research nearly impossible..  
-FB9221261 - debugserver crash - null hostname.. 
-FB9223349 - debugserver crash - cryptex cwd.. 
-FB9289266 - ASAN Compile Options -fsanitize=address for Command Line Cryptex results in dyld: dependent dylib not found, Xcode ASAN works fine.
-FB9289266 - clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0' 
-FB9323197 - SRD | macOS 11.4 (20F71) | Xcode Version 13.0 beta (13A5155e) | UNCAUGHT EXCEPTION .. unrecognized selector
-FB9326490 - SRD | macOS 11.4 (20F71) | 13A5155e | X86_64 | DDI | SecurityResearchTools
-FB9331017 - 20F71 | 13A5155e \
-```
 SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
 
 Example DMG's for multiple Toolchains and iOS Flavors... 
