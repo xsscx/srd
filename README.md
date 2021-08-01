@@ -90,9 +90,18 @@ Target: arm64-apple-darwin20.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
+SDK Targets
+---
 ```
 iOS SDK 15
 iOS SDK 14
+```
+Run Targets
+---
+```
+SRD
+iPhone 12 Pro Max
+iPad 12 Pro
 ```
 How-To Compile for iOS
 -----
