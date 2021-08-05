@@ -1,0 +1,19 @@
+.PHONY: all clean install
+all: hello
+
+include ../../logging.mk
+include ../../build_env.mk
+
+hello:
+	@$(log_build)
+	$(CC) $(CFLAGS) $(LDFLAGS) -g -O0 -fsanitize=undefined -o hello hello.c
+	codesign -s - hello
+
+clean:
+	rm -f hello
+	rm -f ${CRYPTEX_BIN_DIR}/hello
+
+install: hello hello.plist
+	@$(log_install)
+	cp hello ${CRYPTEX_BIN_DIR}
+	cp hello.plist ${CRYPTEX_LAUNCHD_DIR}
