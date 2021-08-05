@@ -60,3 +60,37 @@ Failed to extract dyld error info: The size of the data is not what is expected
 EOF
 
 ```
+```
+ nm -a src/hello/hello
+0000000100007e40 s _.str
+0000000100007e80 s _.str.1
+0000000100007ec0 s _.str.2
+00000001000100f0 s ____asan_globals_registered
+00000001000100c0 s ___asan_binder_.str
+00000001000100d0 s ___asan_binder_.str.1
+00000001000100e0 s ___asan_binder_.str.2
+0000000100010000 s ___asan_global_.str
+0000000100010040 s ___asan_global_.str.1
+0000000100010080 s ___asan_global_.str.2
+                 U ___asan_init
+                 U ___asan_option_detect_stack_use_after_return
+                 U ___asan_register_image_globals
+                 U ___asan_report_store1
+                 U ___asan_report_store4
+                 U ___asan_shadow_memory_dynamic_address
+                 U ___asan_stack_malloc_0
+                 U ___asan_unregister_image_globals
+                 U ___asan_version_mismatch_check_apple_clang_1300
+0000000100007b84 t ___os_log_helper_16_0_1_4_0
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+0000000100000000 T __mh_execute_header
+                 U __os_log_impl
+0000000100007d24 t _asan.module_ctor
+0000000100007d54 t _asan.module_dtor
+                 U _getpid
+000000010000794c T _main
+                 U _os_log_create
+                 U _os_log_type_enabled
+                 U _printf
+```
