@@ -100,23 +100,6 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bAa5aS
 ```
-
-Do you want your Code loaded on an Example Cryptex for the SRD Cohort?
-
-Open an Issue with a Link to your Code
-
-Create a PR
-
-Thanks!
-
-SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
-
-Example DMG's for multiple Toolchains and iOS Flavors... 
-
-IF you need help.. start by Connecting with me on Twitter @h02332 https://twitter.com/h02332 and I'll get you on the Slack Channel.
-
-OR.. Open an Issue .. Discussion.. Contribute Code.. Get in Touch! @h02332 on twitter
-
 Below is my entire CopyPasta for manually copying, signing and installing toybox unstripped on the cryptex.
 ```
  example-cryptex % sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
@@ -183,3 +166,12 @@ root
 #
 ```
 
+Do you want your Code loaded on an Example Cryptex for the SRD Cohort?
+
+Open an Issue with a Link to your Code
+
+Create a PR
+
+Thanks!
+
+SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
