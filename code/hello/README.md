@@ -458,3 +458,9 @@ Load command 21
   dataoff 83808
  datasize 18928
 ```
+```
+otool -L src/hello/hello
+src/hello/hello:
+	@rpath/libclang_rt.asan_ios_dynamic.dylib (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.0.0)
+```
