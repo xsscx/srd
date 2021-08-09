@@ -36,7 +36,7 @@ Target
 XNU Export
 ---
 ```
-export XNU_VERSION=xnu-7195.81.3
+export XNU_VERSION=xnu-7195.141.2
 ```
 X86_64
 ---
