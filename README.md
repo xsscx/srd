@@ -1,7 +1,7 @@
 # Apple Security Research Device (SRD) Repo by SRD0009
 
 --------------------------------------------------
-Last Updated: SAT 31 July 2021 0000Z
+Last Updated: FRI AUG 13 2021 0000Z
 
 Welcome
 -----
