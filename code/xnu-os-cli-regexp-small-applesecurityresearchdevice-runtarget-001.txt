@@ -1,0 +1,70 @@
+# This File is used by the 2021 Apple Security Research Device Cohort to aid in reconstruction of Crash Events for LLDB, Hopper, Burp Suite and other Tooling.
+# File established August 16 2021 and will grow over time
+#
+# This is the small version, working on a larger commit from Strings and Burp Suite
+# Note that I have Burp Suite Hooked to the SRD and Capture Crash Data thru Burp and related Tooling 
+# ... often because the Crashes evade Apple Crash Reporter and most other tools :->|
+#
+#
+launch your executable with the environment variable MALLOC_PERMIT_INSANE_REQUESTS set to any value to circumvent this check
+#
+#
+Explicitly trapping into debugger!!!
+If you run under the debugger
+If this is expected behavior
+Details:
+Object:
+Method:
+Conflicting
+No match
+NSThread
+SDK
+Variant
+target-id
+variant
+sdk
+definition
+recording malloc
+far
+esr
+exception
+pc
+lr
+pc
+TARGETED_DEVICE_FAMILY
+sp
+fp
+x8
+x16
+x17
+x18
+x25
+x26
+x27
+x28
+__opaque__
+dyld
+LOAD
+BREAK
+NASM
+asm
+break
+Assert
+assert
+ASSERT
+Attempting excessively
+appsandbox.cold
+libsystem_malloc.dylib`free
+com.apple.secinitd
+libsystem_secinit.dylib
+stop reason
+EXC_
+bt all
+re re --all
+dis -f
+key
+file
+build
+DATA
+Cache
+12345__2021-SRD-COHORT__67890
