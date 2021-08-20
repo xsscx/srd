@@ -23,8 +23,9 @@ If you are having issues with Compilation, Toolchain or have hit a wall, hit me 
 Cohort Research Image File Listing from Example DMG
 -----
 ```
-tree bin/
-bin/
+tree bin
+bin
+├── a.out
 ├── aslr
 ├── binbag
 ├── c1.exr
@@ -34,7 +35,10 @@ bin/
 ├── disarm
 ├── envprint
 ├── fuzzed.tif
+├── hello
 ├── hello-code-cov
+├── hello_world
+├── hellosan
 ├── hostname
 ├── image.jpeg
 ├── ioclass
@@ -42,20 +46,35 @@ bin/
 ├── ioreg
 ├── ios-13_voucher_leak
 ├── ios-14-voucher_leak
+├── ios-command-line-tool
 ├── ioscan
 ├── jtool2
 ├── leak64
 ├── libarchive.a
+├── libgmalloc.dylib
 ├── libmemctl_core.a
+├── lister
 ├── memctl
 ├── optool
 ├── orig.tif
+├── port_refs
+├── prinfkernversion
 ├── skywalktest
 ├── stage0
 ├── stage1
 ├── stage2
+├── test1
+├── test2
+├── test3
+├── test4
+├── test6
+├── test7
+├── test8
+├── tester
 ├── vs_cli
 └── welcome
+
+0 directories, 48 files
 ```
 
 -------------
