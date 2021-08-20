@@ -17,6 +17,8 @@ If you use brew:
 ```sh
 brew install gnu-sed automake
 ```
+** A Thank You, a huge Thank You to the person at Apple who provided the re-written, Updated Makefile
+** You made a huge contribution to the Apple Security Research Device Program, the 2021 SRD Cohort says THANK YOU!!
 
 ## Quick start
 
