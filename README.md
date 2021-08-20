@@ -10,6 +10,16 @@ The Target iOS ranges are 14Beta -> 15Beta. The Target Platform is iPhone 11 whi
 
 Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
 
+Here is where you start your Instrumentation:
+```
+# groups
+wheel daemon kmem sys tty operator procview procmod staff certusers admin
+# uname -a
+Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8030 iPhone12,1
+# whoami
+root
+```
+
 This Repo is Public Domain and I hope you will contribute your Code, Comments and Suggestions.
 
 SRD Details
