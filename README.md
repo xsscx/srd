@@ -119,7 +119,7 @@ xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpeda
 * All Code and Questions are Welcome 
 * When you see Code Errors, Fails or LOL's.. Please Open an Issue... Thanks!
 
-Please Contribute Code to be run on the SRD. Results to be Posted rapidly.
+Please Contribute your Code & Ideas. Help us Prove the SRD Model. Results to be Posted rapidly.
 --------------------------------------------------
 
 Open an Issue with Details and a Link to your Xcode Project, App or Code and I will attempt to run your Code on the SRD and post Results. Entitlements are the big Hammer to swing with the SRD so include your entitlements.plist.
