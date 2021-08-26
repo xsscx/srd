@@ -4,9 +4,11 @@ Still working on the right mix of entitlements to make debugserver work on the A
 
 Feedback ID's: FB9289266, FB9436327 & Others.. 
 
+# Attach the 15.0 SDK DDI
 ```
-hdiutil attach /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/14.5/DeveloperDiskImage.dmg
+hdiutil attach /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/15.0/DeveloperDiskImage.dmg
 ```
+
 ```
 shasum /Volumes/DeveloperDiskImage/usr/bin/debugserver
 d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Volumes/DeveloperDiskImage/usr/bin/debugserver
@@ -23,19 +25,26 @@ d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Volumes/DeveloperDiskImage/usr/bin/de
 d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Users/xss/srd/example-cryptex/src/debugserver/debugserver
 ```
 ```
-# ps ax|grep simple
-  170   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.hleZZ9/usr/bin/simple-server
-  172   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.hleZZ9/usr/bin/simple-shell
-  301 s000  R+     0:00.00 grep simple
-```
-```
-# ./debugserver *:1921 --attach=170
-debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
+ ps ax|grep simple
+  307   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.W9wsad/usr/bin/simple-server
+  309   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.W9wsad/usr/bin/simple-shell
+  324 s000  R+     0:00.01 grep simple
+ ./debugserver *:1921 --attach=309
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10
  for arm64.
-Attaching to process 170...
-error: failed to attach process 170: unable to start the exception thread
+Attaching to process 309...
+error: failed to attach process 309: unable to start the exception thread
 Exiting.
-```
+ ./debugserver *:1921 --attach=307
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10
+ for arm64.
+Attaching to process 307...
+error: failed to attach process 307: unable to start the exception thread
+Exiting.
+ uname -a
+Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 2021; root:xnu-8019.12.5~3/RELEASE_ARM64_T8030 iPhone12,1
+ date
+Thu Aug 26 12:04:58 EDT 2021
 ```
 # sysdiagnose
 ```
