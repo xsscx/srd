@@ -23,6 +23,27 @@ d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Volumes/DeveloperDiskImage/usr/bin/de
 ```
 % shasum ~/srd/example-cryptex/src/debugserver/debugserver
 d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Users/xss/srd/example-cryptex/src/debugserver/debugserver
+```
+# Result 1
+```
+ cd /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin
+ ps ax|grep simple
+  304   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin/simple-server
+  306   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin/simple-shell
+  332 s000  R+     0:00.01 grep simple
+ ./debugserver *:1921 --attach=306
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
+ for arm64.
+Attaching to process 306...
+ date
+Thu Aug 26 11:41:18 EDT 2021
+ ./debugserver *:1921 --attach=306
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
+ for arm64.
+Attaching to process 306...
+ date
+Thu Aug 26 11:41:27 EDT 2021
+```
 
 # Result 2
 ```
