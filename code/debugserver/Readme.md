@@ -68,17 +68,13 @@ Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 20
  date
 Thu Aug 26 12:04:58 EDT 2021
 ```
-# sysdiagnose
+In other news.... Code Coverage works.. -fprofile-instr-generate -fcoverage-mapping
 ```
-
-```
-Code Coverage works.. -fprofile-instr-generate -fcoverage-mapping
-
-# pwd
+ pwd
 /private/var/root
-# LLVM_PROFILE_FILE="foo.profraw" /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.YzdC1G/usr/bin/hello-code-cov
+ LLVM_PROFILE_FILE="foo.profraw" /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.YzdC1G/usr/bin/hello-code-cov
 Hello researcher from pid 8749!
-# ls -la foo.profraw
+ ls -la foo.profraw
 -rw-r--r--  1 root wheel  160 2021-07-08 16:52 foo.profraw
 ```
 ```
