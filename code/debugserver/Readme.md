@@ -41,6 +41,7 @@ Thu Aug 26 11:41:18 EDT 2021
 debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
  for arm64.
 Attaching to process 306...
+(CRASH of debugserver - see Crash Report)
  date
 Thu Aug 26 11:41:27 EDT 2021
 ```
