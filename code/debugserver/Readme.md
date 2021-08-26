@@ -1,4 +1,4 @@
-# Landing for debugserver
+# Landing for debugserver on Apple Security Research Device
 
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
 
