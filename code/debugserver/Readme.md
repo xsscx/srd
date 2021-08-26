@@ -82,5 +82,4 @@ BUT.. CFI doesn't work on ARM.. this is something I didn't know..
 ```
 clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0'
 
-https://twitter.com/h02332/status/1413295796301275136
 ```
