@@ -44,6 +44,8 @@ Attaching to process 306...
 (CRASH of debugserver - see Crash Report)
  date
 Thu Aug 26 11:41:27 EDT 2021
+ uname -a
+Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 2021; root:xnu-8019.12.5~3/RELEASE_ARM64_T8030 iPhone12,1
 ```
 
 # Result 2
