@@ -5,6 +5,8 @@ As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for deb ugserver 
 
 Feedback ID's: FB9289266, FB9436327 & Others.. Main Feedback == FB9436327
 
+NOTE that symbolication does not work on the SRD for anything on the cryptex, like Toybox Unstripped!!!!
+
 # Attach the 15.0 SDK DDI
 ```
 hdiutil attach /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/15.0/DeveloperDiskImage.dmg
