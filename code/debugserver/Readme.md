@@ -3,7 +3,9 @@
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
 
 As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for debugserver to work.
-
+```
+“Security researchers are constantly able to introspect what's happening in Apple’s [phone] software,” Apple vice president Craig Federighi said in an interview with the WSJ. 
+```
 Feedback ID's: FB9289266, FB9436327 & Others.. Main Feedback == FB9436327
 
 NOTE that symbolication does not work on the SRD for anything on the cryptex, like Toybox Unstripped!!!!
