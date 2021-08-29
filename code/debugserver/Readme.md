@@ -1,7 +1,8 @@
 # Landing for debugserver on Apple Security Research Device
 
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
-As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for deb ugserver to work.
+
+As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for debugserver to work.
 
 Feedback ID's: FB9289266, FB9436327 & Others.. Main Feedback == FB9436327
 
