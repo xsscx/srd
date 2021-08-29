@@ -5,7 +5,7 @@ Last Updated: FRI AUG 13 2021 0000Z
 
 Welcome
 -----
-This is the Apple Security Research Device Public Domain & Collaboration Research Code Collection managed by David Hoyt.
+This is a Apple Security Research Device Public Domain & Collaboration Research Code Collection managed by David Hoyt.
 
 The Target iOS ranges are 14Beta -> 15Beta. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
