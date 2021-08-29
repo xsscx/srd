@@ -9,7 +9,9 @@ This is Hoyt's Public Domain & Collaboration Research Code Collection [SRD0009] 
 The Target iOS ranges are 14Beta -> 15Beta. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
 Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
-
+```
+“Security researchers are constantly able to introspect what's happening in Apple’s [phone] software,” Apple vice president Craig Federighi said in an interview with the WSJ. 
+```
 Here is where you start your Instrumentation:
 ```
 # groups
