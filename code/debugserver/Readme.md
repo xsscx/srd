@@ -25,6 +25,9 @@ d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Volumes/DeveloperDiskImage/usr/bin/de
 % shasum ~/srd/example-cryptex/src/debugserver/debugserver
 d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Users/xss/srd/example-cryptex/src/debugserver/debugserver
 ```
+```
+make install
+```
 # Result 1
 ```
  cd /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin
