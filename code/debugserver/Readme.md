@@ -150,6 +150,20 @@ Binary Images:
 EOF
 
 ```
+```
+xmllint debugserver.plist
+<?xml version="1.0"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.system-task-ports</key>
+	<true/>
+	<key>task_for_pid-allow</key>
+	<true/>
+</dict>
+</plist>
+```
+
 
 In other news.... Code Coverage works.. -fprofile-instr-generate -fcoverage-mapping
 ```
