@@ -2,7 +2,7 @@
 
 Still working on the right mix of entitlements to make zprint work on the Apple Security Research Device. 
 
-Note that since debugserver has a similar issue, the 2021 SRd Cohort are unable to debug the issue.
+Note that since debugserver has a similar issue, the 2021 SRD Cohort are unable to debug the issue.
 
 See URL https://github.com/xsscx/srd/tree/main/code/debugserver
 
