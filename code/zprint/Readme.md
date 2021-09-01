@@ -38,3 +38,18 @@ SRD$ date
 Wed Sep  1 11:00:33 EDT 2021
 
 ```
+The Feedback Case said to Self-Sign the zprint binary, and install to Cryptex. Here are my Reproduction Steps
+
+On the SRD Host:
+```	
+  codesign -s - --entitlements zprint.plist zprint
+	cp zprint ${CRYPTEX_BIN_DIR}
+	cp zprint.plist ${CRYPTEX_LAUNCHD_DIR}
+...
+  make install
+```
+On the SRD:
+```
+./zprint
+-sh: ./zprint: Operation not permitted
+```
