@@ -24,7 +24,6 @@ Cohort Research Image File Listing from Example DMG
 -----
 ```
 tree bin
-bin
 ├── a.out
 ├── aslr
 ├── binbag
@@ -73,8 +72,6 @@ bin
 ├── tester
 ├── vs_cli
 └── welcome
-
-0 directories, 48 files
 ```
 ```
 tree -L 1 src
