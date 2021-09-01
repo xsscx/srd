@@ -150,6 +150,16 @@ Binary Images:
 EOF
 
 ```
+Console Log
+```
+default	15:04:19.294269-0400	debugserver	10 +0.011133 sec [0c45/0103]: error: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) err = ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) (0x00000005)
+```
+```
+default	15:04:19.393461-0400	debugserver	error: MachTask::StartExceptionThread (): task invalid, exception thread start failed.
+```
+```
+default	15:04:19.393614-0400	debugserver	error: [LaunchAttach] END (3141) MachProcess::AttachForDebug failed to start exception thread attaching to pid 636: unable to start the exception thread
+```
 ```
 xmllint debugserver.plist
 <?xml version="1.0"?>
