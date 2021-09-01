@@ -1,6 +1,10 @@
 # Landing Page for Feedback FB9566985 for zprint on Apple Security Research Device run from cryptex
 
-Still working on the right mix of entitlements to make zprint work on the Apple Security Research Device.
+Still working on the right mix of entitlements to make zprint work on the Apple Security Research Device. 
+
+Note that since debugserver has a similar issue, the 2021 SRd Cohort are unable to debug the issue.
+
+See URL https://github.com/xsscx/srd/tree/main/code/debugserver
 
 ```
 zprint
