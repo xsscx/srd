@@ -8,9 +8,9 @@ As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for debugserver t
 ```
 Feedback ID's: FB9289266, FB9436327 & Others.. Main Feedback == FB9436327
 
-NOTE that symbolication does not work on the SRD for anything on the cryptex, like Toybox Unstripped.
+NOTE: Symbolication does not work on the SRD for anything on the cryptex, like Toybox Unstripped.
 
-Target Audience: Apple SRD Development Team
+AUDIENCE: Apple SRD Development Team
 
 REQUIRED: Physical posession and use of Apple Security Research Device 12,1
 
