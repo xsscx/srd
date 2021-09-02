@@ -9,10 +9,10 @@ As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for debugserver t
 ```
 # FACT CHECK
 ```
-default	15:04:18.816119-0400	debugserver	debugserver will use ASL for internal logging.
-default	15:04:18.817655-0400	debugserver	[LaunchAttach] (3141) about to task_for_pid(636)
-default	15:04:18.817811-0400	debugserver	error: [LaunchAttach] MachTask::TaskPortForProcessID task_for_pid(636) failed: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure)
-default	15:04:18.817930-0400	debugserver	1 +0.000000 sec [0c45/0103]: error: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) err = ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) (0x00000005)
+debugserver	debugserver will use ASL for internal logging.
+debugserver	[LaunchAttach] (3141) about to task_for_pid(636)
+debugserver	error: [LaunchAttach] MachTask::TaskPortForProcessID task_for_pid(636) failed: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure)
+debugserver	1 +0.000000 sec [0c45/0103]: error: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) err = ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) (0x00000005)
 ```
 
 Feedback ID's: FB9289266, FB9436327 & Others.. Main Feedback == FB9436327
