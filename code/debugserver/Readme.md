@@ -14,7 +14,7 @@ Target Audience: Apple SRD Development Team
 
 Requirement: Physical posession and use of Apple Security Research Device 12,1
 
-TESTING: APPLE!! DO NOT USE ANY SRD SIMULATOR! Apple is constantly being burned by its dependence on a SRD Simulator.
+TESTING: APPLE Employees -  DO NOT USE ANY SRD SIMULATOR! Apple is constantly being burned by its dependence on a SRD Simulator.  
 
 # Attach the 15.0 SDK DDI
 ```
