@@ -12,7 +12,7 @@ NOTE that symbolication does not work on the SRD for anything on the cryptex, li
 
 Target Audience: Apple SRD Development Team
 
-Requirement: Physical posession and use of Apple Security Research Device 12,1
+REQUIRED: Physical posession and use of Apple Security Research Device 12,1
 
 TESTING: APPLE Employees -  DO NOT USE ANY SRD SIMULATOR! Apple is constantly being burned by its dependence on a SRD Simulator.  
 
