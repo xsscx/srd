@@ -1,11 +1,11 @@
-# Apple Security Research Device (SRD) Repo by SRD0009
+# Welcome to a Hoyt's SRD Repo for the apple Security Research Device. (SRD) Repo by SRD0009
 
 --------------------------------------------------
 Last Updated: FRI AUG 13 2021 0000Z
 
 Welcome
 -----
-Welcome to a Hoyt's SRD Repo for the apple Security Research Device.
+Welcome to a Hoyt's SRD Repo for the Apple Security Research Device.
 
 The Target iOS ranges are 14Beta -> 15Beta. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
