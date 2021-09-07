@@ -1,4 +1,4 @@
-# Welcome to a Hoyt's SRD Repo for the apple Security Research Device. (SRD) Repo by SRD0009
+# Welcome to a Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
 
 --------------------------------------------------
 Last Updated: FRI AUG 13 2021 0000Z
