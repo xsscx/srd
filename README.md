@@ -1,13 +1,13 @@
 # Welcome to a Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
 
 --------------------------------------------------
-Last Updated: FRI AUG 13 2021 0000Z
+Last Updated: TUESDAY SEP 21 2021
 
 Welcome
 -----
 Welcome to a Hoyt's SRD Repo for the Apple Security Research Device.
 
-The Target iOS ranges are 14Beta -> 15Beta. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
+The Target iOS ranges is iOS15. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
 Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
 ```
@@ -15,11 +15,11 @@ Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, 
 ```
 Here is where you start your Instrumentation:
 ```
-# groups
+ groups
 wheel daemon kmem sys tty operator procview procmod staff certusers admin
-# uname -a
-Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8030 iPhone12,1
-# whoami
+ uname -a
+Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Sun Aug 15 20:55:56 PDT 2021; root:xnu-8019.12.5~1/RELEASE_ARM64_T8030 iPhone12,1
+ whoami
 root
 ```
 
@@ -43,11 +43,6 @@ Toolchain Details
 -----
 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
 
-Target
----
-```
--triple arm64-apple-ios14.5.0
-```
 XNU Export
 ---
 ```
@@ -60,22 +55,11 @@ sysctl -a | grep Intel
 machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
 ```
 ```
-xcode-select -p
-/Applications/Xcode.app/Contents/Developer
-
 clang -v
-Apple clang version 12.0.5 (clang-1205.0.22.11)
-Target: arm64-apple-darwin20.5.0
+Apple clang version 13.0.0 (clang-1300.0.29.3)
+Target: arm64-apple-darwin20.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-
-clang -v
-Apple clang version 13.0.0 (clang-1300.0.18.6)
-Target: arm64-apple-darwin20.5.0
-Thread model: posix
-InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
-iOS SDK at /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
 ```
 M1 Apple Silicon
 ---
@@ -84,20 +68,11 @@ sysctl -a | grep M1
 machdep.cpu.brand_string: Apple M1
 ```
 ```
-xcode-select -p
-/Applications/Xcode-beta.app/Contents/Developer
-
 clang -v
-Apple clang version 12.0.5 (clang-1205.0.22.11)
-Target: arm64-apple-darwin20.5.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-
-clang -v
-Apple clang version 13.0.0 (clang-1300.0.27.3)
+Apple clang version 13.0.0 (clang-1300.0.29.3)
 Target: arm64-apple-darwin20.6.0
 Thread model: posix
-InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 SDK Targets
 ---
