@@ -1,0 +1,96 @@
+uname -a
+Darwin iPhone-11 21.1.0 Darwin Kernel Version 21.1.0: Mon Sep  6 01:38:18 PDT 2021; root:xnu-8019.40.67~12/RELEASE_ARM64_T8030 iPhone12,1
+ date
+Thu Sep 23 18:13:13 EDT 2021
+
+
+jtool2 --analyze kernelcache
+This is a BVX kernelcache - I support that now
+Loaded 268/45/3/0  matchers
+Analyzing kernelcache..
+This is a new-style A13 kernelcache (Darwin Kernel Version 21.1.0: Mon Sep  6 01:38:18 PDT 2021; root:xnu-8019.40.67~12/RELEASE_ARM64_T8030)
+Warning: This version of joker supports up to Darwin Version 19 - and reported version is 21
+-- Processing __TEXT_EXEC.__text..
+Disassembling 34914832 bytes from address 0xfffffff007bc0000 (offset 0xbbc000):
+__ZN11OSMetaClassC2EPKcPKS_j is 0xfffffff008195c40 (OSMetaClass)
+Can't get IOKit Object @0x0 (0xfffffff008196658)
+Analyzing __DATA.__data..
+Got _localnode_id @0xfffffff009d603b0
+Analyzing __DATA.__sysctl_set..
+Unable to get region!
+Analyzing fuctions...
+Can't get realhost :-(
+Analyzing __DATA_CONST.. (1st pass)
+13: New Trap! (0x8010307a00bea080)
+-- Note: The mach_exc MIG subsytem contains more messages (4) than I expected (3)
+-- Note: The mach_port MIG subsytem contains more messages (43) than I expected (39)
+-- Note: The mach_vm MIG subsytem contains more messages (22) than I expected (21)
+-- Note: The processor_set MIG subsytem contains more messages (11) than I expected (10)
+-- Note: The task MIG subsytem contains more messages (63) than I expected (54)
+-- Note: The thread_act MIG subsytem contains more messages (31) than I expected (28)
+-- Note: The is_iokit MIG subsytem contains more messages (90) than I expected (88)
+Found dispatch table
+0: _syscall - retired (now enosys @0xfffffff0080aff28)
+44: _profil - retired (now enosys @0xfffffff0080aff28)
+66: _vfork - retired (now enosys @0xfffffff0080aff28)
+155: _nfssvc - retired (now enosys @0xfffffff0080aff28)
+161: _getfh - retired (now enosys @0xfffffff0080aff28)
+176: _add_profil - retired (now enosys @0xfffffff0080aff28)
+185: _chud - retired (now enosys @0xfffffff0080afefc)
+218: _lstatv - retired (now enosys @0xfffffff0080aff28)
+219: _fstatv - retired (now enosys @0xfffffff0080aff28)
+231: _watchevent - retired (now enosys @0xfffffff0080aff28)
+232: _waitevent - retired (now enosys @0xfffffff0080aff28)
+233: _modwatch - retired (now enosys @0xfffffff0080aff28)
+248: _fhopen - retired (now enosys @0xfffffff0080aff28)
+251: _semsys - retired (now enosys @0xfffffff0080aff28)
+252: _msgsys - retired (now enosys @0xfffffff0080aff28)
+253: _shmsys - retired (now enosys @0xfffffff0080aff28)
+254: _semctl - retired (now enosys @0xfffffff0080aff28)
+255: _semget - retired (now enosys @0xfffffff0080aff28)
+256: _semop - retired (now enosys @0xfffffff0080aff28)
+258: _msgctl - retired (now enosys @0xfffffff0080aff28)
+259: _msgget - retired (now enosys @0xfffffff0080aff28)
+260: _msgsnd - retired (now enosys @0xfffffff0080aff28)
+261: _msgrcv - retired (now enosys @0xfffffff0080aff28)
+262: _shmat - retired (now enosys @0xfffffff0080aff28)
+263: _shmctl - retired (now enosys @0xfffffff0080aff28)
+264: _shmdt - retired (now enosys @0xfffffff0080aff28)
+265: _shmget - retired (now enosys @0xfffffff0080aff28)
+275: _sem_init - retired (now enosys @0xfffffff0080afefc)
+276: _sem_destroy - retired (now enosys @0xfffffff0080afefc)
+293: _identitysvc - retired (now enosys @0xfffffff0080aff28)
+295: _shared_region_map_np - retired (now enosys @0xfffffff0080aff28)
+337: _sendfile - retired (now enosys @0xfffffff0080aff28)
+355: _getaudit - retired (now enosys @0xfffffff0080aff28)
+356: _setaudit - retired (now enosys @0xfffffff0080aff28)
+365: _stack_snapshot - retired (now enosys @0xfffffff0080aff28)
+391: ___mac_get_lcid - retired (now enosys @0xfffffff0080afefc)
+392: ___mac_get_lctx - retired (now enosys @0xfffffff0080afefc)
+393: ___mac_set_lctx - retired (now enosys @0xfffffff0080afefc)
+418: _msgsnd_nocancel - retired (now enosys @0xfffffff0080aff28)
+419: _msgrcv_nocancel - retired (now enosys @0xfffffff0080aff28)
+483: _csrctl - retired (now enosys @0xfffffff0080afefc)
+493: _grab_pgo_data - retired (now enosys @0xfffffff0080afefc)
+NEW SYSCALL, replaces _#496 @0xfffffff0080aff5c)
+NEW SYSCALL, replaces _#497 @0xfffffff0080aff8c)
+NEW SYSCALL, replaces _#498 @0xfffffff0080affcc)
+535: NEW SYSCALL possibly detected @0xfffffff008118b74
+536: NEW SYSCALL possibly detected @0xfffffff008119734
+537: NEW SYSCALL possibly detected @0xfffffff007de67ac
+538: NEW SYSCALL possibly detected @0xfffffff008117870
+539: NEW SYSCALL possibly detected @0xfffffff008117bd8
+540: NEW SYSCALL possibly detected @0xfffffff0080b09b4
+541: NEW SYSCALL possibly detected @0xfffffff0080b1580
+542: NEW SYSCALL possibly detected @0xfffffff0080b0a1c
+543: NEW SYSCALL possibly detected @0xfffffff0080b15e8
+544: NEW SYSCALL possibly detected @0xfffffff0080b7ffc
+processing flows...
+Analyzing __DATA_CONST.. (2nd pass)
+Found dispatch table
+GOT PTHREAD SHIMS! (0xfffffff007845e30)
+Analyzing __PPLTEXT.__text..
+Unable to get _kernel_task :-(!
+opened companion file ./kernelcache.ARM64.8DEB1793-FF87-3F20-8FF3-187EA65AB36F
+Dumping symbol cache to file
+Symbolicated 3387 symbols and 113352 functions
