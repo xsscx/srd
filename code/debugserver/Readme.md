@@ -52,26 +52,27 @@ make install
 ```
 # Result 1
 ```
- cd /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin
- ps ax|grep simple
-  304   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin/simple-server
-  306   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.TEzNH3/usr/bin/simple-shell
-  332 s000  R+     0:00.01 grep simple
- ./debugserver *:1921 --attach=306
-debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
- for arm64.
-Attaching to process 306...
- date
-Thu Aug 26 11:41:18 EDT 2021
- ./debugserver *:1921 --attach=306
-debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1205.2.13
- for arm64.
-Attaching to process 306...
-(CRASH of debugserver - see Crash Report)
- date
-Thu Aug 26 11:41:27 EDT 2021
- uname -a
-Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 2021; root:xnu-8019.12.5~3/RELEASE_ARM64_T8030 iPhone12,1
+(lldb) platform select remote-ios
+  Platform: remote-ios
+ Connected: no
+  SDK Path: "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [ 0] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5325f) arm64e"
+ SDK Roots: [ 1] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/14.7.1 (18G82) arm64e"
+ SDK Roots: [ 2] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5337a) arm64e"
+ SDK Roots: [ 3] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5340a) arm64e"
+ SDK Roots: [ 4] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A344) arm64e"
+ SDK Roots: [ 5] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [ 6] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A346) arm64e"
+(lldb) process connect connect://192.168.3.74:1921
+Process 556 stopped
+* thread #1, stop reason = signal SIGSTOP
+    frame #0: 0x0000000100dee810 dyld`_dyld_start
+dyld`_dyld_start:
+->  0x100dee810 <+0>:  mov    x0, sp
+    0x100dee814 <+4>:  and    sp, x0, #0xfffffffffffffff0
+    0x100dee818 <+8>:  mov    x29, #0x0
+    0x100dee81c <+12>: mov    x30, #0x0
+Target 0: (hello) stopped.Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 2021; root:xnu-8019.12.5~3/RELEASE_ARM64_T8030 iPhone12,1
 ```
 
 # Result 2
