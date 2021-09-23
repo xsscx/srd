@@ -1,3 +1,7 @@
+## Updated Thursday Spet 23, 2021 - See Tweet https://twitter.com/srdcohort/status/1441064015761973249
+
+Making more progress via Brute Force without any help from Apple.
+
 # Landing for debugserver on Apple Security Research Device FEEDBACK Report ID FB9436327
 
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
