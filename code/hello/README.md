@@ -4,6 +4,11 @@ This is the landing page for Feedback FB9289266.
 
 This is also the landing page for ASAN & UBSAN Example. See the Makefile.FB9289266 for the example. Send a PR when you do better! :-)
 
+Wed - Sept 22, 2021 - We need the right mix of entitlements to allow for debugserver to attach to this simple hello.c code. 
+Then, we need more examples of the Applications that we can attach to using debugserver. We need Apple to help us complete these tasks.
+
+If you work at Apple, please give a Hoot, and reach out to me and help make this work.
+
 Code Profiling Example
 =======
 ```
