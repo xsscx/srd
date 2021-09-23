@@ -1,55 +1,9 @@
 ## PUNTED: SRD | debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10. Reason: EXC_BAD_ACCESS | Apple needs to show a Proof of Work.
 
-# Landing for debugserver on Apple Security Research Device FEEDBACK Report ID FB9436327
+# Landing for debugserver on Apple Security Research Device 
 
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
 
-As of August 29, 2021, the 2021 SRD Cohort has waited 221 Days for debugserver to work.
-# Quote of Note by Apple vice president Craig Federighi
-```
-“Security researchers are constantly able to introspect what's happening in Apple’s [phone] software,” Apple vice president Craig Federighi said in an interview with the WSJ. 
-```
-# FACT CHECK
-```
-debugserver	debugserver will use ASL for internal logging.
-debugserver	[LaunchAttach] (3141) about to task_for_pid(636)
-debugserver	error: [LaunchAttach] MachTask::TaskPortForProcessID task_for_pid(636) failed: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure)
-debugserver	1 +0.000000 sec [0c45/0103]: error: ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) err = ::task_for_pid ( target_tport = 0x0203, pid = 636, &task ) => err = 0x00000005 ((os/kern) failure) (0x00000005)
-```
-
-Feedback ID's: FB9289266, FB9436327 & Others.. Main Feedback == FB9436327
-
-NOTE: Symbolication does not work on the SRD for anything on the cryptex, like Toybox Unstripped.
-
-AUDIENCE: Apple SRD Development Team
-
-REQUIRED: Physical posession and use of Apple Security Research Device 12,1
-
-TESTING: APPLE Employees -  DO NOT USE ANY SRD SIMULATOR! Apple is constantly being burned by its dependence on a SRD Simulator.  
-
-# Attach the 15.0 SDK DDI
-```
-hdiutil attach /Applications/Xcode-beta.app//Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/15.0/DeveloperDiskImage.dmg
-```
-
-```
-shasum /Volumes/DeveloperDiskImage/usr/bin/debugserver
-d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Volumes/DeveloperDiskImage/usr/bin/debugserver
-```
-```
-% shasum ~/srd/example-cryptex/src/debugserver/debugserver
-54c3f97acd2db82a416816705c728787cb1699fa  /Users/xss/srd/example-cryptex/src/debugserver/debugserver
-```
-```
-% cp /Volumes/DeveloperDiskImage/usr/bin/debugserver ~/srd/example-cryptex/src/debugserver
-```
-```
-% shasum ~/srd/example-cryptex/src/debugserver/debugserver
-d1b2b2e6a8749d18a0d3db5f213b870e8f5fb34a  /Users/xss/srd/example-cryptex/src/debugserver/debugserver
-```
-```
-make install
-```
 # Result 1
 ```
 (lldb) platform select remote-ios
