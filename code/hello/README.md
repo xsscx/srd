@@ -61,7 +61,14 @@ Internal requirements count=0 size=12
 </dict>
 </plist>
 ```
-
+RESULTS
+-------
+```
+default	10:59:01.957542-0400	debugserver	debugserver will use ASL for internal logging.
+default	10:59:01.961209-0400	debugserver	1 +0.000000 sec [014e/0103]: error: ::posix_spawnp ( pid => 0, path = '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.voMtk8/usr/bin/hello', file_actions = 0x16d081ea0, attr = 0x16d081eb8, argv = 0x127f04610, envp = 0x127f04690 ) err = Operation not permitted (0x00000001)
+default	10:59:01.961366-0400	debugserver	2 +0.000254 sec [014e/0103]: RNBRunLoopLaunchInferior DNBProcessLaunch() returned error: 'Operation not permitted'
+error	10:59:01.961867-0400	kernel	Sandbox: debugserver(334) deny(1) process-fork
+```
 
 Code Profiling Example
 =======
