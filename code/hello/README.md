@@ -6,7 +6,54 @@ This is also the landing page for ASAN & UBSAN Example. See the Makefile.FB92892
 
 Wed - Sept 22, 2021 - We need the right mix of entitlements to allow for debugserver to attach to this simple hello.c code. 
 Then, we need more examples of the Applications that we can attach to using debugserver. We need Apple to help us complete these tasks.
+```
+Example:
 
+SRD:
+ ./debugserver 192.168.3.28:1921 hello
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10
+ for arm64.
+Listening to port 1921 for a connection from 192.168.3.28...
+
+Got a connection, launched process hello (pid = 556).
+
+M1 Host:
+(lldb) platform select remote-ios
+  Platform: remote-ios
+ Connected: no
+  SDK Path: "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [ 0] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5325f) arm64e"
+ SDK Roots: [ 1] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/14.7.1 (18G82) arm64e"
+ SDK Roots: [ 2] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5337a) arm64e"
+ SDK Roots: [ 3] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5340a) arm64e"
+ SDK Roots: [ 4] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A344) arm64e"
+ SDK Roots: [ 5] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [ 6] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A346) arm64e"
+(lldb) process connect connect://192.168.3.74:1921
+Process 595 stopped
+* thread #1, stop reason = signal SIGSTOP
+    frame #0: 0x00000001021f6810 dyld`_dyld_start
+dyld`_dyld_start:
+->  0x1021f6810 <+0>:  mov    x0, sp
+    0x1021f6814 <+4>:  and    sp, x0, #0xfffffffffffffff0
+    0x1021f6818 <+8>:  mov    x29, #0x0
+    0x1021f681c <+12>: mov    x30, #0x0
+Target 0: (hello) stopped.
+(lldb) c
+Process 595 resuming
+Process 595 stopped
+* thread #1, stop reason = EXC_BAD_ACCESS (code=50, address=0x10221344c)
+    frame #0: 0x000000010221344c dyld`dyld3::MachOFile::hasLoadCommand(unsigned int) const
+dyld`dyld3::MachOFile::hasLoadCommand:
+->  0x10221344c <+0>:  pacibsp
+    0x102213450 <+4>:  sub    sp, sp, #0x90             ; =0x90
+    0x102213454 <+8>:  stp    x22, x21, [sp, #0x60]
+    0x102213458 <+12>: stp    x20, x19, [sp, #0x70]
+Target 0: (hello) stopped.
+(lldb)
+
+The issue of EXC_BAD_ACCESS means we can not execute our code, modify memory etc.. 
+```
 ```
 codesign -d -vvv --entitlements :- src/debugserver/debugserver
 Executable=/Users/xss/srd/example-cryptex/src/debugserver/debugserver
