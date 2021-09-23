@@ -9,6 +9,60 @@ Then, we need more examples of the Applications that we can attach to using debu
 
 If you work at Apple, please give a Hoot, and reach out to me and help make this work.
 
+I've taken to Wheel-of-Fortune for testing entitlements:
+```
+codesign -d -vvv --entitlements :- src/hello/hello
+Executable=/Users/xss/srd/example-cryptex/src/hello/hello
+Identifier=hello-55554944a75b880b5c373803afb132a464d549b8
+Format=Mach-O thin (arm64e)
+CodeDirectory v=20400 size=1031 flags=0x2(adhoc) hashes=21+7 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=f87e33b0a6513573be2e44ef0d6c762be7d7dedf
+CandidateCDHashFull sha256=f87e33b0a6513573be2e44ef0d6c762be7d7dedfbed368322dc91ff91df247b4
+Hash choices=sha256
+CMSDigest=f87e33b0a6513573be2e44ef0d6c762be7d7dedfbed368322dc91ff91df247b4
+CMSDigestType=2
+CDHash=f87e33b0a6513573be2e44ef0d6c762be7d7dedf
+Signature=adhoc
+Info.plist=not bound
+TeamIdentifier=not set
+Sealed Resources=none
+Internal requirements count=0 size=12
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.backboardd.debugapplications</key>
+    <true/>
+    <key>com.apple.backboardd.launchapplications</key>
+    <true/>
+    <key>com.apple.diagnosticd.diagnostic</key>
+    <true/>
+    <key>com.apple.frontboard.debugapplications</key>
+    <true/>
+    <key>com.apple.frontboard.launchapplications</key>
+    <true/>
+    <key>com.apple.security.network.client</key>
+    <true/>
+    <key>com.apple.security.network.server</key>
+    <true/>
+    <key>com.apple.springboard.debugapplications</key>
+    <true/>
+    <key>com.apple.system-task-ports</key>
+    <true/>
+    <key>get-task-allow</key>
+    <true/>
+    <key>platform-application</key>
+    <true/>
+    <key>run-unsigned-code</key>
+    <true/>
+    <key>task_for_pid-allow</key>
+    <true/>
+</dict>
+</plist>
+```
+
+
 Code Profiling Example
 =======
 ```
