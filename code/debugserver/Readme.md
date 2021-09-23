@@ -1,6 +1,4 @@
-## Updated Thursday Spet 23, 2021 - See Tweet https://twitter.com/srdcohort/status/1441064015761973249
-
-Making more progress via Brute Force without any help from Apple.
+## PUNTED: SRD | debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10. Reason: EXC_BAD_ACCESS | Apple needs to show a Proof of Work.
 
 # Landing for debugserver on Apple Security Research Device FEEDBACK Report ID FB9436327
 
