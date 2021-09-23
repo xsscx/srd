@@ -2,7 +2,7 @@
 
 # Landing for debugserver on Apple Security Research Device 
 
-Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device.
+Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device. The Wheel of Fortune for Entitlements worked with the debugserver.plist, but produced PAC Crashes depending on other attempts and ordering.. ymmv.
 
 # Result 1
 ```
