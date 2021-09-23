@@ -7,6 +7,58 @@ This is also the landing page for ASAN & UBSAN Example. See the Makefile.FB92892
 Wed - Sept 22, 2021 - We need the right mix of entitlements to allow for debugserver to attach to this simple hello.c code. 
 Then, we need more examples of the Applications that we can attach to using debugserver. We need Apple to help us complete these tasks.
 
+```
+codesign -d -vvv --entitlements :- src/debugserver/debugserver
+Executable=/Users/xss/srd/example-cryptex/src/debugserver/debugserver
+Identifier=com.apple.debugserver
+Format=Mach-O universal (arm64e arm64)
+CodeDirectory v=20400 size=5518 flags=0x2(adhoc) hashes=162+7 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=6f4ba027973fafa0e8dee67953ad10c264605a1b
+CandidateCDHashFull sha256=6f4ba027973fafa0e8dee67953ad10c264605a1b407a01fc12c9c974f68165b4
+Hash choices=sha256
+CMSDigest=6f4ba027973fafa0e8dee67953ad10c264605a1b407a01fc12c9c974f68165b4
+CMSDigestType=2
+CDHash=6f4ba027973fafa0e8dee67953ad10c264605a1b
+Signature=adhoc
+Info.plist entries=5
+TeamIdentifier=not set
+Sealed Resources=none
+Internal requirements count=0 size=12
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.backboardd.debugapplications</key>
+    <true/>
+    <key>com.apple.backboardd.launchapplications</key>
+    <true/>
+    <key>com.apple.diagnosticd.diagnostic</key>
+    <true/>
+    <key>com.apple.frontboard.debugapplications</key>
+    <true/>
+    <key>com.apple.frontboard.launchapplications</key>
+    <true/>
+    <key>com.apple.security.network.client</key>
+    <true/>
+    <key>com.apple.security.network.server</key>
+    <true/>
+    <key>com.apple.springboard.debugapplications</key>
+    <true/>
+    <key>com.apple.system-task-ports</key>
+    <true/>
+    <key>get-task-allow</key>
+    <true/>
+    <key>platform-application</key>
+    <true/>
+    <key>run-unsigned-code</key>
+    <true/>
+    <key>task_for_pid-allow</key>
+    <true/>
+</dict>
+</plist>
+```
+
 If you work at Apple, please give a Hoot, and reach out to me and help make this work.
 
 I've taken to Wheel-of-Fortune for testing entitlements:
