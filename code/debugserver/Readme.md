@@ -4,6 +4,17 @@
 
 Still working on the right mix of entitlements to make debugserver work on the Apple Security Research Device. The Wheel of Fortune for Entitlements worked with the debugserver.plist, but produced PAC Crashes depending on other attempts and ordering.. ymmv.
 
+Apparently the DDI is a mystery for some people.. this is how its done kids..
+```
+hdiutil attach /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/15.0/DeveloperDiskImage.dmg
+```
+```
+cp /Volumes/DeveloperDiskImage/usr/bin/debugserver ~/srd/example-cryptex/src/debugserver
+```
+```
+make install
+```
+
 # Result 1
 ```
 (lldb) platform select remote-ios
