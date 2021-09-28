@@ -1,0 +1,122 @@
+Hardware Model:      iPhone12,1
+Process:             diagnosticextensionsd [733]
+Path:                /usr/libexec/diagnosticextensionsd
+Identifier:          diagnosticextensionsd
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      sh [304]
+Coalition:           com.example.cryptex.sshd [470]
+
+Date/Time:           2021-09-19 11:36:17.8970 -0400
+Launch Time:         2021-09-19 11:36:17.8278 -0400
+OS Version:          iPhone OS 15.0 (19A344)
+Release Type:        User
+Baseband Version:    3.00.00
+Report Version:      104
+
+Exception Type:  EXC_BREAKPOINT (SIGTRAP)
+Exception Codes: 0x0000000000000001, 0x00000001f222f938
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL; [5]
+Terminating Process: exc handler [733]
+
+Terminating Process: exc handler [733]
+Triggered by Thread:  1
+
+Application Specific Information:
+
+
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0:
+0   libobjc.A.dylib               	       0x19abcd664 getMethodNoSuper_nolock+ 38500 (objc_class*, objc_selector*) + 424
+1   libobjc.A.dylib               	       0x19abcd4e8 getMethodNoSuper_nolock+ 38120 (objc_class*, objc_selector*) + 44
+2   libobjc.A.dylib               	       0x19abca4a4 lookUpImpOrForward + 376
+3   libobjc.A.dylib               	       0x19abc5a84 _objc_msgSend_uncached + 68
+4   libobjc.A.dylib               	       0x19abd7764 CALLING_SOME_+initialize_METHOD + 24
+5   libobjc.A.dylib               	       0x19abcd3ac initializeNonMetaClass + 784
+6   libobjc.A.dylib               	       0x19abd15a8 initializeAndMaybeRelock+ 54696 (objc_class*, objc_object*, mutex_tt<false>&, bool) + 156
+7   libobjc.A.dylib               	       0x19abca6a0 lookUpImpOrForward + 884
+8   libobjc.A.dylib               	       0x19abc5a84 _objc_msgSend_uncached + 68
+9   DiagnosticExtensionsDaemon    	       0x1a84b0078 +[DEDAnalytics didStartDaemon] + 152
+10  DiagnosticExtensionsDaemon    	       0x1a84d8c84 -[DEDDaemon start] + 308
+11  diagnosticextensionsd         	       0x104c6ed68 0x104c6c000 + 11624
+12  libdispatch.dylib             	       0x18232fc04 _dispatch_call_block_and_release + 32
+13  libdispatch.dylib             	       0x182331950 _dispatch_client_callout + 20
+14  libdispatch.dylib             	       0x18233fd30 _dispatch_main_queue_callback_4CF + 940
+15  CoreFoundation                	       0x182677ce4 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16
+16  CoreFoundation                	       0x182631ebc __CFRunLoopRun + 2540
+17  CoreFoundation                	       0x1826453c8 CFRunLoopRunSpecific + 600
+18  Foundation                    	       0x183e68d54 -[NSRunLoop+ 101716 (NSRunLoop) runMode:beforeDate:] + 236
+19  Foundation                    	       0x183e69510 -[NSRunLoop+ 103696 (NSRunLoop) run] + 92
+20  diagnosticextensionsd         	       0x104c6ed14 0x104c6c000 + 11540
+21  dyld                          	       0x104dada24 start + 520
+
+Thread 1 name:   Dispatch queue: com.apple.root.default-qos.overcommit
+Thread 1 Crashed:
+0   libxpc.dylib                  	       0x1f222f938 _xpc_api_misuse + 80
+1   libxpc.dylib                  	       0x1f222f930 _xpc_api_misuse + 72
+2   libxpc.dylib                  	       0x1f221d540 xpc_connection_suspend + 0
+3   DiagnosticExtensionsDaemon    	       0x1a84fcb40 __31+[DEDSharingConnection checkIn]_block_invoke_2 + 64
+4   libxpc.dylib                  	       0x1f221f4e0 _xpc_connection_call_event_handler + 176
+5   libxpc.dylib                  	       0x1f221f920 _xpc_connection_mach_event + 1008
+6   libdispatch.dylib             	       0x182331a10 _dispatch_client_callout4 + 20
+7   libdispatch.dylib             	       0x18235119c _dispatch_mach_cancel_invoke + 132
+8   libdispatch.dylib             	       0x18234e7d8 _dispatch_mach_invoke + 940
+9   libdispatch.dylib             	       0x182344318 _dispatch_workloop_worker_thread + 656
+10  libsystem_pthread.dylib       	       0x1f21f51b0 _pthread_wqthread + 288
+11  libsystem_pthread.dylib       	       0x1f21f4f50 start_wqthread + 8
+
+Thread 2 name:   Dispatch queue: IDSInternalQueue
+Thread 2:
+0   CoreFoundation                	       0x18264c8d4 __CFStringEqual + 192
+1   CoreFoundation                	       0x182635690 -[__NSCFString isEqual:] + 276
+2   CoreFoundation                	       0x182635690 -[__NSCFString isEqual:] + 276
+3   CoreFoundation                	       0x18265eba0 ____NSDictionaryI_new_block_invoke + 120
+4   CoreFoundation                	       0x182647d24 __NSDictionaryI_new + 480
+5   CoreFoundation                	       0x18269ae1c +[NSDictionary dictionaryWithObjects:forKeys:count:] + 60
+6   IDSFoundation                 	       0x193c8acc8 0x193c6e000 + 117960
+7   IDSFoundation                 	       0x193c91440 _IDSServiceDictionaryForIdentifierBypassPlatforms + 24
+8   IDSFoundation                 	       0x193c9155c 0x193c6e000 + 144732
+9   IDS                           	       0x18b284394 0x18b27d000 + 29588
+10  IDS                           	       0x18b31eec8 0x18b27d000 + 663240
+11  libdispatch.dylib             	       0x18232fc04 _dispatch_call_block_and_release + 32
+12  libdispatch.dylib             	       0x182331950 _dispatch_client_callout + 20
+13  libdispatch.dylib             	       0x1823390ac _dispatch_lane_serial_drain + 664
+14  libdispatch.dylib             	       0x182339c44 _dispatch_lane_invoke + 444
+15  libdispatch.dylib             	       0x182344318 _dispatch_workloop_worker_thread + 656
+16  libsystem_pthread.dylib       	       0x1f21f51b0 _pthread_wqthread + 288
+17  libsystem_pthread.dylib       	       0x1f21f4f50 start_wqthread + 8
+
+Thread 3:
+0   libsystem_pthread.dylib       	       0x1f21f4f48 start_wqthread + 0
+
+
+Thread 1 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000032   x1: 0x00000001f223fdcc   x2: 0x0000000000000000   x3: 0x000000016b21a792
+    x4: 0x00000001f2242f5b   x5: 0x000000016b21a750   x6: 0x000000000000002e   x7: 0x0000000000000000
+    x8: 0x0000000203c30000   x9: 0xec7f87f94d170024  x10: 0x0000000000000002  x11: 0x0000000000000022
+   x12: 0x000000000044b200  x13: 0x004f9a0204bd57f8  x14: 0x0000000000000010  x15: 0x0000000204bd57f8
+   x16: 0xdf354081941991dc  x17: 0x00000001ddef4de0  x18: 0x0000000000000000  x19: 0x000000016b21a760
+   x20: 0x00000001df2f3c98  x21: 0x0000000204bd5848  x22: 0x0032f401df2f3c98  x23: 0x00000001dbd22a80
+   x24: 0x000000014dd17cc0  x25: 0x0000000000000000  x26: 0x000000016b21b180  x27: 0x000000016b21b0e0
+   x28: 0x0000000010400001   fp: 0x000000016b21a810   lr: 0xcb501b81f222f930
+    sp: 0x000000016b21a750   pc: 0x00000001f222f938 cpsr: 0x60000000
+   far: 0x0000000203c30458  esr: 0xf2000001 (Breakpoint) brk 1
+
+Binary Images:
+       0x19abc4000 -        0x19abfdfff libobjc.A.dylib arm64e  <6d12ade560653900a6bc80677ccac819> /usr/lib/libobjc.A.dylib
+       0x1a84ad000 -        0x1a8544fff DiagnosticExtensionsDaemon arm64e  <be0df791a40837989896c7458f45c8de> /System/Library/PrivateFrameworks/DiagnosticExtensionsDaemon.framework/DiagnosticExtensionsDaemon
+       0x104c6c000 -        0x104c6ffff diagnosticextensionsd arm64e  <f1b263bbf21d32a2a69a15cabee4a622> /usr/libexec/diagnosticextensionsd
+       0x18232e000 -        0x182373fff libdispatch.dylib arm64e  <959cd6e40ce73022b73c8b36f79f4745> /usr/lib/system/libdispatch.dylib
+       0x182626000 -        0x182a79fff CoreFoundation arm64e  <6174789ae88c3f5cba39de2e9edc0750> /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+       0x183e50000 -        0x184154fff Foundation arm64e  <efbca2ff8b8c3227abbc154ba851d23c> /System/Library/Frameworks/Foundation.framework/Foundation
+       0x104d94000 -        0x104debfff dyld arm64e  <d48c31ee061f370ba6f78391a1b53ed8> /usr/lib/dyld
+       0x1f220f000 -        0x1f2246fff libxpc.dylib arm64e  <e8a600510c6835aeaefd9d97cc7f2696> /usr/lib/system/libxpc.dylib
+       0x1f21f4000 -        0x1f21fffff libsystem_pthread.dylib arm64e  <bc1ce0c6a9f2396b9afb623d3acd5881> /usr/lib/system/libsystem_pthread.dylib
+       0x193c6e000 -        0x193e2ffff IDSFoundation arm64e  <b23d2dae051a3283af43a30c55ed0edb> /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+       0x18b27d000 -        0x18b3fafff IDS arm64e  <5ae36ceb357b3de48cc06c146848e0a6> /System/Library/PrivateFrameworks/IDS.framework/IDS
+
+EOF
+
