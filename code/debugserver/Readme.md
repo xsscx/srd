@@ -39,30 +39,12 @@ dyld`_dyld_start:
     0x100dee81c <+12>: mov    x30, #0x0
 Target 0: (hello) stopped.Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 2021; root:xnu-8019.12.5~3/RELEASE_ARM64_T8030 iPhone12,1
 ```
+```
+default	09:09:42.680408-0400	debugserver	Got a 'k' packet, killing the inferior process.
+default	09:09:42.714221-0400	debugserver	Sending ptrace PT_KILL to terminate inferior process pid 336.
+```
 
-# Result 2
-```
- ps ax|grep simple
-  307   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.W9wsad/usr/bin/simple-server
-  309   ??  Ss     0:00.01 /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.W9wsad/usr/bin/simple-shell
-  324 s000  R+     0:00.01 grep simple
- ./debugserver *:1921 --attach=309
-debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10
- for arm64.
-Attaching to process 309...
-error: failed to attach process 309: unable to start the exception thread
-Exiting.
- ./debugserver *:1921 --attach=307
-debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10
- for arm64.
-Attaching to process 307...
-error: failed to attach process 307: unable to start the exception thread
-Exiting.
- uname -a
-Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Tue Aug 17 15:54:23 PDT 2021; root:xnu-8019.12.5~3/RELEASE_ARM64_T8030 iPhone12,1
- date
-Thu Aug 26 12:04:58 EDT 2021
-```
+
 # Crash Report
 ```
 Hardware Model:      iPhone12,1
