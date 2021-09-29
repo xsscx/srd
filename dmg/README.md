@@ -1,4 +1,4 @@
-# SRD Cohort Research Image for Crytpex Information
+# SRD Cohort Example DMG for Crytpex
 
 Jumpstart your Research with Example DMG Files for a Cryptex
 -----------
@@ -9,7 +9,7 @@ DMG's with PoC's from Google Project Zero, ZecOps, ZDI and more.. all ready to (
 ```
 #./a.out
 
-Then, Go Open Xcode-beta and look at the Crash Report
+Then, Go Open Xcode and look at the Crash Report
 ```
 What is here are multiple Cryptex with Working code examples already Compiled, Signed and Hand-Rolled with Care into a precious DMG for you to install to your SRD via cryptex for your enjoyment. 
 
