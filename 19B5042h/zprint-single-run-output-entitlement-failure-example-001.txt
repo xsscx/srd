@@ -747,3 +747,6 @@ kalloc.type11.128[raw]                                                          
 percpu.64[per_cpu_counters]                                                                               73K
 # uname -a
 Darwin iPhone-11 21.1.0 Darwin Kernel Version 21.1.0: Tue Sep 21 12:52:30 PDT 2021; root:xnu-8019.40.86~21/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+# zprint
+zprint: mach_memory_info: unknown error code (entitlement required or rate-limit exceeded)
+#
