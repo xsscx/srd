@@ -1,6 +1,6 @@
 ### Register Data Section of Repo
 
-This Section of the Repo provides background data from various Tools you may find useful. Caontrol Flow Graphs, otool & nm output and more...
+This Section of the Repo provides background data from various Tools you may find useful. Control Flow Graphs, otool & nm output and more...
 
 DATAPOINT: https://gist.github.com/bazad/42054285391c6e0dcd0ede4b5f969ad2
 
