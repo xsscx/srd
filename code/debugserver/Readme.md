@@ -54,7 +54,9 @@ Saving 16384 bytes of data for memory region at 0x105154000
 Saving 229376 bytes of data for memory region at 0x105158000
 Saving 1032192 bytes of data for memory region at 0x16ae7c000
 Saving 1340948480 bytes of data for memory region at 0x1808bc000
-In Progres........
+In Progress........
+-rw-------  1 xss  staff   1.7G Oct  4 11:10 /Volumes/APS-XS03-480/mini/Documents/srd-dump-lldb-001.txt
+Its still running.... so that is very good news so far.....
 ```
 
 # Result 1
