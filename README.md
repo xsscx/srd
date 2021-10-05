@@ -78,7 +78,6 @@ SDK Targets
 ---
 ```
 iOS SDK 15
-iOS SDK 14
 ```
 Run Targets
 ---
