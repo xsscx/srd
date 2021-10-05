@@ -7,7 +7,7 @@ Jumpstart your Research with Example DMG Files for a Cryptex
 
 I've updated ToyBox Unstripped too!
 
-Everything in this RTFM comes from the Makefile. If you do not recognize the manual commands below, look at the MAkefile and this will be obvious. Apple failed to include Toybox Unstripped Binary to aid in debugging.
+Everything in this RTFM comes from the Makefile. If you do not recognize the manual commands below, look at the Makefile and this will be obvious. Apple failed to include Toybox Unstripped Binary to aid in debugging.
 
 What will be back on the iOS 15 SRDC DMG's from Cryptex?
 
