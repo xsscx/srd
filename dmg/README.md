@@ -99,7 +99,7 @@ How does the Installation of a Hand-Rolled DMG work?
 ```
 Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then do your workflow with cryptexctl. 
 ```
-X86_64 Cryptex Installation 
+M1 T8010 + X86_64 Cryptex Installation 
 ------
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 ```
