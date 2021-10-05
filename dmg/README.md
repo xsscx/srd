@@ -112,6 +112,9 @@ Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021;
 ```
 This is where I'm dropping you at in the Build Pipeline:
 ```
+hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot com.example.cryptex.dmg
+```
+```
 created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/com.example.cryptex.dmg
 ```
 Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... 
