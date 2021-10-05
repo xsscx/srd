@@ -93,7 +93,6 @@ src
 8 directories, 0 files
 ```
 
--------------
 How does the Installation of a Hand-Rolled DMG work?
 ```
 Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then do your workflow with cryptexctl. 
@@ -118,98 +117,29 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot com.example.crypt
 created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/com.example.cryptex.dmg
 ```
 Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... 
-
-This is how the Makefile does it.. no magic.. follow along.. if you get it.. cool.. but if not, Open an Issue, ping me on Slack, hit me up on Twitter.. this is a critical hurdle to get over...
-
-Next Steps:
 ```
-cryptexctl uninstall com.example.cryptex 
+rm  com.example.cryptex.dmg
 ```
 ```
-cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v H.O.Y.T com.example.cryptex.dmg
+sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 ```
 ```
-cryptexctl install com.example.cryptex.cptx 
+codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryptex.dstroot/usr/bin/toybox
 ```
 ```
-cryptexctl list                            
-com.example.cryptex
-  version = H.O.Y.T
-  device = /dev/disk2s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bAa5aS
+hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot com.example.cryptex.dmg
 ```
-Below is my entire CopyPasta for manually copying, signing and installing toybox unstripped on the cryptex.
 ```
- example-cryptex % sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
-
- example-cryptex % export CRYPTEXCTL_UDID=00008030-001538D03C40012E
-
- example-cryptex % cryptexctl uninstall com.example.cryptex
-
- example-cryptex % codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryptex.dstroot/usr/bin/toybox
-
- example-cryptex % cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 com.example.cryptex.dmg
-
- example-cryptex % cryptexctl install com.example.cryptex.cptx
-
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 com.example.cryptex.dmg
+```
+```
+cryptexctl install com.example.cryptex.cptx
+```
+```
 cryptexctl list
 com.example.cryptex
   version = 1.3.3.7
   device = /dev/disk2s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.4sDbV3
-
-
- example-cryptex % date
-Thu Aug  5 08:26:09 EDT 2021
-
- example-cryptex % uname -a
-Darwin Ds-Mac-mini-2.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 arm64
-
- example-cryptex % clang -v
-Apple clang version 13.0.0 (clang-1300.0.27.3)
-Target: arm64-apple-darwin20.6.0
-Thread model: posix
-InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- example-cryptex %
- 
- root@srd's password:
-
-# df
-Filesystem                                                                                                                                1K-blocks    Used Available Use% Mounted on
-com.apple.os.update-56A2FC8FDDAA1D9EA3D823F3290CB87EB308000348231FAC99C5DDE49869F56A0873FB7AE5E14008058B28F2EC5289CC@/dev/disk0s1s1        62435444 7333612  55101832  12% /
-devfs                                                                                                                                            50      50         0 100% /dev
-/dev/disk0s1s3                                                                                                                                10240    6164      4076  61% /private/xarts
-/dev/disk0s1s6                                                                                                                             62435444  155060  62280384   1% /private/preboot
-/private/preboot/56A2FC8FDDAA1D9EA3D823F3290CB87EB308000348231FAC99C5DDE49869F56A0873FB7AE5E14008058B28F2EC5289CC/usr/standalone/firmware  62435444  155060  62280384   1% /usr/standalone/firmware
-/dev/disk0s1s2                                                                                                                             62435444 6951576  55483868  12% /private/var
-/dev/disk0s1s4                                                                                                                                10240    1968      8272  20% /private/var/wireless/baseband_data
-/dev/disk0s1s7                                                                                                                             62435444     948  62434496   1% /private/var/MobileSoftwareUpdate
-/dev/disk0s1s5                                                                                                                                44032   20592     23440  47% /private/var/hardware
-/private/var/hardware/Pearl/System/Library/Pearl/ReferenceFrames                                                                              44032   20592     23440  47% /System/Library/Pearl/ReferenceFrames
-/private/var/hardware/FactoryData/System/Library/Caches/com.apple.factorydata                                                                 44032   20592     23440  47% /System/Library/Caches/com.apple.factorydata
-/dev/disk2s1                                                                                                                                  23304   18464      4840  80% /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.4sDbV3
-
-# cd bin
-# pwd
-/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.4sDbV3/usr/bin
-
-# uname -a
-Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8030 iPhone12,1
-
-# whoami
-root
-
-# ls -la toybox
--r-xr-xr-x 1 mobile staff 403968 2021-08-04 17:21 toybox
-#
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.8Ug7XY
 ```
 
-Do you want your Code loaded on an Example Cryptex for the SRD Cohort?
-
-Open an Issue with a Link to your Code
-
-Create a PR
-
-Thanks!
-
-SRD Cohort - See Bug Reports at https://srdcx.atlassian.net/jira/software/c/projects/SRDBUGS/issues/
