@@ -13,6 +13,36 @@ cp /Volumes/DeveloperDiskImage/usr/bin/debugserver ~/srd/example-cryptex/src/deb
 ```
 make install
 ```
+```
+sudo spctl --assess --verbose /Volumes/com.example.cryptex.dstroot/usr/bin/debugserver
+/Volumes/com.example.cryptex.dstroot/usr/bin/debugserver: rejected
+```
+```
+codesign -dv --verbose=4 /Volumes/com.example.cryptex.dstroot/usr/bin/debugserver
+Executable=/Volumes/com.example.cryptex.dstroot/usr/bin/debugserver
+Identifier=com.apple.debugserver
+Format=Mach-O universal (arm64e arm64)
+CodeDirectory v=20400 size=5518 flags=0x2(adhoc) hashes=162+7 location=embedded
+VersionPlatform=2
+VersionMin=983040
+VersionSDK=983040
+Hash type=sha256 size=32
+CandidateCDHash sha256=6f4ba027973fafa0e8dee67953ad10c264605a1b
+CandidateCDHashFull sha256=6f4ba027973fafa0e8dee67953ad10c264605a1b407a01fc12c9c974f68165b4
+Hash choices=sha256
+CMSDigest=6f4ba027973fafa0e8dee67953ad10c264605a1b407a01fc12c9c974f68165b4
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=442368
+Executable Segment flags=0x11
+Page size=4096
+CDHash=6f4ba027973fafa0e8dee67953ad10c264605a1b
+Signature=adhoc
+Info.plist entries=5
+TeamIdentifier=not set
+Sealed Resources=none
+Internal requirements count=0 size=12
+```
 # Update 1 - October 4, 2021
 ```
 (lldb) process save-core srd-dump-lldb-001.txt
