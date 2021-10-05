@@ -111,12 +111,12 @@ Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021;
 ```
 This is where I'm dropping you at in the Build Pipeline:
 ```
-hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot com.example.cryptex.dmg
+hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
 ```
-created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/com.example.cryptex.dmg
+created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/toyboxunstripped.dmg
 ```
-Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... 
+Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... this is the whole process.. you have a DMG, so lets get it installed. I start off doing this for you.....
 ```
 rm  com.example.cryptex.dmg
 ```
@@ -124,13 +124,14 @@ rm  com.example.cryptex.dmg
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 ```
 ```
-codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8 [insert yours igning hash]"  com.example.cryptex.dstroot/usr/bin/toybox
+codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryptex.dstroot/usr/bin/toybox
 ```
 ```
-hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot com.example.cryptex.dmg
+hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
+This is where you start with the SRDC DMG Example Cryptex:
 ```
-cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 com.example.cryptex.dmg
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
 ```
 ```
 cryptexctl install com.example.cryptex.cptx
