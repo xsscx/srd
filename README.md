@@ -15,10 +15,10 @@ Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, 
 ```
 Here is where you start your Instrumentation:
 ```
- groups
+groups
 wheel daemon kmem sys tty operator procview procmod staff certusers admin
- uname -a
-Darwin iPhone-11 21.0.0 Darwin Kernel Version 21.0.0: Sun Aug 15 20:55:56 PDT 2021; root:xnu-8019.12.5~1/RELEASE_ARM64_T8030 iPhone12,1
+uname -a
+Darwin iPhone-11 21.1.0 Darwin Kernel Version 21.1.0: Tue Sep 21 12:52:30 PDT 2021; root:xnu-8019.40.86~21/RELEASE_ARM64_T8030 iPhone12,1 Toybox
  whoami
 root
 ```
