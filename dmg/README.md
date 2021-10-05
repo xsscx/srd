@@ -146,3 +146,11 @@ com.example.cryptex
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.8Ug7XY
 ```
 You now have the ToyBox Unstripped Binary that that has Symbols. They may even work with the latest iOS Beta :-)
+```
+id -n
+uid=6315365(root) gid=0(wheel) groups=0(wheel),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),20(staff),29(certusers),80(admin)
+```
+```
+id -r
+uid=78667109(root) gid=0(wheel) groups=0(wheel),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),20(staff),29(certusers),80(admin)
+```
