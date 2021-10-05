@@ -5,7 +5,7 @@ Jumpstart your Research with Example DMG Files for a Cryptex
 
 # Updated October 5, 2021 - Now that I've Rolled my SRD up to iOS 15, I've deleted all the iOS14.x DMG's. 
 
-I'll update ToyBox Unstripped shortly.. and I'll include the latest debugserver that is partially working.
+I've updated ToyBox Unstripped too!
 
 What will be back on the iOS 15 SRDC DMG's from Cryptex?
 
