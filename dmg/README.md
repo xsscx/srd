@@ -124,7 +124,7 @@ rm  com.example.cryptex.dmg
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 ```
 ```
-codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryptex.dstroot/usr/bin/toybox
+codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8 [insert yours igning hash]"  com.example.cryptex.dstroot/usr/bin/toybox
 ```
 ```
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot com.example.cryptex.dmg
