@@ -18,7 +18,10 @@ M1 T8010 + X86_64 Cryptex Installation
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 # This is where you start with the SRDC DMG Example Cryptex after Download:
 ```
-cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
+cd example-cryptex/
+```
+```
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 ~/Downloads/toyboxunstripped.dmg
 ```
 ```
 cryptexctl install com.example.cryptex.cptx
