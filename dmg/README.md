@@ -126,6 +126,12 @@ rm  com.example.cryptex.dmg
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 ```
 ```
+% shasum src/toybox/toybox-src/generated/unstripped/toybox
+b87d36faedae8796a7e02e337550de3f10fde527  src/toybox/toybox-src/generated/unstripped/toybox
+% shasum com.example.cryptex.dstroot/usr/bin/toybox
+b87d36faedae8796a7e02e337550de3f10fde527  com.example.cryptex.dstroot/usr/bin/toybox
+```
+```
 codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryptex.dstroot/usr/bin/toybox
 ```
 ```
