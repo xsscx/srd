@@ -1,0 +1,59 @@
+Process:               cryptexctl [11982]
+Path:                  /usr/local/bin/cryptexctl
+Identifier:            cryptexctl
+Version:               ???
+Code Type:             ARM-64 (Native)
+Parent Process:        ??? [10721]
+Responsible:           iTerm2 [520]
+User ID:               501
+
+Date/Time:             2021-07-30 12:52:22.986 -0400
+OS Version:            macOS 11.5.1 (20G80)
+Report Version:        12
+Anonymous UUID:        49D5A1A2-04EE-4599-9903-A6BD244A8E78
+
+
+Time Awake Since Boot: 720 seconds
+
+System Integrity Protection: enabled
+
+Crashed Thread:        Unknown
+
+Exception Type:        EXC_CRASH (Code Signature Invalid)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+kernel messages:
+
+Backtrace not available
+
+Unknown thread crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x0000000000000000   x2: 0x0000000000000000   x3: 0x0000000000000000
+    x4: 0x0000000000000000   x5: 0x0000000000000000   x6: 0x0000000000000000   x7: 0x0000000000000000
+    x8: 0x0000000000000000   x9: 0x0000000000000000  x10: 0x0000000000000000  x11: 0x0000000000000000
+   x12: 0x0000000000000000  x13: 0x0000000000000000  x14: 0x0000000000000000  x15: 0x0000000000000000
+   x16: 0x0000000000000000  x17: 0x0000000000000000  x18: 0x0000000000000000  x19: 0x0000000000000000
+   x20: 0x0000000000000000  x21: 0x0000000000000000  x22: 0x0000000000000000  x23: 0x0000000000000000
+   x24: 0x0000000000000000  x25: 0x0000000000000000  x26: 0x0000000000000000  x27: 0x0000000000000000
+   x28: 0x0000000000000000   fp: 0x0000000000000000   lr: 0x0000000000000000
+    sp: 0x0000000000000000   pc: 0x0000000000000000 cpsr: 0x00000000
+   far: 0x0000000000000000  esr: 0x00000000
+
+
+Binary images description not available
+
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+
