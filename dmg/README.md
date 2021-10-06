@@ -27,6 +27,7 @@ Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex..
 ```
 rm  com.example.cryptex.dmg toyboxunstripped.dmg
 ```
+This is how I manually hand-roll a cryptex with toybox unstripped:
 ```
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 ```
