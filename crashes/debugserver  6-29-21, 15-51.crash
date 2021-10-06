@@ -1,0 +1,92 @@
+Incident Identifier: 7A50C3BB-2C27-4443-9193-A88BE021F3E0
+CrashReporter Key:   27edf64d589e9bcaab259afec6efbedd615c1c40
+Hardware Model:      iPhone12,1
+Process:             debugserver [1175]
+Path:                /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.k6Rp0l/usr/bin/debugserver
+Identifier:          debugserver
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      sh [1154]
+Coalition:           com.example.cryptex.sshd [492]
+
+Date/Time:           2021-06-29 15:51:15.8672 -0400
+Launch Time:         2021-06-29 15:51:04.9381 -0400
+OS Version:          iPhone OS 15.0 (19A5281h)
+Release Type:        Beta
+Baseband Version:    2.50.04
+Report Version:      104
+
+Exception Type:  EXC_BREAKPOINT (SIGTRAP)
+Exception Codes: 0x0000000000000001, 0x00000001994654e0
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL; [5]
+Terminating Process: exc handler [1175]
+
+Terminating Process: exc handler [1175]
+Triggered by Thread:  0
+
+Thread 0 name:  main thread Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   libc++.1.dylib                	       0x1994654e0 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) + 60
+1   debugserver                   	       0x1002d0e8c std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) + 56
+2   debugserver                   	       0x1002d0e8c std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) + 56
+3   debugserver                   	       0x1002bde9c RNBRemote::HandlePacket_qHostInfo(char const*) + 496
+4   debugserver                   	       0x1002c7fa0 RNBRemote::HandleReceivedPacket(RNBRemote::PacketEnum*) + 356
+5   debugserver                   	       0x1002a0b8c RNBRunLoopInferiorExecuting(RNBRemote*) + 392
+6   debugserver                   	       0x1002a1fd8 main + 3772
+7   dyld                          	       0x100a9f71c start + 520
+
+Thread 1 name:  exception monitoring thread
+Thread 1:
+0   libsystem_kernel.dylib        	       0x1b7684594 mach_msg_trap + 8
+1   libsystem_kernel.dylib        	       0x1b7684ff4 mach_msg + 76
+2   debugserver                   	       0x1002d8590 MachException::Message::Receive(unsigned int, int, unsigned int, unsigned int) + 188
+3   debugserver                   	       0x1002e7450 MachTask::ExceptionThread(void*) + 340
+4   libsystem_pthread.dylib       	       0x1f235f200 _pthread_start + 148
+5   libsystem_pthread.dylib       	       0x1f235ed5c thread_start + 8
+
+Thread 2:
+0   libsystem_pthread.dylib       	       0x1f235ed48 start_wqthread + 0
+
+Thread 3 name:  kqueue thread
+Thread 3:
+0   libsystem_kernel.dylib        	       0x1b7687d1c kevent + 8
+1   debugserver                   	       0x1002a47f4 kqueue_thread(void*) + 168
+2   libsystem_pthread.dylib       	       0x1f235f200 _pthread_start + 148
+3   libsystem_pthread.dylib       	       0x1f235ed5c thread_start + 8
+
+Thread 4 name:  child process status watcher thread
+Thread 4:
+0   libsystem_kernel.dylib        	       0x1b7685468 __psynch_cvwait + 8
+1   libsystem_pthread.dylib       	       0x1f2362d60 _pthread_cond_wait + 1240
+2   debugserver                   	       0x1002afc44 PThreadEvent::WaitForSetEvents(unsigned int, timespec const*) const + 60
+3   debugserver                   	       0x1002a5b6c DNBProcessWaitForEvents(int, unsigned int, bool, timespec*) + 76
+4   debugserver                   	       0x1002b0894 RNBContext::ThreadFunctionProcessStatus(void*) + 232
+5   libsystem_pthread.dylib       	       0x1f235f200 _pthread_start + 148
+6   libsystem_pthread.dylib       	       0x1f235ed5c thread_start + 8
+
+Thread 5 name:  read gdb-remote packets thread
+Thread 5:
+0   libsystem_kernel.dylib        	       0x1b7686ed8 read + 8
+1   debugserver                   	       0x1002d44c8 RNBSocket::Read(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&) + 112
+2   debugserver                   	       0x1002c8700 RNBRemote::ThreadFunctionReadRemoteData(void*) + 196
+3   libsystem_pthread.dylib       	       0x1f235f200 _pthread_start + 148
+4   libsystem_pthread.dylib       	       0x1f235ed5c thread_start + 8
+
+
+No thread state (register information) available
+
+Binary Images:
+       0x199440000 -        0x1994a9fff libc++.1.dylib arm64e  <f7a780c792db3cf8b8f1641bd5a643e4> /usr/lib/libc++.1.dylib
+       0x100298000 -        0x10030ffff debugserver arm64e  <54186028cc6b35dfaf1be2fd9ab24404> /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.k6Rp0l/usr/bin/debugserver
+       0x100a80000 -        0x100ad7fff dyld arm64e  <9bca7d9fe7ba314d8c36e3396b56ffa6> /usr/lib/dyld
+       0x1b7683000 -        0x1b76b6fff libsystem_kernel.dylib arm64e  <0a00d7f34e8e3baabe575c21e07cc8aa> /usr/lib/system/libsystem_kernel.dylib
+       0x1f235e000 -        0x1f2369fff libsystem_pthread.dylib arm64e  <95d7224a99ce3a7e94ab586530c23f5c> /usr/lib/system/libsystem_pthread.dylib
+
+Error Formulating Crash Report:thread_get_state(PAGEIN) returned 0x10000003: (ipc/send) invalid destination port
+thread_get_state(EXCEPTION) returned 0x10000003: (ipc/send) invalid destination port
+thread_get_state(FLAVOR) returned 0x10000003: (ipc/send) invalid destination port
+
+EOF
+
