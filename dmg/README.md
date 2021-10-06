@@ -9,22 +9,13 @@ I've updated ToyBox Unstripped too!
 
 Everything in this RTFM comes from the Makefile. If you do not recognize the manual commands below, look at the Makefile and this will be obvious. Apple failed to include Toybox Unstripped Binary to aid in debugging.
 
-# How does the Installation of a Hand-Rolled DMG work?
+# Start of Installation of a Hand-Rolled DMG
 ```
 Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then do your workflow with cryptexctl. 
 ```
 M1 T8010 + X86_64 Cryptex Installation 
 ------
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
-```
-uname -a
-Darwin xsss-MacBook-Pro.local 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64 x86_64
-```
-iPhone 12,1
-```
-uname -a
-Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Sun Jun 20 22:50:32 PDT 2021; root:xnu-7195.140.39.0.1~13/RELEASE_ARM64_T8030 iPhone12,1
-```
 This is where I'm dropping you at in the Build Pipeline:
 ```
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
