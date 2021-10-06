@@ -118,9 +118,9 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.
 ```
 created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/toyboxunstripped.dmg
 ```
-Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... this is the whole process.. you have a DMG, so lets get it installed. I start off doing this for you.....
+Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... this is the whole process.. you have a DMG, so lets get it installed. I start off doing this ....
 ```
-rm  com.example.cryptex.dmg
+rm  com.example.cryptex.dmg toyboxunstripped.dmg
 ```
 ```
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
