@@ -1,4 +1,4 @@
-# SRD Cohort Example DMG for Crytpex
+# SRD Cohort Example DMG for Crytpex with Toybox Unstripped
 
 Jumpstart your Research with Example DMG Files for a Cryptex
 -----------
