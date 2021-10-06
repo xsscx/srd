@@ -73,12 +73,3 @@ codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryp
 ```
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
-
-```
-id -n
-uid=6315365(root) gid=0(wheel) groups=0(wheel),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),20(staff),29(certusers),80(admin)
-```
-```
-id -r
-uid=78667109(root) gid=0(wheel) groups=0(wheel),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),20(staff),29(certusers),80(admin)
-```
