@@ -153,7 +153,7 @@ com.example.cryptex
 ```
 You now have the ToyBox Unstripped Binary that has Symbols. They may even work with the latest iOS Beta :-)
 
-This is my Proof of Work that I have completed the above steps and verified that the installed cryptex contains toybox unstripped:
+# This is my Proof of Work that I have completed the above steps and verified that the installed cryptex contains toybox unstripped:
 ```
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox | wc -l
      876
