@@ -152,6 +152,17 @@ com.example.cryptex
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.8Ug7XY
 ```
 You now have the ToyBox Unstripped Binary that has Symbols. They may even work with the latest iOS Beta :-)
+
+This is my Proof of Work that I have completed the above steps and verified that the installed cryptex contains toybox unstripped:
+```
+nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox | wc -l
+     876
+```
+As you can see above, the toybox unstripped has 876 results from nm -a output. That is compared with the typical toybox binary that is installed in the SRD Makefile as shown below:
+```
+nm -a ~/srd/example-cryptex/src/toybox/toybox-src/toybox | wc -l
+     258
+```
 ```
 id -n
 uid=6315365(root) gid=0(wheel) groups=0(wheel),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),20(staff),29(certusers),80(admin)
