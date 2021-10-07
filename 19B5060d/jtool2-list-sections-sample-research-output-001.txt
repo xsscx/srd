@@ -1,0 +1,88 @@
+jtool2 -l /private/preboot/5B9292BD97BF2C2D35B301AAEC8F324899ABAEA67E1696579A7DB4E4C5D80EF00CB6F44278922789D2D06307CFC81EA4/System/Library/Caches/com.apple.kernelcaches/kernelcache
+This is a BVX kernelcache - I support that now
+opened companion file kernelcache.ARM64.9696EA20-CC60-3F8E-9711-9A034F35CB5D
+LC 00: LC_SEGMENT_64         	 Mem: 0xfffffff007004000-0xfffffff0077f0000	__TEXT
+	Mem: 0xfffffff007008e00-0xfffffff00733b156		__TEXT.__const
+	Mem: 0xfffffff00733b156-0xfffffff00772b34e		__TEXT.__cstring	(C-String Literals)
+	Mem: 0xfffffff00772b34e-0xfffffff0077ef369		__TEXT.__os_log
+	Mem: 0xfffffff0077ef369-0xfffffff0077ef389		__TEXT.__fips_hmacs
+	Mem: 0xfffffff0077ef389-0xfffffff0077ef875		__TEXT.__info_plist
+	Mem: 0xfffffff0077ef876-0xfffffff0077ef8e0		__TEXT.__ustring
+	Mem: 0xfffffff0077ef8e0-0xfffffff0077efc5c		__TEXT.__thread_starts
+	Mem: 0xfffffff0077efc60-0xfffffff0077efff8		__TEXT.__eh_frame
+LC 01: LC_SEGMENT_64         	 Mem: 0xfffffff0077f0000-0xfffffff007bb8000	__DATA_CONST
+	Mem: 0xfffffff0077f0000-0xfffffff0077f0440		__DATA_CONST.__auth_ptr
+	Mem: 0xfffffff0077f0440-0xfffffff0077f06e0		__DATA_CONST.__mod_init_func	(Module Init Function Ptrs)
+	Mem: 0xfffffff0077f06e0-0xfffffff0077f3f38		__DATA_CONST.__kmod_init	(Module Init Function Ptrs)
+	Mem: 0xfffffff0077f3f38-0xfffffff0077f7610		__DATA_CONST.__kmod_term	(Module Termination Function Ptrs)
+	Mem: 0xfffffff0077f8000-0xfffffff007b70168		__DATA_CONST.__const
+	Mem: 0xfffffff007b70168-0xfffffff007bb5668		__DATA_CONST.__kalloc_type
+	Mem: 0xfffffff007bb5670-0xfffffff007bb5790		__DATA_CONST.__hib_const
+	Mem: 0xfffffff007bb5790-0xfffffff007bb57b0		__DATA_CONST.__img4_rt
+LC 02: LC_SEGMENT_64         	 Mem: 0xfffffff007bb8000-0xfffffff009cc4000	__TEXT_EXEC
+	Mem: 0xfffffff007bb8000-0xfffffff009cc0210		__TEXT_EXEC.__text	(Normal)
+	Mem: 0xfffffff009cc0220-0xfffffff009cc1230		__TEXT_EXEC.__hib_text	(Normal)
+LC 03: LC_SEGMENT_64         	 Mem: 0xfffffff009cc4000-0xfffffff009cc8000	__KLD
+	Mem: 0xfffffff009cc4000-0xfffffff009cc5828		__KLD.__text
+LC 04: LC_SEGMENT_64         	 Mem: 0xfffffff009cc8000-0xfffffff009ce8000	__PPLTEXT
+	Mem: 0xfffffff009cc8000-0xfffffff009ce588c		__PPLTEXT.__text	(Normal)
+LC 05: LC_SEGMENT_64         	 Mem: 0xfffffff009ce8000-0xfffffff009cec000	__PPLDATA_CONST
+	Mem: 0xfffffff009ce8000-0xfffffff009ce8120		__PPLDATA_CONST.__const
+LC 06: LC_SEGMENT_64         	 Mem: 0xfffffff009cec000-0xfffffff009cf0000	__LAST
+	Mem: 0xfffffff009cec000-0xfffffff009cec008		__LAST.__pinst
+	Mem: 0xfffffff009cec008-0xfffffff009cec010		__LAST.__mod_init_func	(Module Init Function Ptrs)
+	Mem: 0xfffffff009cec010-0xfffffff009cec010		__LAST.__last	(Zero Fill)
+LC 07: LC_SEGMENT_64         	 Mem: 0xfffffff009cf0000-0xfffffff009cf4000	__PPLDATA
+	Mem: 0xfffffff009cf0000-0xfffffff009cf3770		__PPLDATA.__data
+LC 08: LC_SEGMENT_64         	 Mem: 0xfffffff009cf4000-0xfffffff009cf8000	__KLDDATA
+	Mem: 0xfffffff009cf4000-0xfffffff009cf46fe		__KLDDATA.__cstring	(C-String Literals)
+	Mem: 0xfffffff009cf4700-0xfffffff009cf4778		__KLDDATA.__const
+	Mem: 0xfffffff009cf4778-0xfffffff009cf4780		__KLDDATA.__mod_init_func	(Module Init Function Ptrs)
+	Mem: 0xfffffff009cf4780-0xfffffff009cf4788		__KLDDATA.__mod_term_func	(Module Termination Function Ptrs)
+	Mem: 0xfffffff009cf4788-0xfffffff009cf4789		__KLDDATA.__bss	(Zero Fill)
+LC 09: LC_SEGMENT_64         	 Mem: 0xfffffff009cf8000-0xfffffff009f60000	__DATA
+	Mem: 0xfffffff009cf8000-0xfffffff009cf8008		__DATA.__objc_imageinfo
+	Mem: 0xfffffff009cfc000-0xfffffff009e88c30		__DATA.__data
+	Mem: 0xfffffff009e88c30-0xfffffff009e92710		__DATA.__lock_grp
+	Mem: 0xfffffff009e92780-0xfffffff009e95530		__DATA.__percpu
+	Mem: 0xfffffff009e96000-0xfffffff009f11bf0		__DATA.__common	(Zero Fill)
+	Mem: 0xfffffff009f12000-0xfffffff009f5e815		__DATA.__bss	(Zero Fill)
+LC 10: LC_SEGMENT_64         	 Mem: 0xfffffff009f60000-0xfffffff009fa4000	__BOOTDATA
+	Mem: 0xfffffff009f60000-0xfffffff009f6eb20		__BOOTDATA.__init_entry_set
+	Mem: 0xfffffff009f70000-0xfffffff009f889b8		__BOOTDATA.__init
+	Mem: 0xfffffff009f8c000-0xfffffff009fa4000		__BOOTDATA.__data
+LC 11: LC_SEGMENT_64         	 Mem: 0xfffffff009fa4000-0xfffffff00a0c8000	__PRELINK_INFO
+	Mem: 0xfffffff009fa4000-0xfffffff009fa4740		__PRELINK_INFO.__kmod_info
+	Mem: 0xfffffff009fa4740-0xfffffff009fa4e88		__PRELINK_INFO.__kmod_start
+	Mem: 0xfffffff009fa4e88-0xfffffff00a0c5887		__PRELINK_INFO.__info
+LC 12: LC_SEGMENT_64         	 Mem: 0xfffffff004004000-0xfffffff004004000	__PRELINK_TEXT
+	Mem: 0xfffffff004004000-0xfffffff004004000		__PRELINK_TEXT.__text
+LC 13: LC_SEGMENT_64         	 Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000	__PLK_TEXT_EXEC
+	Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000		__PLK_TEXT_EXEC.__text
+LC 14: LC_SEGMENT_64         	 Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000	__PRELINK_DATA
+	Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000		__PRELINK_DATA.__data
+LC 15: LC_SEGMENT_64         	 Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000	__PLK_DATA_CONST
+	Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000		__PLK_DATA_CONST.__data
+LC 16: LC_SEGMENT_64         	 Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000	__PLK_LLVM_COV
+	Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000		__PLK_LLVM_COV.__llvm_covmap
+LC 17: LC_SEGMENT_64         	 Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000	__PLK_LINKEDIT
+	Mem: 0xfffffff00a0c8000-0xfffffff00a0c8000		__PLK_LINKEDIT.__data
+LC 18: LC_SEGMENT_64         	 Mem: 0xfffffff00a0c8000-0xfffffff00a0f0588	__LINKEDIT
+LC 19: LC_SYMTAB
+LC 20: LC_DYSYMTAB
+	   No local symbols
+	   No external symbols
+	   No undefined symbols
+	   No TOC
+	   No modtab
+	   No Indirect symbols
+LC 21: LC_UUID               	UUID: 9696EA20-CC60-3F8E-9711-9A034F35CB5D
+LC 22: LC_BUILD_VERSION      	Build Version:           Platform: iOS 15.1.0 SDK: 15
+LC 23: LC_SOURCE_VERSION     	Source Version:          2238.40.12.0.1
+LC 24: LC_UNIXTHREAD         	Entry Point:             0xfffffff0083384e8
+LC 25: LC_FUNCTION_STARTS    	Offset:  50315264, Size: 165256 (0x2ffc000-0x3024588)
+# uname -a
+Darwin iPhone-11 21.1.0 Darwin Kernel Version 21.1.0: Wed Sep 29 23:45:39 PDT 2021; root:xnu-8019.40.96.0.2~9/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+# date
+Wed Oct  6 20:30:06 EDT 2021
+#
