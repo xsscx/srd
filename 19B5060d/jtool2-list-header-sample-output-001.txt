@@ -1,0 +1,23 @@
+jtool2 -h /private/preboot/5B9292BD97BF2C2D35B301AAEC8F324899ABAEA67E1696579A7DB4E4C5D80EF00CB6F44278922789D2D06307CFC81EA4/System/Library/Caches/com.apple.kernelcaches/kernelcache
+This is a BVX kernelcache - I support that now
+opened companion file kernelcache.ARM64.9696EA20-CC60-3F8E-9711-9A034F35CB5D
+Magic:	64-bit MachO (Little Endian)
+Type:	executable
+CPU:	Unknown - please tell J! (0x100000c/0xc0000002)
+Cmds:	26
+Size:	5704
+Flags:	0x200001
+# memctl
+Cannot read termcap database;
+using dumb terminal settings.
+memctl> i
+release:            21.1.0
+version:            root:xnu-8019.40.96.0.2~9/RELEASE_ARM64_T8030
+machine:            iPhone12,1
+cpu type:           0x100000c  (arm64e)
+cpu subtype:        0x2  (ARM64E)
+cpus:               6 cores / 6 threads
+memory:             0xf0a44000  (3.8G)
+page size:          0x4000  (16K)
+can has debugger:   no
+memctl> quit
