@@ -1,0 +1,1500 @@
+fffffff007bbdaf4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bbe324	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bc5400	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bc5850	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bc5964	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bc5bbc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bc5f20	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bea8b8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007beaa38	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bead78	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007beb1d8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007becb9c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bece34	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007becf60	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bed0ac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bed218	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bed394	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bed75c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bed860	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bedaf4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bedd14	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bedf78	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bee074	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007beeb08	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007beed18	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007beee0c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bef228	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bef308	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bef60c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bef6b0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bef814	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bf41d8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bf4a90	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bf5558	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007bf5714	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0904c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c09834	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c098d0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0ad6c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0bfbc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0bfd0	0xd51b4236  MSR   	DAIF, X22              	X -  (22 0x0)
+fffffff007c0c104	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0c11c	0xd51b4236  MSR   	DAIF, X22              	X -  (22 0x0)
+fffffff007c0d330	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0d3ec	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0d474	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0da28	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c0dacc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1210c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c123f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c124b8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c165d4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c172e8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c176ec	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c17f00	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c180b8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c180f8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c19c50	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c19d44	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1a270	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1a4ac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1a588	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1a860	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1aedc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1b5d8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1be60	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1bf24	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1d1f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1d680	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1d72c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c1e914	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c20d08	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c21054	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c212e0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c21554	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c216f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c21924	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c21c58	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c21da4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c21f70	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c24028	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c24e24	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c24fa8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c252a4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c265e8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2686c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c26a1c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c26ea0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c26ffc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c27eb4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c29b8c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c29c84	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2a048	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2a3b0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2a6cc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2a924	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2abfc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ad40	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ae24	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2b2a8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2b3fc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2b530	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2b6a0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2b890	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ba04	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2c640	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2c718	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2dc04	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2dfac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2e0d8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2e634	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2e7d4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2e8c4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ea30	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2eb88	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ed40	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ee6c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2f140	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2f388	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2f6fc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2f944	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2fcb8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2fdd4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c2ff34	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c318d4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c31950	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c319b4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c31dd4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c31f4c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c31fe8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3261c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c334c0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3364c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c338cc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c33bf0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c33cf8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c33ec4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c34178	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3bd74	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3d298	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3de70	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3e1c8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3e288	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3e344	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c3e470	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c44d74	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c45198	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c45230	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c45340	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c45df4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47370	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47400	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c474ac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47568	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47614	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47b9c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47df0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c47efc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c48ad4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c48c18	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c48e90	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c49140	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c49378	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c49510	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c499d0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c49b88	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4a780	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4a7dc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4a940	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4aa1c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4b1cc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4bb24	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4bcf4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4bee8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4c0b4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4c7ec	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4c938	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4cc60	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4d4dc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4d7e0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4d928	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4daac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4dd38	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4de64	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4e0a8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4e268	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4e378	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4e494	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4f998	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4fd7c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c4ffcc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c50214	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c504a8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c50594	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c507fc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c516d8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51768	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51820	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5189c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51958	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c519c8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51b78	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51d34	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51e00	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c51f6c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52074	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5219c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c522f0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52518	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52658	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5275c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52888	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52a6c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52b58	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52c20	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52c7c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52ce4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52d78	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c52ee0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c53248	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c533b8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c537fc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c53870	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c53b24	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c53d40	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5415c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c54288	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c54388	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c54474	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5455c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c54644	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c54718	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c547f0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c54cf0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5522c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c55f68	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c56044	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c569a8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c56bfc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c57350	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c579a4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c57c9c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c57da0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c57ed0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c58f40	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5903c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c59248	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c594b0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c595ac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5975c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c59994	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5b15c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5b294	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5be9c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5c094	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5c204	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5c37c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5c51c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5d338	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5d394	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5d588	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5f5c0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5f6e0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5f850	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5fa40	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5fc10	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c5fddc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c60304	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c6c060	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c6c2ec	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c6d428	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c6d9f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c6db2c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c6db58	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007c818b4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007cdb960	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d08710	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d08b0c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d08ed4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d0b448	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d0b460	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d0b9f8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d0de9c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d0e614	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d0e804	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d0fe54	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d0ffe4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d10070	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d10140	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d10218	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d102bc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d1148c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d114a0	0xd51b4234  MSR   	DAIF, X20              	X -  (20 0x0)
+fffffff007d1fb78	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d1fbd8	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d1fc60	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d1fc98	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d21fa4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d21fc8	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff007d237f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d23810	0xd51b4233  MSR   	DAIF, X19              	X -  (19 0x0)
+fffffff007d24130	0xd51ef1a8  MSR   	S3_6_C15_C1_5, X8      	X -  (8 0x140)
+fffffff007d2522c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d25264	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d252e4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d25344	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d26af0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d26b04	0xd51b4233  MSR   	DAIF, X19              	X -  (19 0x0)
+fffffff007d26b64	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d26b88	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff007d26ba0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d26bc4	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff007d27d6c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d27d90	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff007d27da8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d27dcc	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff007d27de4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d27e08	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff007d28460	0xd51bd060  MSR   	TPIDRRO_EL0, X0        	X - Thread Pointer/ID Register (0 0x0)
+fffffff007d29050	0xd51cf269  MSR   	ARM64_REG_KTRR_LOWER_EL1, X9	X -  (9 0xfffffff00780bb18)
+fffffff007d29054	0xd51cf28a  MSR   	ARM64_REG_KTRR_UPPER_EL1, X10	X -  (10 0xfffffff00780bb20)
+fffffff007d2906c	0xd51cf2a9  MSR   	S3_4_C15_C2_5, X9      	X -  (9 0x12)
+fffffff007d29074	0xd51cf249  MSR   	ARM64_REG_KTRR_LOCK_EL1, X9	X -  (9 0x1)
+fffffff007d292a0	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d292b4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d294f8	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d29508	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d295ac	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d295b4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d295e8	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d295f8	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d2969c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d296a4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d29744	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d2974c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d29798	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d297b0	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d29838	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d2984c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d298f0	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0x7003400)
+fffffff007d29a28	0xd50343ff  MSR   	DAIFClr, #3            	X -  (0 0x0)
+fffffff007d29a50	0xd50343df  MSR   	DAIFSet, #3            	X -  (0 0x0)
+fffffff007d29bdc	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0x7003400)
+fffffff007d2a8cc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2a9b8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2ab20	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2adc4	0xd51df009  MSR   	ARM64_REG_LSU_ERR_STS, X9	X -  (9 0x20000000)
+fffffff007d2adf0	0xd51df008  MSR   	ARM64_REG_LSU_ERR_STS, X8	X -  (8 0x1c0)
+fffffff007d2ae4c	0xd51df028  MSR   	S3_5_C15_C0_1, X8      	X -  (8 0x20000190)
+fffffff007d2aecc	0xd51df028  MSR   	S3_5_C15_C0_1, X8      	X -  (8 0x1)
+fffffff007d2b17c	0xd51df009  MSR   	ARM64_REG_LSU_ERR_STS, X9	X -  (9 0x10000000)
+fffffff007d2b1d0	0xd51df028  MSR   	S3_5_C15_C0_1, X8      	X -  (8 0x10000350)
+fffffff007d2b934	0xd51a000b  MSR   	..?.., X11             	X -  (11 0x0)
+fffffff007d2b9ec	0xd51a000d  MSR   	..?.., X13             	X -  (13 0x2)
+fffffff007d2ba4c	0xd51a0008  MSR   	..?.., X8              	X -  (8 0x1)
+fffffff007d2c768	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2c858	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2c960	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2c9e0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d2d2b4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d2d310	0xd518e108  MSR   	CNTKCTL_EL1, X8        	X - Counter-timer Kernel Control register (8 0xfffffff00782c34f)
+fffffff007d2d3f4	0xd51be328  MSR   	..?.., X8              	X -  (8 0x1)
+fffffff007d2d3fc	0xd51be228  MSR   	CNTP_CTL_EL0, X8       	X - Counter-timer Physical Timer Control Register (8 0x2)
+fffffff007d2d430	0xd51be328  MSR   	..?.., X8              	X -  (8 0x1)
+fffffff007d2d438	0xd51be228  MSR   	CNTP_CTL_EL0, X8       	X - Counter-timer Physical Timer Control Register (8 0x2)
+fffffff007d2d520	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d2d540	0xd50344ff  MSR   	DAIFClr, #4            	X -  (0 0x0)
+fffffff007d2d54c	0xd51be328  MSR   	..?.., X8              	X -  (8 0x1)
+fffffff007d2d554	0xd51be228  MSR   	CNTP_CTL_EL0, X8       	X - Counter-timer Physical Timer Control Register (8 0x2)
+fffffff007d32024	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d32044	0xd51b4228  MSR   	DAIF, X8               	X -  (8 0x158)
+fffffff007d33d20	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d33d60	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+	_panic("MSR/MRS trap (ESR 0x%x) from kernel @%s:%d");
+	_panic("MSR/MRS trap (ESR 0x%x) from 32-bit state @%s:%d");
+fffffff007d34a18	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d34a6c	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d34ae4	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d34b38	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d34d74	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d35598	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d355d8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d35730	0xd51dfa3f  MSR   	S3_5_C15_C10_1, XZR    	X -  (31 0x0)
+fffffff007d35914	0xd519f009  MSR   	S3_1_C15_C0_0, X9      	X -  (9 0x0)
+fffffff007d3594c	0xd51df133  MSR   	S3_5_C15_C1_1, X19     	X -  (19 0x0)
+fffffff007d35d30	0xd51a0008  MSR   	..?.., X8              	X -  (8 0x0)
+fffffff007d36370	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d363d4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36854	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d368a0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d369f0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36a40	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36c5c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36ce8	0xd50347ff  MSR   	DAIFClr, #7            	X -  (0 0x0)
+fffffff007d36cf8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36d4c	0xd50347ff  MSR   	DAIFClr, #7            	X -  (0 0x0)
+fffffff007d36d5c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36db0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d36e3c	0xd50347ff  MSR   	DAIFClr, #7            	X -  (0 0x0)
+fffffff007d36e4c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3717c	0xd50347ff  MSR   	DAIFClr, #7            	X -  (0 0x0)
+fffffff007d3718c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d37738	0xd51df008  MSR   	ARM64_REG_LSU_ERR_STS, X8	X -  (8 0x0)
+fffffff007d37748	0xd51df029  MSR   	S3_5_C15_C0_1, X9      	X -  (9 0x0)
+fffffff007d377c8	0xd51df328  MSR   	S3_5_C15_C3_1, X8      	X -  (8 0x0)
+fffffff007d377f8	0xd51df008  MSR   	ARM64_REG_LSU_ERR_STS, X8	X -  (8 0x20000000)
+fffffff007d3780c	0xd51df028  MSR   	S3_5_C15_C0_1, X8      	X -  (8 0x20000000)
+fffffff007d37830	0xd51df008  MSR   	ARM64_REG_LSU_ERR_STS, X8	X -  (8 0x10000000)
+fffffff007d37844	0xd51df028  MSR   	S3_5_C15_C0_1, X8      	X -  (8 0x10000000)
+fffffff007d378c0	0xd50343ff  MSR   	DAIFClr, #3            	X -  (0 0x0)
+fffffff007d379c0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d379dc	0xd51b4233  MSR   	DAIF, X19              	X -  (19 0x0)
+fffffff007d37ad0	0xd51cf0a8  MSR   	S3_4_C15_C0_5, X8      	X -  (8 0x30001000000)
+fffffff007d37fbc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d38070	0xd51df329  MSR   	S3_5_C15_C3_1, X9      	X -  (9 0x0)
+fffffff007d38a54	0xd51bd048  MSR   	TPIDR_EL0, X8          	X - Thread Pointer/ID Register (8 0xfffffff00782c6d8)
+fffffff007d38a58	0xd51bd07f  MSR   	TPIDRRO_EL0, XZR       	X - Thread Pointer/ID Register (31 0xfffffffffffffee0)
+fffffff007d39df0	0xd51be308  MSR   	..?.., X8              	X -  (8 0x0)
+fffffff007d39f34	0xd51be328  MSR   	..?.., X8              	X -  (8 0x1)
+fffffff007d39f3c	0xd51be228  MSR   	CNTP_CTL_EL0, X8       	X - Counter-timer Physical Timer Control Register (8 0x2)
+fffffff007d39f70	0xd518e108  MSR   	CNTKCTL_EL1, X8        	X - Counter-timer Kernel Control register (8 0xfffffff00782c34f)
+fffffff007d3af0c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3cc44	0xd51cf188  MSR   	S3_4_C15_C1_4, X8      	X -  (8 0xffffffff80000000)
+fffffff007d3cc60	0xd51cf188  MSR   	S3_4_C15_C1_4, X8      	X -  (8 0x0)
+fffffff007d3ccdc	0xd51cf188  MSR   	S3_4_C15_C1_4, X8      	X -  (8 0xffffffff80000000)
+fffffff007d3cde4	0xd51cf188  MSR   	S3_4_C15_C1_4, X8      	X -  (8 0xffffffff80000410)
+fffffff007d3ce0c	0xd51cf188  MSR   	S3_4_C15_C1_4, X8      	X -  (8 0xffffffff80000410)
+fffffff007d3ce40	0xd51cf188  MSR   	S3_4_C15_C1_4, X8      	X -  (8 0x1440)
+fffffff007d3ce98	0xd51dfa3f  MSR   	S3_5_C15_C10_1, XZR    	X -  (31 0xffffffffffffffc0)
+fffffff007d3cfa4	0xd51ef1a8  MSR   	S3_6_C15_C1_5, X8      	X -  (8 0x140)
+fffffff007d3d2a0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3d300	0xd5100f89  MSR   	..?.., X9              	X -  (9 0xa0)
+fffffff007d3d308	0xd5100fa9  MSR   	..?.., X9              	X -  (9 0x120)
+fffffff007d3d314	0xd5100e89  MSR   	..?.., X9              	X -  (9 0x98)
+fffffff007d3d31c	0xd5100ea9  MSR   	..?.., X9              	X -  (9 0x118)
+fffffff007d3d328	0xd5100d89  MSR   	..?.., X9              	X -  (9 0x90)
+fffffff007d3d330	0xd5100da9  MSR   	..?.., X9              	X -  (9 0x110)
+fffffff007d3d33c	0xd5100c89  MSR   	..?.., X9              	X -  (9 0x88)
+fffffff007d3d344	0xd5100ca9  MSR   	..?.., X9              	X -  (9 0x108)
+fffffff007d3d350	0xd5100b89  MSR   	..?.., X9              	X -  (9 0x80)
+fffffff007d3d358	0xd5100ba9  MSR   	..?.., X9              	X -  (9 0x100)
+fffffff007d3d364	0xd5100a89  MSR   	..?.., X9              	X -  (9 0x78)
+fffffff007d3d36c	0xd5100aa9  MSR   	..?.., X9              	X -  (9 0xf8)
+fffffff007d3d378	0xd5100989  MSR   	..?.., X9              	X -  (9 0x70)
+fffffff007d3d380	0xd51009a9  MSR   	..?.., X9              	X -  (9 0xf0)
+fffffff007d3d38c	0xd5100889  MSR   	..?.., X9              	X -  (9 0x68)
+fffffff007d3d394	0xd51008a9  MSR   	..?.., X9              	X -  (9 0xe8)
+fffffff007d3d3a0	0xd5100789  MSR   	..?.., X9              	X -  (9 0x60)
+fffffff007d3d3a8	0xd51007a9  MSR   	..?.., X9              	X -  (9 0xe0)
+fffffff007d3d3b4	0xd5100689  MSR   	..?.., X9              	X -  (9 0x58)
+fffffff007d3d3bc	0xd51006a9  MSR   	..?.., X9              	X -  (9 0xd8)
+fffffff007d3d3c8	0xd5100589  MSR   	..?.., X9              	X -  (9 0x50)
+fffffff007d3d3d0	0xd51005a9  MSR   	..?.., X9              	X -  (9 0xd0)
+fffffff007d3d3dc	0xd5100489  MSR   	..?.., X9              	X -  (9 0x48)
+fffffff007d3d3e4	0xd51004a9  MSR   	..?.., X9              	X -  (9 0xc8)
+fffffff007d3d3f0	0xd5100389  MSR   	..?.., X9              	X -  (9 0x40)
+fffffff007d3d3f8	0xd51003a9  MSR   	..?.., X9              	X -  (9 0xc0)
+fffffff007d3d404	0xd5100289  MSR   	..?.., X9              	X -  (9 0x38)
+fffffff007d3d40c	0xd51002a9  MSR   	..?.., X9              	X -  (9 0xb8)
+fffffff007d3d418	0xd5100189  MSR   	..?.., X9              	X -  (9 0x30)
+fffffff007d3d420	0xd51001a9  MSR   	..?.., X9              	X -  (9 0xb0)
+fffffff007d3d42c	0xd5100089  MSR   	..?.., X9              	X -  (9 0x28)
+fffffff007d3d434	0xd51000a9  MSR   	..?.., X9              	X -  (9 0xa8)
+fffffff007d3d474	0xd5100fc9  MSR   	..?.., X9              	X -  (9 0x1a0)
+fffffff007d3d47c	0xd5100fe9  MSR   	..?.., X9              	X -  (9 0x220)
+fffffff007d3d488	0xd5100ec9  MSR   	..?.., X9              	X -  (9 0x198)
+fffffff007d3d490	0xd5100ee9  MSR   	..?.., X9              	X -  (9 0x218)
+fffffff007d3d49c	0xd5100dc9  MSR   	..?.., X9              	X -  (9 0x190)
+fffffff007d3d4a4	0xd5100de9  MSR   	..?.., X9              	X -  (9 0x210)
+fffffff007d3d4b0	0xd5100cc9  MSR   	..?.., X9              	X -  (9 0x188)
+fffffff007d3d4b8	0xd5100ce9  MSR   	..?.., X9              	X -  (9 0x208)
+fffffff007d3d4c4	0xd5100bc9  MSR   	..?.., X9              	X -  (9 0x180)
+fffffff007d3d4cc	0xd5100be9  MSR   	..?.., X9              	X -  (9 0x200)
+fffffff007d3d4d8	0xd5100ac9  MSR   	..?.., X9              	X -  (9 0x178)
+fffffff007d3d4e0	0xd5100ae9  MSR   	..?.., X9              	X -  (9 0x1f8)
+fffffff007d3d4ec	0xd51009c9  MSR   	..?.., X9              	X -  (9 0x170)
+fffffff007d3d4f4	0xd51009e9  MSR   	..?.., X9              	X -  (9 0x1f0)
+fffffff007d3d500	0xd51008c9  MSR   	..?.., X9              	X -  (9 0x168)
+fffffff007d3d508	0xd51008e9  MSR   	..?.., X9              	X -  (9 0x1e8)
+fffffff007d3d514	0xd51007c9  MSR   	..?.., X9              	X -  (9 0x160)
+fffffff007d3d51c	0xd51007e9  MSR   	..?.., X9              	X -  (9 0x1e0)
+fffffff007d3d528	0xd51006c9  MSR   	..?.., X9              	X -  (9 0x158)
+fffffff007d3d530	0xd51006e9  MSR   	..?.., X9              	X -  (9 0x1d8)
+fffffff007d3d53c	0xd51005c9  MSR   	..?.., X9              	X -  (9 0x150)
+fffffff007d3d544	0xd51005e9  MSR   	..?.., X9              	X -  (9 0x1d0)
+fffffff007d3d550	0xd51004c9  MSR   	..?.., X9              	X -  (9 0x148)
+fffffff007d3d558	0xd51004e9  MSR   	..?.., X9              	X -  (9 0x1c8)
+fffffff007d3d564	0xd51003c9  MSR   	..?.., X9              	X -  (9 0x140)
+fffffff007d3d56c	0xd51003e9  MSR   	..?.., X9              	X -  (9 0x1c0)
+fffffff007d3d578	0xd51002c9  MSR   	..?.., X9              	X -  (9 0x138)
+fffffff007d3d580	0xd51002e9  MSR   	..?.., X9              	X -  (9 0x1b8)
+fffffff007d3d58c	0xd51001c9  MSR   	..?.., X9              	X -  (9 0x130)
+fffffff007d3d594	0xd51001e9  MSR   	..?.., X9              	X -  (9 0x1b0)
+fffffff007d3d5a0	0xd51000c9  MSR   	..?.., X9              	X -  (9 0x128)
+fffffff007d3d5a8	0xd51000e9  MSR   	..?.., X9              	X -  (9 0x1a8)
+fffffff007d3d664	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3d6a4	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3d7b4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3d814	0xd5100f89  MSR   	..?.., X9              	X -  (9 0x64)
+fffffff007d3d81c	0xd5100fa9  MSR   	..?.., X9              	X -  (9 0xa4)
+fffffff007d3d828	0xd5100e89  MSR   	..?.., X9              	X -  (9 0x60)
+fffffff007d3d830	0xd5100ea9  MSR   	..?.., X9              	X -  (9 0xa0)
+fffffff007d3d83c	0xd5100d89  MSR   	..?.., X9              	X -  (9 0x5c)
+fffffff007d3d844	0xd5100da9  MSR   	..?.., X9              	X -  (9 0x9c)
+fffffff007d3d850	0xd5100c89  MSR   	..?.., X9              	X -  (9 0x58)
+fffffff007d3d858	0xd5100ca9  MSR   	..?.., X9              	X -  (9 0x98)
+fffffff007d3d864	0xd5100b89  MSR   	..?.., X9              	X -  (9 0x54)
+fffffff007d3d86c	0xd5100ba9  MSR   	..?.., X9              	X -  (9 0x94)
+fffffff007d3d878	0xd5100a89  MSR   	..?.., X9              	X -  (9 0x50)
+fffffff007d3d880	0xd5100aa9  MSR   	..?.., X9              	X -  (9 0x90)
+fffffff007d3d88c	0xd5100989  MSR   	..?.., X9              	X -  (9 0x4c)
+fffffff007d3d894	0xd51009a9  MSR   	..?.., X9              	X -  (9 0x8c)
+fffffff007d3d8a0	0xd5100889  MSR   	..?.., X9              	X -  (9 0x48)
+fffffff007d3d8a8	0xd51008a9  MSR   	..?.., X9              	X -  (9 0x88)
+fffffff007d3d8b4	0xd5100789  MSR   	..?.., X9              	X -  (9 0x44)
+fffffff007d3d8bc	0xd51007a9  MSR   	..?.., X9              	X -  (9 0x84)
+fffffff007d3d8c8	0xd5100689  MSR   	..?.., X9              	X -  (9 0x40)
+fffffff007d3d8d0	0xd51006a9  MSR   	..?.., X9              	X -  (9 0x80)
+fffffff007d3d8dc	0xd5100589  MSR   	..?.., X9              	X -  (9 0x3c)
+fffffff007d3d8e4	0xd51005a9  MSR   	..?.., X9              	X -  (9 0x7c)
+fffffff007d3d8f0	0xd5100489  MSR   	..?.., X9              	X -  (9 0x38)
+fffffff007d3d8f8	0xd51004a9  MSR   	..?.., X9              	X -  (9 0x78)
+fffffff007d3d904	0xd5100389  MSR   	..?.., X9              	X -  (9 0x34)
+fffffff007d3d90c	0xd51003a9  MSR   	..?.., X9              	X -  (9 0x74)
+fffffff007d3d918	0xd5100289  MSR   	..?.., X9              	X -  (9 0x30)
+fffffff007d3d920	0xd51002a9  MSR   	..?.., X9              	X -  (9 0x70)
+fffffff007d3d92c	0xd5100189  MSR   	..?.., X9              	X -  (9 0x2c)
+fffffff007d3d934	0xd51001a9  MSR   	..?.., X9              	X -  (9 0x6c)
+fffffff007d3d940	0xd5100089  MSR   	..?.., X9              	X -  (9 0x28)
+fffffff007d3d948	0xd51000a9  MSR   	..?.., X9              	X -  (9 0x68)
+fffffff007d3d988	0xd5100fc9  MSR   	..?.., X9              	X -  (9 0xe4)
+fffffff007d3d990	0xd5100fe9  MSR   	..?.., X9              	X -  (9 0x124)
+fffffff007d3d99c	0xd5100ec9  MSR   	..?.., X9              	X -  (9 0xe0)
+fffffff007d3d9a4	0xd5100ee9  MSR   	..?.., X9              	X -  (9 0x120)
+fffffff007d3d9b0	0xd5100dc9  MSR   	..?.., X9              	X -  (9 0xdc)
+fffffff007d3d9b8	0xd5100de9  MSR   	..?.., X9              	X -  (9 0x11c)
+fffffff007d3d9c4	0xd5100cc9  MSR   	..?.., X9              	X -  (9 0xd8)
+fffffff007d3d9cc	0xd5100ce9  MSR   	..?.., X9              	X -  (9 0x118)
+fffffff007d3d9d8	0xd5100bc9  MSR   	..?.., X9              	X -  (9 0xd4)
+fffffff007d3d9e0	0xd5100be9  MSR   	..?.., X9              	X -  (9 0x114)
+fffffff007d3d9ec	0xd5100ac9  MSR   	..?.., X9              	X -  (9 0xd0)
+fffffff007d3d9f4	0xd5100ae9  MSR   	..?.., X9              	X -  (9 0x110)
+fffffff007d3da00	0xd51009c9  MSR   	..?.., X9              	X -  (9 0xcc)
+fffffff007d3da08	0xd51009e9  MSR   	..?.., X9              	X -  (9 0x10c)
+fffffff007d3da14	0xd51008c9  MSR   	..?.., X9              	X -  (9 0xc8)
+fffffff007d3da1c	0xd51008e9  MSR   	..?.., X9              	X -  (9 0x108)
+fffffff007d3da28	0xd51007c9  MSR   	..?.., X9              	X -  (9 0xc4)
+fffffff007d3da30	0xd51007e9  MSR   	..?.., X9              	X -  (9 0x104)
+fffffff007d3da3c	0xd51006c9  MSR   	..?.., X9              	X -  (9 0xc0)
+fffffff007d3da44	0xd51006e9  MSR   	..?.., X9              	X -  (9 0x100)
+fffffff007d3da50	0xd51005c9  MSR   	..?.., X9              	X -  (9 0xbc)
+fffffff007d3da58	0xd51005e9  MSR   	..?.., X9              	X -  (9 0xfc)
+fffffff007d3da64	0xd51004c9  MSR   	..?.., X9              	X -  (9 0xb8)
+fffffff007d3da6c	0xd51004e9  MSR   	..?.., X9              	X -  (9 0xf8)
+fffffff007d3da78	0xd51003c9  MSR   	..?.., X9              	X -  (9 0xb4)
+fffffff007d3da80	0xd51003e9  MSR   	..?.., X9              	X -  (9 0xf4)
+fffffff007d3da8c	0xd51002c9  MSR   	..?.., X9              	X -  (9 0xb0)
+fffffff007d3da94	0xd51002e9  MSR   	..?.., X9              	X -  (9 0xf0)
+fffffff007d3daa0	0xd51001c9  MSR   	..?.., X9              	X -  (9 0xac)
+fffffff007d3daa8	0xd51001e9  MSR   	..?.., X9              	X -  (9 0xec)
+fffffff007d3dab4	0xd51000c9  MSR   	..?.., X9              	X -  (9 0xa8)
+fffffff007d3dabc	0xd51000e9  MSR   	..?.., X9              	X -  (9 0xe8)
+fffffff007d3db78	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3dbb8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3ddb0	0xd51cf189  MSR   	S3_4_C15_C1_4, X9      	X -  (9 0xffffffff80000000)
+fffffff007d3df54	0xd51dfa3f  MSR   	S3_5_C15_C10_1, XZR    	X -  (31 0xffffffffffffffc0)
+fffffff007d3e060	0xd51ef1a8  MSR   	S3_6_C15_C1_5, X8      	X -  (8 0x140)
+fffffff007d3e310	0xd51bd068  MSR   	TPIDRRO_EL0, X8        	X - Thread Pointer/ID Register (8 0x438)
+fffffff007d3e7e8	0xd51be300  MSR   	..?.., X0              	X -  (0 0x0)
+fffffff007d3e920	0xd51be300  MSR   	..?.., X0              	X -  (0 0x0)
+fffffff007d3e9b8	0xd51be313  MSR   	..?.., X19             	X -  (19 0xa)
+fffffff007d3ea7c	0xd51be300  MSR   	..?.., X0              	X -  (0 0x0)
+fffffff007d3ed10	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3ed50	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3eda0	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3edd4	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3ee1c	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3ee50	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3eebc	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3eef0	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3ef0c	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d3ef40	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d3f05c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f084	0xd51b4236  MSR   	DAIF, X22              	X -  (22 0xf8)
+fffffff007d3f0b0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f0d8	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x108)
+fffffff007d3f0fc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f124	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x108)
+fffffff007d3f148	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f170	0xd51b4236  MSR   	DAIF, X22              	X -  (22 0x100)
+fffffff007d3f270	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f298	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d3f2c4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f2ec	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d3f310	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f338	0xd51b4237  MSR   	DAIF, X23              	X -  (23 0x0)
+fffffff007d3f35c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f384	0xd51b4236  MSR   	DAIF, X22              	X -  (22 0x100)
+fffffff007d3f434	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f45c	0xd51b4236  MSR   	DAIF, X22              	X -  (22 0x0)
+fffffff007d3f500	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d3f528	0xd51b4238  MSR   	DAIF, X24              	X -  (24 0x0)
+fffffff007d410a8	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d410dc	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d411f8	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x101800010)
+fffffff007d41200	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d412f0	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d41320	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d41594	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d415c8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d41964	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d41aa0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d41b24	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d41b58	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d41e04	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d41e38	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d41f04	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d41f38	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d41f70	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d41fa4	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d42a00	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff007d42a38	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff007d43740	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0x101800010)
+fffffff007d43748	0xd519f508  MSR   	S3_1_C15_C5_0, X8      	X -  (8 0x8)
+fffffff007d43750	0xd519f608  MSR   	S3_1_C15_C6_0, X8      	X -  (8 0x101801240)
+fffffff007d43764	0xd519f208  MSR   	S3_1_C15_C2_0, X8      	X -  (8 0x18)
+fffffff007d4376c	0xd519f308  MSR   	S3_1_C15_C3_0, X8      	X -  (8 0x20)
+fffffff007d43774	0xd519f408  MSR   	S3_1_C15_C4_0, X8      	X -  (8 0x28)
+fffffff007d4377c	0xd519f708  MSR   	S3_1_C15_C7_0, X8      	X -  (8 0x30)
+fffffff007d43784	0xd519f808  MSR   	S3_1_C15_C8_0, X8      	X -  (8 0x38)
+fffffff007d4378c	0xd519fe08  MSR   	S3_1_C15_C14_0, X8     	X -  (8 0x40)
+fffffff007d43794	0xd519ff08  MSR   	S3_1_C15_C15_0, X8     	X -  (8 0x48)
+fffffff007d4379c	0xd51aff08  MSR   	S3_2_C15_C15_0, X8     	X -  (8 0x50)
+fffffff007d43a3c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d43b70	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d44080	0xd51af209  MSR   	ARM64_REG_PMC2, X9     	X -  (9 0x0)
+fffffff007d440fc	0xd51af20a  MSR   	ARM64_REG_PMC2, X10    	X -  (10 0x371)
+fffffff007d44114	0xd51af309  MSR   	ARM64_REG_PMC3, X9     	X -  (9 0x0)
+fffffff007d44120	0xd51af409  MSR   	ARM64_REG_PMC4, X9     	X -  (9 0x0)
+fffffff007d4412c	0xd51af509  MSR   	ARM64_REG_PMC5, X9     	X -  (9 0x0)
+fffffff007d44138	0xd51af609  MSR   	ARM64_REG_PMC6, X9     	X -  (9 0x0)
+fffffff007d44144	0xd51af709  MSR   	ARM64_REG_PMC7, X9     	X -  (9 0x0)
+fffffff007d44150	0xd51af909  MSR   	S3_2_C15_C9_0, X9      	X -  (9 0x0)
+fffffff007d4415c	0xd51afa09  MSR   	S3_2_C15_C10_0, X9     	X -  (9 0x0)
+fffffff007d44164	0xd51af30a  MSR   	ARM64_REG_PMC3, X10    	X -  (10 0x371)
+fffffff007d44170	0xd51af40a  MSR   	ARM64_REG_PMC4, X10    	X -  (10 0x371)
+fffffff007d4417c	0xd51af50a  MSR   	ARM64_REG_PMC5, X10    	X -  (10 0x371)
+fffffff007d44188	0xd51af60a  MSR   	ARM64_REG_PMC6, X10    	X -  (10 0x371)
+fffffff007d44194	0xd51af70a  MSR   	ARM64_REG_PMC7, X10    	X -  (10 0x371)
+fffffff007d441a0	0xd51af90a  MSR   	S3_2_C15_C9_0, X10     	X -  (10 0x371)
+fffffff007d441ac	0xd51afa0a  MSR   	S3_2_C15_C10_0, X10    	X -  (10 0x371)
+fffffff007d442ac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d44318	0xd519f00f  MSR   	S3_1_C15_C0_0, X15     	X -  (15 0x0)
+fffffff007d4433c	0xd519f00f  MSR   	S3_1_C15_C0_0, X15     	X -  (15 0x0)
+fffffff007d44418	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d44688	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d446e4	0xd519f101  MSR   	S3_1_C15_C1_0, X1      	X -  (1 0x30303)
+fffffff007d4474c	0xd519f504  MSR   	S3_1_C15_C5_0, X4      	X -  (4 0x0)
+fffffff007d44778	0xd519f604  MSR   	S3_1_C15_C6_0, X4      	X -  (4 0xffffffffffffffe8)
+fffffff007d44804	0xd519f209  MSR   	S3_1_C15_C2_0, X9      	X -  (9 0x8)
+fffffff007d4480c	0xd519f309  MSR   	S3_1_C15_C3_0, X9      	X -  (9 0x101801240)
+fffffff007d44814	0xd519f409  MSR   	S3_1_C15_C4_0, X9      	X -  (9 0x18)
+fffffff007d4481c	0xd519f709  MSR   	S3_1_C15_C7_0, X9      	X -  (9 0x20)
+fffffff007d44824	0xd519f809  MSR   	S3_1_C15_C8_0, X9      	X -  (9 0x28)
+fffffff007d4482c	0xd519f909  MSR   	S3_1_C15_C9_0, X9      	X -  (9 0x30)
+fffffff007d44834	0xd519fa09  MSR   	S3_1_C15_C10_0, X9     	X -  (9 0x38)
+fffffff007d4483c	0xd51aff09  MSR   	S3_2_C15_C15_0, X9     	X -  (9 0x40)
+fffffff007d44844	0xd51afe09  MSR   	S3_2_C15_C14_0, X9     	X -  (9 0x48)
+fffffff007d4484c	0xd51afd09  MSR   	S3_2_C15_C13_0, X9     	X -  (9 0x0)
+fffffff007d44850	0xd51afc08  MSR   	S3_2_C15_C12_0, X8     	X -  (8 0x0)
+fffffff007d44a38	0xd519f50a  MSR   	S3_1_C15_C5_0, X10     	X -  (10 0x0)
+fffffff007d44a3c	0xd519f609  MSR   	S3_1_C15_C6_0, X9      	X -  (9 0x0)
+fffffff007d44a58	0xd519f20b  MSR   	S3_1_C15_C2_0, X11     	X -  (11 0xfffffff009f30300)
+fffffff007d44a60	0xd519f30b  MSR   	S3_1_C15_C3_0, X11     	X -  (11 0xfffffff009f30308)
+fffffff007d44a68	0xd519f40b  MSR   	S3_1_C15_C4_0, X11     	X -  (11 0xfffffff009f30310)
+fffffff007d44a70	0xd519f70b  MSR   	S3_1_C15_C7_0, X11     	X -  (11 0xfffffff009f30318)
+fffffff007d44a78	0xd519f80b  MSR   	S3_1_C15_C8_0, X11     	X -  (11 0xfffffff009f30320)
+fffffff007d44a80	0xd519f90b  MSR   	S3_1_C15_C9_0, X11     	X -  (11 0xfffffff009f30328)
+fffffff007d44a88	0xd519fa0b  MSR   	S3_1_C15_C10_0, X11    	X -  (11 0xfffffff009f30330)
+fffffff007d44a90	0xd51aff0b  MSR   	S3_2_C15_C15_0, X11    	X -  (11 0xfffffff009f30338)
+fffffff007d44a98	0xd51afe0b  MSR   	S3_2_C15_C14_0, X11    	X -  (11 0xfffffff009f30340)
+fffffff007d44aa0	0xd51afd0b  MSR   	S3_2_C15_C13_0, X11    	X -  (11 0x0)
+fffffff007d44aa4	0xd51afc0a  MSR   	S3_2_C15_C12_0, X10    	X -  (10 0x0)
+fffffff007d44abc	0xd51afa0b  MSR   	S3_2_C15_C10_0, X11    	X -  (11 0x0)
+fffffff007d44afc	0xd51af20b  MSR   	ARM64_REG_PMC2, X11    	X -  (11 0x0)
+fffffff007d44b04	0xd51af30b  MSR   	ARM64_REG_PMC3, X11    	X -  (11 0x0)
+fffffff007d44b0c	0xd51af40b  MSR   	ARM64_REG_PMC4, X11    	X -  (11 0x0)
+fffffff007d44b14	0xd51af50b  MSR   	ARM64_REG_PMC5, X11    	X -  (11 0x0)
+fffffff007d44b1c	0xd51af60b  MSR   	ARM64_REG_PMC6, X11    	X -  (11 0x0)
+fffffff007d44b24	0xd51af70b  MSR   	ARM64_REG_PMC7, X11    	X -  (11 0x0)
+fffffff007d44b2c	0xd51af90b  MSR   	S3_2_C15_C9_0, X11     	X -  (11 0x0)
+fffffff007d44b50	0xd519f108  MSR   	S3_1_C15_C1_0, X8      	X -  (8 0x30303)
+fffffff007d44c38	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d44f2c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d44f88	0xd51ff588  MSR   	S3_7_C15_C5_4, X8      	X -  (8 0xfffffff009f30000)
+fffffff007d44fb0	0xd51ff088  MSR   	S3_7_C15_C0_4, X8      	X -  (8 0xfffffff009ebf000)
+fffffff007d44fc0	0xd51ff188  MSR   	S3_7_C15_C1_4, X8      	X -  (8 0xfffffff009f30970)
+fffffff007d44fc8	0xd51ffba8  MSR   	S3_7_C15_C11_5, X8     	X -  (8 0xfffffff009f30978)
+fffffff007d44fd4	0xd51ff388  MSR   	S3_7_C15_C3_4, X8      	X -  (8 0xffffffffffffff98)
+fffffff007d44fe0	0xd51ff488  MSR   	S3_7_C15_C4_4, X8      	X -  (8 0xffffffffffffff90)
+fffffff007d44fec	0xd51ff8a8  MSR   	S3_7_C15_C8_5, X8      	X -  (8 0xffffffffffffff88)
+fffffff007d44ff8	0xd51ff9a8  MSR   	S3_7_C15_C9_5, X8      	X -  (8 0xffffffffffffff80)
+fffffff007d45004	0xd51ff088  MSR   	S3_7_C15_C0_4, X8      	X -  (8 0xffff40000)
+fffffff007d45250	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d45290	0xd51ff088  MSR   	S3_7_C15_C0_4, X8      	X -  (8 0xffff40000)
+fffffff007d45348	0xd51ff79f  MSR   	S3_7_C15_C7_4, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d45350	0xd51ff89f  MSR   	S3_7_C15_C8_4, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d45358	0xd51ff99f  MSR   	S3_7_C15_C9_4, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d45360	0xd51ffa9f  MSR   	S3_7_C15_C10_4, XZR    	X -  (31 0xffffffffffffff60)
+fffffff007d45368	0xd51ffb9f  MSR   	S3_7_C15_C11_4, XZR    	X -  (31 0xffffffffffffff60)
+fffffff007d45370	0xd51ffc9f  MSR   	S3_7_C15_C12_4, XZR    	X -  (31 0xffffffffffffff60)
+fffffff007d45378	0xd51ffd9f  MSR   	S3_7_C15_C13_4, XZR    	X -  (31 0xffffffffffffff60)
+fffffff007d45380	0xd51ffe9f  MSR   	S3_7_C15_C14_4, XZR    	X -  (31 0xffffffffffffff60)
+fffffff007d45388	0xd51ff0bf  MSR   	S3_7_C15_C0_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d45390	0xd51ff1bf  MSR   	S3_7_C15_C1_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d45398	0xd51ff2bf  MSR   	S3_7_C15_C2_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d453a0	0xd51ff3bf  MSR   	S3_7_C15_C3_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d453a8	0xd51ff4bf  MSR   	S3_7_C15_C4_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d453b0	0xd51ff5bf  MSR   	S3_7_C15_C5_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d453b8	0xd51ff6bf  MSR   	S3_7_C15_C6_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d453c0	0xd51ff7bf  MSR   	S3_7_C15_C7_5, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d453f8	0xd51ff69f  MSR   	S3_7_C15_C6_4, XZR     	X -  (31 0xffffffffffffff60)
+fffffff007d454f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d45524	0xd51ff188  MSR   	S3_7_C15_C1_4, X8      	X -  (8 0xfffffff009f30970)
+fffffff007d4552c	0xd51ffba8  MSR   	S3_7_C15_C11_5, X8     	X -  (8 0xfffffff009f30978)
+fffffff007d45538	0xd51ff388  MSR   	S3_7_C15_C3_4, X8      	X -  (8 0xd8)
+fffffff007d45544	0xd51ff488  MSR   	S3_7_C15_C4_4, X8      	X -  (8 0xd0)
+fffffff007d45550	0xd51ff8a8  MSR   	S3_7_C15_C8_5, X8      	X -  (8 0xc8)
+fffffff007d4555c	0xd51ff9a8  MSR   	S3_7_C15_C9_5, X8      	X -  (8 0xc0)
+fffffff007d45740	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d457d8	0xd51ff79f  MSR   	S3_7_C15_C7_4, XZR     	X -  (31 0x80)
+fffffff007d457e0	0xd51ff89f  MSR   	S3_7_C15_C8_4, XZR     	X -  (31 0x80)
+fffffff007d457e8	0xd51ff99f  MSR   	S3_7_C15_C9_4, XZR     	X -  (31 0x80)
+fffffff007d457f0	0xd51ffa9f  MSR   	S3_7_C15_C10_4, XZR    	X -  (31 0x80)
+fffffff007d457f8	0xd51ffb9f  MSR   	S3_7_C15_C11_4, XZR    	X -  (31 0x80)
+fffffff007d45800	0xd51ffc9f  MSR   	S3_7_C15_C12_4, XZR    	X -  (31 0x80)
+fffffff007d45808	0xd51ffd9f  MSR   	S3_7_C15_C13_4, XZR    	X -  (31 0x80)
+fffffff007d45810	0xd51ffe9f  MSR   	S3_7_C15_C14_4, XZR    	X -  (31 0x80)
+fffffff007d45818	0xd51ff0bf  MSR   	S3_7_C15_C0_5, XZR     	X -  (31 0x80)
+fffffff007d45820	0xd51ff1bf  MSR   	S3_7_C15_C1_5, XZR     	X -  (31 0x80)
+fffffff007d45828	0xd51ff2bf  MSR   	S3_7_C15_C2_5, XZR     	X -  (31 0x80)
+fffffff007d45830	0xd51ff3bf  MSR   	S3_7_C15_C3_5, XZR     	X -  (31 0x80)
+fffffff007d45838	0xd51ff4bf  MSR   	S3_7_C15_C4_5, XZR     	X -  (31 0x80)
+fffffff007d45840	0xd51ff5bf  MSR   	S3_7_C15_C5_5, XZR     	X -  (31 0x80)
+fffffff007d45848	0xd51ff6bf  MSR   	S3_7_C15_C6_5, XZR     	X -  (31 0x80)
+fffffff007d45850	0xd51ff7bf  MSR   	S3_7_C15_C7_5, XZR     	X -  (31 0x80)
+fffffff007d45c20	0xd51af001  MSR   	ARM64_REG_PMC0, X1     	X -  (1 0x0)
+fffffff007d45c28	0xd51af101  MSR   	ARM64_REG_PMC1, X1     	X -  (1 0x0)
+fffffff007d45c7c	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0x7003400)
+fffffff007d45cac	0xd51af008  MSR   	ARM64_REG_PMC0, X8     	X -  (8 0x228)
+fffffff007d45cb4	0xd51af108  MSR   	ARM64_REG_PMC1, X8     	X -  (8 0x230)
+fffffff007d45cc4	0xd519f108  MSR   	S3_1_C15_C1_0, X8      	X -  (8 0xbadbadbad)
+fffffff007d45d64	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0xfffffff009f2f6f8)
+fffffff007d45d78	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0x7003400)
+fffffff007d45da8	0xd51af008  MSR   	ARM64_REG_PMC0, X8     	X -  (8 0x228)
+fffffff007d45db0	0xd51af108  MSR   	ARM64_REG_PMC1, X8     	X -  (8 0x230)
+fffffff007d45dc0	0xd519f108  MSR   	S3_1_C15_C1_0, X8      	X -  (8 0xbadbadbad)
+fffffff007d45e60	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0xfffffff009f2f6f8)
+fffffff007d45f34	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d45f80	0xd51ff088  MSR   	S3_7_C15_C0_4, X8      	X -  (8 0xffff40000)
+fffffff007d461bc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d4621c	0xd51ff78b  MSR   	S3_7_C15_C7_4, X11     	X -  (11 0x0)
+fffffff007d46268	0xd51ff88b  MSR   	S3_7_C15_C8_4, X11     	X -  (11 0x0)
+fffffff007d46270	0xd51ff98b  MSR   	S3_7_C15_C9_4, X11     	X -  (11 0x0)
+fffffff007d46278	0xd51ffa8b  MSR   	S3_7_C15_C10_4, X11    	X -  (11 0x0)
+fffffff007d46280	0xd51ffb8b  MSR   	S3_7_C15_C11_4, X11    	X -  (11 0x0)
+fffffff007d46288	0xd51ffc8b  MSR   	S3_7_C15_C12_4, X11    	X -  (11 0x0)
+fffffff007d46290	0xd51ffd8b  MSR   	S3_7_C15_C13_4, X11    	X -  (11 0x0)
+fffffff007d46298	0xd51ffe8b  MSR   	S3_7_C15_C14_4, X11    	X -  (11 0x0)
+fffffff007d462a0	0xd51ff0ab  MSR   	S3_7_C15_C0_5, X11     	X -  (11 0x0)
+fffffff007d462a8	0xd51ff1ab  MSR   	S3_7_C15_C1_5, X11     	X -  (11 0x0)
+fffffff007d462b0	0xd51ff2ab  MSR   	S3_7_C15_C2_5, X11     	X -  (11 0x0)
+fffffff007d462b8	0xd51ff3ab  MSR   	S3_7_C15_C3_5, X11     	X -  (11 0x0)
+fffffff007d462c0	0xd51ff4ab  MSR   	S3_7_C15_C4_5, X11     	X -  (11 0x0)
+fffffff007d462c8	0xd51ff5ab  MSR   	S3_7_C15_C5_5, X11     	X -  (11 0x0)
+fffffff007d462d0	0xd51ff6ab  MSR   	S3_7_C15_C6_5, X11     	X -  (11 0x0)
+fffffff007d462d8	0xd51ff7ab  MSR   	S3_7_C15_C7_5, X11     	X -  (11 0x0)
+fffffff007d462ec	0xd51ff18a  MSR   	S3_7_C15_C1_4, X10     	X -  (10 0xfffffff009f30970)
+fffffff007d462f4	0xd51ffbaa  MSR   	S3_7_C15_C11_5, X10    	X -  (10 0xfffffff009f30978)
+fffffff007d46300	0xd51ff38a  MSR   	S3_7_C15_C3_4, X10     	X -  (10 0xfffffff009f30980)
+fffffff007d46308	0xd51ff48a  MSR   	S3_7_C15_C4_4, X10     	X -  (10 0xfffffff009f30988)
+fffffff007d46310	0xd51ff8aa  MSR   	S3_7_C15_C8_5, X10     	X -  (10 0x0)
+fffffff007d46314	0xd51ff9a9  MSR   	S3_7_C15_C9_5, X9      	X -  (9 0x0)
+fffffff007d4633c	0xd51ff589  MSR   	S3_7_C15_C5_4, X9      	X -  (9 0xfffffff009f30000)
+fffffff007d46360	0xd51ff089  MSR   	S3_7_C15_C0_4, X9      	X -  (9 0xfffffff009ebf000)
+fffffff007d46530	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0x7003400)
+fffffff007d4659c	0xd51af009  MSR   	ARM64_REG_PMC0, X9     	X -  (9 0xfffffff009ebe4b0)
+fffffff007d466b8	0xd51af109  MSR   	ARM64_REG_PMC1, X9     	X -  (9 0xfffffff009ebe4b8)
+fffffff007d46860	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0xfffffff009f2f6f8)
+fffffff007d46888	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d468e8	0xd51ff08a  MSR   	S3_7_C15_C0_4, X10     	X -  (10 0xffff40000)
+fffffff007d46918	0xd51ff7bf  MSR   	S3_7_C15_C7_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d4697c	0xd51ff79f  MSR   	S3_7_C15_C7_4, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d469a4	0xd51ff89f  MSR   	S3_7_C15_C8_4, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d469cc	0xd51ff99f  MSR   	S3_7_C15_C9_4, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d469f4	0xd51ffa9f  MSR   	S3_7_C15_C10_4, XZR    	X -  (31 0xffffffffffffff90)
+fffffff007d46a1c	0xd51ffb9f  MSR   	S3_7_C15_C11_4, XZR    	X -  (31 0xffffffffffffff90)
+fffffff007d46a44	0xd51ffc9f  MSR   	S3_7_C15_C12_4, XZR    	X -  (31 0xffffffffffffff90)
+fffffff007d46a6c	0xd51ffd9f  MSR   	S3_7_C15_C13_4, XZR    	X -  (31 0xffffffffffffff90)
+fffffff007d46a94	0xd51ffe9f  MSR   	S3_7_C15_C14_4, XZR    	X -  (31 0xffffffffffffff90)
+fffffff007d46abc	0xd51ff0bf  MSR   	S3_7_C15_C0_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46ae4	0xd51ff1bf  MSR   	S3_7_C15_C1_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46b0c	0xd51ff2bf  MSR   	S3_7_C15_C2_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46b34	0xd51ff3bf  MSR   	S3_7_C15_C3_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46b5c	0xd51ff4bf  MSR   	S3_7_C15_C4_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46b84	0xd51ff5bf  MSR   	S3_7_C15_C5_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46bac	0xd51ff6bf  MSR   	S3_7_C15_C6_5, XZR     	X -  (31 0xffffffffffffff90)
+fffffff007d46bd0	0xd51ff69f  MSR   	S3_7_C15_C6_4, XZR     	X -  (31 0x70)
+fffffff007d46bdc	0xd51ff088  MSR   	S3_7_C15_C0_4, X8      	X -  (8 0xffff40000)
+fffffff007d46e08	0xd519f009  MSR   	S3_1_C15_C0_0, X9      	X -  (9 0x7003400)
+fffffff007d46e48	0xd51af00a  MSR   	ARM64_REG_PMC0, X10    	X -  (10 0xfffffff009ebe4b0)
+fffffff007d46e90	0xd51af10a  MSR   	ARM64_REG_PMC1, X10    	X -  (10 0xfffffff009ebe4b8)
+fffffff007d46f38	0xd519f008  MSR   	S3_1_C15_C0_0, X8      	X -  (8 0xfffffff009f2f6f8)
+fffffff007d731a4	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007d731bc	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007d9b4e4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d9b59c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d9b5bc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007d9b5e0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007dd1a80	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007dd1a9c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007dd1de4	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007dd1e00	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007dd5934	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007dd594c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007dd8048	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007dd8064	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007ddebe8	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007ddec04	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de305c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de3074	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de34c8	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de34e4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de3818	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de3834	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de3b4c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de3b68	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de3e50	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de3e6c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de4180	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de419c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de4390	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de43ac	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de5728	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de5744	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de5dcc	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de5de8	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de6208	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de6224	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007de6674	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff007de6690	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff007dff6d8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007e00230	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff007e2dd30	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00801c4b0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0080206ec	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff008020700	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080239bc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008023ec0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008024238	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008024364	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00802444c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008024894	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008024c08	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008024ddc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0080250c8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008025e30	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00802664c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0080266f4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008027278	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff008027294	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080274c0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008027e9c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008027ff8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0080286d0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008028874	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008028fd8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008029d78	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008029fe4	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00803a18c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff00803a1a8	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff00803fd90	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff00803fda4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff00803fdf0	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff00803fe04	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff00804001c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff008040030	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff00804007c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff008040090	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080407d0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008046800	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00806d310	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff00806d32c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080753dc	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080753f4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080935cc	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080935e4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080a2a78	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080a2a90	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080a2fbc	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080a2fcc	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080a3160	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080a3174	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080a31a0	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080a31b4	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080e9564	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080e9580	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080e9e70	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080e9e8c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080eb85c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080eb874	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0080ec61c	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0080ec634	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff008104338	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0081045ac	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008104c68	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008104f70	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008105148	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00810a274	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff00810a290	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff00817c41c	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff00817c454	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff00817c7f4	0xd51df328  MSR   	S3_5_C15_C3_1, X8      	X -  (8 0x0)
+fffffff00824da38	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00824dd98	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00824e40c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00824eb8c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00827d8e0	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00828f1cc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00828f330	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00828f590	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00828f800	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082aa184	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082aa30c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082aa59c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082aa748	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082b3570	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082b3718	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082b58fc	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0082b5914	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0082b5c24	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff0082b5c3c	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff0082bd014	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082bd458	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082bd564	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082bd6a8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082bd7f8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082d13bc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082d175c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff0082d3100	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008304d8c	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008304dbc	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008308378	0xd500409f  MSR   	PAN, #0                	X -  (0 0x0)
+fffffff008308394	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff008332998	0xd518f42e  MSR   	S3_0_C15_C4_1, X14     	X -  (14 0x0)
+fffffff0083329a0	0xd518f40e  MSR   	S3_0_C15_C4_0, X14     	X -  (14 0x0)
+fffffff0083329b8	0xd518f42e  MSR   	S3_0_C15_C4_1, X14     	X -  (14 0x800)
+fffffff0083329c0	0xd518f40e  MSR   	S3_0_C15_C4_0, X14     	X -  (14 0x800)
+fffffff008332a38	0xd51a0002  MSR   	..?.., X2              	X -  (2 0x0)
+fffffff0083340b8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff0083340f8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334148	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334198	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff0083342e4	0xd5184100  MSR   	SP_EL0, X0             	X -  (0 0xa8)
+fffffff0083342ec	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334328	0xd5184100  MSR   	SP_EL0, X0             	X -  (0 0xa8)
+fffffff008334330	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334374	0xd5184100  MSR   	SP_EL0, X0             	X -  (0 0xa8)
+fffffff00833437c	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff0083343c0	0xd5184100  MSR   	SP_EL0, X0             	X -  (0 0xa8)
+fffffff0083343c8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff0083344d8	0xd5182102  MSR   	APIAKeyLo_EL1, X2      	X - Instruction Pointer Auth A Key (low bits) (2 0x0)
+fffffff0083344e0	0xd5182124  MSR   	APIAKeyHi_EL1, X4      	X - Instruction Pointer Auth A Key (high bits) (4 0x1)
+fffffff0083344e8	0xd5182204  MSR   	APDAKeyLo_EL1, X4      	X - Data Pointer Auth A Key (low bits) (4 0x2)
+fffffff0083344f0	0xd5182224  MSR   	APDAKeyHi_EL1, X4      	X - Data Pointer Auth A Key (high bits) (4 0x3)
+fffffff00833451c	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff008334524	0xd5184213  MSR   	SPSel, X19             	X -  (19 0x0)
+fffffff008334568	0xd51b4402  MSR   	FPCR, X2               	X -  (2 0x0)
+fffffff0083348b0	0xd5034fdf  MSR   	DAIFSet, #15           	X -  (0 0x0)
+fffffff008334904	0xd5034fdf  MSR   	DAIFSet, #15           	X -  (0 0x0)
+fffffff00833496c	0xd518f10c  MSR   	S3_0_C15_C1_0, X12     	X -  (12 0x8000)
+fffffff008334990	0xd51bd040  MSR   	TPIDR_EL0, X0          	X - Thread Pointer/ID Register (0 0x0)
+fffffff008334998	0xd5034fdf  MSR   	DAIFSet, #15           	X -  (0 0x0)
+fffffff0083349a8	0xd50041bf  MSR   	SPSel, #1              	X -  (0 0x0)
+fffffff0083349e4	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334a00	0xd5184021  MSR   	ELR_EL1, X1            	X -  (1 0x108)
+fffffff008334a04	0xd5184002  MSR   	SPSR_EL1, X2           	X - AArch32,A (2 0x110)
+fffffff008334a08	0xd51b4423  MSR   	FPSR, X3               	X -  (3 0x340)
+fffffff008334a18	0xd51b4404  MSR   	FPCR, X4               	X -  (4 0x0)
+fffffff008334a4c	0xd5182101  MSR   	APIAKeyLo_EL1, X1      	X - Instruction Pointer Auth A Key (low bits) (1 0x0)
+fffffff008334a54	0xd5182123  MSR   	APIAKeyHi_EL1, X3      	X - Instruction Pointer Auth A Key (high bits) (3 0x1)
+fffffff008334a5c	0xd5182203  MSR   	APDAKeyLo_EL1, X3      	X - Data Pointer Auth A Key (low bits) (3 0x2)
+fffffff008334a64	0xd5182223  MSR   	APDAKeyHi_EL1, X3      	X - Data Pointer Auth A Key (high bits) (3 0x3)
+fffffff008334bb0	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334ca8	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff008334cb8	0xd518d08c  MSR   	TPIDR_EL1, X12         	X - Thread Pointer/ID Register (12 0x0)
+fffffff008334d28	0xd51b422a  MSR   	DAIF, X10              	X -  (10 0x0)
+fffffff008334d58	0xd51b4234  MSR   	DAIF, X20              	X -  (20 0x0)
+fffffff008334d60	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008334df8	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008334e64	0xd51b422a  MSR   	DAIF, X10              	X -  (10 0x0)
+fffffff008334e70	0xd51ef140  MSR   	S3_6_C15_C1_2, X0      	X -  (0 0x1)
+fffffff008338400	0xd510109f  MSR   	OSLAR_EL1, XZR         	X -  (31 0x0)
+fffffff008338404	0xd5034fdf  MSR   	DAIFSet, #15           	X -  (0 0x0)
+fffffff008338478	0xd51cf271  MSR   	ARM64_REG_KTRR_LOWER_EL1, X17	X -  (17 0xfffffff00780bb18)
+fffffff00833847c	0xd51cf293  MSR   	ARM64_REG_KTRR_UPPER_EL1, X19	X -  (19 0xfffffff00780bb20)
+fffffff008338484	0xd51cf2b2  MSR   	S3_4_C15_C2_5, X18     	X -  (18 0x12)
+fffffff00833848c	0xd51cf252  MSR   	ARM64_REG_KTRR_LOCK_EL1, X18	X -  (18 0x1)
+fffffff00833c008	0xd5181003  MSR   	SCTLR_EL1, X3          	X - System Control Register (3 0x0)
+fffffff00833c014	0xd51ef100  MSR   	S3_6_C15_C1_0, X0      	X -  (0 0x1)
+fffffff00833c034	0xd51ef1a0  MSR   	S3_6_C15_C1_5, X0      	X -  (0 0x2010000030100001)
+fffffff00833c048	0xd51ef1c0  MSR   	S3_6_C15_C1_6, X0      	X -  (0 0x4030000060300001)
+fffffff00833c05c	0xd51ef1e0  MSR   	S3_6_C15_C1_7, X0      	X -  (0 0x6050a5009050f001)
+fffffff00833c070	0xd51ef300  MSR   	S3_6_C15_C3_0, X0      	X -  (0 0x80714a05c071e0f1)
+fffffff00833c078	0xd51ef120  MSR   	S3_6_C15_C1_1, X0      	X -  (0 0x1)
+fffffff00833c080	0xd51ef140  MSR   	S3_6_C15_C1_2, X0      	X -  (0 0x1)
+fffffff00833c0ac	0xd51ef820  MSR   	S3_6_C15_C8_1, X0      	X -  (0 0xfffffff009ce569c)
+fffffff00833c0c0	0xd51ef840  MSR   	S3_6_C15_C8_2, X0      	X -  (0 0xfffffff009ce5698)
+fffffff00833c0c8	0xd51ef140  MSR   	S3_6_C15_C1_2, X0      	X -  (0 0x0)
+fffffff00833c0d0	0xd5181003  MSR   	SCTLR_EL1, X3          	X - System Control Register (3 0x1)
+fffffff00833c0fc	0xd518c000  MSR   	VBAR_EL1, X0           	X - Vector Base Address Register  set to 0xfffffff008339000 (0 0xfffffff008339000)
+fffffff00833c118	0xd51ef100  MSR   	S3_6_C15_C1_0, X0      	X -  (0 0x1)
+fffffff00833c12c	0xd51ef122  MSR   	S3_6_C15_C1_1, X2      	X -  (2 0x1)
+fffffff00833c140	0xd51ef300  MSR   	S3_6_C15_C3_0, X0      	X -  (0 0x2020a5063020f0e1)
+fffffff00833c154	0xd51ef1a0  MSR   	S3_6_C15_C1_5, X0      	X -  (0 0x4030a5066030f0e1)
+fffffff00833c168	0xd51ef1c0  MSR   	S3_6_C15_C1_6, X0      	X -  (0 0x6050a5069050f0e1)
+fffffff00833c17c	0xd51ef1e0  MSR   	S3_6_C15_C1_7, X0      	X -  (0 0x80714a06c071e0e1)
+fffffff00833c184	0xd51ef140  MSR   	S3_6_C15_C1_2, X0      	X -  (0 0x1)
+fffffff00833c198	0xd51ef840  MSR   	S3_6_C15_C8_2, X0      	X -  (0 0xfffffff009ce5698)
+fffffff00833c1ac	0xd51ef820  MSR   	S3_6_C15_C8_1, X0      	X -  (0 0xfffffff009ce569c)
+fffffff00833c1b4	0xd51ef140  MSR   	S3_6_C15_C1_2, X0      	X -  (0 0x0)
+fffffff00833c1c8	0xd51ef100  MSR   	S3_6_C15_C1_0, X0      	X -  (0 0x1)
+fffffff00833c1dc	0xd51bd040  MSR   	TPIDR_EL0, X0          	X - Thread Pointer/ID Register (0 0x1)
+fffffff00833c1e0	0xd51bd07f  MSR   	TPIDRRO_EL0, XZR       	X - Thread Pointer/ID Register (31 0x0)
+fffffff00833c1fc	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x18)
+fffffff00833c210	0xd510109f  MSR   	OSLAR_EL1, XZR         	X -  (31 0x0)
+fffffff00833c214	0xd5034fdf  MSR   	DAIFSet, #15           	X -  (0 0x0)
+fffffff00833c228	0xd518c000  MSR   	VBAR_EL1, X0           	X - Vector Base Address Register  set to 0xfffffff008339000 (0 0xfffffff008339000)
+fffffff00833c240	0xd51bd07f  MSR   	TPIDRRO_EL0, XZR       	X - Thread Pointer/ID Register (31 0x0)
+fffffff00833c244	0xd51bd05f  MSR   	TPIDR_EL0, XZR         	X - Thread Pointer/ID Register (31 0x0)
+fffffff00833c270	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0xfffffff009f94000)
+fffffff00833c43c	0xd5182041  MSR   	TCR_EL1, X1            	X - Translation Control Register (1 0xfffffff00780bb28)
+fffffff00833c458	0xd5182020  MSR   	TTBR1_EL1, X0          	X - Translation Table Base Register (0 0xfffffff007810000)
+fffffff00833c4a0	0xd518a200  MSR   	MAIR_EL1, X0           	X - Memory Attribute Indirection Register (0 0xc00000000000000)
+fffffff00833c4c0	0xd5182020  MSR   	TTBR1_EL1, X0          	X - Translation Table Base Register (0 0xfffffff00780b668)
+fffffff00833c4d4	0xd518c000  MSR   	VBAR_EL1, X0           	X - Vector Base Address Register  set to 0xfffffff008333000 (0 0xfffffff008333000)
+fffffff00833c4ec	0xd51cf080  MSR   	S3_4_C15_C0_4, X0      	X -  (0 0x5)
+fffffff00833c4f8	0xd5182140  MSR   	APIBKeyLo_EL1, X0      	X - Instruction Pointer Auth B Key (low bits) (0 0xfeedfacefeedfacf)
+fffffff00833c500	0xd5182160  MSR   	APIBKeyHi_EL1, X0      	X - Instruction Pointer Auth B Key (high bits) (0 0xfeedfacefeedfad0)
+fffffff00833c508	0xd5182240  MSR   	APDBKeyLo_EL1, X0      	X - Data Pointer Auth B Key (low bits) (0 0xfeedfacefeedfad1)
+fffffff00833c510	0xd5182260  MSR   	APDBKeyHi_EL1, X0      	X - Data Pointer Auth B Key (high bits) (0 0xfeedfacefeedfad2)
+fffffff00833c518	0xd51cf100  MSR   	S3_4_C15_C1_0, X0      	X -  (0 0xfeedfacefeedfad3)
+fffffff00833c520	0xd51cf120  MSR   	S3_4_C15_C1_1, X0      	X -  (0 0xfeedfacefeedfad4)
+fffffff00833c528	0xd5182100  MSR   	APIAKeyLo_EL1, X0      	X - Instruction Pointer Auth A Key (low bits) (0 0xfeedfacefeedfad5)
+fffffff00833c530	0xd5182120  MSR   	APIAKeyHi_EL1, X0      	X - Instruction Pointer Auth A Key (high bits) (0 0xfeedfacefeedfad6)
+fffffff00833c538	0xd5182200  MSR   	APDAKeyLo_EL1, X0      	X - Data Pointer Auth A Key (low bits) (0 0xfeedfacefeedfad7)
+fffffff00833c540	0xd5182220  MSR   	APDAKeyHi_EL1, X0      	X - Data Pointer Auth A Key (high bits) (0 0xfeedfacefeedfad8)
+fffffff00833c548	0xd5182300  MSR   	APGAKeyLo_EL1, X0      	X - General Pointer Auth A Key (low bits) (0 0xfeedfacefeedfad9)
+fffffff00833c550	0xd5182320  MSR   	APGAKeyHi_EL1, X0      	X - General Pointer Auth A Key (high bits) (0 0xfeedfacefeedfada)
+fffffff00833c564	0xd5181000  MSR   	SCTLR_EL1, X0          	X - System Control Register (0 0xfeedfacf73425417)
+fffffff00833c588	0xd5181040  MSR   	CPACR_EL1, X0          	X - Architectural Feature Access Control Register (0 0x300000)
+fffffff00833c58c	0xd518d09f  MSR   	TPIDR_EL1, XZR         	X - Thread Pointer/ID Register (31 0xfffffff009f94000)
+fffffff00833c598	0xd510024c  MSR   	..?.., X12             	X -  (12 0x1000)
+fffffff00833c5c0	0xd518f42c  MSR   	S3_0_C15_C4_1, X12     	X -  (12 0x1800)
+fffffff00833c5c8	0xd518f40c  MSR   	S3_0_C15_C4_0, X12     	X -  (12 0x1800)
+fffffff00833c5e4	0xd518f50d  MSR   	ARM64_REG_HID5, X13    	X -  (13 0x22000000)
+fffffff00833c5f0	0xd518f00d  MSR   	S3_0_C15_C0_0, X13     	X -  (13 0x22000010)
+fffffff00833c600	0xd518f40d  MSR   	S3_0_C15_C4_0, X13     	X -  (13 0x30022000010)
+fffffff00833c60c	0xd518f90d  MSR   	S3_0_C15_C9_0, X13     	X -  (13 0x30022400010)
+fffffff00833c618	0xd518f90d  MSR   	S3_0_C15_C9_0, X13     	X -  (13 0x30022500010)
+fffffff00833c624	0xd518ff4d  MSR   	S3_0_C15_C15_2, X13    	X -  (13 0x30022500010)
+fffffff00833c630	0xd518ff4d  MSR   	S3_0_C15_C15_2, X13    	X -  (13 0x30022500010)
+fffffff00833c63c	0xd518ff4d  MSR   	S3_0_C15_C15_2, X13    	X -  (13 0x30022500010)
+fffffff00833c648	0xd518ff4d  MSR   	S3_0_C15_C15_2, X13    	X -  (13 0x30062500010)
+fffffff00833c654	0xd518f40d  MSR   	S3_0_C15_C4_0, X13     	X -  (13 0x300e2500010)
+fffffff00833c660	0xd518f40d  MSR   	S3_0_C15_C4_0, X13     	X -  (13 0x300e2500012)
+fffffff00833c66c	0xd518fb0d  MSR   	S3_0_C15_C11_0, X13    	X -  (13 0x300e2500012)
+fffffff00833c678	0xd518ff4d  MSR   	S3_0_C15_C15_2, X13    	X -  (13 0x300e2540012)
+fffffff00833c688	0xd518fe0d  MSR   	S3_0_C15_C14_0, X13    	X -  (13 0x300e2550012)
+fffffff00833c6a0	0xd518f50d  MSR   	ARM64_REG_HID5, X13    	X -  (13 0x300e2550012)
+fffffff00833c6ac	0xd518fa2d  MSR   	ARM64_REG_EHID10, X13  	X -  (13 0x300e2550013)
+fffffff00833c6b8	0xd518f42d  MSR   	S3_0_C15_C4_1, X13     	X -  (13 0x300e2550013)
+fffffff00833c6c4	0xd518fa2d  MSR   	ARM64_REG_EHID10, X13  	X -  (13 0x300e25d0013)
+fffffff00833c6dc	0xd518fa2d  MSR   	ARM64_REG_EHID10, X13  	X -  (13 0x300e25d0013)
+fffffff00833c744	0xd51cf184  MSR   	S3_4_C15_C1_4, X4      	X -  (4 0x100)
+fffffff00833c754	0xd51df509  MSR   	ARM64_REG_CYC_CFG, X9  	X -  (9 0x800)
+fffffff00833c7c0	0xd518d080  MSR   	TPIDR_EL1, X0          	X - Thread Pointer/ID Register (0 0x0)
+fffffff00833c7d0	0xd51bd042  MSR   	TPIDR_EL0, X2          	X - Thread Pointer/ID Register (2 0x0)
+fffffff00833c7d8	0xd51bd061  MSR   	TPIDRRO_EL0, X1        	X - Thread Pointer/ID Register (1 0xe0)
+fffffff00833c7f0	0xd51b4402  MSR   	FPCR, X2               	X -  (2 0x0)
+fffffff00833c84c	0xd5182141  MSR   	APIBKeyLo_EL1, X1      	X - Instruction Pointer Auth B Key (low bits) (1 0x0)
+fffffff00833c854	0xd5182162  MSR   	APIBKeyHi_EL1, X2      	X - Instruction Pointer Auth B Key (high bits) (2 0x1)
+fffffff00833c85c	0xd5182242  MSR   	APDBKeyLo_EL1, X2      	X - Data Pointer Auth B Key (low bits) (2 0x2)
+fffffff00833c864	0xd5182262  MSR   	APDBKeyHi_EL1, X2      	X - Data Pointer Auth B Key (high bits) (2 0x3)
+fffffff00833c8c8	0xd5182145  MSR   	APIBKeyLo_EL1, X5      	X - Instruction Pointer Auth B Key (low bits) (5 0x0)
+fffffff00833c8d0	0xd5182166  MSR   	APIBKeyHi_EL1, X6      	X - Instruction Pointer Auth B Key (high bits) (6 0x1)
+fffffff00833c8d8	0xd5182246  MSR   	APDBKeyLo_EL1, X6      	X - Data Pointer Auth B Key (low bits) (6 0x2)
+fffffff00833c8e0	0xd5182266  MSR   	APDBKeyHi_EL1, X6      	X - Data Pointer Auth B Key (high bits) (6 0x3)
+fffffff00833c998	0xd518d082  MSR   	TPIDR_EL1, X2          	X - Thread Pointer/ID Register (2 0x0)
+fffffff00833c9a8	0xd51bd044  MSR   	TPIDR_EL0, X4          	X - Thread Pointer/ID Register (4 0x0)
+fffffff00833c9b0	0xd51bd063  MSR   	TPIDRRO_EL0, X3        	X - Thread Pointer/ID Register (3 0xe0)
+fffffff00833c9c8	0xd51b4404  MSR   	FPCR, X4               	X -  (4 0x0)
+fffffff00833ca24	0xd5182143  MSR   	APIBKeyLo_EL1, X3      	X - Instruction Pointer Auth B Key (low bits) (3 0x0)
+fffffff00833ca2c	0xd5182164  MSR   	APIBKeyHi_EL1, X4      	X - Instruction Pointer Auth B Key (high bits) (4 0x1)
+fffffff00833ca34	0xd5182244  MSR   	APDBKeyLo_EL1, X4      	X - Data Pointer Auth B Key (low bits) (4 0x2)
+fffffff00833ca3c	0xd5182264  MSR   	APDBKeyHi_EL1, X4      	X - Data Pointer Auth B Key (high bits) (4 0x3)
+fffffff00833cab8	0xd50343df  MSR   	DAIFSet, #3            	X -  (0 0x0)
+fffffff00833cb78	0xd51b4402  MSR   	FPCR, X2               	X -  (2 0x0)
+fffffff00833cbd4	0xd5182141  MSR   	APIBKeyLo_EL1, X1      	X - Instruction Pointer Auth B Key (low bits) (1 0x0)
+fffffff00833cbdc	0xd5182162  MSR   	APIBKeyHi_EL1, X2      	X - Instruction Pointer Auth B Key (high bits) (2 0x1)
+fffffff00833cbe4	0xd5182242  MSR   	APDBKeyLo_EL1, X2      	X - Data Pointer Auth B Key (low bits) (2 0x2)
+fffffff00833cbec	0xd5182262  MSR   	APDBKeyHi_EL1, X2      	X - Data Pointer Auth B Key (high bits) (2 0x3)
+fffffff00833cc08	0xd518d080  MSR   	TPIDR_EL1, X0          	X - Thread Pointer/ID Register (0 0x0)
+fffffff00833cc18	0xd51bd042  MSR   	TPIDR_EL0, X2          	X - Thread Pointer/ID Register (2 0x0)
+fffffff00833cc20	0xd51bd061  MSR   	TPIDRRO_EL0, X1        	X - Thread Pointer/ID Register (1 0xe0)
+fffffff00833d194	0xd5182101  MSR   	APIAKeyLo_EL1, X1      	X - Instruction Pointer Auth A Key (low bits) (1 0x0)
+fffffff00833d19c	0xd5182122  MSR   	APIAKeyHi_EL1, X2      	X - Instruction Pointer Auth A Key (high bits) (2 0x1)
+fffffff00833d1a4	0xd5182202  MSR   	APDAKeyLo_EL1, X2      	X - Data Pointer Auth A Key (low bits) (2 0x2)
+fffffff00833d1ac	0xd5182222  MSR   	APDAKeyHi_EL1, X2      	X - Data Pointer Auth A Key (high bits) (2 0x3)
+fffffff00833d1b8	0xd51cf081  MSR   	S3_4_C15_C0_4, X1      	X -  (1 0x0)
+fffffff00833d1cc	0xd5182101  MSR   	APIAKeyLo_EL1, X1      	X - Instruction Pointer Auth A Key (low bits) (1 0x0)
+fffffff00833d1d4	0xd5182122  MSR   	APIAKeyHi_EL1, X2      	X - Instruction Pointer Auth A Key (high bits) (2 0x1)
+fffffff00833d1dc	0xd5182202  MSR   	APDAKeyLo_EL1, X2      	X - Data Pointer Auth A Key (low bits) (2 0x2)
+fffffff00833d1e4	0xd5182222  MSR   	APDAKeyHi_EL1, X2      	X - Data Pointer Auth A Key (high bits) (2 0x3)
+fffffff00833d1f0	0xd51cf081  MSR   	S3_4_C15_C0_4, X1      	X -  (1 0x4)
+fffffff00833d218	0xd51df40d  MSR   	S3_5_C15_C4_0, X13     	X -  (13 0xfffffff009d03f0c)
+fffffff00833d238	0xd518fe0d  MSR   	S3_0_C15_C14_0, X13    	X -  (13 0xc000000000000000)
+fffffff00833d244	0xd518ff0d  MSR   	S3_0_C15_C15_0, X13    	X -  (13 0xc000000000000001)
+fffffff00833d29c	0xd51b4421  MSR   	FPSR, X1               	X -  (1 0xf8000000)
+fffffff00833d2a0	0xd51b4402  MSR   	FPCR, X2               	X -  (2 0x7f70000)
+fffffff00833d2c0	0xd5100242  MSR   	..?.., X2              	X -  (2 0x0)
+fffffff00833d304	0xd5182020  MSR   	TTBR1_EL1, X0          	X - Translation Table Base Register (0 0x0)
+fffffff00833d348	0xd5181020  MSR   	..?.., X0              	X -  (0 0x0)
+fffffff00833d364	0xd51cf140  MSR   	S3_4_C15_C1_2, X0      	X -  (0 0x8000000000000000)
+fffffff00833d370	0xd5182040  MSR   	TCR_EL1, X0            	X - Translation Control Register (0 0x0)
+fffffff00833d380	0xd50343df  MSR   	DAIFSet, #3            	X -  (0 0x0)
+fffffff00833d390	0xd51b4222  MSR   	DAIF, X2               	X -  (2 0x0)
+fffffff00833d3b8	0xd50343df  MSR   	DAIFSet, #3            	X -  (0 0x0)
+fffffff00833d3c8	0xd51b4222  MSR   	DAIF, X2               	X -  (2 0x0)
+fffffff00833d3e8	0xd50343df  MSR   	DAIFSet, #3            	X -  (0 0x0)
+fffffff00833d3f4	0xd51b4222  MSR   	DAIF, X2               	X -  (2 0x0)
+fffffff00833d88c	0xd51df509  MSR   	ARM64_REG_CYC_CFG, X9  	X -  (9 0xa00000)
+fffffff00833d8c4	0xd51df601  MSR   	ARM64_REG_ACC_OVRD, X1 	X -  (1 0x6076005)
+fffffff00833d8d4	0xd51df509  MSR   	ARM64_REG_CYC_CFG, X9  	X -  (9 0x3a00001)
+fffffff00833d8fc	0xd51df500  MSR   	ARM64_REG_CYC_CFG, X0  	X -  (0 0x2000000)
+fffffff00833d940	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00833d954	0xd50040bf  MSR   	SPSel, #0              	X -  (0 0x0)
+fffffff00833d958	0xd51b4224  MSR   	DAIF, X4               	X -  (4 0x0)
+fffffff00833da58	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff00833da64	0xd51b4220  MSR   	DAIF, X0               	X -  (0 0x0)
+fffffff008342794	0xd50347df  MSR   	DAIFSet, #7            	X -  (0 0x0)
+fffffff008346824	0xd518e108  MSR   	CNTKCTL_EL1, X8        	X - Counter-timer Kernel Control register (8 0xfffffff00782c34f)
+fffffff008346a78	0xd500419f  MSR   	PAN, #1                	X -  (0 0x0)
+fffffff008346c6c	0xd51be328  MSR   	..?.., X8              	X -  (8 0x1)
+fffffff008346c74	0xd51be228  MSR   	CNTP_CTL_EL0, X8       	X - Counter-timer Physical Timer Control Register (8 0x2)
+fffffff0088d97f0	0xd51bf808  MSR   	S3_3_C15_C8_0, X8      	X -  (8 0x1)
+fffffff0088d9860	0xd51bf808  MSR   	S3_3_C15_C8_0, X8      	X -  (8 0x4)
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb718,"IosaDPEControlMSR8",0xfffffff009eeb6f0,0x50);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb740,"IosaDPEControlMSR11",0xfffffff009eedca8,0x50);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb768,"IosaPrescalerControlMSR8",__ZN20IosaPrescalerControl10gMetaClassE,0x40);
+	return(__ZN21IosaInternalPipeMSR8a10gMetaClassE);
+	_func_fffffff008a51394(?,__ZN21IosaInternalPipeMSR8a10gMetaClassE);
+	_func_fffffff00817fff8(__ZN21IosaInternalPipeMSR8a10gMetaClassE);
+	_func_fffffff008a51394(ARG0,__ZN21IosaInternalPipeMSR8a10gMetaClassE);
+	_func_fffffff00817fff8(__ZN21IosaInternalPipeMSR8a10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN21IosaInternalPipeMSR8a10gMetaClassE,"IosaInternalPipeMSR8a",__ZN20IosaInternalPipeMSR810gMetaClassE,0x40);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR910gMetaClassE);
+	_func_fffffff008a5ee70(?,__ZN29M2ScalerSrcDestCfgControlMSR910gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR910gMetaClassE);
+	_func_fffffff008a5ee70(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR910gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR910gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR910gMetaClassE,"M2ScalerSrcDestCfgControlMSR9",__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE,0x130);
+	return(__ZN18IosaWdmaControlMSR10gMetaClassE);
+	_func_fffffff0081821f4(?,__ZN18IosaWdmaControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN18IosaWdmaControlMSR10gMetaClassE);
+	_func_fffffff0081821f4(ARG0,__ZN18IosaWdmaControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN18IosaWdmaControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN18IosaWdmaControlMSR10gMetaClassE,"IosaWdmaControlMSR",__ZN15IosaWdmaControl10gMetaClassE,0x40);
+	_func_fffffff00817f720(__ZN18IosaWdmaControlMSR10gMetaClassE);
+	return(__ZN23AppleM2ScalerCSCHalMSR910gMetaClassE);
+	_func_fffffff008a5b634(?,__ZN23AppleM2ScalerCSCHalMSR910gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR910gMetaClassE);
+	_func_fffffff008a5b634(ARG0,__ZN23AppleM2ScalerCSCHalMSR910gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR910gMetaClassE);
+	_IOLog("MSR 9 Register Dump\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN23AppleM2ScalerCSCHalMSR910gMetaClassE,"AppleM2ScalerCSCHalMSR9",__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE,0x1c0);
+	_IOLog("MSR 10j Register Dump\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb858,"AppleM2ScalerCSCHalMSR10j",0xfffffff009eebc68,0x1c0);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb880,"DitherControlMSR8",__ZN17DitherControlMSR710gMetaClassE,0x40);
+	return(__ZN19IosaRdmaControlMSR610gMetaClassE);
+	_func_fffffff008a5d1e4(?,__ZN19IosaRdmaControlMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN19IosaRdmaControlMSR610gMetaClassE);
+	_func_fffffff008a5d1e4(ARG0,__ZN19IosaRdmaControlMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN19IosaRdmaControlMSR610gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN19IosaRdmaControlMSR610gMetaClassE,"IosaRdmaControlMSR6",__ZN18IosaRdmaControlMSR10gMetaClassE,0x40);
+	return(__ZN20IosaInternalPipeMSR810gMetaClassE);
+	_func_fffffff008a68974(?,__ZN20IosaInternalPipeMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaInternalPipeMSR810gMetaClassE);
+	_func_fffffff008a68974(ARG0,__ZN20IosaInternalPipeMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaInternalPipeMSR810gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaInternalPipeMSR810gMetaClassE,"IosaInternalPipeMSR8",__ZN20IosaInternalPipeMSR710gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb8f8,"M2ScalerSrcDestCfgControlMSR10j",0xfffffff009eedb68,0x130);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb948,"IosaColorManagerMSR10",__ZN20IosaColorManagerMSR810gMetaClassE,0x1f0);
+	return(__ZN19IosaRdmaControlMSR810gMetaClassE);
+	_func_fffffff008a51114(?,__ZN19IosaRdmaControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN19IosaRdmaControlMSR810gMetaClassE);
+	_func_fffffff008a51114(ARG0,__ZN19IosaRdmaControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN19IosaRdmaControlMSR810gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN19IosaRdmaControlMSR810gMetaClassE,"IosaRdmaControlMSR8",__ZN19IosaRdmaControlMSR610gMetaClassE,0x40);
+	return(__ZN19IosaInternalPipeMSR10gMetaClassE);
+	_func_fffffff008a8f4d4(?,__ZN19IosaInternalPipeMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN19IosaInternalPipeMSR10gMetaClassE);
+	_func_fffffff008a8f4d4(ARG0,__ZN19IosaInternalPipeMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN19IosaInternalPipeMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN19IosaInternalPipeMSR10gMetaClassE,"IosaInternalPipeMSR",__ZN16IosaInternalPipe10gMetaClassE,0x48);
+	return(__ZN20IosaInternalPipeMSR610gMetaClassE);
+	_func_fffffff008a8f4d4(?,__ZN20IosaInternalPipeMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaInternalPipeMSR610gMetaClassE);
+	_func_fffffff008a8f4d4(ARG0,__ZN20IosaInternalPipeMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaInternalPipeMSR610gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaInternalPipeMSR610gMetaClassE,"IosaInternalPipeMSR6",__ZN16IosaInternalPipe10gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeb9e8,"M2ScalerCSCColorConversionControlMSR10",__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeba10,"IosaRdmaControlMSR10",__ZN19IosaRdmaControlMSR810gMetaClassE,0x40);
+	return(__ZN20IosaColorManagerMSR810gMetaClassE);
+	_func_fffffff008a99eb4(ARG0,__ZN20IosaColorManagerMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR810gMetaClassE,0 ,0 ,0 );
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaColorManagerMSR810gMetaClassE,"IosaColorManagerMSR8",__ZN20IosaColorManagerMSR710gMetaClassE,0x1f0);
+	return(__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE);
+	_func_fffffff008a73a8c(?,__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE);
+	_func_fffffff008a73a8c(ARG0,__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN37M2ScalerCSCColorConversionControlMSR810gMetaClassE,"M2ScalerCSCColorConversionControlMSR8",__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE,0x40);
+	_IOLog("MSR 11 Register Dump\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebab0,"AppleM2ScalerCSCHalMSR11",0xfffffff009eebc68,0x1c0);
+	return(__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE);
+	_func_fffffff008a698f0(?,__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE);
+	_func_fffffff008a698f0(ARG0,__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE);
+	_IOLog("MSR 8 (master) Register Dump\n");
+	_IOLog("%s MSR Debug status (MSR_CTRL_DBGSTS) error = 0x%x\n");
+	_IOLog("%s MSR Interrupt status (MSR_GLBL_IRQSTS) error = 0x%x\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE,"AppleM2ScalerCSCHalMSR8",__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE,0x1c0);
+	return(__ZN18IosaRdmaControlMSR10gMetaClassE);
+	_func_fffffff0081821f4(?,__ZN18IosaRdmaControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN18IosaRdmaControlMSR10gMetaClassE);
+	_func_fffffff0081821f4(ARG0,__ZN18IosaRdmaControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN18IosaRdmaControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN18IosaRdmaControlMSR10gMetaClassE,"IosaRdmaControlMSR",__ZN15IosaRdmaControl10gMetaClassE,0x40);
+	_func_fffffff00817f720(__ZN18IosaRdmaControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebb50,"IosaPrescalerControlMSR10",0xfffffff009eeb768,0x40);
+	return(__ZN26IosaTiledCompressedMemMSR810gMetaClassE);
+	_func_fffffff008a9612c(?,__ZN26IosaTiledCompressedMemMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN26IosaTiledCompressedMemMSR810gMetaClassE);
+	_func_fffffff008a9612c(ARG0,__ZN26IosaTiledCompressedMemMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN26IosaTiledCompressedMemMSR810gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26IosaTiledCompressedMemMSR810gMetaClassE,"IosaTiledCompressedMemMSR8",__ZN26IosaTiledCompressedMemMSR710gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebba0,"AppleM2ScalerCSCHalMSR13",0xfffffff009eebab0,0x1c0);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE);
+	_func_fffffff008aa2424(?,__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE);
+	_func_fffffff008aa2424(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE,"M2ScalerSrcDestCfgControlMSR8",__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE,0x130);
+	return(__ZN20IosaColorManagerMSR410gMetaClassE);
+	_func_fffffff008a735b4(?,__ZN20IosaColorManagerMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR410gMetaClassE);
+	_func_fffffff008a735b4(ARG0,__ZN20IosaColorManagerMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR410gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaColorManagerMSR410gMetaClassE,"IosaColorManagerMSR4",__ZN16IosaColorManager10gMetaClassE,0x50);
+	return(__ZN23AppleM2ScalerCSCHalMSR210gMetaClassE);
+	_func_fffffff008a854dc(?,__ZN23AppleM2ScalerCSCHalMSR210gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR210gMetaClassE);
+	_func_fffffff008a854dc(ARG0,__ZN23AppleM2ScalerCSCHalMSR210gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR210gMetaClassE);
+	_IOLog("MSR 2 Register Dump\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN23AppleM2ScalerCSCHalMSR210gMetaClassE,"AppleM2ScalerCSCHalMSR2",__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE,0x1c0);
+	_IOLog("%s MSR Debug status (MSR_CTRL_DBGSTS) error = 0x%x\n");
+	_IOLog("%s MSR Interrupt status (MSR_GLBL_IRQSTS) error = 0x%x\n");
+	_IOLog("MSR 10 Register Dump\n");
+	_func_fffffff008a99e0c(LocalFrame[-0x78],"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x2cc);
+	_func_fffffff008a99e0c(LocalFrame[-0x78],"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x2d2);
+	_func_fffffff008a99e0c(?,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x2dd);
+	_func_fffffff008a99e0c(?,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x2e6);
+	_func_fffffff008a99e0c(LocalFrame[-0x78],"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x2ff);
+	_func_fffffff008a99e0c(LocalFrame[-0x78],"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x30c);
+	_func_fffffff008a99e0c(LocalFrame[-0x78],"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR10.cpp",0x313);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebc68,"AppleM2ScalerCSCHalMSR10",__ZN23AppleM2ScalerCSCHalMSR810gMetaClassE,0x1c0);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebcc0,"IosaTiledCompressedMemMSR13",__ZN26IosaTiledCompressedMemMSR810gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebce8,"IosaRdmaControlMSR11",0xfffffff009eeba10,0x40);
+	return(__ZN20IosaInternalPipeMSR710gMetaClassE);
+	_func_fffffff008a8f4d4(?,__ZN20IosaInternalPipeMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaInternalPipeMSR710gMetaClassE);
+	_func_fffffff008a8f4d4(ARG0,__ZN20IosaInternalPipeMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaInternalPipeMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaInternalPipeMSR710gMetaClassE,"IosaInternalPipeMSR7",__ZN16IosaInternalPipe10gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebd38,"M2ScalerScalingControlMSR10",__ZN26M2ScalerScalingControlMSR810gMetaClassE,0xa58);
+	return(__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE);
+	_func_fffffff008a8ebfc(?,__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE);
+	_func_fffffff008a8ebfc(ARG0,__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE);
+	_IOLog("MSR 7 Register Dump\n");
+	_IOLog("%s MSR Debug status (MSR_CTRL_DBGSTS) error = 0x%x\n");
+	_IOLog("%s MSR Interrupt status (MSR_GLBL_IRQSTS) error = 0x%x\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN23AppleM2ScalerCSCHalMSR710gMetaClassE,"AppleM2ScalerCSCHalMSR7",__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE,0x1c0);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE);
+	_func_fffffff008a97ea4(?,__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE);
+	_func_fffffff008a97ea4(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE,"M2ScalerSrcDestCfgControlMSR6",__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE,0x130);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebdd8,"IosaDPEControlMSR14",0xfffffff009eedc58,0x50);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebe28,"MsrAPIODMAMSR10",0xfffffff009eebe00,0x2d8);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eebe50,"IosaWdmaControlMSR10",__ZN18IosaWdmaControlMSR10gMetaClassE,0x40);
+	return(__ZN17DitherControlMSR710gMetaClassE);
+	_func_fffffff008a8f228(?,__ZN17DitherControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN17DitherControlMSR710gMetaClassE);
+	_func_fffffff008a8f228(ARG0,__ZN17DitherControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN17DitherControlMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN17DitherControlMSR710gMetaClassE,"DitherControlMSR7",__ZN16DitherControlMSR10gMetaClassE,0x40);
+fffffff008a6e45c	0xf940058c  _LDR  	X12, [X12, #8]         	...R12 = *(R12 + 8) = __ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN16IosaColorManager10gMetaClassE,"IosaColorManagerMSR2",__ZN16IosaColorManager10gMetaClassE,0x48);
+	return(__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE);
+	_func_fffffff008a8f790(?,__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE);
+	_func_fffffff008a8f790(ARG0,__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN37M2ScalerCSCColorConversionControlMSR710gMetaClassE,"M2ScalerCSCColorConversionControlMSR7",__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE,0x40);
+	return(__ZN20IosaColorManagerMSR910gMetaClassE);
+	_func_fffffff008a55808(?,__ZN20IosaColorManagerMSR910gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR910gMetaClassE);
+	_func_fffffff008a55808(ARG0,__ZN20IosaColorManagerMSR910gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR910gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaColorManagerMSR910gMetaClassE,"IosaColorManagerMSR9",__ZN20IosaColorManagerMSR810gMetaClassE,0x1f0);
+	_IOLog("ERROR: %s, Line=%d: MSR DMA Command resources exhausted.\n");
+	_IOLog("%s MSR Driver Waiting for IOSurfaceRoot\n");
+	_IOLog("%s, no MSR DRIVER mapper on this platform\n");
+	_IOLog("%s: MSR hardware-version value %u in EDT is invalid\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eed908,"IosaColorManagerMSR10j",0xfffffff009eeb948,0x1f0);
+	return(__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE);
+	_func_fffffff008a6e928(?,__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE);
+	_func_fffffff008a6e928(ARG0,__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE);
+	_func_fffffff008a6e3a0(0x49,0x2d6,0 ,"virtual void AppleM2ScalerCSCHalMSR::activateMSR_gatedContext(M2ScalerCSCRequest *, bool)");
+	_IOLog("%s enableDeviceClock(MSR_FULL_CLOCK_INDEX) failed: 0x%x\n");
+	_func_fffffff008a99e0c(0 ,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR.cpp",0xb27);
+	_func_fffffff008a99e0c(0 ,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR.cpp",0xc20);
+	_IOLog("%s MSR Error Occurred = 0x%x\n");
+	_IOLog("%s MSR Debug status (MSR_CTRL_DBGSTS) error = 0x%x\n");
+	_IOLog("%s MSR Interrupt status (MSR_GLBL_IRQSTS) error = 0x%x\n");
+	_func_fffffff008a99e0c(0 ,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR.cpp",0x1213);
+	_func_fffffff008a99e0c(0xe00002c2,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR.cpp",0x1218);
+	_func_fffffff008a99e0c(0xe00002c2,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR.cpp",0x1220);
+	_func_fffffff008a99e0c(0xe00002c2,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR.cpp",0x1226);
+	_IOLog("Alcatraz MSR Register Dump\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE,"AppleM2ScalerCSCHalMSR",__ZN19AppleM2ScalerCSCHal10gMetaClassE,0x1c0);
+	return(__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE);
+	_func_fffffff008a854dc(?,__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE);
+	_func_fffffff008a854dc(ARG0,__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE);
+	_IOLog("MSR 4 Register Dump\n");
+	_IOLog("%s MSR4 Debug status (MSR_CTRL_DBGSTS) error = 0x%x\n");
+	_IOLog("%s MSR4 Interrupt status (MSR_GLBL_IRQSTS) error = 0x%x\n");
+	_func_fffffff008a99e0c(0 ,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR4.cpp",0x13a);
+	_func_fffffff008a99e0c(0xe00002c2,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR4.cpp",0x141);
+	_func_fffffff008a99e0c(0xe00002c2,"/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator_kexts/IOSurfaceAccelerator-104.1.1/AppleM2ScalerCSCHalMSR4.cpp",0x146);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE,"AppleM2ScalerCSCHalMSR4",__ZN22AppleM2ScalerCSCHalMSR10gMetaClassE,0x1c0);
+	return(__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE);
+	_func_fffffff008a8e00c(?,__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE);
+	_func_fffffff008a8e00c(ARG0,__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE);
+	_IOLog("MSR 6 Register Dump\n");
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN23AppleM2ScalerCSCHalMSR610gMetaClassE,"AppleM2ScalerCSCHalMSR6",__ZN23AppleM2ScalerCSCHalMSR410gMetaClassE,0x1c0);
+	return(__ZN16DitherControlMSR10gMetaClassE);
+	_func_fffffff008a8f010(?,__ZN16DitherControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN16DitherControlMSR10gMetaClassE);
+	_func_fffffff008a8f010(ARG0,__ZN16DitherControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN16DitherControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN16DitherControlMSR10gMetaClassE,"DitherControlMSR",__ZN13DitherControl10gMetaClassE,0x40);
+	return(__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE);
+	_func_fffffff008a96630(?,__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE);
+	_func_fffffff008a96630(ARG0,__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN37M2ScalerCSCColorConversionControlMSR410gMetaClassE,"M2ScalerCSCColorConversionControlMSR4",__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE,0x40);
+	return(__ZN26M2ScalerScalingControlMSR710gMetaClassE);
+	_func_fffffff008a9403c(?,__ZN26M2ScalerScalingControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR710gMetaClassE);
+	_func_fffffff008a9403c(ARG0,__ZN26M2ScalerScalingControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26M2ScalerScalingControlMSR710gMetaClassE,"M2ScalerScalingControlMSR7",__ZN26M2ScalerScalingControlMSR610gMetaClassE,0xa58);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeda78,"IosaInternalPipeMSR10",__ZN20IosaInternalPipeMSR810gMetaClassE,0x40);
+	return(__ZN25M2ScalerScalingControlMSR10gMetaClassE);
+	_func_fffffff008a8297c(?,__ZN25M2ScalerScalingControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN25M2ScalerScalingControlMSR10gMetaClassE);
+	_func_fffffff008a8297c(ARG0,__ZN25M2ScalerScalingControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN25M2ScalerScalingControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN25M2ScalerScalingControlMSR10gMetaClassE,"M2ScalerScalingControlMSR",__ZN22M2ScalerScalingControl10gMetaClassE,0xa58);
+	return(__ZN26M2ScalerScalingControlMSR410gMetaClassE);
+	_func_fffffff008a90380(?,__ZN26M2ScalerScalingControlMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR410gMetaClassE);
+	_func_fffffff008a90380(ARG0,__ZN26M2ScalerScalingControlMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR410gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26M2ScalerScalingControlMSR410gMetaClassE,"M2ScalerScalingControlMSR4",__ZN25M2ScalerScalingControlMSR10gMetaClassE,0xa58);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedaf0,"IosaColorManagerMSR13",0xfffffff009eeddc0,0x1f0);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedb18,"DitherControlMSR4",__ZN16DitherControlMSR10gMetaClassE,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedb40,"M2ScalerCSCColorConversionControlMSR10j",0xfffffff009eeb9e8,0x40);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedb68,"M2ScalerSrcDestCfgControlMSR10",__ZN29M2ScalerSrcDestCfgControlMSR810gMetaClassE,0x130);
+	return(__ZN26M2ScalerScalingControlMSR610gMetaClassE);
+	_func_fffffff008a91d20(?,__ZN26M2ScalerScalingControlMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR610gMetaClassE);
+	_func_fffffff008a91d20(ARG0,__ZN26M2ScalerScalingControlMSR610gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR610gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26M2ScalerScalingControlMSR610gMetaClassE,"M2ScalerScalingControlMSR6",__ZN26M2ScalerScalingControlMSR410gMetaClassE,0xa58);
+	return(__ZN26IosaTiledCompressedMemMSR710gMetaClassE);
+	_func_fffffff008a6a1d4(?,__ZN26IosaTiledCompressedMemMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN26IosaTiledCompressedMemMSR710gMetaClassE);
+	_func_fffffff008a6a1d4(ARG0,__ZN26IosaTiledCompressedMemMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN26IosaTiledCompressedMemMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26IosaTiledCompressedMemMSR710gMetaClassE,"IosaTiledCompressedMemMSR7",__ZN22IosaTiledCompressedMem10gMetaClassE,0x40);
+	return(__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE);
+	_func_fffffff008a950fc(?,__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE);
+	_func_fffffff008a950fc(ARG0,__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN36M2ScalerCSCColorConversionControlMSR10gMetaClassE,"M2ScalerCSCColorConversionControlMSR",__ZN33M2ScalerCSCColorConversionControl10gMetaClassE,0x40);
+	return(__ZN20IosaColorManagerMSR510gMetaClassE);
+	_func_fffffff008a606f8(?,__ZN20IosaColorManagerMSR510gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR510gMetaClassE);
+	_func_fffffff008a606f8(ARG0,__ZN20IosaColorManagerMSR510gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR510gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaColorManagerMSR510gMetaClassE,"IosaColorManagerMSR5",__ZN20IosaColorManagerMSR410gMetaClassE,0x50);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedc58,"IosaDPEControlMSR13",0xfffffff009eeb740,0x50);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedca8,"IosaDPEControlMSR10",0xfffffff009eeb718,0x50);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE);
+	_func_fffffff008a9c1ec(?,__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE);
+	_func_fffffff008a9c1ec(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR510gMetaClassE,"M2ScalerSrcDestCfgControlMSR5",__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE,0x130);
+	return(__ZN20IosaColorManagerMSR710gMetaClassE);
+	_func_fffffff008a606f8(?,__ZN20IosaColorManagerMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR710gMetaClassE);
+	_func_fffffff008a606f8(ARG0,__ZN20IosaColorManagerMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN20IosaColorManagerMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN20IosaColorManagerMSR710gMetaClassE,"IosaColorManagerMSR7",__ZN20IosaColorManagerMSR410gMetaClassE,0x50);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedd48,"IosaWdmaControlMSR11",0xfffffff009eebe50,0x40);
+	return(__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE);
+	_func_fffffff008a9778c(?,__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE);
+	_func_fffffff008a9778c(ARG0,__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE);
+	_func_fffffff00817fff8(__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE,"M2ScalerSrcDestCfgControlMSR",__ZN25M2ScalerSrcDestCfgControl10gMetaClassE,0x130);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE);
+	_func_fffffff008a9af10(?,__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE);
+	_func_fffffff008a9af10(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR410gMetaClassE,"M2ScalerSrcDestCfgControlMSR4",__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE,0x130);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeddc0,"IosaColorManagerMSR11",0xfffffff009eeb948,0x1f0);
+	return(__ZN26M2ScalerScalingControlMSR810gMetaClassE);
+	_func_fffffff008a8fa2c(?,__ZN26M2ScalerScalingControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR810gMetaClassE);
+	_func_fffffff008a8fa2c(ARG0,__ZN26M2ScalerScalingControlMSR810gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR810gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26M2ScalerScalingControlMSR810gMetaClassE,"M2ScalerScalingControlMSR8",__ZN26M2ScalerScalingControlMSR710gMetaClassE,0xa58);
+	return(__ZN26M2ScalerScalingControlMSR210gMetaClassE);
+	_func_fffffff008a90380(?,__ZN26M2ScalerScalingControlMSR210gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR210gMetaClassE);
+	_func_fffffff008a90380(ARG0,__ZN26M2ScalerScalingControlMSR210gMetaClassE);
+	_func_fffffff00817fff8(__ZN26M2ScalerScalingControlMSR210gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN26M2ScalerScalingControlMSR210gMetaClassE,"M2ScalerScalingControlMSR2",__ZN25M2ScalerScalingControlMSR10gMetaClassE,0xa58);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR210gMetaClassE);
+	_func_fffffff008a9af10(?,__ZN29M2ScalerSrcDestCfgControlMSR210gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR210gMetaClassE);
+	_func_fffffff008a9af10(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR210gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR210gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR210gMetaClassE,"M2ScalerSrcDestCfgControlMSR2",__ZN28M2ScalerSrcDestCfgControlMSR10gMetaClassE,0x130);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eedeb0,"M2ScalerScalingASEControlMSR10",__ZN25M2ScalerScalingASEControl10gMetaClassE,0x9e0);
+	__ZN11OSMetaClassC2EPKcPKS_j(0xfffffff009eeded8,"IosaDPEControlMSR10j",0xfffffff009eedca8,0x50);
+	return(__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE);
+	_func_fffffff008a6a3d4(?,__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE);
+	_func_fffffff008a6a3d4(ARG0,__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE);
+	_func_fffffff00817fff8(__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE);
+	__ZN11OSMetaClassC2EPKcPKS_j(__ZN29M2ScalerSrcDestCfgControlMSR710gMetaClassE,"M2ScalerSrcDestCfgControlMSR7",__ZN29M2ScalerSrcDestCfgControlMSR610gMetaClassE,0x130);
+	_panic(""PROGRAM ERROR: %s, Line=%d: Powered down MSR while it is running\n" @%s:%d");
+fffffff008d0fad0	0xd51ff508  MSR   	S3_7_C15_C5_0, X8      	X -  (8 0x108)
+fffffff008d0fafc	0xd51ff168  MSR   	S3_7_C15_C1_3, X8      	X -  (8 0x8000)
+fffffff008d0fb04	0xd51ff368  MSR   	S3_7_C15_C3_3, X8      	X -  (8 0x8100)
+fffffff008d0fb0c	0xd51ff568  MSR   	S3_7_C15_C5_3, X8      	X -  (8 0x8600)
+fffffff008d0fb14	0xd51ff768  MSR   	S3_7_C15_C7_3, X8      	X -  (8 0x8900)
+fffffff008d0fb1c	0xd51ff968  MSR   	S3_7_C15_C9_3, X8      	X -  (8 0x8a00)
+fffffff008d0fb24	0xd51ffb68  MSR   	S3_7_C15_C11_3, X8     	X -  (8 0x8e00)
+fffffff008fb4f48	0xd517d1b4  MSR   	..?.., X20             	X -  (20 0x0)
