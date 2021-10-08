@@ -10,6 +10,9 @@ Welcome to a Hoyt's SRD Repo for the Apple Security Research Device.
 The Target iOS ranges is iOS15. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
 Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
+
+Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
+Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
 ```
 “Security researchers are constantly able to introspect what's happening in Apple’s [phone] software,” Apple vice president Craig Federighi said in an interview with the WSJ. 
 ```
