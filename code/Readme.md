@@ -2,6 +2,9 @@
 
 Hello! This is my SRD Repo and the iPhone 11 Public Domain Register Fuzzing Project using the Apple Security Research Device, the Apple SRD.
 
+Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
+Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
+
 Please contribute your Code, Project, Comments, Pro Tips or anything.... Open an Issue or PR.
 
 Initial Commits contain the SPRR Code by Sven Peter for M1 Apple Silicon. The Code is being refactored for iOS. 
