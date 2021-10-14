@@ -17,7 +17,7 @@ Everything in this RTFM comes from the Makefile. If you do not recognize the man
 ```
 Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then do your workflow with cryptexctl. 
 ```
-M1 T8010 + X86_64 Cryptex Installation 
+M1 T8101 + X86_64 Cryptex Installation 
 ------
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 # This is where you start with the SRDC DMG Example Cryptex after Download:
