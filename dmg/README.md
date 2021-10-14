@@ -77,3 +77,9 @@ codesign --force -s "7B2FD6D3A142A993E0519EBDF8AE859904C584E8"  com.example.cryp
 ```
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
+```
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
+```
+```
+cryptexctl install com.example.cryptex.cptx
+```
