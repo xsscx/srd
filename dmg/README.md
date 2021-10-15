@@ -1,13 +1,13 @@
 # SRD Cohort Example DMG for Crytpex with Toybox Unstripped
 
-Jumpstart your Research with Example DMG Files for a Cryptex
+Jumpstart your Research with Example DMG Files for a Cryptex compiled for 19B5068a
 -----------
 
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 
 Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
 
-Updated October 6, 2021 - Now that I've Rolled my SRD up to iOS 15, I've deleted all the iOS14.x DMG's.  IPSW == iPhone11,8,iPhone12,1_15.1_19B5060d_Restore.ipsw
+Updated October 15, 2021 - Now that I've Rolled my SRD up to iOS 15, I've deleted all the iOS14.x DMG's.  IPSW == iPhone11,8,iPhone12,1_15.1_19B5068a_Restore.ipsw
 
 I've updated ToyBox Unstripped too!
 
