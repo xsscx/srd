@@ -7,7 +7,7 @@ SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defau
 
 Welcome
 -----
-Welcome to a Hoyt's SRD Repo for the Apple Security Research Device.
+Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 
 The Target iOS ranges is iOS15. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
