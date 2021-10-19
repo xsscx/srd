@@ -36,7 +36,7 @@ SRD Details
 Model: 		    MWL72LL/A
 Model Name:         iPhone 11
 release:            20.6.0
-version:            iPhone-11 21.1.0 Darwin Kernel Version 21.1.0: Tue Sep 21 12:52:30 PDT 2021; root:xnu-8019.40.86~21/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+version:            Darwin iPhone 21.1.0 Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:58 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
 machine:            iPhone12,1
 cpu type:           0x100000c  (arm64e)
 cpu subtype:        0x2  (ARM64E)
