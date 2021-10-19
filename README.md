@@ -23,7 +23,7 @@ Here is where you start your Instrumentation:
 groups
 wheel daemon kmem sys tty operator procview procmod staff certusers admin
 uname -a
-Darwin iPhone-11 21.1.0 Darwin Kernel Version 21.1.0: Tue Sep 21 12:52:30 PDT 2021; root:xnu-8019.40.86~21/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+Darwin iPhone 21.1.0 Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:58 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
  whoami
 root
 ```
