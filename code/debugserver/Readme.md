@@ -68,7 +68,26 @@ xmllint debugserver.plist
 </dict>
 </plist>
 ```
-
+xmllint says....
+```
+xmllint src/debugserver/debugserver.plist
+<?xml version="1.0"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.system-task-ports</key>
+	<true/>
+	<key>com.apple.springboard.debugapplications</key>
+	<true/>
+	<key>get-task-allow</key>
+	<true/>
+	<key>task_for_pid-allow</key>
+	<true/>
+	<key>run-unsigned-code</key>
+	<true/>
+</dict>
+</plist>
+```
 
 In other news.... Code Coverage works.. -fprofile-instr-generate -fcoverage-mapping
 ```
