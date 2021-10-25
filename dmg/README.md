@@ -7,8 +7,6 @@ Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer
 
 Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
 
-Updated October 15, 2021 - Now that I've Rolled my SRD up to iOS 15, I've deleted all the iOS14.x DMG's.  IPSW == iPhone11,8,iPhone12,1_15.1_19B5068a_Restore.ipsw
-
 I've updated ToyBox Unstripped too!
 
 Everything in this RTFM comes from the Makefile. If you do not recognize the manual commands below, look at the Makefile and this will be obvious. Apple failed to include Toybox Unstripped Binary to aid in debugging.
