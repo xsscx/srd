@@ -7,6 +7,8 @@ SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defau
 
 Here is Toybox Unstripped DMG for Cryptex at URL https://github.com/xsscx/srd/tree/main/dmg
 
+Added the Entitlement research.com.apple.license-to-operate to debugserver
+
 Welcome
 -----
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
