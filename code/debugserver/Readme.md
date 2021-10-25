@@ -2,7 +2,9 @@
 
 # Landing for debugserver on Apple Security Research Device 
 
-See URL https://srd.cx/debugserver-installation-configuration/
+See URL https://srd.cx/debugserver-installation-configuration/ 
+
+See URL https://github.com/frida/frida-core/pull/400
 
 ## UPDATED: October 26, 2021: debugserver with updated entitlement research.com.apple.license-to-operate
 
