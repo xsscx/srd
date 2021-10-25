@@ -1,5 +1,3 @@
-## PUNTED: SRD | debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1300.2.10. Reason: EXC_BAD_ACCESS | Apple needs to show a Proof of Work.
-
 # Landing for debugserver on Apple Security Research Device 
 
 See URL https://srd.cx/debugserver-installation-configuration/ 
