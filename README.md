@@ -5,6 +5,8 @@ SRD IPSW Last Updated: October 19, 2021 | iPhone11,8,iPhone12,1_15.1_19B74_Resto
 
 SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' | Found variant: Research Customer Erase Install (IPSW)
 
+Here is Toybox Unstripped DMG for Cryptex at URL https://github.com/xsscx/srd/tree/main/dmg
+
 Welcome
 -----
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
