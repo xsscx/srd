@@ -19,9 +19,7 @@ Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, 
 
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
-```
-“Security researchers are constantly able to introspect what's happening in Apple’s [phone] software,” Apple vice president Craig Federighi said in an interview with the WSJ. 
-```
+
 Here is where you start your Instrumentation:
 ```
 groups
