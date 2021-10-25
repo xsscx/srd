@@ -14,13 +14,6 @@ IPSW == iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw
 <plist version="1.0">
 <dict>
         <key>com.apple.springboard.debugapplications</key> <true/>
-        <key>research.com.apple.license-to-operate</key> <true/>
-        <key>run-unsigned-code</key>
-        <true/>
-        <key>get-task-allow</key>
-        <true/>
-        <key>task_for_pid-allow</key>
-        <true/>
 </dict>
 </plist>
 ```
