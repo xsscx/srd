@@ -4,6 +4,8 @@ See URL https://srd.cx/debugserver-installation-configuration/
 
 See URL https://github.com/frida/frida-core/pull/400
 
+IPSW == iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw
+
 ## UPDATED: October 26, 2021: debugserver with updated entitlement research.com.apple.license-to-operate
 
 ```
