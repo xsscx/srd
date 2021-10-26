@@ -1,5 +1,7 @@
 # Landing for debugserver on Apple Security Research Device 
 
+APPLE: See Issue #4: https://github.com/xsscx/srd/issues/4
+
 See URL https://srd.cx/debugserver-installation-configuration/ 
 
 See URL https://github.com/frida/frida-core/pull/400
