@@ -1,7 +1,9 @@
 # SRD Cohort Example DMG for Crytpex with Toybox Unstripped
 
-Jumpstart your Research with Example DMG Files for a Cryptex compiled for 19B5068a
+Jumpstart your Research with Example DMG Files
 -----------
+
+SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw | defaults write com_apple_AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 
