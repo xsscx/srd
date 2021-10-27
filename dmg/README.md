@@ -42,7 +42,7 @@ You now have the ToyBox Unstripped Binary that has Symbols. They may even work w
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
      877
 ```
-As you can see above, the toybox unstripped has 876 results from nm -a output. That is compared with the typical toybox binary that is installed in the SRD Makefile as shown below:
+As you can see above, the toybox unstripped has 877 results from nm -a output. That is compared with the typical toybox binary that is installed in the SRD Makefile as shown below:
 ```
 nm -a ~/srd/example-cryptex/src/toybox/toybox-src/toybox | wc -l
      258
