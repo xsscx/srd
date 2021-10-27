@@ -11,6 +11,9 @@ IPSW == iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw
 October 25, 2021: In iOS 15.1 Apple added a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device. This entitlement allows tools to bypass the PPL codesigning protections and the usual task-port policies to inject code into any process running on the system (platform and non-platform).
 
 ## UPDATED: October 26, 2021: debugserver with updated entitlement research.com.apple.license-to-operate
+
+## PoC 
+echo "g34( struct Yunsignedp char32_t=char32_t_35==ZcregisterZtypename&&S=4autobitand8 &&or* xor{static_cast&char32_t&welseconst auto" | clang -x c++ -
 ```
 (lldb)  process connect connect://192.168.3.77:1921
 Process 731 stopped
