@@ -24,11 +24,11 @@ uint64_t read_sprr(void)
 int main(int argc, char *argv[])
 {
 
-{
+ {
     for (int j = 0; j < 64; ++j) {
-        printf("Read Initial Register s3_0_c15_c11_0 bit %02d: %016llx\n", j, read_sprr());
+        printf("Read Initial Register bit %02d: %016llx\n", j, read_sprr());
     }
-}
+  }
 
 
     for (int i = 0; i < 64; ++i) {
@@ -36,4 +36,3 @@ int main(int argc, char *argv[])
         printf("Flipped Register s3_0_c15_c11_0 bit %02d: %016llx\n", i, read_sprr());
     }
 }
-
