@@ -75,6 +75,7 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.
 cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
 ```
 ```
+If already mounted... cryptexctl uninstall com.example.cryptex
 cryptexctl install com.example.cryptex.cptx
 ```
 Any Questions? https://twitter.com/h02332
