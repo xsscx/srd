@@ -12,7 +12,7 @@ October 25, 2021: In iOS 15.1 Apple added a new entitlement called research.com.
 
 ## UPDATED: October 26, 2021: debugserver with updated entitlement research.com.apple.license-to-operate
 
-## PoC 
+## PoC via a-Shell :-)
 echo "g34( struct Yunsignedp char32_t=char32_t_35==ZcregisterZtypename&&S=4autobitand8 &&or* xor{static_cast&char32_t&welseconst auto" | clang -x c++ -
 ```
 (lldb)  process connect connect://192.168.3.77:1921
