@@ -50,6 +50,9 @@ nm -a ~/srd/example-cryptex/src/toybox/toybox-src/toybox | wc -l
 # Background to Build the DMG
 This is where I'm dropping you at in the Build Pipeline:
 ```
+rm toyboxunstripped.dmg
+```
+```
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
 ```
