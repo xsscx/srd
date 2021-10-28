@@ -1,5 +1,11 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
 
+Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
+
+The Target iOS ranges is iOS15. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
+
+Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
+
 --------------------------------------------------
 SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' | Found variant: Research Customer Erase Install (IPSW)
 
@@ -12,17 +18,6 @@ There are typically 2 DMG's available that are Compiled for the Mainline and Bet
 Open an Issue or PR if you want Code included in the available DMG's.
 
 Added the Entitlement research.com.apple.license-to-operate to debugserver
-
-Welcome
------
-Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
-
-The Target iOS ranges is iOS15. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
-
-Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
-
-Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
-Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
 
 Here is where you start your Instrumentation:
 ```
@@ -110,3 +105,6 @@ xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpeda
 Please Contribute your Code & Ideas. Help us Prove the SRD Model. Results to be Posted rapidly.
 --------------------------------------------------
 
+
+Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
+Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
