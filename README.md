@@ -17,7 +17,14 @@ There are typically 2 DMG's available that are Compiled for the Mainline and Bet
 
 Open an Issue or PR if you want Code included in the available DMG's.
 
-Added the Entitlement research.com.apple.license-to-operate to debugserver
+# What's Here
+There is Security Research Tools - Use 20C80 Only
+There is Sample Code for the SRD
+There are Cryptex CMG's built with Toybox Unstripped
+There are various PoC's on the DMG that Crash, are Broken or Programs that write Hello researcher from pid xxx!
+There is a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device
+
+# Want to write Instrumentation or a PoC for the SRD?
 
 Here is where you start your Instrumentation:
 ```
