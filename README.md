@@ -1,15 +1,15 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
 
 --------------------------------------------------
-SRD IPSW Last Updated: October 25, 2021 | iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw
-
 SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' | Found variant: Research Customer Erase Install (IPSW)
 
 SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw | defaults write com_apple_AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
-Here is Toybox Unstripped DMG for Cryptex at URL https://github.com/xsscx/srd/tree/main/dmg
+See URL https://github.com/xsscx/srd/tree/main/dmg
 
-iOS 15.2 Beta has a toyboxunstripped too!
+There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
+
+Open an Issue or PR if you want Code included in the available DMG's.
 
 Added the Entitlement research.com.apple.license-to-operate to debugserver
 
