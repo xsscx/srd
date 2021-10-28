@@ -1,7 +1,10 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
 
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
-
+```
+uname -a
+Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+```
 The Target iOS ranges are iOS15 Mainline and Beta Trains. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
 Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
@@ -45,7 +48,7 @@ SRD Details
 Model: 		    MWL72LL/A
 Model Name:         iPhone 11
 release:            21.0.0
-version:            Darwin iPhone 21.1.0 Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:58 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+version:            Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
 machine:            iPhone12,1
 cpu type:           0x100000c  (arm64e)
 cpu subtype:        0x2  (ARM64E)
