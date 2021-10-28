@@ -5,17 +5,9 @@ Jumpstart your Research with Example DMG Files
 
 Pick your DMG for iOS 15.1 iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw or iOS15.2 Beta iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw
 
-Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
-
-Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
-
-I've updated ToyBox Unstripped too!
-
-Everything in this RTFM comes from the Makefile. If you do not recognize the manual commands below, look at the Makefile and this will be obvious. Apple failed to include Toybox Unstripped Binary to aid in debugging.
-
 # Start of Installation of a Hand-Rolled DMG
 ```
-Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then do your workflow with cryptexctl. 
+Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then complete the steps below 
 ```
 M1 T8101 + X86_64 Cryptex Installation 
 ------
@@ -37,7 +29,7 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.8Ug7XY
 ```
-You now have the ToyBox Unstripped Binary that has Symbols. They may even work with the latest iOS Beta :-)
+You now have the ToyBox Unstripped Binary that has Symbols. 
 
 # This is my Proof of Work that I have completed the above steps and verified that the installed cryptex contains toybox unstripped:
 ```
@@ -52,7 +44,8 @@ nm -a ~/srd/example-cryptex/src/toybox/toybox-src/toybox | wc -l
 # Background to Build the DMG
 This is where I'm dropping you at in the Build Pipeline:
 ```
-rm toyboxunstripped.dmg
+...
+(rm toyboxunstripped.dmg)
 ```
 ```
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
@@ -60,7 +53,7 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.
 ```
 created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/toyboxunstripped.dmg
 ```
-Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... this is the whole process.. you have a DMG, so lets get it installed. This is how I manually hand-roll a cryptex with toybox unstripped:
+Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... This is how I manually hand-roll a cryptex with toybox unstripped and a few other things:
 ```
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 ```
@@ -78,3 +71,8 @@ If already mounted... cryptexctl uninstall com.example.cryptex
 cryptexctl install com.example.cryptex.cptx
 ```
 Any Questions? https://twitter.com/h02332
+
+Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
+
+Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
+
