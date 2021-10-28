@@ -1,11 +1,9 @@
-# SRD Cohort Example DMG for Crytpex with Toybox Unstripped
+# SRDC DMG for Crytpex with toybox unstripped and debugserver
 
 Jumpstart your Research with Example DMG Files
 -----------
 
-toyboxunstripped.dmg is for iOS 15 Release
-
-SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw | defaults write com_apple_AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)' has a toyboxunstripped dmg too
+Pick your DMG for iOS 15.1 iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw or iOS15.2 Beta iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw
 
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 
