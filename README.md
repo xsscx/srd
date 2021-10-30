@@ -35,7 +35,7 @@ Here is where you start your Instrumentation:
 groups
 wheel daemon kmem sys tty operator procview procmod staff certusers admin
 uname -a
-Darwin iPhone 21.1.0 Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:58 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
  whoami
 root
 ```
@@ -86,15 +86,15 @@ machdep.cpu.brand_string: Apple M1
 ```
 ```
 clang -v
-Apple clang version 13.0.0 (clang-1300.0.29.3)
+Apple clang version 13.0.0 (clang-1300.0.29.30)
 Target: arm64-apple-darwin20.6.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 SDK Targets
 ---
 ```
-iOS SDK 15
+iOS SDK 15.2
 ```
 Run Targets
 ---
