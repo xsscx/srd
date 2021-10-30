@@ -47,12 +47,6 @@ This is where I'm dropping you at in the Build Pipeline:
 ...
 (rm toyboxunstripped.dmg)
 ```
-```
-hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
-```
-```
-created: /Users/dhoyt/srd/share/security-research-device/example-cryptex/toyboxunstripped.dmg
-```
 Now you have this DMG, lets walk thru the hand-roll and smoke our fine cryptex.... This is how I manually hand-roll a cryptex with toybox unstripped and a few other things:
 ```
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
