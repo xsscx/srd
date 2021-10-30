@@ -1,28 +1,120 @@
-### SRD Code Repo
+# Welcome to Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
 
-Hello! This is my SRD Repo and the iPhone 11 Public Domain Register Fuzzing Project using the Apple Security Research Device, the Apple SRD.
+Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
+```
+uname -a
+Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+```
+The Target iOS ranges are iOS15 Mainline and Beta Trains. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
-Please contribute your Code, Project, Comments, Pro Tips or anything.... Open an Issue or PR.
+Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, send a DM or Tweet.  Help us Validate & Proof the Apple SRD. Your Ideas can be a Proof for the SRD. All Result to be Published into the Public Domain immediately.
 
-Initial Commits contain the SPRR Code by Sven Peter for M1 Apple Silicon. The Code is being refactored for iOS. 
+--------------------------------------------------
+SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
-Also available is a TFTP Server ripped and canabalized for the SRD. TFTP Server & Client work perfectly for iOS 14.3 -> 14Beta7.
+SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw | defaults write com_apple_AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
-October 25, 2021: In iOS 15.1 Apple added a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device. This entitlement allows tools to bypass the PPL codesigning protections and the usual task-port policies to inject code into any process running on the system (platform and non-platform).
+See URL https://github.com/xsscx/srd/tree/main/dmg
 
-## iPhone 11 Register Fuzzing Code
+There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
-On May 6, 2021 a Post by Sven Peter about Apple Silicon Hardware Secrets: SPRR and Guarded Exception Levels (GXF) at URL https://blog.svenpeter.dev/posts/m1_sprr_gxf/ appeared in my Timeline. I had just been reviewing https://github.com/AsahiLinux/m1n1/blob/main/tools/apple_regs.json.
+Open an Issue or PR if you want Code included in the available DMG's.
 
-For the M1 Apple Silicon Platform, I've Posted some Results at URL https://github.com/xsscx/macos-research/tree/main/sprr
+# What's Here
+```
+Security Research Tools - Use 20C80 Only
+Sample Code for the SRD
+Cryptex DMG's built with Toybox Unstripped and includes debugserver, jtool2, binbag, ioscan, ioprint and more...
+PoC's on the DMG that Crash, are Broken and Programs that write Hello researcher from pid xxx!
+There is a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device
+```
+# Want to write Instrumentation or a PoC for the SRD?
 
-What happens when we run the Code on an SRD???
+Here is where you start your Instrumentation:
+```
+groups
+wheel daemon kmem sys tty operator procview procmod staff certusers admin
+uname -a
+Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+ whoami
+root
+```
 
-This Repo answers the question.. what happens when we run Sven Peter's Code on the SRD... 
+This Repo is Public Domain and I hope you will contribute your Code, Comments and Suggestions.
 
-Repo in Development.. Feel Free to Open Issues, Ask Questions and Contribute Code to be run on the SRD.
+SRD Details
+----------
+```
+Model: 		    MWL72LL/A
+Model Name:         iPhone 11
+release:            21.0.0
+version:            Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+machine:            iPhone12,1
+cpu type:           0x100000c  (arm64e)
+cpu subtype:        0x2  (ARM64E)
+cpus:               6 cores / 6 threads
+memory:             0xf1200000  (3.8G)
+page size:          0x4000  (16K)
+```
+Toolchain Details
+-----
+Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
 
-Check out the 2021 SRD Cohort Website at https://srd.cx
+XNU Export
+---
+```
+export XNU_VERSION=xnu-7195.141.2
+```
+X86_64
+---
+```
+sysctl -a | grep Intel
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+```
+```
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.29.3)
+Target: X86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+```
+M1 Apple Silicon
+---
+```
+sysctl -a | grep M1
+machdep.cpu.brand_string: Apple M1
+```
+```
+clang -v
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+```
+SDK Targets
+---
+```
+iOS SDK 15.2
+```
+Run Targets
+---
+```
+SRD
+iPhone 12 Pro Max
+iPad 12 Pro
+```
+How-To Compile for iOS
+-----
+```
+xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpedantic -Wno-gnu -Werror -Wunused-variable -o a.out code.s
+```
+* To ALL - Open a Discussion, PR or Issue with Suggestions, Comments, Bugs, Feedback, Tips etc..
+* Collaborative Research
+* All Code and Questions are Welcome 
+* When you see Code Errors, Fails or LOL's.. Please Open an Issue... Thanks!
+
+Please Contribute your Code & Ideas. Help us Prove the SRD Model. Results to be Posted rapidly.
+--------------------------------------------------
 
 ### All Code Contributions Welcome
 
