@@ -14,7 +14,9 @@ SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defau
 
 SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw | defaults write com_apple_AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
+# SRDC Example DMG for Cryptex
 See URL https://github.com/xsscx/srd/tree/main/dmg
+- includes debugserver
 
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
