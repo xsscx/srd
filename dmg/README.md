@@ -5,6 +5,10 @@ Jumpstart your Research with Example DMG Files
 
 Pick your DMG for iOS 15.1 iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw or iOS15.2 Beta iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw
 
+# With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
+
+https://github.com/pinauten/CryptexManager
+
 # Start of Installation of a Hand-Rolled DMG
 ```
 Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then complete the steps below 
