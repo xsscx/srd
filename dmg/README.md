@@ -11,6 +11,9 @@ Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then 
 ```
 M1 T8101 + X86_64 Cryptex Installation 
 ------
+With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
+For X86_64 cryptex installation use https://github.com/pinauten/CryptexManager
+
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 # This is where you start with the SRDC DMG Example Cryptex after Download:
 ```
