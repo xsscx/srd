@@ -9,10 +9,6 @@ Pick your DMG for iOS 15.1 iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw or iOS1
 
 https://github.com/pinauten/CryptexManager
 
-# Start of Installation of a Hand-Rolled DMG
-```
-Pro Tip: Prior to working with cryptexctl, Close Xcode and Reboot the SRD, then complete the steps below 
-```
 M1 Cryptex Installation 
 ------
 
