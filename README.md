@@ -2,8 +2,7 @@
 
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
-uname -a
-Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+Latest Working IPSW: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw
 ```
 The Target iOS ranges are iOS15 Mainline and Beta Trains. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
 
@@ -12,7 +11,7 @@ Crowdsource: Proof & Audit for the Apple Security Research Device. Create a PR, 
 --------------------------------------------------
 SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
-SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw | defaults write com_apple_AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+SRD | 19C5036e | Signed File: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
 # SRDC Example DMG for Cryptex
 See URL https://github.com/xsscx/srd/tree/main/dmg
