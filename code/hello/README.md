@@ -56,12 +56,6 @@ Filename                                         Regions    Missed Regions     C
 TOTAL                                                  1                 0   100.00%           1                 0   100.00%           7                 0   100.00%           0                 0         -
 
 ```
-
-Please Contribute Code to be run on the Apple Security Research Device
-
-Thank You
-
-
 In this example we compile a simple binary that prints to
 stdout and to the system log, and install a service to
 run it again and again. The Makefile contains examples
@@ -76,3 +70,9 @@ into `/usr/bin` inside the cryptex. The
 `/Library/LaunchDaemons` in the cryptex and will keep
 starting `hello`.
 
+
+CFI doesn't work on ARM.. this is something I didn't know..
+```
+clang: error: unsupported option '-fsanitize=cfi' for target 'arm64e-apple-darwin20.5.0'
+
+```
