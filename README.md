@@ -22,6 +22,8 @@ With the release of macOS 12, Security Research Tools (SRT) no longer works on X
 
 https://github.com/pinauten/CryptexManager
 
+Install Instructions: https://github.com/pinauten/CryptexManager/issues/1
+
 # What's Here
 ```
 Security Research Tools - Use 20C80 Only
