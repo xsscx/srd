@@ -4,28 +4,23 @@ Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
 Latest Working IPSW: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw
 ```
-The Target iOS ranges are iOS15 Mainline and Beta Trains. The Target Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. Help us Prove the SRD Model with a PR or Issue. 
+The Target iOS ranges are iOS15 Mainline and Beta Trains. The Hardware Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. 
 ```
 Comment: Apple has not yet delivered a working entitlement for debugging tools, so YMMV. 
 ```
-# IOKit is what you should look at, its Research not Retail.
-
---------------------------------------------------
+# Cryptex DMG's for Mainline & Developer Trains
 SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
 SRD | 19C5036e | Signed File: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
-# SRDC Example DMG for Cryptex
 See URL https://github.com/xsscx/srd/tree/main/dmg
-- includes debugserver, but the entitlement doesn't work, but you can see what is coming....
 
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
-# With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
+# Current Events 
+With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
 
 https://github.com/pinauten/CryptexManager
-
-Open an Issue or PR if you want Code included in the available DMG's.
 
 # What's Here
 ```
@@ -119,10 +114,6 @@ xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpeda
 * Collaborative Research
 * All Code and Questions are Welcome 
 * When you see Code Errors, Fails or LOL's.. Please Open an Issue... Thanks!
-
-Please Contribute your Code & Ideas. Help us Prove the SRD Model. Results to be Posted rapidly.
---------------------------------------------------
-
 
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 
