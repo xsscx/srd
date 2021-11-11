@@ -1,10 +1,8 @@
 # Hello!
 
-October 25, 2021: In iOS 15.1 Apple added a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device. This entitlement allows tools to bypass the PPL codesigning protections and the usual task-port policies to inject code into any process running on the system (platform and non-platform).
-
-RESULTS
+Current Events
 -------
-Its working better than it was :-)
+October 25, 2021: In iOS 15.1 Apple added a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device. This entitlement allows tools to bypass the PPL codesigning protections and the usual task-port policies to inject code into any process running on the system (platform and non-platform). Unfortunately, this doesn't work due to a number of issues.
 
 Code Profiling Example
 =======
