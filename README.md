@@ -3,9 +3,8 @@
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
 Latest Working IPSW: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw
-Follow: https://twitter.com/srdcohort
 ```
-The Target iOS ranges are iOS15 Mainline and Beta Trains. The Hardware Platform is iPhone 11 which is aka iPhone 12,1. The Model Number is MWL72LL/A. 
+Follow: https://twitter.com/srdcohort
 ```
 Comment: Apple has not yet delivered a working entitlement for debugging tools, so YMMV. 
 ```
