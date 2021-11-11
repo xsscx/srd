@@ -16,7 +16,7 @@ SRD | 19C5026i | Signed File: iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw |
 
 # SRDC Example DMG for Cryptex
 See URL https://github.com/xsscx/srd/tree/main/dmg
-- includes debugserver
+- includes debugserver, but the entitlement doesn't work, but you can see what is coming....
 
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
