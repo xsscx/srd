@@ -3,11 +3,13 @@
 Jumpstart your Research with Example DMG Files
 -----------
 
-Pick your DMG for iOS 15.1 iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw or iOS15.2 Beta iPhone11,8,iPhone12,1_15.2_19C5026i_Restore.ipsw
+Pick your DMG, install & learn.
 
 # With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
 
 https://github.com/pinauten/CryptexManager
+
+Install Instructions: https://github.com/pinauten/CryptexManager/issues/1
 
 M1 Cryptex Installation 
 ------
