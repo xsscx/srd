@@ -2,7 +2,7 @@
 
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
-Latest Working IPSW: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw
+Latest Working IPSW: iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw
 ```
 Follow: https://twitter.com/srdcohort
 ---
@@ -12,7 +12,7 @@ See URL https://github.com/frida/frida-core/pull/400 and URL https://twitter.com
 # Cryptex DMG's for Mainline & Developer Trains
 SRD | 19B74 | Signed File: iPhone11,8,iPhone12,1_15.1_19B74_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
-SRD | 19C5036e | Signed File: iPhone11,8,iPhone12,1_15.2_19C5036e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+SRD | 19C5044b | Signed File: iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
 See URL https://github.com/xsscx/srd/tree/main/dmg
 
