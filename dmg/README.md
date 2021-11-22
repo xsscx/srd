@@ -1,6 +1,9 @@
-# Install a Cryptex with Toybox Unstripped on M1 ARM or X86_64 by SRD0009 last updated November 22, 2021
-
-Jumpstart your Research with Example DMG Files, or... Avoid maintaining a Build Pipeline.
+# Install a Cryptex with Toybox Unstripped on M1 ARM or X86_64
+```
+Author: SRD0009 
+Updated: November 22, 2021
+```
+Jumpstart your Research with Example DMG Files ... Avoid maintaining a Build Pipeline!
 
 Download a SRDC DMG, install & ssh to the SRD.
 
