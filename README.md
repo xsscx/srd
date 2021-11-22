@@ -2,7 +2,7 @@
 
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
-Latest Working IPSW: iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw
+Latest SRD IPSW verified working 16-NOV-2021: iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw
 ```
 Follow: https://twitter.com/srdcohort
 ---
