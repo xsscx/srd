@@ -34,7 +34,7 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.8Ug7XY
 ```
-You now have the ToyBox Unstripped Binary that has Symbols on M1 ARM
+You now have the ToyBox Unstripped Binary that has Symbols on M1 ARM, go ssh to the SRD.
 
 X86_64 Installation | macOS 12.0.1 (21A559)
 ----
@@ -59,6 +59,7 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.b16SlD
 ```
+You now have the ToyBox Unstripped Binary that has Symbols on X86_64, go ssh to the SRD.
 # This is my Proof of Work for having verified that the installed cryptex contains toybox unstripped:
 ```
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
