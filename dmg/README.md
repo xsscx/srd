@@ -11,7 +11,7 @@ https://github.com/pinauten/CryptexManager
 
 Install Instructions: https://github.com/pinauten/CryptexManager/issues/1
 
-M1 Cryptex Installation 
+M1 Cryptex Installation | macOS 11.6.1 (20G224)
 ------
 
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
