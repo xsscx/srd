@@ -1,4 +1,4 @@
-# SRDC DMG for Crytpex with toybox unstripped
+# Install a Cryptex with Toybox Unstripped on M1 ARM or X86_64 by SRD0009 last updated November 22, 2021
 
 Jumpstart your Research with Example DMG Files, or... Avoid maintaining a Build Pipeline.
 
@@ -11,8 +11,6 @@ With the release of macOS 12, Security Research Tools (SRT) no longer works on X
 Source: https://github.com/pinauten/CryptexManager
 
 Install: https://github.com/pinauten/CryptexManager/issues/1
-
-# Install a Cryptex on M1 ARM or X86_64 by SRD0009 last updated November 22, 2021
 
 M1 Cryptex Installation | macOS 11.6.1 (20G224)
 ------
