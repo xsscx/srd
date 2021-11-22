@@ -12,7 +12,7 @@ Source: https://github.com/pinauten/CryptexManager
 
 Install: https://github.com/pinauten/CryptexManager/issues/1
 
-# Install a Cryptex on M1 ARM or X86_64 by SRD0009 lasy updated November 22, 2021
+# Install a Cryptex on M1 ARM or X86_64 by SRD0009 last updated November 22, 2021
 
 M1 Cryptex Installation | macOS 11.6.1 (20G224)
 ------
