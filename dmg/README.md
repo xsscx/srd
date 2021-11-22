@@ -48,10 +48,10 @@ CryptexManager-master %  .build/release/CryptexManager create -i com.example.cry
 ```
 Next, Install the Cryptex on the SRD:
 ```
- CryptexManager-master % .build/release/CryptexManager install /tmp/cptx                                                                                                                 
+CryptexManager-master % .build/release/CryptexManager install /tmp/cptx                                                                                                                 
 Successfully installed cryptex!
 ```
-# This is my Proof of Work that I have completed and verified that the installed cryptex contains toybox unstripped:
+# This is my Proof of Work for having verified that the installed cryptex contains toybox unstripped:
 ```
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
      876
