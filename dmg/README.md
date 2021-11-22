@@ -1,15 +1,18 @@
-# SRDC DMG for Crytpex with toybox unstripped and debugserver
+# SRDC DMG for Crytpex with toybox unstripped
 
-Jumpstart your Research with Example DMG Files
------------
+Jumpstart your Research with Example DMG Files, or... Avoid maintaining a Build Pipeline.
 
-Pick your DMG, install & learn.
+Download a SRDC DMG, install & ssh to the SRD.
 
-# With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
+Create an Issue to Add Code to be Compiled for the Apple Security Research Device. 
 
-https://github.com/pinauten/CryptexManager
+With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
+---
+Source: https://github.com/pinauten/CryptexManager
 
-Install Instructions: https://github.com/pinauten/CryptexManager/issues/1
+Install: https://github.com/pinauten/CryptexManager/issues/1
+
+# Install a Cryptex on M1 ARM or X86_64 by SRD0009 lasy updated November 22, 2021
 
 M1 Cryptex Installation | macOS 11.6.1 (20G224)
 ------
