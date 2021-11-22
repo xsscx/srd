@@ -35,9 +35,9 @@ com.example.cryptex
 ```
 You now have the ToyBox Unstripped Binary that has Symbols on M1 ARM
 
-X86_64 Installation
+X86_64 Installation | macOS 12.0.1 (21A559)
 ----
-This is where you start with the SRDC DMG Example Cryptex after Download:
+This is where you start with the SRDC DMG Example Cryptex after Download on X86_64 macOS 12.0.1 (21A559):
 ```
 Mount the SRDC DMG example: 19C5044b-toyboxunstripped.dmg with Finder or Terminal
 ```
