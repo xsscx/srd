@@ -16,8 +16,7 @@ M1 Cryptex Installation | macOS 11.6.1 (20G224)
 
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 
-This is where you start with the SRDC DMG Example Cryptex after Download:
-M1 ARM
+This is where you start with the SRDC DMG Example Cryptex after Download on M1 ARM macOS 11.6.1 (20G224):
 ```
 cd example-cryptex/
 ```
