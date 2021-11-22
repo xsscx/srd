@@ -51,6 +51,14 @@ Next, Install the Cryptex on the SRD:
 CryptexManager-master % .build/release/CryptexManager install /tmp/cptx                                                                                                                 
 Successfully installed cryptex!
 ```
+Confirm the Cryptex is Installed:
+```
+cryptexctl   list                                                                                                                                               
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.b16SlD
+```
 # This is my Proof of Work for having verified that the installed cryptex contains toybox unstripped:
 ```
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
