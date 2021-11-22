@@ -50,7 +50,7 @@ CryptexManager-master %  .build/release/CryptexManager create -i com.example.cry
 # This is my Proof of Work that I have completed and verified that the installed cryptex contains toybox unstripped:
 ```
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
-     877
+     876
 ```
 As you can see above, the toybox unstripped has 877 results from nm -a output. That is compared with the typical toybox binary that is installed in the SRD Makefile as shown below:
 ```
