@@ -42,11 +42,15 @@ This is where you start with the SRDC DMG Example Cryptex after Download:
 ```
 Mount the SRDC DMG example: 19C5044b-toyboxunstripped.dmg with Finder or Terminal
 ```
-Then, in Terminal, use CryptexManager to Personalize and Install the Cryptex:
+Then, in Terminal, use CryptexManager to Personalize the Cryptex:
 ```
 CryptexManager-master %  .build/release/CryptexManager create -i com.example.cryptex -v 1.3.3.7 ~/Downloads/19C5044b-toyboxunstripped.dmg /Volumes/com.example.cryptex.dstroot /tmp/cptx
 ```
-
+Next, Install the Cryptex on the SRD:
+```
+ CryptexManager-master % .build/release/CryptexManager install /tmp/cptx                                                                                                                 
+Successfully installed cryptex!
+```
 # This is my Proof of Work that I have completed and verified that the installed cryptex contains toybox unstripped:
 ```
 nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
