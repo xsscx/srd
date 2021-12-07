@@ -4,7 +4,7 @@ Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
 Latest SRD IPSW verified working 7-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw
 ```
-Follow: https://twitter.com/srdcohort
+Follow: https://twitter.com/srdcohort and make sure you read URL https://github.com/apple/security-research-device/issues/13 about debugserver and Frida.
 
 # Cryptex DMG's for Mainline & Developer Trains
 SRD | 19C56 | Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
