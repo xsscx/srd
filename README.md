@@ -16,7 +16,7 @@ See URL https://github.com/xsscx/srd/tree/main/dmg
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
 # Current Events 
-With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager. See URL https://github.com/apple/security-research-device/issues/17
+With the release of macOS 12, Security Research Tools (SRT) and its cryptexctl no longer works on X86_64. Use CryptexManager. See URL https://github.com/apple/security-research-device/issues/17
 
 https://github.com/pinauten/CryptexManager
 
