@@ -1,6 +1,4 @@
-# Welcome to Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
-
-Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
+# Welcome to Hoyt's SRD Repo for the Apple Security Research Device
 ```
 Latest SRD IPSW 7-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw 
 ```
