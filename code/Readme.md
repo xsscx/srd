@@ -1,12 +1,4 @@
-# Welcome to Hoyt's SRD Repo for the Apple Security Research Device. (SRD) Repo by SRD0009
-
-Welcome to Hoyt's SRD Code Repo Section for the Apple Security Research Device. 
-
-```
-Comment: Apple has not yet delivered a working entitlement for debugging tools, so YMMV. 
-```
-
-# What's Here
+# Code
 ```
 Security Research Tools - Use 20C80 Only
 Sample Code for the SRD
