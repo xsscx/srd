@@ -4,11 +4,7 @@ Author: SRD0009
 Updated: November 22, 2021
 SRT 20C80
 ```
-Jumpstart your Research with Example DMG Files ... Avoid maintaining a Build Pipeline!
-
-Download a SRDC DMG, install & ssh to the SRD.
-
-Create an Issue to Add Code to be Compiled for the Apple Security Research Device. 
+Download DMG, install & ssh to the SRD.
 
 With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
 ---
@@ -62,17 +58,6 @@ com.example.cryptex
   version = 1.3.3.7
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.b16SlD
-```
-You now have the ToyBox Unstripped Binary that has Symbols on X86_64, go ssh to the SRD.
-# This is my Proof of Work for having verified that the installed cryptex contains toybox unstripped:
-```
-nm -a ~/srd/example-cryptex/com.example.cryptex.dstroot/usr/bin/toybox  | wc -l
-     876
-```
-As you can see above, the toybox unstripped has 876 results from nm -a output. That is compared with the typical toybox binary that is installed in the SRD Makefile as shown below:
-```
-nm -a ~/srd/example-cryptex/src/toybox/toybox-src/toybox | wc -l
-     258
 ```
 # Background to Build the DMG
 This is where I'm dropping you at in the Build Pipeline:
