@@ -1,9 +1,5 @@
 # Install a Cryptex with Toybox Unstripped on M1 ARM or X86_64
-```
-Author: SRD0009 
-Updated: November 22, 2021
-SRT 20C80
-```
+
 Download DMG, install & ssh to the SRD.
 
 With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
@@ -79,11 +75,9 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.
 cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
 ```
 ```
-If already mounted... cryptexctl uninstall com.example.cryptex
+cryptexctl uninstall com.example.cryptex
 cryptexctl install com.example.cryptex.cptx
 ```
-Any Questions? https://twitter.com/h02332
-
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 
 Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
