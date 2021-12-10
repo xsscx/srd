@@ -2,11 +2,9 @@
 
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
-Latest SRD IPSW verified working 7-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw 
+Latest SRD IPSW 7-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw 
 ```
-The only SRDC approved SRT Makefile is from 20C80 here in my Repo.
-
-Follow: https://twitter.com/srdcohort and make sure you read URL https://github.com/apple/security-research-device/issues/13 about debugserver and Frida. Also must read URL https://github.com/apple/security-research-device/issues/17 for cryptex install issues.
+Read URL https://github.com/apple/security-research-device/issues/13 and https://github.com/apple/security-research-device/issues/17.
 
 # Cryptex DMG's for Mainline & Developer Trains
 SRD | 19C56 | Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
@@ -16,13 +14,6 @@ SRD | 19C5044b | Signed File: iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw |
 See URL https://github.com/xsscx/srd/tree/main/dmg
 
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
-
-# Current Events 
-With the release of macOS 12, Security Research Tools (SRT) and its cryptexctl no longer works on X86_64. Use CryptexManager. See URL https://github.com/apple/security-research-device/issues/17
-
-https://github.com/pinauten/CryptexManager
-
-Install Instructions: https://github.com/pinauten/CryptexManager/issues/1
 
 # What's Here
 ```
