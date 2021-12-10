@@ -2,7 +2,7 @@
 
 Welcome to Hoyt's SRD Repo for the Apple Security Research Device.
 ```
-Latest SRD IPSW verified working 7-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw
+Latest SRD IPSW verified working 7-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw and the only SRDC approved SRT Makefile is from 20C80 here in my Repo.
 ```
 Follow: https://twitter.com/srdcohort and make sure you read URL https://github.com/apple/security-research-device/issues/13 about debugserver and Frida. Also must read URL https://github.com/apple/security-research-device/issues/17 for cryptex install issues.
 
