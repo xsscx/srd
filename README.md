@@ -7,6 +7,8 @@ Latest SRD IPSW 13-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw
 ```
 Read URL https://github.com/apple/security-research-device/issues/13 and https://github.com/apple/security-research-device/issues/17.
 
+Do you have questions or need help to increase your engagement with the SRD? Reach out and open an Issue or Discussion. DM if that's easier.
+
 # Cryptex DMG's for Mainline & Developer Trains
 SRD | 19C56 | Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
