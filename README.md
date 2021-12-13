@@ -1,6 +1,5 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
-
-As of December 8, 2021, you should follow this Repo and https://srd.cx.
+Follow this Repo and https://srd.cx.
 
 ```
 Latest SRD IPSW 13-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw
