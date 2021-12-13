@@ -1,6 +1,6 @@
 # Install a Cryptex with Toybox Unstripped on M1 ARM or X86_64
 
-Download DMG, install & ssh to the SRD.
+Download DMG, install & ssh to the SRD. Includes debuserver, toybox unstripped and other PoC's.
 
 When using macOS 12, Security Research Tools (SRT) and its cryptexctl no longer work on X86_64. Use CryptexManager as a workaround.
 
