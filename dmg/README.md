@@ -2,7 +2,7 @@
 
 Download DMG, install & ssh to the SRD.
 
-With the release of macOS 12, Security Research Tools (SRT) no longer works on X86_64. Use CryptexManager.
+With the release of macOS 12, Security Research Tools (SRT) and its cryptexctl no longer work on X86_64. Use CryptexManager.
 ---
 Source: https://github.com/pinauten/CryptexManager
 
