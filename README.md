@@ -1,5 +1,5 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
-Follow this Repo and https://srd.cx.
+Follow this Repo and read URL https://srd.cx/srd-cryptex-installation/
 
 ```
 Latest SRD IPSW 13-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw
