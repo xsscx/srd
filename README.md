@@ -17,13 +17,15 @@ See URL https://github.com/xsscx/srd/tree/main/dmg
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
 # What's Here
-```
-Security Research Tools - Use 20C80 Only
+
+Security Research Tools - Use 20C80 Only as of December 14, 2021. See Issue #17 for Details https://github.com/apple/security-research-device/issues/17 
+
 Sample Code for the SRD
+
 Cryptex DMG's built with Toybox Unstripped and includes debugserver, jtool2, binbag, ioscan, ioprint and more...
+
 PoC's on the DMG that Crash, are Broken and Programs that write Hello researcher from pid xxx!
-There is a new entitlement called research.com.apple.license-to-operate to support Frida and other research tools for the Apple Security Research Device
-```
+
 # Want to write Instrumentation or a PoC for the SRD?
 
 Here is where you start your Instrumentation:
