@@ -18,7 +18,7 @@ There are typically 2 DMG's available that are Compiled for the Mainline and Bet
 
 # What's Here
 
-My Security Research Tools SRT20C80 Code - Use 20C80 Only as of December 14, 2021. See Issue #17 for Details https://github.com/apple/security-research-device/issues/17. All the examples for the SRD are based on SRT20C80 and macOS11.6.x to keep things simple, easy and quick.
+My Security Research Tools SRT20C80 Code - See Issue #17 for Details https://github.com/apple/security-research-device/issues/17. All the examples for the SRD are based on SRT20C80 and macOS11.6.x to keep things simple, easy and quick.
 
 Sample Code for the SRD
 
