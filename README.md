@@ -28,34 +28,7 @@ Cryptex DMG's built with Toybox Unstripped and includes debugserver, jtool2, bin
 
 PoC's on the DMG that Crash, are Broken and Programs that write Hello researcher from pid xxx!
 
-# Want to write Instrumentation or a PoC for the SRD?
 
-Here is where you start your Instrumentation:
-```
-groups
-wheel daemon kmem sys tty operator procview procmod staff certusers admin
-uname -a
-Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
- whoami
-root
-```
-
-This Repo is Public Domain and I hope you will contribute your Code, Comments and Suggestions.
-
-SRD Details
-----------
-```
-Model: 		    MWL72LL/A
-Model Name:         iPhone 11
-release:            21.0.0
-version:            Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Tue Oct 19 23:43:56 PDT 2021; root:xnu-8019.60.40.0.1~25/RELEASE_ARM64_T8030 iPhone12,1 Toybox
-machine:            iPhone12,1
-cpu type:           0x100000c  (arm64e)
-cpu subtype:        0x2  (ARM64E)
-cpus:               6 cores / 6 threads
-memory:             0xf1200000  (3.8G)
-page size:          0x4000  (16K)
-```
 Toolchain Details
 -----
 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
