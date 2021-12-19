@@ -2,7 +2,9 @@
 Follow this Repo and read URL https://srd.cx/srd-cryptex-installation/
 
 ```
-Latest SRD IPSW 13-DEC-2021: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw
+Latest SRD IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
+Latest SRD IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
+This means that with X86_64 and/or M1 ARM that I've Updated the IPSW + performed cryptex installation.
 ```
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier.
