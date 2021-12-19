@@ -12,7 +12,9 @@ Do you have questions or need help? Reach out and open an Issue or Discussion. D
 # Cryptex DMG's for Mainline & Developer Trains
 SRD | 19C56 | Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
-SRD | 19C5044b | Signed File: iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+SRD | 19D5026g | Signed File: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+
+SRD | 19D5026g | Signed File: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
 See URL https://github.com/xsscx/srd/tree/main/dmg
 
