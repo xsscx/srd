@@ -99,7 +99,7 @@ iOS SDK 15.2
 Run Targets
 ---
 ```
-SRD
+SRD's - iPhone 11 and iPhone 12
 iPhone 12 Pro Max
 iPad 12 Pro
 ```
