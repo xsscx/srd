@@ -1,6 +1,5 @@
 # Code
 ```
-Security Research Tools - Use 20C80 Only
 Sample Code for the SRD
 Register Fuzzing, Assembler, Hello World, Code Coverage Tests & more.
 ```
