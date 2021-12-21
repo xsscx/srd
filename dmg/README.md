@@ -2,11 +2,7 @@
 
 Download DMG, install & ssh to the SRD. Includes debuserver, toybox unstripped and other PoC's.
 
-When using macOS 12, Security Research Tools (SRT) and its cryptexctl no longer work on X86_64. Use CryptexManager as a workaround.
-
-Source: https://github.com/pinauten/CryptexManager
-
-Install: https://github.com/pinauten/CryptexManager/issues/1
+When using macOS 12 and the latest Security Research Tools (SRT), see Issue #17 at URL https://github.com/apple/security-research-device/issues/17 and use CryptexManger. Source: https://github.com/pinauten/CryptexManager with Install: https://github.com/pinauten/CryptexManager/issues/1.
 
 M1 Cryptex Installation | macOS 11.6.1 (20G224)
 ------
