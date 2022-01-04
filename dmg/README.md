@@ -2,13 +2,11 @@
 
 Download DMG, install & ssh to the SRD. Includes debuserver, toybox unstripped and other PoC's.
 
-M1 Cryptex Installation | macOS 11.6.1 (20G224)
+M1 Cryptex Installation | macOS 12.x
 ------
-Suggested Platform: X86_64 or M1 ARM with macOS 11.6.1 and Security Research Tools 20C80.
-
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 
-This is where you start with the SRDC DMG Example Cryptex after Download on M1 ARM macOS 11.6.1 (20G224) and SRT 20C80:
+This is where you start with the SRDC DMG Example Cryptex after Download:
 ```
 cd example-cryptex/
 ```
@@ -25,31 +23,7 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.8Ug7XY
 ```
-You now have the ToyBox Unstripped Binary that has Symbols on M1 ARM, go ssh to the SRD.
-
-X86_64 Installation | macOS 12.0.1 (21A559) | CryptexManager
-----
-This is where you start with the SRDC DMG Example Cryptex with CryptexManager after Download on X86_64 macOS 12.0.1 (21A559):
-```
-Mount the SRDC DMG example: 19C5044b-toyboxunstripped.dmg with Finder or Terminal
-```
-Then, in Terminal, use CryptexManager to Personalize the Cryptex:
-```
-CryptexManager-master %  .build/release/CryptexManager create -i com.example.cryptex -v 1.3.3.7 ~/Downloads/19C5044b-toyboxunstripped.dmg /Volumes/com.example.cryptex.dstroot /tmp/cptx
-```
-Next, Install the Cryptex on the SRD:
-```
-CryptexManager-master % .build/release/CryptexManager install /tmp/cptx                                                                                                                 
-Successfully installed cryptex!
-```
-Confirm the Cryptex is Installed:
-```
-cryptexctl   list                                                                                                                                               
-com.example.cryptex
-  version = 1.3.3.7
-  device = /dev/disk2s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.b16SlD
-```
+You now have the ToyBox Unstripped Binary that has Symbols, ssh to the SRD.
 # Background to Build the DMG
 This is where I'm dropping you at in the Build Pipeline:
 ```
