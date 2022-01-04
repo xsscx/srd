@@ -20,19 +20,6 @@ See URL https://github.com/xsscx/srd/tree/main/dmg
 
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
 
-# What's Here
-
-Note - I've recently updated to the latest SRD SRT Release, whatever its being called. I'll update the Makefiles and other changes during the first week of January 2022 and will Post a Note here and update srd.cx with the latest examples.
-
-My Security Research Tools SRT20C80 Code - See Issue #17 for Details https://github.com/apple/security-research-device/issues/17. All the examples for the SRD are based on SRT20C80 and macOS11.6.x to keep things simple, easy and quick. See also Pull Request #31 for additional information at URL https://github.com/apple/security-research-device/pull/31
-
-Sample Code for the SRD
-
-Cryptex DMG's built with Toybox Unstripped and includes debugserver, jtool2, binbag, ioscan, ioprint and more...
-
-PoC's on the DMG that Crash, are Broken and Programs that write Hello researcher from pid xxx!
-
-
 Toolchain Details
 -----
 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile
