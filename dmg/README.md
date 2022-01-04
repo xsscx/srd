@@ -1,4 +1,4 @@
-# Install a Cryptex with Toybox Unstripped on M1 ARM or X86_64
+# Install a Cryptex with Toybox Unstripped
 
 Download DMG, install & ssh to the SRD. Includes debuserver, toybox unstripped and other PoC's.
 
