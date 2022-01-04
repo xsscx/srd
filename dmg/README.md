@@ -2,7 +2,7 @@
 
 Download DMG, install & ssh to the SRD. Includes debuserver, toybox unstripped and other PoC's.
 
-M1 Cryptex Installation | macOS 12.x
+Cryptex Installation | macOS 12.x
 ------
 Write-up with Pictures on the 2021 SRD Cohort Website at URL https://srd.cx/srd-cryptex-installation/ 
 
