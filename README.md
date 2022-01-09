@@ -1,6 +1,7 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
 Follow this Repo and read URL https://srd.cx/srd-cryptex-installation/
 
+SUNDAY 9 JAN 2022 - Adding SecurityResearchTools_21C39 and then adjustments for Toybox Unstripped, debugserver and other basic tooling 
 ```
 Latest SRD0009 IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
 Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
