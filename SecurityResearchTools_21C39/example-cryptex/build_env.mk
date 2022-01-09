@@ -76,7 +76,9 @@ ${LOCAL_INCLUDE_DIR}/IOKit/%.h: ${MACOS_SDK_PATH}/System/Library/Frameworks/IOKi
 
 # --------------
 # This section deals with grabbing XNU and extracting headers from it
-export XNU_VERSION=xnu-6153.81.5
+# Bump'd XNU_VERSION on 9-JAN-2022
+# export XNU_VERSION=xnu-6153.81.5
+export XNU_VERSION=xnu-7195.141.2
 
 .PHONY: gather-xnu-headers
 gather-xnu-headers: ${SDK_GRAFT_DOWNLOADS}/${XNU_VERSION}
