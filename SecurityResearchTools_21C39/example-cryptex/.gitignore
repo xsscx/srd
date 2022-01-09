@@ -1,0 +1,10 @@
+example-cryptex
+com.example.cryptex
+*.dmg
+include/
+*.tar.gz
+*.tgz
+sdk-graft
+src/*/sdk-graft
+*.dstroot
+*.cptx
