@@ -1,5 +1,6 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
-Follow this Repo and read URL https://srd.cx/srd-cryptex-installation/
+
+READ: https://github.com/xsscx/srd/issues
 
 SUNDAY 9 JAN 2022 - Adding SecurityResearchTools_21C39 and then adjustments for Toybox Unstripped, debugserver and other basic tooling 
 
@@ -83,3 +84,6 @@ xcrun -sdk iphoneos clang -g -O2  -mios-version-min=14.3 -DDEBUG=0  -Wall -Wpeda
 Read about Pointer Authentication Failure at URL https://srd.cx/possible-pointer-authentication-failure-data-abort/
 
 Read about debugserver for SRD at URL https://srd.cx/debugserver-installation-configuration/
+
+Follow this Repo and read URL https://srd.cx/srd-cryptex-installation/
+
