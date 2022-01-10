@@ -17,6 +17,8 @@ codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i ${CRYPTEX_ID} -v ${CRYPTEX_VERSION} ${CRYPTEX_DMG_NAME}
+
 cryptexctl uninstall com.example.cryptex
 
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
