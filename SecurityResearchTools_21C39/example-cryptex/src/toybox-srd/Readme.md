@@ -12,8 +12,10 @@ Instructions
 ------
 ```
 Unzip toybox-src.zip in example-cryptex/src/toybox
+cd example-cryptex
 make clean
-make
+make install
+ssh to SRD
 ```
 
 Questions? Add to https://github.com/xsscx/srd/issues/7
