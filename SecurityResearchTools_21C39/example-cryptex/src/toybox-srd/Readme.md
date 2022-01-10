@@ -45,7 +45,7 @@ Make generated/config.h from .config.
 generated/flags.h Install commands...
 [example-cryptex] - Creating a distribution root: /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
 ```
-Cryptex Installed
+Cryptex Installed using X86_64 and M1 T8101 using macOS 11.6.2 (20G314) and SRT 20C80
 ---
 ```
 [simple-shell] - [+++] Installing simple-shell
