@@ -8,4 +8,12 @@ The toybox-src and DMG Build and Install on macOS 11.x and SRT20C80, and also ma
 
 This Directory captures the changes used to Roll Back and Build Toybox Unstripped for Apple Secuirty Research Device for all IPSW
 
+Instructions
+------
+```
+Unzip toybox-src.zip in example-cryptex/src/toybox
+make clean
+make
+```
+
 Questions? Add to https://github.com/xsscx/srd/issues/7
