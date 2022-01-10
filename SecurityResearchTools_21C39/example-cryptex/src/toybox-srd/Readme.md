@@ -26,4 +26,46 @@ make install
 ssh to SRD
 ```
 
+Audit Trail
+----
+Toybox Built
+```
+[toybox] - [+++] Installing toybox
+Compile instlist...
+Generate headers from toys/*/*.c...
+
+warning: using unfinished code from toys/pending
+Library probe.............
+Make generated/config.h from .config.
+generated/flags.h Install commands...
+[example-cryptex] - Creating a distribution root: /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
+```
+Cryptex Installed
+```
+[simple-shell] - [+++] Installing simple-shell
+[example-cryptex] - Creating a distribution root: /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
+[toybox] - Checking for macOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+[toybox] - Checking for iOS SDK at /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk
+[toybox] - Creating SDK header graft...
+[toybox] - [+++] Installing toybox
+Compile instlist...
+Generate headers from toys/*/*.c...
+
+warning: using unfinished code from toys/pending
+Library probe.............
+Make generated/config.h from .config.
+Install commands...
+[example-cryptex] - Creating a distribution root: /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
+[welcome] - [+++] Installing welcome
+[example-cryptex] - Creating disk image com.example.cryptex.dmg from distribution root /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
+......................................................................................................................
+created: /Users/xss/srd/example-cryptex/com.example.cryptex.dmg
+[example-cryptex] - Creating cryptex /Users/xss/srd/example-cryptex/com.example.cryptex.cptx - 1.3.3.7 from the disk image com.example.cryptex.dmg
+[example-cryptex] - Installing /Users/xss/srd/example-cryptex/com.example.cryptex.cptx onto device: 00008030-001538D03C40012E
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.qMFb61
+```
+
 Questions? Add to https://github.com/xsscx/srd/issues/7
