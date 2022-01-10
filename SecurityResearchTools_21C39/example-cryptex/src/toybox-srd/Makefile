@@ -70,7 +70,7 @@ toybox-src:
 
 clean:
 	rm -rf toybox-src toybox sed_path toybox-bin instlist build
-	mv toybox-staging toybox-src
+	ditto toybox-staging toybox-src
 
 install: toybox-bin
 	@$(log_install)
