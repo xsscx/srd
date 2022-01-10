@@ -1,4 +1,4 @@
-# toybox mods for Apple SRD by xsscx
+# toybox mods for Apple SRD by xsscx | M1 T8101 & X86_64 Workarounds 
 ```
 % date
 Mon Jan 10 09:53:18 EST 2022
@@ -9,7 +9,7 @@ This is a quick fix for Toybox Build for Apple Security Research Device as of 10
 
 Picked Commit https://github.com/landley/toybox/commit/ea4748a7cbfa5e2f3ef188f917d4e5aeac70dd0f
 
-The toybox-src and DMG Build and Install on macOS 11.x and SRT20C80, and also macOS12.x and SRT21C39 with cryptexctl from libcryptex_executables-169.80.2~9.
+The toybox-src and DMG Build and Install on macOS 11.x and SRT20C80, and the DMG Installs from macOS12.x and SRT21C39 with cryptexctl from libcryptex_executables-169.80.2~9, when TSS isn't experiencing ECID Signing Issues.
 
 This Directory captures the changes used to Roll Back and Build Toybox Unstripped for Apple Secuirty Research Device for all IPSW
 
