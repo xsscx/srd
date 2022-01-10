@@ -11,7 +11,7 @@ This Directory captures the changes used to Roll Back and Build Toybox Unstrippe
 Instructions
 ------
 ```
-Unzip toybox-src.zip in example-cryptex/src/toybox
+Unzip toybox-src.zip in example-cryptex/src that will result in toybox/
 cd example-cryptex
 make clean
 make install
