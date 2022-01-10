@@ -30,6 +30,13 @@ make clean
 make install
 ssh to SRD
 ```
+DMG Install
+---
+Download the DMG
+cd example-cryptex
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 ~/Downloads/universal-srd-toybox-unstripped-commit-ea4748a7cbfa5e2f3ef188f917d4e5aeac70dd0f.dmg
+cryptexctl ${CRYPTEXCTL_PERSONALIZE_FLAGS} personalize --replace -o com.example.cryptex.cxbd --variant=research com.example.cryptex.cxbd
+cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 
 # Audit Trail
 Toybox Built
