@@ -1,5 +1,10 @@
 # toybox mods for Apple SRD by xsscx
-
+```
+% date
+Mon Jan 10 09:53:18 EST 2022
+% uname -a
+Darwin 20.6.0 Darwin Kernel Version 20.6.0: Wed Nov 10 22:23:05 PST 2021; root:xnu-7195.141.14~1/RELEASE_ARM64_T8101 arm64
+```
 This is a quick fix for Toybox Build for Apple Security Research Device as of 10 JAN 2022.
 
 Picked Commit https://github.com/landley/toybox/commit/ea4748a7cbfa5e2f3ef188f917d4e5aeac70dd0f
