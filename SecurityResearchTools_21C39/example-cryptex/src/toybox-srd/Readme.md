@@ -31,9 +31,9 @@ make install
 ssh to SRD
 ```
 
-Audit Trail
-----
+# Audit Trail
 Toybox Built
+----
 ```
 [toybox] - [+++] Installing toybox
 Compile instlist...
@@ -46,6 +46,7 @@ generated/flags.h Install commands...
 [example-cryptex] - Creating a distribution root: /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
 ```
 Cryptex Installed
+---
 ```
 [simple-shell] - [+++] Installing simple-shell
 [example-cryptex] - Creating a distribution root: /Users/xss/srd/example-cryptex/com.example.cryptex.dstroot
@@ -71,6 +72,15 @@ com.example.cryptex
   version = 1.3.3.7
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.qMFb61
+```
+SSH to SRD
+----
+```
+# date
+Mon Jan 10 09:54:44 EST 2022
+# uname -a
+Darwin iPhone 20.6.0 Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+#
 ```
 
 Questions? Add to https://github.com/xsscx/srd/issues/7
