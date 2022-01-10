@@ -6,6 +6,6 @@ Picked Commit https://github.com/landley/toybox/commit/ea4748a7cbfa5e2f3ef188f91
 
 The toybox-src and DMG Build and Install on macOS 11.x and SRT20C80, and also macOS12.x and SRT21C39 with cryptexctl from libcryptex_executables-169.80.2~9.
 
-This Directory will capture the changes used to Roll Back and Build Toybox Unstripped for Apple Secuirty Research Device for all IPSW
+This Directory captures the changes used to Roll Back and Build Toybox Unstripped for Apple Secuirty Research Device for all IPSW
 
 Questions? Add to https://github.com/xsscx/srd/issues/7
