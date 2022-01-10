@@ -10,6 +10,14 @@ This Directory captures the changes used to Roll Back and Build Toybox Unstrippe
 
 Instructions
 ------
+Clone
+```
+sync to this Repo for SRT 21C39
+cd example-cryptex
+make install
+ssh to SRD
+```
+Manual
 ```
 Unzip toybox-src.zip in example-cryptex/src that will result in toybox/
 cd example-cryptex
