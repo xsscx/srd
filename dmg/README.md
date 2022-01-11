@@ -30,7 +30,7 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
-Cryptex Installed iPhone 12 SRD0037
+Cryptex Installed on iPhone 12 SRD0037
 ----
 ```
 [example-cryptex] - Creating cryptex /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
