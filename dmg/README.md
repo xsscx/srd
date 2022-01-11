@@ -5,6 +5,8 @@ Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver 
 How toybox unstripped DMG was Built 
 ------
 ```
+cd example-cryptex
+make
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
@@ -13,6 +15,7 @@ Install to the SRD:
 -----
 ```
 Download example SRD DMG
+cd example-cryptex
 cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i ${CRYPTEX_ID} -v ${CRYPTEX_VERSION} ${CRYPTEX_DMG_NAME}
 Example: cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
 If necessary: cryptexctl uninstall com.example.cryptex
