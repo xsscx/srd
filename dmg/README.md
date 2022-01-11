@@ -2,8 +2,6 @@
 
 Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver and other example PoC's as of 11 Jan 2021. 
 
-The toyboxunstripped DMG has been re-populated with debugserver, welcome and other PoC's so you can get your feet wet with a pre-built Cryptex for your SRD.
-
 How toybox unstripped DMG was built:
 ------
 ```
