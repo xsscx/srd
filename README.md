@@ -24,7 +24,7 @@ SRD | 19D5026g | Signed File: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw |
 
 SRD | 19D5026g | Signed File: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
-SRD DMG Contents
+SRD DMG Contents https://github.com/xsscx/srd/blob/main/dmg/srd-universal-cryptex-toyboxunstripped.dmg
 -----
 ```
 tree com.example.cryptex.dstroot
