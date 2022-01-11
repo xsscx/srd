@@ -2,7 +2,7 @@
 
 Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver and other example PoC's as of 11 Jan 2021. 
 
-How toybox unstripped DMG was built:
+How toybox unstripped DMG was Built and Installed to the SRD:
 ------
 ```
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
