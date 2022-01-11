@@ -24,7 +24,7 @@ The 'latest' means that from X86_64 and/or M1 ARM the SRD IPSW has been installe
 
 Currently maintained are 2 Build Pipelines for X86_64 and M1 T8101 using macOS 11.6.x and 12.x to Build the example Cryptex DMG. Download the DMG at URL https://github.com/xsscx/srd/tree/main/dmg.
 
-The example SRD Cryptex DMG is a universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models. The sample SRD Cryptex has been tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta. The sample SRD Cryptex has been tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta.
+The example SRD Cryptex DMG is a universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models. The sample SRD Cryptex has been tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta. The sample SRD Cryptex has been tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta. Cryptex Installation has been performed with SRT 20C80, 21C39 and Cryptex Manager. 
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
  
