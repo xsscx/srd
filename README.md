@@ -9,6 +9,8 @@ Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ips
 ```
 The 'latest' means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex installation.
 
+Currently maintained are 2 Build Pipelines for X86_64 and M1 T8101 using macOS 11.6.x and 12.x to Build the example Cryptex DMG.
+
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
 If you want to skip the Build Toolchain and install a Cryptex from DMG, this Repo is for you. 
