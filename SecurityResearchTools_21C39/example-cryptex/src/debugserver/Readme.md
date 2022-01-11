@@ -1,6 +1,6 @@
 # debugserver for Apple Security Research Device
 
-11 JAN 2022
+11 JAN 2022 - Read more at URL https://srd.cx/debugserver-installation-configuration/
 ```
 (lldb) image dump sections
 Dumping sections for 2 modules.
