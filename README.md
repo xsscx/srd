@@ -9,7 +9,11 @@ Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ips
 ```
 X86_64 and/or M1 ARM: Updated the IPSW + performed cryptex installation.
 
-Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier.
+Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
+
+If you want to skip the Build Toolchain and just install a Cryptex, this Repo is for you. 
+
+Open an Issue to have Tooling built and added to the SRD DMG, sit back and watch the DMG get updated.
 
 # Cryptex DMG's for Mainline & Developer Trains
 SRD | 19C56 | Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
