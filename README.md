@@ -2,9 +2,7 @@
 
 READ: https://github.com/xsscx/srd/issues
 
-SUNDAY 9 JAN 2022 - Adding SecurityResearchTools_21C39 and then adjustments for Toybox Unstripped, debugserver and other basic tooling 
-
-MONDAY 10 JAN 2022 - Added Point Release DMG for Toybox Unstripped for any supported ECID for any supported IPSW for Apple SRD here https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex/src/toybox-srd anf this is the Note added to Issue https://github.com/landley/toybox/issues/314 so toybox will build on macOS 12.x with 20C39
+TUESDAY 11 JAN 2022 - Repopulated the example SRD DMG with debugserver and the other PoC's as examples.
 ```
 Latest SRD0009 IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
 Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
@@ -23,6 +21,198 @@ SRD | 19D5026g | Signed File: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw |
 See URL https://github.com/xsscx/srd/tree/main/dmg
 
 There are typically 2 DMG's available that are Compiled for the Mainline and Beta Trains.
+
+SRD DMG Contents
+-----
+```
+tree com.example.cryptex.dstroot
+com.example.cryptex.dstroot
+├── Library
+│   └── LaunchDaemons
+│       ├── debugserver.plist
+│       ├── dropbear-research.plist
+│       ├── hello.plist
+│       ├── simple-server.plist
+│       └── simple-shell.plist
+└── usr
+    └── bin
+        ├── [ -> toybox
+        ├── a.out
+        ├── ascii -> toybox
+        ├── aslr
+        ├── base64 -> toybox
+        ├── basename -> toybox
+        ├── bash -> toybox
+        ├── binbag
+        ├── c1.exr
+        ├── c2.exr
+        ├── cal -> toybox
+        ├── cat -> toybox
+        ├── catv -> toybox
+        ├── chain3
+        ├── chgrp -> toybox
+        ├── chmod -> toybox
+        ├── chown -> toybox
+        ├── cksum -> toybox
+        ├── clear -> toybox
+        ├── cmp -> toybox
+        ├── comm -> toybox
+        ├── count -> toybox
+        ├── cp -> toybox
+        ├── cpio -> toybox
+        ├── crash.pvr
+        ├── crc32 -> toybox
+        ├── cryptex-run
+        ├── cut -> toybox
+        ├── date -> toybox
+        ├── debugserver
+        ├── df -> toybox
+        ├── dirname -> toybox
+        ├── disarm
+        ├── dos2unix -> toybox
+        ├── dropbear
+        ├── du -> toybox
+        ├── echo -> toybox
+        ├── egrep -> toybox
+        ├── env -> toybox
+        ├── envprint
+        ├── expand -> toybox
+        ├── factor -> toybox
+        ├── fallocate -> toybox
+        ├── false -> toybox
+        ├── fgrep -> toybox
+        ├── file -> toybox
+        ├── find -> toybox
+        ├── flock -> toybox
+        ├── fmt -> toybox
+        ├── ftpget -> toybox
+        ├── ftpput -> toybox
+        ├── fuzzed.tif
+        ├── getconf -> toybox
+        ├── grep -> toybox
+        ├── groups -> toybox
+        ├── head -> toybox
+        ├── hello
+        ├── hello-code-cov
+        ├── hello_world
+        ├── hellosan
+        ├── help -> toybox
+        ├── hexedit -> toybox
+        ├── hostname -> toybox
+        ├── iconv -> toybox
+        ├── id -> toybox
+        ├── image.jpeg
+        ├── ioclass
+        ├── ioprint
+        ├── ioreg
+        ├── ios-13_voucher_leak
+        ├── ios-14-voucher_leak
+        ├── ios-command-line-tool
+        ├── ioscan
+        ├── jtool2
+        ├── kill -> toybox
+        ├── killall5 -> toybox
+        ├── leak64
+        ├── libarchive.a
+        ├── libgmalloc.dylib
+        ├── libmemctl_core.a
+        ├── link -> toybox
+        ├── lister
+        ├── ln -> toybox
+        ├── logger -> toybox
+        ├── logname -> toybox
+        ├── ls -> toybox
+        ├── md5sum -> toybox
+        ├── memctl
+        ├── microcom -> toybox
+        ├── mkdir -> toybox
+        ├── mkfifo -> toybox
+        ├── mktemp -> toybox
+        ├── mv -> toybox
+        ├── nc -> toybox
+        ├── netcat -> toybox
+        ├── nice -> toybox
+        ├── nl -> toybox
+        ├── nohup -> toybox
+        ├── nvram
+        ├── od -> toybox
+        ├── optool
+        ├── orig.tif
+        ├── paste -> toybox
+        ├── patch -> toybox
+        ├── port_refs
+        ├── prinfkernversion
+        ├── printenv -> toybox
+        ├── printf -> toybox
+        ├── pwd -> toybox
+        ├── pwdx -> toybox
+        ├── readlink -> toybox
+        ├── realpath -> toybox
+        ├── renice -> toybox
+        ├── rev -> toybox
+        ├── rm -> toybox
+        ├── rmdir -> toybox
+        ├── sed -> toybox
+        ├── seq -> toybox
+        ├── setsid -> toybox
+        ├── sh -> toybox
+        ├── sha1sum -> toybox
+        ├── simple-server
+        ├── simple-shell
+        ├── skywalktest
+        ├── sleep -> toybox
+        ├── sort -> toybox
+        ├── split -> toybox
+        ├── stage0
+        ├── stage1
+        ├── stage2
+        ├── stat -> toybox
+        ├── strings -> toybox
+        ├── tac -> toybox
+        ├── tail -> toybox
+        ├── tar -> toybox
+        ├── tee -> toybox
+        ├── test -> toybox
+        ├── test1
+        ├── test2
+        ├── test3
+        ├── test4
+        ├── test6
+        ├── test7
+        ├── test8
+        ├── tester
+        ├── time -> toybox
+        ├── timeout -> toybox
+        ├── touch -> toybox
+        ├── toybox
+        ├── toysh -> toybox
+        ├── true -> toybox
+        ├── truncate -> toybox
+        ├── tty -> toybox
+        ├── uname -> toybox
+        ├── uniq -> toybox
+        ├── unix2dos -> toybox
+        ├── unlink -> toybox
+        ├── usleep -> toybox
+        ├── uudecode -> toybox
+        ├── uuencode -> toybox
+        ├── uuidgen -> toybox
+        ├── vs_cli
+        ├── w -> toybox
+        ├── watch -> toybox
+        ├── wc -> toybox
+        ├── welcome
+        ├── wget -> toybox
+        ├── which -> toybox
+        ├── who -> toybox
+        ├── whoami -> toybox
+        ├── xargs -> toybox
+        ├── xxd -> toybox
+        ├── yes -> toybox
+        └── zprint
+
+4 directories, 179 files
+```
 
 Toolchain Details
 -----
