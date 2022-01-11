@@ -2,7 +2,7 @@
 
 Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver and other example PoC's as of 11 Jan 2022. Tried to get toybox unstripped, debugserver and other Tooling added to example-cryptex in https://github.com/apple/security-research-device/pull/18 but it was Reverted. 
 
-This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD.
+This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. Read more about debugserver at URL https://srd.cx/debugserver-installation-configuration/.
 ## Prerequisites
 - macOS Version 12.1 (21C52)
 - Xcode Version 13.2.1 (13C100)
