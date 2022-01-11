@@ -1,5 +1,7 @@
 # toybox mods for Apple SRD by xsscx | M1 T8101 & X86_64 Workarounds 
 ```
+ADDED: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex/src/toybox are NET Changes to make toybox compile on iOS 15.x
+
 % date
 Mon Jan 10 09:53:18 EST 2022
 % uname -a
