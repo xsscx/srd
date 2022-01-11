@@ -11,7 +11,7 @@ sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.ds
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
-Install to the SRD:
+Install to the SRD
 -----
 ```
 Download example SRD DMG
@@ -45,14 +45,14 @@ com.example.cryptex
 ```
 SSH Audit Trail
 -----
-iPhone 11
+iPhone 11 SRD0009
 ```
 uname -a
 Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:35 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
 date
 Tue Jan 11 08:15:45 EST 2022
 ```
-iPhone 12
+iPhone 12 SRD0037
 ```
 uname -a
 Darwin iPhone 21.3.0 Darwin Kernel Version 21.3.0: Sat Dec  4 02:01:21 PST 2021; root:xnu-8019.80.11~18/RELEASE_ARM64_T8101 iPhone13,2 Toybox
