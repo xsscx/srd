@@ -22,15 +22,13 @@ Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ips
 ```
 The 'latest' means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex installation.
 
-Currently maintained are 2 Build Pipelines for X86_64 and M1 T8101 using macOS 11.6.x and 12.x to Build the example Cryptex DMG. Download the DMG at URL https://github.com/xsscx/srd/tree/main/dmg.
+Currently maintained are 2 Build Pipelines for X86_64 and M1 T8101 using macOS 11.6.x and 12.x to Build the example Cryptex DMG. Download the DMG at URL https://github.com/xsscx/srd/tree/main/dmg. The example SRD Cryptex DMG is a universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models. 
 
-The example SRD Cryptex DMG is a universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models. The sample SRD Cryptex has been tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta. The sample SRD Cryptex has been tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta. 
+The sample SRD Cryptex has been tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta. The sample SRD Cryptex has been tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta. 
 
 Cryptex Installation has been Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms. 
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
- 
-Open an Issue to have Tooling built and added to the SRD DMG, sit back and watch the DMG get updated.
 
 # Latest IPSW + Cryptex Installed 
 SRD | 19C56 | Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
