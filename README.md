@@ -11,7 +11,7 @@ The 'latest' means that for X86_64 and/or M1 ARM the IPSW has been installed wit
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
-If you want to skip the Build Toolchain and just install a Cryptex, this Repo is for you. 
+If you want to skip the Build Toolchain and install a Cryptex from DMG, this Repo is for you. 
 
 Open an Issue to have Tooling built and added to the SRD DMG, sit back and watch the DMG get updated.
 
