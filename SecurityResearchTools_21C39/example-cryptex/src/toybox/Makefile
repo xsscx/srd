@@ -50,11 +50,13 @@ toybox-src/.config: toybox-src
 	# the config program for the host
 	@$(log_configure)
 	./sed_path/sed -i '/CONFIG_SH=/d' toybox-src/kconfig/macos_miniconfig
-	./sed_path/sed -i '/CONFIG_VI=/d' toybox-src/kconfig/macos_miniconfig
+	# WORKAROUND to Build on iOS 15.x
+	# ./sed_path/sed -i '/CONFIG_VI=/d' toybox-src/kconfig/macos_miniconfig
 	./sed_path/sed -i '/CONFIG_WGET=/d' toybox-src/kconfig/macos_miniconfig
 	# Patch in the config to get a shell and some other goodies
 	echo CONFIG_SH=y >> toybox-src/kconfig/macos_miniconfig
-	echo CONFIG_VI=y >> toybox-src/kconfig/macos_miniconfig
+	# HOYT FIXUP 
+	# echo CONFIG_VI=y >> toybox-src/kconfig/macos_miniconfig
 	echo CONFIG_WGET=y >> toybox-src/kconfig/macos_miniconfig
 	env -vi PATH="$(shell pwd)/sed_path:$(PATH)" $(MAKE) ${EXTRA_MAKE_FLAGS} \
 			-C toybox-src macos_defconfig \
