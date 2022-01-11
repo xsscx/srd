@@ -3,6 +3,19 @@
 If you want to skip the Build Toolchain and install a Cryptex from DMG, this Repo is for you.
 
 TUESDAY 11 JAN 2022 - Repopulated the example SRD DMG with debugserver and the other PoC's as examples.
+## Prerequisites
+- macOS Version 12.1 (21C52)
+- Xcode Version 13.2.1 (13C100)
+- Security Research Tools 21C39 (SRT 21C39)
+- GNU sed
+- automake
+
+If you use brew:
+
+```sh
+brew install gnu-sed automake
+```
+IPSW Status
 ```
 Latest SRD0009 IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
 Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
