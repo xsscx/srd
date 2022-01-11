@@ -253,7 +253,7 @@ clang -v
 Apple clang version 13.0.0 (clang-1300.0.29.30)
 Target: arm64-apple-darwin20.6.0
 Thread model: posix
-InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 SDK Targets
 ---
