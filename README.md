@@ -4,7 +4,7 @@ READ: https://github.com/xsscx/srd/issues
 
 SUNDAY 9 JAN 2022 - Adding SecurityResearchTools_21C39 and then adjustments for Toybox Unstripped, debugserver and other basic tooling 
 
-MONDAY 10 JAN 2022 - Added Point Release DMG for Toybox Unstripped for any supported ECID for any supported IPSW for Apple SRD here https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex/src/toybox-srd snf this is the Note added to Issue https://github.com/landley/toybox/issues/314
+MONDAY 10 JAN 2022 - Added Point Release DMG for Toybox Unstripped for any supported ECID for any supported IPSW for Apple SRD here https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex/src/toybox-srd snf this is the Note added to Issue https://github.com/landley/toybox/issues/314 so toybox will build on macOS 12.x with 20C39
 ```
 Latest SRD0009 IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
 Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
