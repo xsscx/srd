@@ -1,4 +1,4 @@
-# Install a Cryptex with Toybox Unstripped
+# Install a Cryptex with Toybox Unstripped using SRT 21C39
 
 Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver and other example PoC's as of 11 Jan 2021. 
 
