@@ -7,7 +7,7 @@ TUESDAY 11 JAN 2022 - Repopulated the example SRD DMG with debugserver and the o
 Latest SRD0009 IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
 Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
 ```
-The 'latest' means that for X86_64 and/or M1 ARM the IPSW has been installed with cryptex installation.
+The 'latest' means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex installation.
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
