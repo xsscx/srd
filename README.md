@@ -258,7 +258,7 @@ InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault
 SDK Targets
 ---
 ```
-iOS SDK 15.2
+iOS SDK 14.3 => 15.2
 ```
 Run Targets
 ---
