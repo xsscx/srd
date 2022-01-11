@@ -21,7 +21,8 @@ cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 
 ssh to SRD
 ```
-Result
+Cryptex Installed
+-----
 ```
 cryptexctl list
 com.example.cryptex
@@ -29,7 +30,7 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
-Audit Trail
+SSH Audit Trail
 -----
 ```
 uname -a
