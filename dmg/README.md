@@ -18,6 +18,8 @@ Example: cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLA
 If necessary: cryptexctl uninstall com.example.cryptex
 
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
+
+ssh to SRD
 ```
 Result
 ```
