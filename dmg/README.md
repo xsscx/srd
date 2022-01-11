@@ -12,6 +12,7 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.
 Install to the SRD:
 -----
 ```
+Download example SRD DMG
 cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i ${CRYPTEX_ID} -v ${CRYPTEX_VERSION} ${CRYPTEX_DMG_NAME}
 Example: cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
 If necessary: cryptexctl uninstall com.example.cryptex
