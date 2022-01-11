@@ -25,3 +25,11 @@ If necessary: cryptexctl uninstall com.example.cryptex
 
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 ```
+Result
+```
+cryptexctl list
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk3s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
+```
