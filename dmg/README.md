@@ -29,6 +29,13 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
+Audit Trail
+-----
+# uname -a
+Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:35 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+# date
+Tue Jan 11 08:15:45 EST 2022
+#
 SRD DMG Contents 
 -----
 ```
