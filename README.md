@@ -231,12 +231,12 @@ X86_64
 ---
 ```
 sysctl -a | grep Intel
-machdep.cpu.brand_string: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+machdep.cpu.brand_string: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
 ```
 ```
 clang -v
-Apple clang version 13.0.0 (clang-1300.0.29.3)
-Target: X86_64-apple-darwin20.6.0
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: x86_64-apple-darwin21.2.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
