@@ -2,7 +2,7 @@
 
 Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver and other example PoC's as of 11 Jan 2021. 
 
-How toybox unstripped DMG was Built 
+How To Build toybox unstripped DMG 
 ------
 ```
 cd example-cryptex
@@ -11,7 +11,7 @@ sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.ds
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
 ```
-Install to the SRD
+How to Install toybox unstripped DMG to the SRD
 -----
 ```
 Download example SRD DMG
@@ -22,7 +22,7 @@ If necessary: cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 ssh to SRD
 ```
-Cryptex Installed on iPhone 11 SRD0009
+Confirm that the Cryptex is Installed on iPhone 11 SRD0009
 -----
 ```
 cryptexctl list
@@ -31,7 +31,7 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
-Cryptex Installed on iPhone 12 SRD0037
+Confirm that the Cryptex is Installed on iPhone 12 SRD0037
 ----
 ```
 [example-cryptex] - Creating cryptex /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
