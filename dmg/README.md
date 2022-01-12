@@ -22,7 +22,6 @@ make
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
-codesign --force -s "975A983CD73910EA913AF3FF7B890EB7F088A989"  srd-universal-cryptex-toyboxunstripped.dmg
 ```
 How to Install toybox unstripped DMG to the SRD
 -----
