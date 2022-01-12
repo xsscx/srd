@@ -2,7 +2,7 @@
 
 If you want to skip the Build Toolchain and install a Cryptex from DMG, this Repo is for you.
 
-TUESDAY 11 JAN 2022 - Repopulated the example SRD DMG with debugserver and the other PoC's as examples.
+TUESDAY 11 JAN 2022 - Repopulated and Codesigned the example SRD DMG with debugserver and the other PoC's as examples.
 ## Prerequisites
 - macOS Version 12.1 (21C52)
 - Xcode Version 13.2.1 (13C100)
