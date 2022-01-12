@@ -31,7 +31,7 @@ How to Install toybox unstripped DMG to the SRD
 ```
 Download example SRD DMG
 cd example-cryptex
-ryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
+cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
 cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 ssh to SRD
