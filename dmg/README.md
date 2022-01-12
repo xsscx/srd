@@ -1,4 +1,5 @@
 # Install a Cryptex with Toybox Unstripped using SRT 21C39
+11 JAN 2022 - Codesigning added to DMG's
 
 Download DMG, install & ssh to the SRD. Includes toybox unstripped, debugserver and other example PoC's as of 11 Jan 2022. Tried to get toybox unstripped, debugserver and other Tooling added to example-cryptex in https://github.com/apple/security-research-device/pull/18 but it was Reverted. 
 
