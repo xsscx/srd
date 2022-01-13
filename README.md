@@ -33,8 +33,8 @@ SRD | 19D5040e | Signed File: iPhone13,2,iPhone13,3_15.3_19D5040e_Restore.ipsw |
 IPSW Status
 ----
 ```
-Latest SRD0009 IPSW 17-DEC-2021: iPhone11,8,iPhone12,1_15.3_19D5026g_Restore.ipsw
-Latest SRD0037 IPSW 17-DEC-2021: iPhone13,2,iPhone13,3_15.3_19D5026g_Restore.ipsw
+Latest iPhone 11 IPSW 13-JAN-2022: iPhone11,8,iPhone12,1_15.3_19D5040e_Restore.ipsw
+Latest iPhone 12 IPSW 13-JAN-2022: iPhone13,2,iPhone13,3_15.3_19D5040e_Restore.ipsw
 ```
 The 'latest' means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex installation.
 
