@@ -21,7 +21,7 @@ Cryptex Installation has been Tested on macOS 11.6.x using SRT 20C80, macOS 12.x
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
-# Recent IPSW + Cryptex Installions 
+# Recent IPSW + Cryptex Installations 
 ```
 Signed File: iPhone11,8,iPhone12,1_15.2_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
