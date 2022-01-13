@@ -4,6 +4,8 @@ This directory contains a working example of a cryptex designed to
 get you up and running quickly on the Security Research
 Device platform and is the default Repo I sync to for a Restore.
 
+The Result is a Cryptex DMG https://github.com/xsscx/srd/tree/main/dmg
+
 ## Prerequisites
 - macOS Version 12.1 (21C52)
 - Xcode Version 13.2.1 (13C100)
