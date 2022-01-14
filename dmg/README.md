@@ -1,5 +1,5 @@
 # Install a Cryptex with Toybox Unstripped, Frida, Debugserver & more using SRT 21C39
-Download DMG, install & ssh to the SRD. Includes toybox unstripped, frida from Commit https://github.com/apple/security-research-device/commit/0f1fcd37869c174e3c2a4d166b8bc6c250f10445, debugserver and other example PoC's as of 14 Jan 2022. 
+Download DMG, install & ssh to the SRD. Includes toybox unstripped, frida, debugserver and other example PoC's as of 14 Jan 2022. 
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 ## Prerequisites
@@ -268,3 +268,7 @@ com.example.cryptex.dstroot
 
 6 directories, 184 files
 ```
+
+History
+---
+Frida built from Commit in https://github.com/apple/security-research-device/issues/13
