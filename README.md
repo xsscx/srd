@@ -1,6 +1,6 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
 
-If you want to skip the Build Toolchain and install a Cryptex from DMG https://github.com/xsscx/srd/blob/main/dmg/srd-universal-cryptex.dmg.
+If you want to skip the Build Toolchain and install a Cryptex with Frida, Debugserver & more from DMG see URL https://github.com/xsscx/srd/tree/main/dmg.
 
 TUESDAY 11 JAN 2022 - Repopulated the example SRD DMG with debugserver and the other PoC's as examples.
 ## Prerequisites
