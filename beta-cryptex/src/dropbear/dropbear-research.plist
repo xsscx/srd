@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+        <dict>
+                <key>EnablePressuredExit</key>
+                <false/>
+                <key>EnableTransactions</key>
+                <false/>
+                <key>Label</key>
+                <string>com.example.cryptex.sshd</string>
+                <!-- By creating the EnvironmentVariables node, we signal to
+                     cryptexd that we'd like it to fill in the
+                     CRYPTEX_MOUNT_PATH environment variable for us. If we
+                     omit this tag, it will not be set.
+                -->
+                <key>EnvironmentVariables</key>
+                <dict>
+                        <key>CRYPTEX_SHELL</key>
+                        <string>/usr/bin/sh</string>
+                </dict>
+                <key>ProgramArguments</key>
+                <array>
+                        <string>/usr/bin/cryptex-run</string>
+                        <string>dropbear</string>
+                        <string>-r</string>
+                        <string>/tmp/dropbear-host-key</string>
+                        <string>-R</string>
+                        <string>-F</string>
+                </array>
+                <key>KeepAlive</key>
+                <true/>
+        </dict>
+</plist>
