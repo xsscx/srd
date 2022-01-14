@@ -2,6 +2,8 @@
 
 If you want to skip the Build Toolchain and install a Cryptex with Frida, Debugserver & more from DMG see URL https://github.com/xsscx/srd/tree/main/dmg.
 
+Note: FRI 14 JAN 2022 - Building a Beta DMG with additional Tooling
+
 TUESDAY 11 JAN 2022 - Repopulated the example SRD DMG with debugserver and the other PoC's as examples.
 ## Prerequisites
 - macOS Version 12.1 (21C52)
