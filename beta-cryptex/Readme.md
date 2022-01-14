@@ -1,7 +1,7 @@
 # Beta Cryptex for SRD iPhone 11 + 12
 Status == Built to DMG for Download
 
-This cryptex will add Frida from Commit https://github.com/apple/security-research-device/commit/0f1fcd37869c174e3c2a4d166b8bc6c250f10445 and re-include debugserver and other tooling left out of recent example cryptex due to Built Pipeline issues.
+This example SRD cryptex adds Frida from Commit https://github.com/apple/security-research-device/commit/0f1fcd37869c174e3c2a4d166b8bc6c250f10445 and re-includes debugserver and example PoC's.
 
 Frida Cryptex example DMG https://github.com/xsscx/srd/tree/main/dmg
 
