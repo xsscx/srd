@@ -1,4 +1,6 @@
 #!/bin/sh
+make clean
+make
 mv srd-universal-cryptex.dmg srd-universal-cryptex.dmg.backup
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
