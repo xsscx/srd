@@ -1,4 +1,4 @@
-# Hello!
+# Hello! Makefile contains ASAN and libgmalloc.dylib example
 
 In this example we compile a simple binary that prints to
 stdout and to the system log, and install a service to
