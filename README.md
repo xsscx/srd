@@ -25,7 +25,7 @@ Do you have questions or need help? Reach out and open an Issue or Discussion. D
 ```
 Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 
-Signed File: iPhone13,2,iPhone13,3_15.3_19C56_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
+Signed File: iPhone13,2,iPhone13,3_15.3_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
 
 Signed File: iPhone11,8,iPhone12,1_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
