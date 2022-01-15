@@ -182,3 +182,28 @@ If you get errors about missing SDKs or headers, double check that you've select
 Xcode install with `xcode-select(1)` or just download a pre-built cryptex here https://github.com/xsscx/srd/tree/main/dmg
 
 ## Audit Trail
+```
+[example-cryptex] - Creating disk image com.example.cryptex.dmg from distribution root /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.dstroot
+.......................................................................................................................................................................................................................................................................................................................................
+created: /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.dmg
+[example-cryptex] - Creating cryptex /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
+
+real	1m54.104s
+user	1m6.456s
+sys	0m32.786s
+Copy Toybox Unstripped to the DST
+Codesign Ad Hoc
+Delete the old DMG
+Create the Example DMG
+.......................................................................................................................................................................................................................................................................................................................................
+created: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+Personalize the cryptex
+Uninstall existing com.example.cryptex
+cryptexctl: mount entry invalid: idx = 0, val = null
+Install cryptex
+Check Installation
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk3s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.9fSOC0
+```
