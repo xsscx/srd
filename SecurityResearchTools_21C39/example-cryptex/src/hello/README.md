@@ -1,4 +1,4 @@
-# Hello!
+# Hello with ASAN and UBSAN Makefile
 
 In this example we compile a simple binary that prints to
 stdout and to the system log, and install a service to
