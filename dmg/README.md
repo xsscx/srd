@@ -34,6 +34,12 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 ```
 ssh to SRD
+Unstripped
+----
+```
+nm -a com.example.cryptex.dstroot/usr/bin/toybox | wc -l
+     871
+```
 
 Confirm that the Cryptex is Installed on iPhone 11 SRD0009
 -----
