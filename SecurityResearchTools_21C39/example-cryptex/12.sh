@@ -1,15 +1,26 @@
 #!/bin/sh
 export CRYPTEXCTL_UDID=00008101-001418DA3CC0013A
+echo "DMG Backup"
+backup_files="srd-universal-cryptex.dmg"
+dest="/Users/xss/security-research-device-main/example-cryptex/dmg-backup"
+day=$(date +%A)
+hostname=$(hostname -s)
+archive_file="$hostname.X86_64.cryptex.$day.tgz"
+echo "Backing up $backup_files to $dest/$archive_file"
+tar czf $dest/$archive_file $backup_files
+echo "Backup finished"
+echo "Backup Listing"
+ls -lh $dest
+echo "Running Purge"
 sudo purge
-echo "Clean x^2"
+echo "Clean"
 make clean
+echo "Clean Again"
 make clean
 echo "Running Purge"
 sudo purge
 echo "time make"
 time make
-echo "Backup current DMG"
-mv srd-universal-cryptex.dmg srd-universal-cryptex.dmg.backup
 echo "Copy Toybox Unstripped to the DST"
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 echo "Codesign Ad Hoc"
@@ -24,6 +35,3 @@ echo "Install cryptex"
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 echo "Check Installation"
 cryptexctl list
-echo "Done"
-
-
