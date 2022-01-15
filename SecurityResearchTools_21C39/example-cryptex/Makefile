@@ -137,7 +137,7 @@ $(abspath $(CRYPTEX_BIN_DIR)/)%: $(abspath $(PROJECT_PATH)/bin/)%
 
 .PHONY: clean
 clean:
-	rm -rf ${CRYPTEX_ROOT_DIR} ${CRYPTEX_DMG_NAME} ${CRYPTEX_ID}.cptx
+	rm -rf ${CRYPTEX_ROOT_DIR} ${CRYPTEX_DMG_NAME} ${CRYPTEX_ID}.cxbd ${CRYPTEX_ID}.cxbd.signed
 	rm -rf include
 	# Loop through each project and call its clean target
 	$(foreach proj,$(PROJECT_DIRS),$(MAKE) $(EXTRA_MAKE_FLAGS) -C $(proj) clean;)
