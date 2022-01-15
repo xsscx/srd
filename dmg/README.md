@@ -14,62 +14,8 @@ If you use brew:
 ```sh
 brew install gnu-sed automake
 ```
-How To Build toybox unstripped DMG for the SRD
-------
-```
-cd example-cryptex
-make
-sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
-codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
-hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot toyboxunstripped.dmg
-```
-How to Install toybox unstripped DMG to the SRD
------
-```
-Download example SRD DMG
-cd example-cryptex
-cryptexctl ${CRYPTEXCTL_FLAGS} create --research --replace ${CRYPTEXCTL_CREATE_FLAGS} -i com.example.cryptex -v 1.3.3.7 toyboxunstripped.dmg
-cryptexctl uninstall com.example.cryptex
-cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
-ssh to SRD
-```
-Confirm that the Cryptex is Installed on iPhone 11 SRD0009
------
-```
-cryptexctl list
-com.example.cryptex
-  version = 1.3.3.7
-  device = /dev/disk3s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
-```
-Confirm that the Cryptex is Installed on iPhone 12 SRD0037
-----
-```
-[example-cryptex] - Creating cryptex /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
-[example-cryptex] - Installing /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd onto device: 00008101-001418DA3CC0013A
-cryptexctl: mount entry invalid: idx = 0, val = null
-cryptexctl: cryptex not installed on device: com.example.cryptex
-com.example.cryptex
-  version = 1.3.3.7
-  device = /dev/disk3s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.Jp4Egr
-```
-SSH Audit Trail
------
-iPhone 11 SRD0009
-```
-uname -a
-Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:35 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
-date
-Tue Jan 11 08:15:45 EST 2022
-```
-iPhone 12 SRD0037
-```
-uname -a
-Darwin iPhone 21.3.0 Darwin Kernel Version 21.3.0: Sat Dec  4 02:01:21 PST 2021; root:xnu-8019.80.11~18/RELEASE_ARM64_T8101 iPhone13,2 Toybox
-date
-Tue Jan 11 08:25:49 EST 2022
-```
+
+
 SRD DMG Contents 
 -----
 ```
