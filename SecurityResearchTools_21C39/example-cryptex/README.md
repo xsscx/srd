@@ -183,6 +183,8 @@ Xcode install with `xcode-select(1)` or just download a pre-built cryptex here h
 
 ## Audit Trail
 ```
+./build.sh
+...
 [example-cryptex] - Creating disk image com.example.cryptex.dmg from distribution root /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.dstroot
 .......................................................................................................................................................................................................................................................................................................................................
 created: /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.dmg
