@@ -25,6 +25,8 @@ echo "Copy Toybox Unstripped to the DST"
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 echo "Codesign Ad Hoc"
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
+echo "Delete the old DMG"
+rm srd-universal-cryptex.dmg
 echo "Create the Example DMG"
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
 echo "Personalize the cryptex"
@@ -35,3 +37,4 @@ echo "Install cryptex"
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 echo "Check Installation"
 cryptexctl list
+echo "Done"
