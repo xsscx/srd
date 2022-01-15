@@ -1,10 +1,17 @@
 # Hoyt's SRD Cryptex Example
 
-This directory contains a working example of a sample cryptex and is the default Repo I sync to for a Restore. 
+This Repo contains a working example of a sample cryptex and is the default Repo I sync to for a Restore including the Makefile fixes identified for Issue https://github.com/apple/security-research-device/issues/38
 
-The Result is a Cryptex DMG https://github.com/xsscx/srd/tree/main/dmg
+diff
+---
+```
+<	rm -rf ${CRYPTEX_ROOT_DIR} ${CRYPTEX_DMG_NAME} ${CRYPTEX_ID}.cptx
+>	rm -rf ${CRYPTEX_ROOT_DIR} ${CRYPTEX_DMG_NAME} ${CRYPTEX_ID}.cxdb ${CRYPTEX_ID}.cxdb.signed
+```
 
-Note: Added frida, debugserver and other binaries to the example SRD DMG here https://github.com/xsscx/srd/tree/main/dmg
+Commit: https://github.com/xsscx/srd/commit/37dadc1cd7cdc414af85fa4bd6fc37a66d930fcd
+
+The Result is a Cryptex DMG https://github.com/xsscx/srd/tree/main/dmg with frida, debugserver and other PoC's.
 
 ## Prerequisites
 - macOS Version 12.1 (21C52)
