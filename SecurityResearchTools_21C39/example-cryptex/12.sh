@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "Running Clean, Build, Install for iPhone 12"
 export CRYPTEXCTL_UDID=00008101-001418DA3CC0013A
 echo "DMG Backup"
 backup_files="srd-universal-cryptex.dmg"
