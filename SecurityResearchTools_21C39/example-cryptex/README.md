@@ -1,6 +1,6 @@
 # Hoyt's SRD Cryptex Example
 
-This directory contains a working example of a sample cryptex designed to get you up and running quickly on the Security Research Device platform and is the default Repo I sync to for a Restore.
+This directory contains a working example of a sample cryptex and is the default Repo I sync to for a Restore. 
 
 The Result is a Cryptex DMG https://github.com/xsscx/srd/tree/main/dmg
 
