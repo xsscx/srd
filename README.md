@@ -7,6 +7,18 @@ SAT 15 JAN 2022
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 - Build: https://xss.cx/srd/21C39/example-cryptex.zip
 
+## Prerequisites
+- macOS Version 12.1 (21C52)
+- Xcode Version 13.2.1 (13C100)
+- Security Research Tools 21C39 (SRT 21C39)
+- GNU sed
+- automake
+
+If you use brew:
+
+```sh
+brew install gnu-sed automake
+```
 Install
 ---
 ```
@@ -32,18 +44,6 @@ SRD DMG Testing
 
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
-## Prerequisites
-- macOS Version 12.1 (21C52)
-- Xcode Version 13.2.1 (13C100)
-- Security Research Tools 21C39 (SRT 21C39)
-- GNU sed
-- automake
-
-If you use brew:
-
-```sh
-brew install gnu-sed automake
-```
 # Recent IPSW + Cryptex Installations 
 ```
 Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
