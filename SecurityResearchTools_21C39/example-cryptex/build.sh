@@ -13,7 +13,7 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cry
 sudo purge
 cryptexctl ${CRYPTEXCTL_FLAGS} create --research --replace ${CRYPTEXCTL_CREATE_FLAGS} --identifier=com.example.cryptex --version=1.3.3.7 --variant=research srd-universal-cryptex.dmg
 sudo purge
-cryptexctl ${CRYPTEXCTL_PERSONALIZE_FLAGS} personalize --replace  --variant=research com.example.cryptex.cxbd
+cryptexctl  personalize --replace -o /Users/xss/security-research-device-main/example-cryptex --variant=research /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.cxbd
 sudo purge
 cryptexctl uninstall com.example.cryptex
 sudo purge
