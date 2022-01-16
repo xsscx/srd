@@ -1,4 +1,5 @@
 #!/bin/sh
+rm -rf srd-universal-cryptex.dmg
 sudo purge
 make clean
 sudo purge
