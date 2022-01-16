@@ -7,7 +7,7 @@ SAT 15 JAN 2022
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 - Build: https://xss.cx/srd/21C39/example-cryptex.zip
 
-install.sh
+install.sh https://github.com/xsscx/srd/blob/main/dmg/install.sh
 ---
 ```
 wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
