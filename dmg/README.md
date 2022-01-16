@@ -7,6 +7,18 @@ SAT 15 JAN 2022
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 - Build: https://xss.cx/srd/21C39/example-cryptex.zip
 
+## Prerequisites
+- macOS Version 12.1 (21C52)
+- Xcode Version 13.2.1 (13C100)
+- Security Research Tools 21C39 (SRT 21C39)
+- GNU sed
+- automake
+
+If you use brew:
+
+```sh
+brew install gnu-sed automake
+```
 install
 ---
 ```
@@ -27,18 +39,6 @@ Timestamp
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 
-## Prerequisites
-- macOS Version 12.1 (21C52)
-- Xcode Version 13.2.1 (13C100)
-- Security Research Tools 21C39 (SRT 21C39)
-- GNU sed
-- automake
-
-If you use brew:
-
-```sh
-brew install gnu-sed automake
-```
 SRD DMG Testing
 -----
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
