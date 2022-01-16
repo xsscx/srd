@@ -38,7 +38,7 @@ sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.ds
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
 ```
-How to Install toybox unstripped DMG to the SRD
+How to Install example cryptex DMG to the SRD
 -----
 ```
 cd example-cryptex
@@ -49,7 +49,7 @@ cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 ```
 ssh to SRD
 
-Unstripped
+Toybox Unstripped
 ----
 ```
 nm -a com.example.cryptex.dstroot/usr/bin/toybox | wc -l
