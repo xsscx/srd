@@ -2,8 +2,8 @@
 
 SAT 15 JAN 2022
 ----
-Download SRD DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
-Install Instructions: https://github.com/xsscx/srd/tree/main/dmg#readme
+- Download SRD DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
+- Install Instructions: https://github.com/xsscx/srd/tree/main/dmg#readme
 
 ## Prerequisites
 - macOS Version 12.1 (21C52)
