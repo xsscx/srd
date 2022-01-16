@@ -5,6 +5,7 @@ SAT 15 JAN 2022
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
 - DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- Build: https://xss.cx/srd/21C39/example-cryptex.zip
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 
