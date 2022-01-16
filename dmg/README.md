@@ -1,5 +1,9 @@
 # Install an example SRD Cryptex with Toybox Unstripped, Frida, Debugserver & more using SRT 21C39
-Download DMG, install & ssh to the SRD. Includes toybox unstripped, frida, debugserver and other example PoC's as of 14 Jan 2022. 
+Download the example SRD Cryptex DMG here https://xss.cx/srd/dmg/srd-universal-cryptex.dmg. 
+
+__15 JAN 2021:__ The example SRD DMG has outgrown GitHub due to size constraints, Down Link https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+
+Install & ssh to the SRD. Includes toybox unstripped, frida, debugserver and other example PoC's as of 14 Jan 2022. 
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 ## Prerequisites
