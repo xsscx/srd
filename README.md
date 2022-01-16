@@ -245,9 +245,9 @@ com.example.cryptex.dstroot
 4 directories, 179 files
 ```
 
-Makefile Details
+Makefile
 -----
-20C80 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_20C80/usr/local/share/security-research-device/example-cryptex/Makefile and 21C39 Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_21C39/example-cryptex/Makefile
+21C39 https://github.com/xsscx/srd/blob/main/SecurityResearchTools_21C39/example-cryptex/Makefile
 
 XNU Export
 ---
