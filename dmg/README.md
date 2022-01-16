@@ -2,7 +2,7 @@
 
 __15 JAN 2021:__ The example SRD DMG has outgrown GitHub due to size constraints.
 
-Install & ssh to the SRD. Includes toybox unstripped, frida, debugserver and other example PoC's as of 14 Jan 2022. 
+Get the Code here https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 ## Prerequisites
