@@ -2,7 +2,7 @@ export VERBOSE ?= 1
 # If VERBOSE is set to 0, we will suppress echoing
 ifeq (0, ${VERBOSE})
 # Suppress echoing
-#.SILENT:
+# .SILENT:
 endif
 
 # If VERBOSE is 0 we will redirect to /dev/null
