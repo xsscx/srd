@@ -2,7 +2,7 @@
 
 __15 JAN 2021:__ The example SRD DMG has outgrown GitHub due to size constraints. 
 
-Get the example SRd DMG here wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
+Get the example SRD DMG: wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 ## Prerequisites
