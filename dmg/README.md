@@ -1,10 +1,13 @@
 # Install an example SRD Cryptex with Toybox Unstripped, Frida, Debugserver & more using SRT 21C39
 
-__15 JAN 2021:__ The example SRD DMG has outgrown GitHub due to size constraints. 
-
-Get the example SRD DMG: wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
+SAT 15 JAN 2022
+----
+- Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
+- DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
+- Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
+
 ## Prerequisites
 - macOS Version 12.1 (21C52)
 - Xcode Version 13.2.1 (13C100)
