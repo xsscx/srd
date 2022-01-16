@@ -1,17 +1,22 @@
 # Hoyt's SRD Cryptex Example
 
-This Repo contains a working example of a sample cryptex and is the default Repo I sync to for a Restore including the Makefile fixes identified for Issue https://github.com/apple/security-research-device/issues/38
+This Repo contains a working example of a sample cryptex and is the default Repo I sync to for a Baseline.
 
-diff
----
-```
-<	rm -rf ${CRYPTEX_ROOT_DIR} ${CRYPTEX_DMG_NAME} ${CRYPTEX_ID}.cptx
->	rm -rf ${CRYPTEX_ROOT_DIR} ${CRYPTEX_DMG_NAME} ${CRYPTEX_ID}.cxdb ${CRYPTEX_ID}.cxdb.signed
-```
+SAT 15 JAN 2022
+----
+- Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
+- DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+- Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- Build: https://xss.cx/srd/21C39/example-cryptex.zip
 
-Commit: https://github.com/xsscx/srd/commit/37dadc1cd7cdc414af85fa4bd6fc37a66d930fcd
+SRD DMG Testing
+-----
+- Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
+- Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta 
+- Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta
+- Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms 
 
-The Result is a Cryptex DMG https://github.com/xsscx/srd/tree/main/dmg with frida, debugserver and other PoC's.
+Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
 ## Prerequisites
 - macOS Version 12.1 (21C52)
