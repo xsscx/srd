@@ -40,6 +40,7 @@ hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cry
 ```
 How to Install example cryptex DMG to the SRD
 -----
+Download: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 ```
 cd example-cryptex
 cryptexctl ${CRYPTEXCTL_FLAGS} create --research --replace ${CRYPTEXCTL_CREATE_FLAGS} --identifier=com.example.cryptex --version=1.3.3.7 --variant=research srd-universal-cryptex.dmg
