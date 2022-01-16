@@ -2,8 +2,9 @@
 
 SAT 15 JAN 2022
 ----
-- Download SRD DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
-- Install Instructions: https://github.com/xsscx/srd/tree/main/dmg#readme
+- Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
+- DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
+- Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 
 SRD DMG Testing
 -----
