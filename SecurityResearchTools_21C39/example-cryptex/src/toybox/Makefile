@@ -56,7 +56,7 @@ toybox-src/.config: toybox-src
 	# Patch in the config to get a shell and some other goodies
 	echo CONFIG_SH=y >> toybox-src/kconfig/macos_miniconfig
 	# HOYT FIXUP 
-	# echo CONFIG_VI=y >> toybox-src/kconfig/macos_miniconfig
+	echo CONFIG_VI=y >> toybox-src/kconfig/macos_miniconfig
 	echo CONFIG_WGET=y >> toybox-src/kconfig/macos_miniconfig
 	env -vi PATH="$(shell pwd)/sed_path:$(PATH)" $(MAKE) ${EXTRA_MAKE_FLAGS} \
 			-C toybox-src macos_defconfig \
