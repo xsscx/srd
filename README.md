@@ -5,7 +5,14 @@ SAT 15 JAN 2022
 - Download SRD DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
 - Install Instructions: https://github.com/xsscx/srd/tree/main/dmg#readme
 
-The example SRD Cryptex DMG is a universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models. 
+SRD DMG Testing
+-----
+- Universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models 
+- Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta 
+- Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta
+- Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms 
+
+Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
 
 ## Prerequisites
 - macOS Version 12.1 (21C52)
@@ -19,12 +26,6 @@ If you use brew:
 ```sh
 brew install gnu-sed automake
 ```
-The sample SRD Cryptex has been tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta. The sample SRD Cryptex has been tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta. 
-
-Cryptex Installation has been Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms. 
-
-Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
-
 # Recent IPSW + Cryptex Installations 
 ```
 Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
