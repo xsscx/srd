@@ -1,6 +1,6 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
 
-SAT 15 JAN 2022 -Download the larger example SRD DMG here wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
+SAT 15 JAN 2022 -Download the larger example SRD DMG: wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg.zip
 
 ## Prerequisites
 - macOS Version 12.1 (21C52)
