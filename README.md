@@ -7,7 +7,7 @@ SAT 15 JAN 2022
 
 SRD DMG Testing
 -----
-- Universal cryptex and works on the iPhone 11 and iPhone 12 SRD Models 
+- Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta 
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms 
