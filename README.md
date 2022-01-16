@@ -7,6 +7,11 @@ SAT 15 JAN 2022
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 - Build: https://xss.cx/srd/21C39/example-cryptex.zip
 
+Install
+---
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
+```
 shasum
 ----
 ```
@@ -42,11 +47,8 @@ brew install gnu-sed automake
 # Recent IPSW + Cryptex Installations 
 ```
 Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
-
 Signed File: iPhone13,2,iPhone13,3_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
-
 Signed File: iPhone11,8,iPhone12,1_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
-
 Signed File: iPhone13,2,iPhone13,3_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 ```
 The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
