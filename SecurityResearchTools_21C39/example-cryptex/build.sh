@@ -1,5 +1,8 @@
 #!/bin/sh
+make clean
+sudo purge
 make
+sudo purge
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
