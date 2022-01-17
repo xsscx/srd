@@ -19,12 +19,12 @@ If you use brew:
 ```sh
 brew install gnu-sed automake
 ```
-Install
+SRD DMG Install
 ---
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-File
+SRD DMG File
 ---
 ```
 shasum srd-universal-cryptex.dmg
