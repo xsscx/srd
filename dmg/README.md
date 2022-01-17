@@ -369,3 +369,25 @@ PID  Name                Identifier
 History
 ---
 Frida built from Commit in https://github.com/apple/security-research-device/issues/13
+
+# Example SRD DMG Install Audit Trail
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
+```
+```
+--2022-01-17 14:12:26--  https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+Resolving xss.cx (xss.cx)... 50.62.160.45
+Connecting to xss.cx (xss.cx)|50.62.160.45|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27295841 (26M) [application/x-zip-compressed]
+Saving to: ‘srd-universal-cryptex.dmg’
+
+srd-universal-cryptex.dmg                                                                                100%[=================================================================================================================================================================================================================================================================================>]  26.03M  3.32MB/s    in 8.3s
+
+2022-01-17 14:12:35 (3.12 MB/s) - ‘srd-universal-cryptex.dmg’ saved [27295841/27295841]
+
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
+  ```
