@@ -466,9 +466,11 @@ cryptexctl log show -- --archive ./system_logs.logarchive
 If you get errors about missing SDKs or headers, double check that you've selected your
 Xcode install with `xcode-select(1)` or just download a pre-built cryptex here https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 
-## Audit Trail
+## Example SRD DMG Install Audit Trail
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
+```
+```
 --2022-01-17 14:12:26--  https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 Resolving xss.cx (xss.cx)... 50.62.160.45
 Connecting to xss.cx (xss.cx)|50.62.160.45|:443... connected.
