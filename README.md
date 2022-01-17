@@ -24,15 +24,11 @@ Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-shasum
-----
+File
+---
 ```
 shasum srd-universal-cryptex.dmg
 9f7f30af3beab25f404cc47a89818a306f1da1ad  srd-universal-cryptex.dmg
-```
-Timestamp
-----
-```
 26M Jan 15 18:20 srd-universal-cryptex.dmg
 ```
 SRD DMG Testing
@@ -42,7 +38,12 @@ SRD DMG Testing
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms 
 
-Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. 
+SRD Cryptex Log Collector
+---
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
+```
+Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. Include some of the Details from these Logs.
 
 # Recent IPSW + Cryptex Installations 
 ```
