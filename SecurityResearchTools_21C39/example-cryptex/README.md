@@ -457,7 +457,10 @@ sudo -E cryptexctl log collect
 # View the logs from the archive
 cryptexctl log show -- --archive ./system_logs.logarchive
 ```
-
+## Log Collection
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
+```
 ## Building
 
 If you get errors about missing SDKs or headers, double check that you've selected your
