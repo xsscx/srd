@@ -200,7 +200,7 @@ helpful. The gist of it is included below:
 # Enable verbose logging with -v, -d and redirect from the system log to stderr with -ldt
 cryptexctl -v9 -d9 -ldt install --print-info ./com.example.cryptex.cptx (20C80)
 OR 
-cryptexctl -v9 -d9 -ldt install --print-info ./com.example.cryptex.cxbd (21C39)
+cryptexctl -v4 -d4  install --variant=research --persist --print-info ./com.example.cryptex.cxbd.signed (21C39)
 
 # Collect logs from the device. The -E is so we capture the CRYPTEXCTL_UDID env var.
 # You can alternativly specify --udid on the command line
