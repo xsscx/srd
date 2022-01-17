@@ -465,29 +465,19 @@ Xcode install with `xcode-select(1)` or just download a pre-built cryptex here h
 
 ## Audit Trail
 ```
-./build.sh
-...
-[example-cryptex] - Creating disk image com.example.cryptex.dmg from distribution root /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.dstroot
-.......................................................................................................................................................................................................................................................................................................................................
-created: /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.dmg
-[example-cryptex] - Creating cryptex /Users/xss/security-research-device-main/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
+--2022-01-17 14:12:26--  https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+Resolving xss.cx (xss.cx)... 50.62.160.45
+Connecting to xss.cx (xss.cx)|50.62.160.45|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27295841 (26M) [application/x-zip-compressed]
+Saving to: ‘srd-universal-cryptex.dmg’
 
-real	1m54.104s
-user	1m6.456s
-sys	0m32.786s
-Copy Toybox Unstripped to the DST
-Codesign Ad Hoc
-Delete the old DMG
-Create the Example DMG
-.......................................................................................................................................................................................................................................................................................................................................
-created: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
-Personalize the cryptex
-Uninstall existing com.example.cryptex
-cryptexctl: mount entry invalid: idx = 0, val = null
-Install cryptex
-Check Installation
+srd-universal-cryptex.dmg                                                                                100%[=================================================================================================================================================================================================================================================================================>]  26.03M  3.32MB/s    in 8.3s
+
+2022-01-17 14:12:35 (3.12 MB/s) - ‘srd-universal-cryptex.dmg’ saved [27295841/27295841]
+
 com.example.cryptex
   version = 1.3.3.7
-  device = /dev/disk3s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.9fSOC0
-```
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo```
