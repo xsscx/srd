@@ -485,4 +485,5 @@ srd-universal-cryptex.dmg                                                       
 com.example.cryptex
   version = 1.3.3.7
   device = /dev/disk2s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo```
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
+  ```
