@@ -10,7 +10,7 @@ csrutil status >> srd-cryptex-troubleshooter.log
 cryptexctl -v2 -d2  install --variant=research --persist --print-info ./com.example.cryptex.cxbd.signed
 echo "Check for cryptex install"
 cryptexctl list
+clang -v >> srd-cryptex-troubleshooter.log 2>&1
 # sudo sysdiagnose
 cat srd-cryptex-troubleshooter.log
-clang -v
 echo "SRD Cryptex Troubleshooter Log Collector End"
