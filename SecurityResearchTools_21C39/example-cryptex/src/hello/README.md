@@ -5,8 +5,8 @@ Code Profiling Example
 ```
 PROFILE BUILD
 clang -fprofile-instr-generate -fcoverage-mapping -mllvm -runtime-counter-relocation -g -fsanitize=undefined -O0 -o a.out code.c
-PROFILE
 
+PROFILE
 LLVM_PROFILE_FILE=default.profraw ./a.out
 xcrun llvm-profdata merge -sparse default.profraw -o a.profdata
 xcrun llvm-cov show ./a.out -instr-profile=a.profdata
@@ -17,7 +17,7 @@ xcrun llvm-cov report ./a.out -instr-profile=a.profdata
 sudo gcovr --gcov-executable "xcrun llvm-cov gcov" -r . --html --html-details -o out.html
 
 RUN
-	LLVM_PROFILE_FILE=default.profraw ./a.out
+LLVM_PROFILE_FILE=default.profraw ./a.out
 
     1|       |#include <stdio.h>
     2|       |#include <os/log.h>
@@ -31,7 +31,7 @@ RUN
    10|      1|	return 0;
    11|      1|}
 
-Ds-Mac-mini:re xss$ xcrun llvm-cov show ./a.out -instr-profile=a.profdata --show-regions=0 -show-line-counts-or-regions -show-instantiation-summary
+xcrun llvm-cov show ./a.out -instr-profile=a.profdata --show-regions=0 -show-line-counts-or-regions -show-instantiation-summary
     1|       |#include <stdio.h>
     2|       |#include <os/log.h>
     3|       |#include <unistd.h>
