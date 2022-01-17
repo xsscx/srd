@@ -1,5 +1,7 @@
 #!/bin/sh
 echo "SRD Cryptex Troubleshooter Log Collector Start"
+echo "umount com.example.cryptex"
+cryptexctl uninstall com.example.cryptex
 date > srd-cryptex-troubleshooter.log
 uname -a >> srd-cryptex-troubleshooter.log
 clang -v >> srd-cryptex-troubleshooter.log
