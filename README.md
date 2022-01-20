@@ -52,7 +52,25 @@ Signed File: iPhone13,2,iPhone13,3_15.3_19D49_Restore.ipsw | defaults write com.
 Signed File: iPhone11,8,iPhone12,1_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 Signed File: iPhone13,2,iPhone13,3_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 ```
-The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
+The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified as shown below.
+
+Date
+---
+```
+Thu Jan 20 18:32:17 EST 2022
+```
+
+iPhone 11
+---
+```
+iPhone 21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:44:45 PST 2022; root:xnu-8019.80.24~23/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+```
+
+iPhone 12
+---
+```
+iPhone 21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:44:48 PST 2022; root:xnu-8019.80.24~23/RELEASE_ARM64_T8101 iPhone13,2 Toybox
+```
 
 SRD DMG Contents 
 -----
