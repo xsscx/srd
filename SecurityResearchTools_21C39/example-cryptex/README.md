@@ -19,7 +19,7 @@ If you use brew:
 ```sh
 brew install gnu-sed automake
 ```
-SRD example-cryptex Source Build
+SRD Source Build example-cryptex
 ---
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/build.sh" 
