@@ -7,7 +7,14 @@
 - Pre-built DMG's for the Apple Security Research Device 
     - frida
     - debugserver
-    - Sample PoC's for Regression Analysis
+    - Sample PoC's from CVE's
+        - Chain3
+        - P0 PoC's
+            - Stage 0,1,2
+            - port_refs 
+    - Example ASAN Makefile for hello.c
+    - Example Code Coverage for hello.c
+    - Example UBSAN Makefile for hello.c
 
 THU 20 JAN 2022
 ----
