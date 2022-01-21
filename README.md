@@ -14,11 +14,12 @@
             - port_refs
         - ZecOps 
             - iOS 13 + 14 Voucher Leak 
-    - Example ASAN Makefile for hello.c
-    - Example Code Coverage for hello.c
-    - Example UBSAN Makefile for hello.c
+- Sample Code
+    - Example ASAN Makefile and Binary
+    - Example Code Coverage Makefile and Binary
+    - Example UBSAN Makefile and Binary
     - Example libarchive.a
-    - Example aslr
+    - Example aslr Binary
 
 THU 20 JAN 2022
 ----
