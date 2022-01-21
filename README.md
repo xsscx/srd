@@ -15,6 +15,7 @@
     - Example ASAN Makefile for hello.c
     - Example Code Coverage for hello.c
     - Example UBSAN Makefile for hello.c
+    - Example libarchive.a
 
 THU 20 JAN 2022
 ----
