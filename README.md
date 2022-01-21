@@ -1,6 +1,7 @@
-# Welcome to Hoyt's SRD Repo for the Apple Security Research Device
+# Welcome to Hoyt's SRD Repo for the Apple Security Research Device with Example SRD Cryptex DMG
 
-A resource for IPSW & Cryptex Installations, Build Info, Issue Tracker with Summary & Workaround for the iPhone 11 & 12 SRD Models.
+- Resources for IPSW & Cryptex Installations, Build Info, Issue Tracker with Summary & Workarounds for the iPhone 11 & 12 SRD Models 
+- Pre-built DMG's for the Apple Secuyrity Research Device containing frida, debugserver and sample PoC's for Regression Analysis
 
 THU 20 JAN 2022
 ----
