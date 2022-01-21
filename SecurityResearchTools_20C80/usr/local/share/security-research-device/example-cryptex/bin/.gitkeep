@@ -1,5 +1,0 @@
-You can put binaries in here and they will be copied into the
-dstroot's bin directory and included into your cryptex.
-
-These files should be signed already, ad-hoc signatures
-are fine.
