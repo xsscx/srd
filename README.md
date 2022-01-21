@@ -1,5 +1,7 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
 
+A resource for the latest IPSW & Cryptex Installations, Build Info, latest Issues with Summary Workarounds for the iPhone 11 & 12 SRD Models.
+
 THU 20 JAN 2022
 ----
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
@@ -45,7 +47,7 @@ SRD Cryptex Log Collector
 ```
 Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. Include some of the Details from these Logs.
 
-# Recent IPSW + Cryptex Installations 
+# Lastest IPSW + Cryptex Installations 
 ```
 Signed File: iPhone11,8,iPhone12,1_15.3_19D49_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 Signed File: iPhone13,2,iPhone13,3_15.3_19D49_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
