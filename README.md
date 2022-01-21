@@ -1,6 +1,6 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device
 
-A resource for the latest IPSW & Cryptex Installations, Build Info, latest Issues with Summary Workarounds for the iPhone 11 & 12 SRD Models.
+A resource for IPSW & Cryptex Installations, Build Info, Issue Tracker with Summary & Workaround for the iPhone 11 & 12 SRD Models.
 
 THU 20 JAN 2022
 ----
