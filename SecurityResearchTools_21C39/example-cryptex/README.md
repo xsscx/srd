@@ -32,6 +32,7 @@ SRD DMG Install
 ```
 SRD DMG File
 ---
+codesign
 ```
 codesign -dv --verbose=4 srd-universal-cryptex.dmg
 Executable=/Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
@@ -56,6 +57,18 @@ TeamIdentifier=7KJ5XYCA8X
 Sealed Resources=none
 Internal requirements count=1 size=184
 ```
+stapler
+```
+xcrun stapler validate  srd-universal-cryptex.dmg
+Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+The validate action worked!
+```
+spctl - work in progress
+```
+spctl -a -v  srd-universal-cryptex.dmg
+srd-universal-cryptex.dmg: rejected
+```
+
 SRD DMG Testing
 -----
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
