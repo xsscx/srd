@@ -391,3 +391,138 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
   ```
+
+# DMG Info
+```
+Backing Store Information	
+	Backing Store Information	
+		Class Name	CBSDBackingStore
+	Name	srd-universal-cryptex.dmg
+	URL	file:///Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+	Class Name	CUDIFEncoding
+	Name	srd-universal-cryptex.dmg
+	URL	file:///Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+		Checksum Type	CRC32
+Checksum Value	$2205E3C4
+Class Name	CUDIFDiskImage
+Format	UDZO
+Format Description	UDIF read-only compressed (zlib)
+Partition Information	
+	-1	
+		Checksum Type	CRC32
+		Checksum Value	$022C6AF1
+		Name	Protective Master Boot Record (MBR : 0)
+		Partition Number	-1
+	0	
+		Checksum Type	CRC32
+		Checksum Value	$AE4E2FC3
+		Name	GPT Header (Primary GPT Header : 1)
+		Partition Number	0
+	1	
+		Checksum Type	CRC32
+		Checksum Value	$C5BB5076
+		Name	GPT Partition Data (Primary GPT Table : 2)
+		Partition Number	1
+	2	
+		Checksum Type	CRC32
+		Checksum Value	$00000000
+		Name	 (Apple_Free : 3)
+		Partition Number	2
+	3	
+		Checksum Type	CRC32
+		Checksum Value	$492676EE
+		Name	disk image (Apple_HFS : 4)
+		Partition Number	3
+	4	
+		Checksum Type	CRC32
+		Checksum Value	$00000000
+		Name	 (Apple_Free : 5)
+		Partition Number	4
+	5	
+		Checksum Type	CRC32
+		Checksum Value	$C5BB5076
+		Name	GPT Partition Data (Backup GPT Table : 6)
+		Partition Number	5
+	6	
+		Checksum Type	CRC32
+		Checksum Value	$E3277FF3
+		Name	GPT Header (Backup GPT Header : 7)
+		Partition Number	6
+partitions	
+	block-size	512
+	burnable	0
+	partition-scheme	GUID
+	partitions	
+		0	
+			partition-hint	MBR
+			partition-length	1
+			partition-name	Protective Master Boot Record
+			partition-start	0
+			partition-synthesized	1
+		1	
+			partition-hint	Primary GPT Header
+			partition-length	1
+			partition-name	GPT Header
+			partition-start	1
+			partition-synthesized	1
+		2	
+			partition-hint	Primary GPT Table
+			partition-length	32
+			partition-name	GPT Partition Data
+			partition-start	2
+			partition-synthesized	1
+		3	
+			partition-hint	Apple_Free
+			partition-length	6
+			partition-name	
+			partition-start	34
+			partition-synthesized	1
+		4	
+			partition-filesystems	
+				HFS+	
+			partition-hint	Apple_HFS
+			partition-hint-UUID	48465300-0000-11AA-AA11-00306543ECAC
+			partition-length	149,056
+			partition-name	disk image
+			partition-number	1
+			partition-start	40
+			partition-UUID	F2597F9E-F86A-47BC-A4EB-E355D6F23BC8
+		5	
+			partition-hint	Apple_Free
+			partition-length	1
+			partition-name	
+			partition-start	149,096
+			partition-synthesized	1
+		6	
+			partition-hint	Backup GPT Table
+			partition-length	32
+			partition-name	GPT Partition Data
+			partition-start	149,097
+			partition-synthesized	1
+		7	
+			partition-hint	Backup GPT Header
+			partition-length	1
+			partition-name	GPT Header
+			partition-start	149,129
+			partition-synthesized	1
+Properties	
+	Checksummed	1
+	Compressed	1
+	Encrypted	0
+	Kernel Compatible	1
+	Partitioned	0
+	Software License Agreement	0
+Segments	
+	0	/Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+Size Information	
+	Compressed Bytes	25,670,641
+	Compressed Ratio	0.41
+	CUDIFEncoding-bytes-in-use	25,670,641
+	CUDIFEncoding-bytes-total	26,737,142
+	CUDIFEncoding-bytes-wasted	1,066,501
+	Sector Count	149,130
+	Total Bytes	76,354,560
+	Total Empty Bytes	13,027,328
+	Total Non-Empty Bytes	63,327,232
+udif-ordered-chunks	0
+```
