@@ -21,7 +21,7 @@
     - Example libarchive.a
     - Example aslr Binary
 
-THU 20 JAN 2022
+TUE 25 JAN 2022
 ----
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
 - DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
@@ -44,13 +44,6 @@ SRD DMG Install
 ---
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
-```
-SRD DMG File
----
-```
-shasum srd-universal-cryptex.dmg
-9f7f30af3beab25f404cc47a89818a306f1da1ad  srd-universal-cryptex.dmg
-26M Jan 15 18:20 srd-universal-cryptex.dmg
 ```
 SRD DMG Testing
 -----
