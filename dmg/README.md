@@ -24,13 +24,7 @@ SRD DMG Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-SRD DMG File
----
-```
-shasum srd-universal-cryptex.dmg
-9f7f30af3beab25f404cc47a89818a306f1da1ad  srd-universal-cryptex.dmg
-26M Jan 15 18:20 srd-universal-cryptex.dmg
-```
+
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 
 SRD DMG Testing
