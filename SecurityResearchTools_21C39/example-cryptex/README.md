@@ -33,9 +33,28 @@ SRD DMG Install
 SRD DMG File
 ---
 ```
-shasum srd-universal-cryptex.dmg
-50771714e7f1893e8c7ae316880c8b6fd6d71e66  srd-universal-cryptex.dmg
-Tue Jan 25 07:19:44 EST 2022 srd-universal-cryptex.dmg
+codesign -dv --verbose=4 srd-universal-cryptex.dmg
+Executable=/Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+Identifier=srd-universal-cryptex
+Format=disk image
+CodeDirectory v=20200 size=309 flags=0x0(none) hashes=1+6 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e
+CandidateCDHashFull sha256=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e9f5dcaeca987d984850104e8
+Hash choices=sha256
+CMSDigest=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e9f5dcaeca987d984850104e8
+CMSDigestType=2
+Page size=none
+CDHash=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e
+Signature size=4777
+Authority=Apple Development: David Hoyt (233K2D6FG3)
+Authority=Apple Worldwide Developer Relations Certification Authority
+Authority=Apple Root CA
+Signed Time=Jan 25, 2022 at 8:21:01 AM
+Info.plist=not bound
+TeamIdentifier=7KJ5XYCA8X
+Sealed Resources=none
+Internal requirements count=1 size=184
 ```
 SRD DMG Testing
 -----
