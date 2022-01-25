@@ -57,6 +57,13 @@ TeamIdentifier=7KJ5XYCA8X
 Sealed Resources=none
 Internal requirements count=1 size=184
 ```
+notarization status
+```
+codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
+srd-universal-cryptex.dmg: valid on disk
+srd-universal-cryptex.dmg: satisfies its Designated Requirement
+srd-universal-cryptex.dmg: explicit requirement satisfied
+```
 stapler
 ```
 xcrun stapler validate  srd-universal-cryptex.dmg
