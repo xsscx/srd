@@ -34,8 +34,8 @@ SRD DMG File
 ---
 ```
 shasum srd-universal-cryptex.dmg
-9f7f30af3beab25f404cc47a89818a306f1da1ad  srd-universal-cryptex.dmg
-26M Jan 15 18:20 srd-universal-cryptex.dmg
+50771714e7f1893e8c7ae316880c8b6fd6d71e66  srd-universal-cryptex.dmg
+Tue Jan 25 07:19:44 EST 2022 srd-universal-cryptex.dmg
 ```
 SRD DMG Testing
 -----
