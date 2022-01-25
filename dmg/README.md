@@ -162,14 +162,12 @@ com.example.cryptex.dstroot
     │   ├── debugserver
     │   ├── df -> toybox
     │   ├── dirname -> toybox
-    │   ├── disarm
     │   ├── dos2unix -> toybox
     │   ├── dropbear
     │   ├── du -> toybox
     │   ├── echo -> toybox
     │   ├── egrep -> toybox
     │   ├── env -> toybox
-    │   ├── envprint
     │   ├── expand -> toybox
     │   ├── factor -> toybox
     │   ├── fallocate -> toybox
@@ -204,11 +202,11 @@ com.example.cryptex.dstroot
     │   ├── ios-14-voucher_leak
     │   ├── ios-command-line-tool
     │   ├── ioscan
-    │   ├── jtool2
     │   ├── kill -> toybox
     │   ├── killall5 -> toybox
     │   ├── leak64
     │   ├── libarchive.a
+    │   ├── libclang_rt.asan_ios_dynamic.dylib
     │   ├── libgmalloc.dylib
     │   ├── libmemctl_core.a
     │   ├── link -> toybox
@@ -235,7 +233,6 @@ com.example.cryptex.dstroot
     │   ├── orig.tif
     │   ├── paste -> toybox
     │   ├── patch -> toybox
-    │   ├── port_refs
     │   ├── prinfkernversion
     │   ├── printenv -> toybox
     │   ├── printf -> toybox
@@ -247,6 +244,18 @@ com.example.cryptex.dstroot
     │   ├── rev -> toybox
     │   ├── rm -> toybox
     │   ├── rmdir -> toybox
+    │   ├── s1_0_c7_c8_2-flip
+    │   ├── s1_0_c7_c8_2-read
+    │   ├── s3_0_c15_c0_0-flip
+    │   ├── s3_0_c15_c0_0-read
+    │   ├── s3_0_c15_c11_0-flip
+    │   ├── s3_0_c15_c11_0-read
+    │   ├── s3_5_c15_c10_1-flip
+    │   ├── s3_5_c15_c10_1-read
+    │   ├── s3_6_c15_c1_5-flip
+    │   ├── s3_6_c15_c1_5-read
+    │   ├── s3_6_c15_c1_6-flip
+    │   ├── s3_6_c15_c1_6-read
     │   ├── sed -> toybox
     │   ├── seq -> toybox
     │   ├── setsid -> toybox
@@ -254,7 +263,6 @@ com.example.cryptex.dstroot
     │   ├── sha1sum -> toybox
     │   ├── simple-server
     │   ├── simple-shell
-    │   ├── skywalktest
     │   ├── sleep -> toybox
     │   ├── sort -> toybox
     │   ├── split -> toybox
@@ -275,7 +283,6 @@ com.example.cryptex.dstroot
     │   ├── test6
     │   ├── test7
     │   ├── test8
-    │   ├── tester
     │   ├── time -> toybox
     │   ├── timeout -> toybox
     │   ├── touch -> toybox
@@ -304,13 +311,12 @@ com.example.cryptex.dstroot
     │   ├── whoami -> toybox
     │   ├── xargs -> toybox
     │   ├── xxd -> toybox
-    │   ├── yes -> toybox
-    │   └── zprint
+    │   └── yes -> toybox
     └── lib
         └── frida
             └── frida-agent.dylib
 
-6 directories, 184 files
+6 directories, 190 files
 ```
 
 Audit Trail
