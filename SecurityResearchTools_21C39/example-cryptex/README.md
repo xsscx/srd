@@ -39,14 +39,7 @@ Executable=/Users/xss/security-research-device-main/example-cryptex/srd-universa
 Identifier=srd-universal-cryptex
 Format=disk image
 CodeDirectory v=20200 size=309 flags=0x0(none) hashes=1+6 location=embedded
-Hash type=sha256 size=32
-CandidateCDHash sha256=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e
-CandidateCDHashFull sha256=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e9f5dcaeca987d984850104e8
-Hash choices=sha256
-CMSDigest=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e9f5dcaeca987d984850104e8
-CMSDigestType=2
-Page size=none
-CDHash=6b961c3aac417a55fbbf1b9fd43c479e6fac6d7e
+...
 Signature size=4777
 Authority=Apple Development: David Hoyt (233K2D6FG3)
 Authority=Apple Worldwide Developer Relations Certification Authority
