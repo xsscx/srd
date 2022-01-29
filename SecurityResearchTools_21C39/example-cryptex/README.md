@@ -34,16 +34,17 @@ SRD DMG File
 codesign
 ```
 codesign -dv --verbose=4 srd-universal-cryptex.dmg
+codesign -dv --verbose=4 srd-universal-cryptex.dmg
 Executable=/Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
 Identifier=srd-universal-cryptex
 Format=disk image
 CodeDirectory v=20200 size=309 flags=0x0(none) hashes=1+6 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=2c20c2cac6bead3644f085ca60bb0e6cafb5b2b9
+CandidateCDHashFull sha256=2c20c2cac6bead3644f085ca60bb0e6cafb5b2b9a30b606b2fa85fb42246df7c
+Hash choices=sha256
 ...
-Signature size=4777
-Authority=Apple Development: David Hoyt (233K2D6FG3)
-Authority=Apple Worldwide Developer Relations Certification Authority
-Authority=Apple Root CA
-Signed Time=Jan 25, 2022 at 8:21:01 AM
+Signed Time=Jan 28, 2022 at 8:54:35 PM
 Info.plist=not bound
 TeamIdentifier=7KJ5XYCA8X
 Sealed Resources=none
