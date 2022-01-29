@@ -63,11 +63,6 @@ xcrun stapler validate  srd-universal-cryptex.dmg
 Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
 The validate action worked!
 ```
-spctl - work in progress
-```
-spctl -a -v  srd-universal-cryptex.dmg
-srd-universal-cryptex.dmg: rejected
-```
 
 SRD DMG Testing
 -----
