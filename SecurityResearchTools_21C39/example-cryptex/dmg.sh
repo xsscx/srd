@@ -1,5 +1,6 @@
 #!/bin/sh
 mv srd-universal-cryptex.dmg srd-universal-cryptex.dmg.backup
+codesign -s - --entitlements src/toybox/entitlements.plist  src/toybox/toybox-src/generated/unstripped/toybox
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
