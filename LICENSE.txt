@@ -1,0 +1,17 @@
+The files in the SRD Project GitHub are licensed to you by Apple Inc. under the
+following licenses.
+
+docs/man/: Items in this man directory hierarchy are licensed under the
+Creative Commons Attribution-NoDerivatives 4.0 International Public License (CC
+BY-ND 4.0) license. A copy of the CC BY-ND 4.0 license is included as
+share/man/cc-by-nd-4.0.txt.
+
+example-cryptex/: Items in this example-cryptex directory hierarchy are
+licensed under the Apache License, Version 2.0. A copy of the Apache 2 license
+is included as example-cryptex/apache-2.0.txt.
+
+All other items (including the bin/ directory hierarchy) are licensed solely to
+members of the Security Research Device Program in good standing (who have a
+valid Security Security Research Device Agreement with Apple) under Security
+Research Device Utilities Software License Agreement, a copy of which is
+included as bin/SRD-util-license.pdf.
