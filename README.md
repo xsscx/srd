@@ -1,5 +1,7 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device with Example SRD Cryptex DMG
 
+MON 31 JAN 2022 Read: https://github.com/apple/security-research-device/pull/41 and https://github.com/apple/security-research-device/issues/44 prior to use of srd_tools-24.100.3
+
 - Resources for IPSW & Cryptex Installations 
     -  Build Info, Issue Tracker
     -  Summary & Workarounds 
