@@ -1,5 +1,7 @@
 # Hoyt's Example Cryptex & DMG for SRT 21C39
 
+MON 31 JAN 2022 Read: https://github.com/apple/security-research-device/pull/41 and https://github.com/apple/security-research-device/issues/44 prior to use of srd_tools-24.100.3
+
 FRI 26 JAN 2022
 ----
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
