@@ -9,8 +9,8 @@ FRI 26 JAN 2022
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 
 ## Prerequisites
-- macOS Version 12.1 (21C52)
-- Xcode Version 13.2.1 (13C100)
+- macOS 12.3 (21E5196i)
+- Version 13.3 beta (13E5086k)
 - Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
 - GNU sed
 - automake
