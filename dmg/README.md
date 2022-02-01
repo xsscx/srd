@@ -73,8 +73,8 @@ ssh to SRD
 Toybox Unstripped
 ----
 ```
-nm -a com.example.cryptex.dstroot/usr/bin/toybox | wc -l
-     871
+nm -a com.example.cryptex.dstroot/usr/bin/toybox| wc -l
+     869
 ```
 
 Confirm that the Cryptex is Installed on iPhone 11 SRD0009
