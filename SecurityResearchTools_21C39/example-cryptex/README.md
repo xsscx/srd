@@ -11,8 +11,7 @@ FRI 26 JAN 2022
 ## Prerequisites
 - macOS Version 12.1 (21C52)
 - Xcode Version 13.2.1 (13C100)
-- Security Research Tools 21C39 (SRT 21C39)
-    - https://github.com/apple/security-research-device/tree/cryptexctl-169.80.2 
+- Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
 - GNU sed
 - automake
 
