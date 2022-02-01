@@ -161,11 +161,8 @@ com.example.cryptex.dstroot
     │   ├── killall5 -> toybox
     │   ├── leak64
     │   ├── libarchive.a
-    │   ├── libclang_rt.asan_ios_dynamic.dylib
-    │   ├── libgmalloc.dylib
     │   ├── libmemctl_core.a
     │   ├── link -> toybox
-    │   ├── lister
     │   ├── ln -> toybox
     │   ├── logger -> toybox
     │   ├── logname -> toybox
@@ -199,18 +196,6 @@ com.example.cryptex.dstroot
     │   ├── rev -> toybox
     │   ├── rm -> toybox
     │   ├── rmdir -> toybox
-    │   ├── s1_0_c7_c8_2-flip
-    │   ├── s1_0_c7_c8_2-read
-    │   ├── s3_0_c15_c0_0-flip
-    │   ├── s3_0_c15_c0_0-read
-    │   ├── s3_0_c15_c11_0-flip
-    │   ├── s3_0_c15_c11_0-read
-    │   ├── s3_5_c15_c10_1-flip
-    │   ├── s3_5_c15_c10_1-read
-    │   ├── s3_6_c15_c1_5-flip
-    │   ├── s3_6_c15_c1_5-read
-    │   ├── s3_6_c15_c1_6-flip
-    │   ├── s3_6_c15_c1_6-read
     │   ├── sed -> toybox
     │   ├── seq -> toybox
     │   ├── setsid -> toybox
@@ -271,7 +256,7 @@ com.example.cryptex.dstroot
         └── frida
             └── frida-agent.dylib
 
-6 directories, 190 files
+6 directories, 175 files
 ```
 
 Audit Trail
