@@ -32,33 +32,16 @@ SRD DMG Install
 ```
 SRD DMG File
 ---
-codesign
-```
-codesign -dv --verbose=4 srd-universal-cryptex.dmg
-codesign -dv --verbose=4 srd-universal-cryptex.dmg
-Executable=/Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
-Identifier=srd-universal-cryptex
-Format=disk image
-CodeDirectory v=20200 size=309 flags=0x0(none) hashes=1+6 location=embedded
-Hash type=sha256 size=32
-CandidateCDHash sha256=2c20c2cac6bead3644f085ca60bb0e6cafb5b2b9
-CandidateCDHashFull sha256=2c20c2cac6bead3644f085ca60bb0e6cafb5b2b9a30b606b2fa85fb42246df7c
-Hash choices=sha256
-...
-Signed Time=Jan 28, 2022 at 8:54:35 PM
-Info.plist=not bound
-TeamIdentifier=7KJ5XYCA8X
-Sealed Resources=none
-Internal requirements count=1 size=184
-```
-notarization status
+Notarization
+----
 ```
 codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
 srd-universal-cryptex.dmg: valid on disk
 srd-universal-cryptex.dmg: satisfies its Designated Requirement
 srd-universal-cryptex.dmg: explicit requirement satisfied
 ```
-stapler
+Stapler
+---
 ```
 xcrun stapler validate  srd-universal-cryptex.dmg
 Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
@@ -180,11 +163,8 @@ com.example.cryptex.dstroot
     │   ├── killall5 -> toybox
     │   ├── leak64
     │   ├── libarchive.a
-    │   ├── libclang_rt.asan_ios_dynamic.dylib
-    │   ├── libgmalloc.dylib
     │   ├── libmemctl_core.a
     │   ├── link -> toybox
-    │   ├── lister
     │   ├── ln -> toybox
     │   ├── logger -> toybox
     │   ├── logname -> toybox
@@ -218,18 +198,6 @@ com.example.cryptex.dstroot
     │   ├── rev -> toybox
     │   ├── rm -> toybox
     │   ├── rmdir -> toybox
-    │   ├── s1_0_c7_c8_2-flip
-    │   ├── s1_0_c7_c8_2-read
-    │   ├── s3_0_c15_c0_0-flip
-    │   ├── s3_0_c15_c0_0-read
-    │   ├── s3_0_c15_c11_0-flip
-    │   ├── s3_0_c15_c11_0-read
-    │   ├── s3_5_c15_c10_1-flip
-    │   ├── s3_5_c15_c10_1-read
-    │   ├── s3_6_c15_c1_5-flip
-    │   ├── s3_6_c15_c1_5-read
-    │   ├── s3_6_c15_c1_6-flip
-    │   ├── s3_6_c15_c1_6-read
     │   ├── sed -> toybox
     │   ├── seq -> toybox
     │   ├── setsid -> toybox
@@ -290,7 +258,7 @@ com.example.cryptex.dstroot
         └── frida
             └── frida-agent.dylib
 
-6 directories, 190 files
+6 directories, 175 files
 ```
 
 Audit Trail
