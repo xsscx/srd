@@ -8,7 +8,6 @@ echo "Collecting Info"
 date > srd-cryptex-troubleshooter.log 2>&1
 uname -a >> srd-cryptex-troubleshooter.log 2>&1
 clang -v >> srd-cryptex-troubleshooter.log 2>&1
-xcodebuild -showsdks  >> srd-cryptex-troubleshooter.log 2>&1
 cryptexctl version >> srd-cryptex-troubleshooter.log 2>&1
 sysctl -a | grep brand >> srd-cryptex-troubleshooter.log 2>&1
 csrutil status >> srd-cryptex-troubleshooter.log 2>&1
