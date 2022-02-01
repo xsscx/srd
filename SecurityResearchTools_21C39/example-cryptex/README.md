@@ -1,6 +1,6 @@
 # Hoyt's Example Cryptex & DMG for SRT 21C39
 
-It is Suggested to Review the __Closed__ __Issues__ https://github.com/xsscx/srd/issues?q=is%3Aissue+is%3Aclosed for Background.
+TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
 FRI 26 JAN 2022
 ----
