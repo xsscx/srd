@@ -23,15 +23,15 @@ TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
     - Example libarchive.a
     - Example aslr Binary
 
-TUE 25 JAN 2022
+TUE 1 FEB 2022
 ----
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
 - DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 
 ## Prerequisites
-- macOS Version 12.1 (21C52)
-- Xcode Version 13.2.1 (13C100)
+- macOS 12.3 (21E5196i)
+- Version 13.3 beta (13E5086k)
 - Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
 - GNU sed
 - automake
@@ -49,8 +49,8 @@ SRD DMG Install
 SRD DMG Testing
 -----
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
-- Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.3 Beta 
-- Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.3 Beta
+- Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
+- Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms 
 
 SRD Cryptex Log Collector
@@ -64,8 +64,8 @@ Do you have questions or need help? Reach out and open an Issue or Discussion. D
 ```
 Signed File: iPhone11,8,iPhone12,1_15.3_19D50_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 Signed File: iPhone13,2,iPhone13,3_15.3_19D50_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
-Signed File: iPhone11,8,iPhone12,1_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
-Signed File: iPhone13,2,iPhone13,3_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+Signed File: iPhone12,8,iPhone12,1_15.4_19E5209h_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+Signed File: iPhone13,2,iPhone13,3_15.4_19E5209h_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 ```
 The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified as shown below.
 
@@ -331,19 +331,7 @@ XNU Export
 ```
 export XNU_VERSION=xnu-7195.141.2
 ```
-X86_64
----
-```
-sysctl -a | grep Intel
-machdep.cpu.brand_string: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
-```
-```
-clang -v
-Apple clang version 13.0.0 (clang-1300.0.29.30)
-Target: x86_64-apple-darwin21.2.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-```
+
 M1 Apple Silicon
 ---
 ```
@@ -352,15 +340,14 @@ machdep.cpu.brand_string: Apple M1
 ```
 ```
 clang -v
-Apple clang version 13.0.0 (clang-1300.0.29.30)
-Target: arm64-apple-darwin20.6.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Apple clang version 13.1.6 (clang-1316.0.19.2)
+Target: arm64-apple-darwin21.4.0
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 SDK Targets
 ---
 ```
-iOS SDK 14.3 => 15.2
+iOS SDK 14.3 => 15.4
 ```
 Run Targets
 ---
