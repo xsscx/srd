@@ -25,6 +25,7 @@ time make
 echo "Running Purge"
 sudo purge
 echo "Copy Toybox Unstripped to the DST"
+chmod 775 src/toybox/toybox-src/generated/unstripped/toybox
 codesign -s - --entitlements src/toybox/entitlements.plist  src/toybox/toybox-src/generated/unstripped/toybox
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 sudo purge
