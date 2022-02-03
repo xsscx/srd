@@ -25,7 +25,6 @@ SRD DMG Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 
 SRD DMG Testing
@@ -41,8 +40,6 @@ SRD Cryptex Log Collector
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
-Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. Include some of the Details from these Logs.
-
 How To Build example cryptex DMG for the SRD
 ------
 ```
