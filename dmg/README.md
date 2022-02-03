@@ -1,4 +1,4 @@
-# Install an example SRD Cryptex with Toybox Unstripped, Frida, Debugserver & more using SRT 21C39
+# SRD Universal Cryptex Release DMG | ASAN UBSAN Beta DMG
 
 TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
