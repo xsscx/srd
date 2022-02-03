@@ -1,6 +1,5 @@
-# Hello with ASAN and UBSAN Example Makefile
-
-Makefile Options
+# hello.c 
+ASAN & UBSAN Makefile Options
 ---
 ```
 ASAN := 1
