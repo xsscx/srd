@@ -1,21 +1,51 @@
-# Hello!
+# hello.c
 
-Code Profiling Example
+In this example a simple binary is compiled that prints to
+stdout and to the system log, and installs a service to
+run it again and again. 
+
+The Makefile.FB9289266 contains examples
+for ASAN, UBSAN & other Sanitizers.
+
+You can view this log from the Console application on your
+Mac.
+
+The binary is compiled and ad-hoc signed, then placed
+into `/usr/bin` inside the cryptex. The
+[launchd plist](hello.plist) is placed into
+`/Library/LaunchDaemons` in the cryptex and will keep
+starting `hello`.
+
+Below are instructions for a Code Profiling Example for a.out
+
+Code Profiling Example for a.out
 =======
+Host Build
+----
 ```
 PROFILE BUILD
-clang -fprofile-instr-generate -fcoverage-mapping -mllvm -runtime-counter-relocation -g -fsanitize=undefined -O0 -o a.out code.c
-PROFILE
-
-LLVM_PROFILE_FILE=default.profraw ./a.out
+clang -fprofile-instr-generate -fcoverage-mapping -mllvm -runtime-counter-relocation -g -fsanitize=undefined -O0 -o a.out hello.c
+```
+SRD LLVM Profile Example for a.out
+---
+```
+ssh to srd
+LLVM_PROFILE_FILE=default.profraw a.out
 xcrun llvm-profdata merge -sparse default.profraw -o a.profdata
 xcrun llvm-cov show ./a.out -instr-profile=a.profdata
+```
 
-REPORT
+Host Generate Report for a.out
+----
+```
+copy profile files to Host
 xcrun llvm-cov show ./a.out -instr-profile=a.profdata --show-regions=0 -show-line-counts-or-regions -show-instantiation-summary
 xcrun llvm-cov report ./a.out -instr-profile=a.profdata
 sudo gcovr --gcov-executable "xcrun llvm-cov gcov" -r . --html --html-details -o out.html
-
+```
+Sample Report for a.out
+---
+```
 RUN
 	LLVM_PROFILE_FILE=default.profraw ./a.out
 
@@ -50,18 +80,4 @@ Filename                                         Regions    Missed Regions     C
 /Users/xss/example-cryptex/src/hello/hello.c           1                 0   100.00%           1                 0   100.00%           7                 0   100.00%           0                 0         -
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 TOTAL                                                  1                 0   100.00%           1                 0   100.00%           7                 0   100.00%           0                 0         -
-
 ```
-In this example we compile a simple binary that prints to
-stdout and to the system log, and install a service to
-run it again and again. The Makefile contains examples
-for ASAN, UBSAN & other Sanitizers.
-
-You can view this log from the Console application on your
-Mac.
-
-The binary is compiled and ad-hoc signed, then placed
-into `/usr/bin` inside the cryptex. The
-[launchd plist](hello.plist) is placed into
-`/Library/LaunchDaemons` in the cryptex and will keep
-starting `hello`.
