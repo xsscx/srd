@@ -1,9 +1,8 @@
 #!/bin/sh
 rm -rf srd-universal-cryptex.dmg
-sudo purge
 make clean
-sudo purge
 make
+chmod 775 src/toybox/toybox-src/generated/unstripped/toybox
 codesign -s - --entitlements src/toybox/entitlements.plist  src/toybox/toybox-src/generated/unstripped/toybox
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 sudo purge
