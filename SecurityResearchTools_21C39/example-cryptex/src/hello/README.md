@@ -1,6 +1,14 @@
 # Hello with ASAN and UBSAN Example Makefile
+
+Makefile Options
+---
+```
+ASAN := 1
+UBSAN := 0
 ```
 otool -l src/hello/hello | grep san
+---
+```
   sectname __asan_cstring
   sectname __asan_globals
   sectname __asan_liveness
