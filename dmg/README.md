@@ -4,7 +4,8 @@ TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
 ## Resources
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
-- DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+- Universal DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+- ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 
 ## Prerequisites
