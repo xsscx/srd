@@ -1,5 +1,11 @@
-# Hello!
-
+# Hello with ASAN and UBSAN Example Makefile
+```
+otool -l src/hello/hello | grep san
+  sectname __asan_cstring
+  sectname __asan_globals
+  sectname __asan_liveness
+         name @rpath/libclang_rt.asan_ios_dynamic.dylib (offset 24)
+```
 Code Profiling Example
 =======
 ```
