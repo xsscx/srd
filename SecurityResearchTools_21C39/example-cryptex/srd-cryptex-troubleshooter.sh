@@ -1,4 +1,3 @@
-cat srd-cryptex-logcollector.sh
 #!/bin/sh
 echo "================================="
 echo "SRD Cryptex Log Collector Start"
