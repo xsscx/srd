@@ -352,15 +352,13 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
   ```
-# Notarization
-```
 # How to Notarize a DMG
 ```
 codesign --timestamp --force -s "DEVELOPER_ID" srd-universal-cryptex.dmg
 xcrun notarytool submit srd-universal-cryptex.dmg --credz
 xcrun stapler staple srd-universal-cryptex.dmg
 ```
-# Validate DMG
+# Validate Notarization of DMG
 ```
 xcrun stapler validate  srd-universal-cryptex.dmg
 Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
