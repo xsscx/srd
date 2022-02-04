@@ -21,20 +21,10 @@ If you use brew:
 ```
 brew install gnu-sed automake
 ```
-SRD Source Build example-cryptex
----
+# SRD Source Build example-cryptex
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/build.sh" 
 ```
-
-SRD DMG Install
----
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
-```
-SRD DMG File
----
-
 ## Quick start
 
 0. Install the prerequisites and select your Xcode with `xcode-select(1)`.
