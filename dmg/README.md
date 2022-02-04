@@ -282,7 +282,7 @@ com.example.cryptex.dstroot
 
 6 directories, 166 files
 ```
-# Audit Trail
+# frida-ps Audit Trail
 ```
 frida-ps -Uai
 PID  Name                Identifier
