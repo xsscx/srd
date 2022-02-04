@@ -91,17 +91,17 @@ iPhone 11 SRD0009
 ----
 ```
 uname -a
-Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:35 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+Darwin SRD0009 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8030 iPhone12,1 Toybox
 date
-Tue Jan 11 08:15:45 EST 2022
+Fri Feb  4 13:05:41 EST 2022
 ```
 iPhone 12 SRD0037
 ----
 ```
 uname -a
-Darwin iPhone 21.3.0 Darwin Kernel Version 21.3.0: Sat Dec  4 02:01:21 PST 2021; root:xnu-8019.80.11~18/RELEASE_ARM64_T8101 iPhone13,2 Toybox
+Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8101 iPhone13,2 Toybox
 date
-Tue Jan 11 08:25:49 EST 2022
+Fri Feb  4 13:05:46 EST 2022
 ```
 # SRD DMG Contents 
 ```
