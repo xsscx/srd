@@ -1,6 +1,6 @@
 # SRD Universal Cryptex Release DMG | ASAN UBSAN Beta DMG
 
-TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
+FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
 ## Resources
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
@@ -8,6 +8,7 @@ TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
 - ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
 - UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- PR42: https://github.com/apple/security-research-device/pull/42
 
 ## Prerequisites
 - macOS 12.2 (21D49)
