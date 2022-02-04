@@ -1,14 +1,8 @@
 .PHONY: all clean install
-all: S3_6_c15_c1_5
+all: client server
 
 include ../../logging.mk
 include ../../build_env.mk
-
-CC = gcc
-
-all: client server
-
-again: clean client server
 
 client: checksum.o header.o
 	$(CC) client.c checksum.o header.o -o client
