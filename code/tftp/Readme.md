@@ -2,7 +2,7 @@
 
 Example TFTP Client & Server for the Apple Security Research Device ripped from the Internet and cannabalized for the SRD by Hoyt
 
-This will become a PR after https://github.com/apple/security-research-device/pull/42 is Merged
+This TFTP Client & Server will become a PR after https://github.com/apple/security-research-device/pull/42 is Merged
 
 # README
 
