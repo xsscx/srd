@@ -189,7 +189,7 @@ cryptexctl log show -- --archive ./system_logs.logarchive
 ## Building
 
 If you get errors about missing SDKs or headers, double check that you've selected your
-Xcode install with `xcode-select(1)` or just download a pre-built cryptex here https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+Xcode install with `xcode-select(1)` or install the pre-built SRD Example DMG Cryptex as hown below.
 
 ## Example SRD DMG Install Audit Trail
 ```
