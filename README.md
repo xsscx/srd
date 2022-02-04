@@ -1,8 +1,14 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device with Example SRD Cryptex DMG
 FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k 
 ---
-- Pending Review: PR https://github.com/apple/security-research-device/pull/42
-- Resources for IPSW & Cryptex Installations 
+## Resources
+- Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
+- PR42: https://github.com/apple/security-research-device/pull/42
+- Universal DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+- ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
+- UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
+- Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- IPSW & Cryptex Installations 
     -  Build Info, Issue Tracker
     -  Summary & Workarounds 
     -  iPhone 11 & 12 SRD Models 
@@ -24,14 +30,6 @@ FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
     - Example libarchive.a
     - Example aslr Binary
     - Example Binaries in /bin
-## Resources
-- Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
-- PR42: https://github.com/apple/security-research-device/pull/42
-- Universal DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
-- ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
-- UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
-- Install: https://github.com/xsscx/srd/tree/main/dmg#readme
-
 ## Prerequisites
 - macOS 12.2 (21D49)
 - Xcode Version 13.3 beta (13E5086k)
