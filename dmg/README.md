@@ -21,28 +21,24 @@ If you use brew:
 ```
 brew install gnu-sed automake
 ```
-SRD DMG Install
----
+# SRD DMG Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
 This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
 
-SRD DMG Testing
------
+# SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms
 - BETA ASAN DMG contains Example hello binary for the iPhone 11 & iPhone 12  
 
-SRD Cryptex Log Collector
----
+# SRD Cryptex Log Collector
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
-How To Build example cryptex DMG for the SRD
-------
+# How To Build example cryptex DMG for the SRD
 ```
 cd example-cryptex
 make
@@ -55,8 +51,7 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-How to Install example cryptex DMG to the SRD
------
+# How to Install example cryptex DMG to the SRD
 Download: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 ```
 cd example-cryptex
@@ -69,15 +64,13 @@ cryptexctl list
 ```
 ssh to SRD
 
-Toybox Unstripped
-----
+# Toybox Unstripped
 ```
 nm -a com.example.cryptex.dstroot/usr/bin/toybox| wc -l
      869
 ```
 
-Confirm that the Cryptex is Installed on iPhone 11 SRD0009
------
+# Confirm that the Cryptex is Installed on iPhone 11 SRD0009
 ```
 cryptexctl list
 com.example.cryptex
@@ -85,8 +78,7 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
-Confirm that the Cryptex is Installed on iPhone 12 SRD0037
-----
+# Confirm that the Cryptex is Installed on iPhone 12 SRD0037
 ```
 [example-cryptex] - Creating cryptex /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
 [example-cryptex] - Installing /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd onto device: 00008101-001418DA3CC0013A
@@ -97,9 +89,9 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.Jp4Egr
 ```
-SSH Audit Trail
------
+# SSH Audit Trail
 iPhone 11 SRD0009
+----
 ```
 uname -a
 Darwin iPhone 21.2.0 Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:35 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8030 iPhone12,1 Toybox
@@ -107,15 +99,14 @@ date
 Tue Jan 11 08:15:45 EST 2022
 ```
 iPhone 12 SRD0037
+----
 ```
 uname -a
 Darwin iPhone 21.3.0 Darwin Kernel Version 21.3.0: Sat Dec  4 02:01:21 PST 2021; root:xnu-8019.80.11~18/RELEASE_ARM64_T8101 iPhone13,2 Toybox
 date
 Tue Jan 11 08:25:49 EST 2022
 ```
-
-SRD DMG Contents 
------
+# SRD DMG Contents 
 ```
 tree com.example.cryptex.dstroot
 com.example.cryptex.dstroot
@@ -294,9 +285,7 @@ com.example.cryptex.dstroot
 
 6 directories, 166 files
 ```
-
-Audit Trail
----
+# Audit Trail
 ```
 frida-ps -Uai
 PID  Name                Identifier
@@ -342,8 +331,7 @@ PID  Name                Identifier
   -   Xcode Previews  com.apple.dt.XcodePreviews
   -   iTunes Store    com.apple.MobileStore
 ```
-History
----
+# History
 Frida built from Commit in https://github.com/apple/security-research-device/issues/13
 
 # Example SRD DMG Install Audit Trail
@@ -367,3 +355,38 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
   ```
+
+# Notarization
+```
+codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
+srd-universal-cryptex.dmg: valid on disk
+srd-universal-cryptex.dmg: satisfies its Designated Requirement
+srd-universal-cryptex.dmg: explicit requirement satisfied
+```
+# Stapler
+```
+xcrun stapler validate  srd-universal-cryptex.dmg
+Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+The validate action worked!
+```
+# SRD DMG Testing
+- Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
+- Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
+- Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
+- Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms 
+
+# SRD Cryptex Log Collector
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
+```
+Do you have questions or need help? Reach out and open an Issue or Discussion. DM if that's easier. Include some of the Details from these Logs.
+
+# Recent IPSW + Cryptex Installations 
+```
+Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
+Signed File: iPhone13,2,iPhone13,3_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
+Signed File: iPhone11,8,iPhone12,1_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+Signed File: iPhone13,2,iPhone13,3_15.3_19D5040e_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+```
+The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
+
