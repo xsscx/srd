@@ -1,4 +1,4 @@
-# Welcome to Hoyt's SRD Repo for the Apple Security Research Device with Example SRD Cryptex DMG
+# Welcome to Hoyt's SRD Repo
 FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k 
 # SRD DMG Install
 ```
