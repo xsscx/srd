@@ -1,8 +1,8 @@
 # Set up all the variables we need to compile command line iOS applications
 export PROJECT_PATH ?= $(dir $(realpath $(firstword ${MAKEFILE_LIST})))
 
-export TOOLCHAIN ?= iOS14.0
-export MACOS_TOOLCHAIN ?= MacOSX11.0
+export TOOLCHAIN ?= iOS15.0
+export MACOS_TOOLCHAIN ?= MacOSX12.0
 
 export ARCH:=arm64e
 export SDK:=iphoneos
