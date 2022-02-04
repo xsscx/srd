@@ -18,7 +18,7 @@ FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
 If you use brew:
 
-```sh
+```
 brew install gnu-sed automake
 ```
 SRD DMG Install
@@ -268,6 +268,7 @@ com.example.cryptex.dstroot
     │   ├── test6
     │   ├── test7
     │   ├── test8
+    │   ├── tftp-client
     │   ├── time -> toybox
     │   ├── timeout -> toybox
     │   ├── touch -> toybox
@@ -301,7 +302,7 @@ com.example.cryptex.dstroot
         └── frida
             └── frida-agent.dylib
 
-6 directories, 175 files
+6 directories, 176 files
 ```
 
 Audit Trail
