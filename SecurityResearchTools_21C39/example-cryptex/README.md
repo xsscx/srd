@@ -9,7 +9,7 @@ TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
 ## Prerequisites
 - macOS 12.2 (21D49)
-- Version 13.3 beta (13E5086k)
+- Xcode Version 13.3 beta (13E5086k)
 - Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
 - GNU sed
 - automake
