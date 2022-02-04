@@ -1,7 +1,7 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device with Example SRD Cryptex DMG
-
-TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
-
+FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k 
+---
+- Pending Review: PR https://github.com/apple/security-research-device/pull/42
 - Resources for IPSW & Cryptex Installations 
     -  Build Info, Issue Tracker
     -  Summary & Workarounds 
@@ -19,10 +19,11 @@ TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
             - iOS 13 + 14 Voucher Leak 
 - Sample Code
     - Example ASAN Makefile and Binary
-    - Example Code Coverage Makefile and Binary
     - Example UBSAN Makefile and Binary
+    - Example Code Coverage Makefile and Binary
     - Example libarchive.a
     - Example aslr Binary
+    - Example Binaries in /bin
 
 ## Resources
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
