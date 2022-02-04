@@ -2,7 +2,7 @@
 
 Example TFTP Client & Server for the Apple Security Research Device ripped from the Internet and cannabalized for the SRD by Hoyt
 
-# ORIGINAL README
+# README
 
 tftp
 This is a simple tftp server/client that can be used to transfer a file. It also displays information as the transfer takes place, showing you the packet sizes being sent, the ACK receiving, etc. Heavily inspired by Beej's guide to network programming.
