@@ -21,7 +21,7 @@ If you use brew:
 ```
 brew install gnu-sed automake
 ```
-# SRD Source Build example-cryptex
+# SRD Source Build example-cryptex with toybox unstripped
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/build.sh" 
 ```
