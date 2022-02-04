@@ -39,7 +39,7 @@ FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
 
 If you use brew:
 
-```sh
+```
 brew install gnu-sed automake
 ```
 SRD DMG Install
