@@ -62,14 +62,11 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-ssh to SRD
-
-# Toybox Unstripped
+# Toybox Unstripped Details
 ```
 nm -a com.example.cryptex.dstroot/usr/bin/toybox| wc -l
      869
 ```
-
 # Confirm that the Cryptex is Installed on iPhone 11 SRD0009
 ```
 cryptexctl list
@@ -355,19 +352,23 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
   ```
-
 # Notarization
 ```
-codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
-srd-universal-cryptex.dmg: valid on disk
-srd-universal-cryptex.dmg: satisfies its Designated Requirement
-srd-universal-cryptex.dmg: explicit requirement satisfied
+# How to Notarize a DMG
 ```
-# Stapler
+codesign --timestamp --force -s "DEVELOPER_ID" srd-universal-cryptex.dmg
+xcrun notarytool submit srd-universal-cryptex.dmg --credz
+xcrun stapler staple srd-universal-cryptex.dmg
+```
+# Validate DMG
 ```
 xcrun stapler validate  srd-universal-cryptex.dmg
 Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
 The validate action worked!
+codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
+srd-universal-cryptex.dmg: valid on disk
+srd-universal-cryptex.dmg: satisfies its Designated Requirement
+srd-universal-cryptex.dmg: explicit requirement satisfied
 ```
 # SRD Cryptex Log Collector
 ```
