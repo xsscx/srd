@@ -38,7 +38,7 @@ This Repo and Documentation detail the steps to create your own toybox unstrippe
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
-# How To Build example cryptex DMG for the SRD
+# How To Build toybox unstripped DMG and Install to SRD
 ```
 cd example-cryptex
 make
