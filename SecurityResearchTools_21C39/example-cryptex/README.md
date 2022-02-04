@@ -6,6 +6,7 @@ TUE 1 FEB 2022: Current Build Target 19E5209h | 13E5086k
 - Source: https://github.com/xsscx/srd/tree/main/SecurityResearchTools_21C39/example-cryptex
 - DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- PR42: https://github.com/apple/security-research-device/pull/42
 
 ## Prerequisites
 - macOS 12.2 (21D49)
