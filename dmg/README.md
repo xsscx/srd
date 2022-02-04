@@ -137,7 +137,6 @@ com.example.cryptex.dstroot
     │   ├── base64 -> toybox
     │   ├── basename -> toybox
     │   ├── bash -> toybox
-    │   ├── binbag
     │   ├── c1.exr
     │   ├── c2.exr
     │   ├── cal -> toybox
@@ -200,7 +199,6 @@ com.example.cryptex.dstroot
     │   ├── ioreg
     │   ├── ios-13_voucher_leak
     │   ├── ios-14-voucher_leak
-    │   ├── ios-command-line-tool
     │   ├── ioscan
     │   ├── kill -> toybox
     │   ├── killall5 -> toybox
@@ -226,7 +224,6 @@ com.example.cryptex.dstroot
     │   ├── nohup -> toybox
     │   ├── nvram
     │   ├── od -> toybox
-    │   ├── optool
     │   ├── orig.tif
     │   ├── paste -> toybox
     │   ├── patch -> toybox
@@ -261,13 +258,6 @@ com.example.cryptex.dstroot
     │   ├── tar -> toybox
     │   ├── tee -> toybox
     │   ├── test -> toybox
-    │   ├── test1
-    │   ├── test2
-    │   ├── test3
-    │   ├── test4
-    │   ├── test6
-    │   ├── test7
-    │   ├── test8
     │   ├── tftp-client
     │   ├── time -> toybox
     │   ├── timeout -> toybox
@@ -302,7 +292,7 @@ com.example.cryptex.dstroot
         └── frida
             └── frida-agent.dylib
 
-6 directories, 176 files
+6 directories, 166 files
 ```
 
 Audit Trail
