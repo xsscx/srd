@@ -1,3 +1,4 @@
+cat srd-cryptex-logcollector.sh
 #!/bin/sh
 echo "================================="
 echo "SRD Cryptex Log Collector Start"
@@ -6,7 +7,13 @@ echo "umount com.example.cryptex"
 cryptexctl uninstall com.example.cryptex
 echo "Collecting Info"
 date > srd-cryptex-troubleshooter.log 2>&1
-uname -a >> srd-cryptex-troubleshooter.log 2>&1
+sysctl -a | grep kern.version >> srd-cryptex-troubleshooter.log 2>&1
+sysctl -a | grep kern.osversion >> srd-cryptex-troubleshooter.log 2>&1
+sysctl -a | grep kern.iossupportversion >> srd-cryptex-troubleshooter.log 2>&1
+sysctl -a | grep kern.osproductversion >> srd-cryptex-troubleshooter.log 2>&1
+sysctl -a | grep kern.osproductversioncompat >> srd-cryptex-troubleshooter.log 2>&1
+xcrun  --show-sdk-path  >> srd-cryptex-troubleshooter.log 2>&1
+cryptexctl device list >> srd-cryptex-troubleshooter.log 2>&1
 clang -v >> srd-cryptex-troubleshooter.log 2>&1
 cryptexctl version >> srd-cryptex-troubleshooter.log 2>&1
 sysctl -a | grep brand >> srd-cryptex-troubleshooter.log 2>&1
