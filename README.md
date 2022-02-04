@@ -1,6 +1,9 @@
 # Welcome to Hoyt's SRD Repo for the Apple Security Research Device with Example SRD Cryptex DMG
 FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k 
----
+# SRD DMG Install
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
+```
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
@@ -42,13 +45,7 @@ If you use brew:
 ```
 brew install gnu-sed automake
 ```
-SRD DMG Install
----
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
-```
-SRD DMG Testing
------
+# SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
