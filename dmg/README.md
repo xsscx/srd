@@ -6,7 +6,7 @@ SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 | macOS 12.2 21D49 X86_64    | PASS          | FAIL          | FAIL
 | macOS 12.3 21E5196i T8101  | PASS          | FAIL          | FAIL
 
-Install Fail for SAN Libs
+SRD launchd Console Log for SAN Libs FAIL
 ---
 ```
 unsuitable CT policy 0 for this platform/device, rejecting signature on SAN dylibs
