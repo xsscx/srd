@@ -1,6 +1,13 @@
 # SRD Universal Cryptex Release DMG | ASAN UBSAN Beta DMG
 
-FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
+Build & Installation Status
+---
+SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
+
+| OS                         | Release DMG   | ASAN DMG      | UBSAN DMG
+| -------------------------- | ------------- | ------------- | ------------- 
+| macOS 12.2 (21D49)         | PASS          | FAIL          | FAIL
+| macOS 12.3 (21E5196i)      | PASS          | FAIL          | FAIL
 
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
