@@ -47,6 +47,41 @@ This Repo and Documentation detail the steps to create your own toybox unstrippe
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
+# SRD Log Collector Example
+```
+srd0037-srd-cryptex-troubleshooter.log
+Sat Feb  5 07:04:42 EST 2022
+kern.version: Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_X86_64
+kern.osversion: 21D49
+kern.iossupportversion: 15.3
+kern.osproductversion: 12.2
+kern.osproductversioncompat: 10.16
+kern.osproductversioncompat: 10.16
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+udid                           name       build      BORD       CHIP       ECID
+00008030-001538D03C40012E      SRD0009    19E5209h   0x4        0x8030     0x1538d03c40012e
+00008101-001418DA3CC0013A      SRD0037    19E5209h   0xc        0x8101     0x1418da3cc0013a
+Apple clang version 13.1.6 (clang-1316.0.19.2)
+Target: x86_64-apple-darwin21.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Darwin Cryptex Management Interface Version 2.0.0: Sun Dec 19 22:28:12 PST 2021; root:libcryptex_executables-169.80.2~9/cryptexctl/WEN_ETA_X86_64
+machdep.cpu.brand_string: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+System Integrity Protection status: disabled.
+cryptexctl: flags = [none]
+cryptexctl: will re-exec: /usr/local/bin/cryptexctl.research
+cryptexctl.research: path = /usr/local/bin/cryptexctl.research
+MobileDevice version = 1368.60.4
+cryptexctl.research: argv[_main] =
+cryptexctl.research:   [0] = cryptexctl
+cryptexctl.research:   [1] = -v2
+cryptexctl.research:   [2] = -d2
+cryptexctl.research:   [3] = install
+cryptexctl.research:   [4] = --variant=research
+cryptexctl.research:   [5] = --persist
+cryptexctl.research:   [6] = --print-info
+cryptexctl.research:   [7] = ./com.example.cryptex.cxbd.signed
+```
 # How To Build toybox unstripped DMG and Install to SRD
 ```
 cd example-cryptex
