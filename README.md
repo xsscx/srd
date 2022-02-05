@@ -1,11 +1,11 @@
 # Welcome to Hoyt's SRD Repo
-FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k 
+SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
+ 
 # SRD DMG Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
 # SRD Universal Cryptex DMG Build & Installation Status
-SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 
 | OS & CPU Brand             | Release DMG   | ASAN DMG      | UBSAN DMG     
 | -------------------------- | ------------- | ------------- | -------------
