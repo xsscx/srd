@@ -1,3 +1,7 @@
+# SRD DMG Install
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
+```
 # SRD DMG Build & Installation Status
 SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 
@@ -30,12 +34,6 @@ If you use brew:
 ```
 brew install gnu-sed automake
 ```
-# SRD DMG Install
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
-```
-This Repo and Documentation detail the steps to create your own toybox unstripped cryptex, or download, and then install to your SRD. 
-
 # SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
