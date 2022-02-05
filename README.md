@@ -19,6 +19,10 @@ SRD launchd Console Log for SAN Libs FAIL - Intermittent
 ```
 unsuitable CT policy 0 for this platform/device, rejecting signature on SAN dylibs
 ```
+Comment
+----
+There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. If you see the unsuitable CT policy message, just repeat the personalization process until you get success.
+
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
