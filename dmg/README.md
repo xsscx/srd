@@ -11,7 +11,6 @@ SRD launchd Console Log for SAN Libs FAIL
 ```
 unsuitable CT policy 0 for this platform/device, rejecting signature on SAN dylibs
 ```
-
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
