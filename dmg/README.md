@@ -1,6 +1,4 @@
-# SRD Universal Cryptex Release DMG | ASAN UBSAN Beta DMG
-
-Build & Installation Status
+# SRD Universal Cryptex DMG Build & Installation Status
 ---
 SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 
