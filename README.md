@@ -7,10 +7,12 @@ SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 ```
 # SRD DMG Build & Installation Status
 
-| OS & CPU Brand             | Release DMG   | ASAN DMG      | UBSAN DMG     
-| -------------------------- | ------------- | ------------- | -------------
-| macOS 12.2 21D49 X86_64    | PASS          | FAIL          | FAIL
-| macOS 12.3 21E5196i T8101  | PASS          | FAIL          | FAIL
+| Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
+| -------------------------------- | ------------- | ------------- | -------------
+| Build macOS 12.2 21D49 X86_64    | PASS          | PASS          | PASS
+| Build macOS 12.3 21E5196i T8101  | PASS          | PASS          | PASS
+| iPhone 11                        | PASS          | PASS          | PASS
+| iPhone 12                        | PASS          | FAIL          | FAIL
 
 SRD launchd Console Log for SAN Libs FAIL
 ---
