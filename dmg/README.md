@@ -426,14 +426,28 @@ Signed File: iPhone13,2,iPhone13,3_15.3_19E5209h_Restore.ipsw | defaults write c
 ```
 The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
 ```
-### SRD DMG Install Audit Trail for hello_asan on iPhone 12
+##  iPhone 12 TSS
 ```
-date
-Sat Feb  5 17:16:41 EST 2022
-uname -a
-Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8101 iPhone13,2 Toybox
-./hello
-Hello researcher from pid 953!
+HTTP/1.1 200 OK
+Server: Apple
+Date: Sat, 05 Feb 2022 22:13:37 GMT
+Content-Type: text/html
+Content-Length: 4384
+Connection: close
+Host: gs.apple.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+
+STATUS=0&MESSAGE=SUCCESS&REQUEST_STRING=<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+```
+### ASAN DMG Install
+```
+[example-cryptex] - Creating cryptex /Users/xss/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
+[example-cryptex] - Installing /Users/xss/example-cryptex/com.example.cryptex.cxbd onto device: 00008101-001418DA3CC0013A
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.Neszwd
 ```
 ### otool -L
 ```
@@ -441,6 +455,22 @@ otool -L com.example.cryptex.dstroot/usr/bin/hello
 com.example.cryptex.dstroot/usr/bin/hello:
 	@rpath/libclang_rt.asan_ios_dynamic.dylib (compatibility version 0.0.0, current version 0.0.0)
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.100.2)
+```
+### SRD Console Log - iPhone 12
+```
+default	17:14:09.460577-0500	dropbear	Password auth succeeded for 'root' from 192.168.3.83:63634
+
+```
+### SRD Audit Trail - iPhone 12
+```
+date
+Sat Feb  5 17:16:41 EST 2022
+
+uname -a
+Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8101 iPhone13,2 Toybox
+
+./hello
+Hello researcher from pid 953!
 ```
 debugserver
 ------------
@@ -485,4 +515,65 @@ Index   UserID DSX Type            File Address/Value Load Address       Size   
 [   29]     29     Trampoline      0x0000000100007e9c 0x000000010432be9c 0x0000000000000010 0x00010200 os_log_type_enabled
 [   30]     30     Trampoline      0x0000000100007eac 0x000000010432beac 0x0000000000000010 0x00010200 printf
 (lldb)
+```
+### SRD Console Log - iPhone 11
+```
+Password auth succeeded for 'root' from 192.168.3.83:64608
+
+date
+Sat Feb  5 18:53:00 EST 2022
+
+uname -a
+Darwin SRD0009 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+
+./debugserver 192.168.3.83:1921 ./hello
+debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1316.2.4.12
+ for arm64.
+Listening to port 1921 for a connection from 192.168.3.83...
+Got a connection, launched process ./hello (pid = 1184).
+Exiting.
+```
+debugserver
+---
+```
+(lldb) image dump symtab hello
+Symtab, num_symbols = 31:
+               Debug symbol
+               |Synthetic symbol
+               ||Externally Visible
+               |||
+Index   UserID DSX Type            File Address/Value Load Address       Size               Flags      Name
+------- ------ --- --------------- ------------------ ------------------ ------------------ ---------- ----------------------------------
+[    0]      0     Code            0x0000000100007bd4 0x0000000104a07bd4 0x00000000000001c8 0x001e0080 __os_log_helper_16_0_1_4_0
+[    1]      1     Code            0x0000000100007d9c 0x0000000104a07d9c 0x0000000000000034 0x000e0000 asan.module_ctor
+[    2]      2     Code            0x0000000100007dd0 0x0000000104a07dd0 0x000000000000001c 0x000e0000 asan.module_dtor
+[    3]      3     Data            0x0000000100007ec0 0x0000000104a07ec0 0x0000000000000040 0x000e0000 .str
+[    4]      4     Data            0x0000000100007f00 0x0000000104a07f00 0x0000000000000040 0x000e0000 .str.1
+[    5]      5     Data            0x0000000100007f40 0x0000000104a07f40 0x0000000000000020 0x000e0000 .str.2
+[    6]      6     Data            0x0000000100010000 0x0000000104a10000 0x0000000000000040 0x000e0000 __asan_global_.str
+[    7]      7     Data            0x0000000100010040 0x0000000104a10040 0x0000000000000040 0x000e0000 __asan_global_.str.1
+[    8]      8     Data            0x0000000100010080 0x0000000104a10080 0x0000000000000040 0x000e0000 __asan_global_.str.2
+[    9]      9     Data            0x00000001000100c0 0x0000000104a100c0 0x0000000000000010 0x000e0000 __asan_binder_.str
+[   10]     10     Data            0x00000001000100d0 0x0000000104a100d0 0x0000000000000010 0x000e0000 __asan_binder_.str.1
+[   11]     11     Data            0x00000001000100e0 0x0000000104a100e0 0x0000000000000010 0x000e0000 __asan_binder_.str.2
+[   12]     12     Data            0x00000001000100f0 0x0000000104a100f0 0x0000000000000008 0x001e0000 ___asan_globals_registered
+[   13]     13   X Data            0x0000000100000000 0x0000000104a00000 0x000000000000796c 0x000f0010 _mh_execute_header
+[   14]     14   X Code            0x000000010000796c 0x0000000104a0796c 0x0000000000000268 0x000f0000 main
+[   15]     15     Trampoline      0x0000000100007dec 0x0000000104a07dec 0x0000000000000010 0x00010100 __asan_init
+[   16]     16   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010100 __asan_option_detect_stack_use_after_return
+[   17]     17     Trampoline      0x0000000100007dfc 0x0000000104a07dfc 0x0000000000000010 0x00010100 __asan_register_image_globals
+[   18]     18     Trampoline      0x0000000100007e0c 0x0000000104a07e0c 0x0000000000000010 0x00010100 __asan_report_store1
+[   19]     19     Trampoline      0x0000000100007e1c 0x0000000104a07e1c 0x0000000000000010 0x00010100 __asan_report_store4
+[   20]     20   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010100 __asan_shadow_memory_dynamic_address
+[   21]     21     Trampoline      0x0000000100007e2c 0x0000000104a07e2c 0x0000000000000010 0x00010100 __asan_stack_malloc_0
+[   22]     22     Trampoline      0x0000000100007e3c 0x0000000104a07e3c 0x0000000000000010 0x00010100 __asan_unregister_image_globals
+[   23]     23     Trampoline      0x0000000100007e4c 0x0000000104a07e4c 0x0000000000000010 0x00010100 __asan_version_mismatch_check_apple_clang_1316
+[   24]     24     Trampoline      0x0000000100007e5c 0x0000000104a07e5c 0x0000000000000010 0x00010200 __stack_chk_fail
+[   25]     25   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010200 __stack_chk_guard
+[   26]     26     Trampoline      0x0000000100007e6c 0x0000000104a07e6c 0x0000000000000010 0x00010200 _os_log_impl
+[   27]     27     Trampoline      0x0000000100007e7c 0x0000000104a07e7c 0x0000000000000010 0x00010200 getpid
+[   28]     28     Trampoline      0x0000000100007e8c 0x0000000104a07e8c 0x0000000000000010 0x00010200 os_log_create
+[   29]     29     Trampoline      0x0000000100007e9c 0x0000000104a07e9c 0x0000000000000010 0x00010200 os_log_type_enabled
+[   30]     30     Trampoline      0x0000000100007eac 0x0000000104a07eac 0x0000000000000010 0x00010200 printf
+(lldb) quit
 ```
