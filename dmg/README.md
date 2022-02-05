@@ -428,8 +428,6 @@ The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed w
 ```
 ### SRD DMG Install Audit Trail for hello_asan on iPhone 12
 ```
-sha1sum hello
-23288afe85a6ce22aa6532cd05d2950ac71fc93c  hello
 date
 Sat Feb  5 17:16:41 EST 2022
 uname -a
