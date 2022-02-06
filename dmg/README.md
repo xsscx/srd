@@ -122,7 +122,7 @@ codesign --timestamp --force -s "DEVELOPER_ID" srd-universal-cryptex.dmg
 xcrun notarytool submit srd-universal-cryptex.dmg --credz
 xcrun stapler staple srd-universal-cryptex.dmg
 ```
-## Validate Notarization of DMG
+## How to Validate Notarization of DMG
 ```
 xcrun stapler validate  srd-universal-cryptex.dmg
 Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
@@ -360,7 +360,7 @@ PID  Name                Identifier
 ### Frida History
 Frida built from Commit in https://github.com/apple/security-research-device/issues/13
 
-### SRD Example DMG Install Audit Trail
+### How to Confirm the SRD Example DMG Install | Audit Trail
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
