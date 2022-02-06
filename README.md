@@ -11,8 +11,8 @@ SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 | -------------------------------- | ------------- | ------------- | -------------
 | Build macOS 12.2 21D49 X86_64    | PASS          | PASS          | PASS
 | Build macOS 12.3 21E5196i T8101  | PASS          | PASS          | PASS
-| iPhone 11 19E5209h               | PASS          | PASS          | PASS
-| iPhone 12 19E5209h               | PASS          | PASS          | PASS
+| Install to iPhone 11 19E5209h    | PASS          | PASS          | PASS
+| Install to iPhone 12 19E5209h    | PASS          | PASS          | PASS
 
 SRD launchd Console Log for SAN Libs FAIL - Intermittent
 ---
