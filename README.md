@@ -19,7 +19,7 @@ SRD launchd Console Log for SAN Libs FAIL - Intermittent
 ```
 unsuitable CT policy 0 for this platform/device, rejecting signature on SAN dylibs
 ```
-Comment
+Caveat
 ----
 There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. If you see the unsuitable CT policy message, just repeat the personalization process until you get success. Or, Build from Source with Makefile https://github.com/xsscx/srd/blob/main/SecurityResearchTools_21C39/example-cryptex/src/hello/Makefile.
 
