@@ -456,11 +456,6 @@ com.example.cryptex.dstroot/usr/bin/hello:
 	@rpath/libclang_rt.asan_ios_dynamic.dylib (compatibility version 0.0.0, current version 0.0.0)
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.100.2)
 ```
-### SRD Console Log - iPhone 12
-```
-default	17:14:09.460577-0500	dropbear	Password auth succeeded for 'root' from 192.168.3.83:63634
-
-```
 ### SRD Audit Trail - iPhone 12 - hello with SAN Lib
 ```
 date
@@ -472,7 +467,7 @@ Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022
 ./hello
 Hello researcher from pid 953!
 ```
-debugserver
+iPhone 12 debugserver for hello binary with asan dylib
 ------------
 ```
 (lldb) image dump symtab hello
@@ -533,7 +528,7 @@ Listening to port 1921 for a connection from 192.168.3.83...
 Got a connection, launched process ./hello (pid = 1184).
 Exiting.
 ```
-debugserver
+iPhone 11 debugserver for hello binary with asan dylib
 ---
 ```
 (lldb) image dump symtab hello
@@ -576,6 +571,31 @@ Index   UserID DSX Type            File Address/Value Load Address       Size   
 [   29]     29     Trampoline      0x0000000100007e9c 0x0000000104a07e9c 0x0000000000000010 0x00010200 os_log_type_enabled
 [   30]     30     Trampoline      0x0000000100007eac 0x0000000104a07eac 0x0000000000000010 0x00010200 printf
 (lldb) quit
+```
+iPhone 11 debugserver for hello binary with ubsan dylib
+---
+```
+(lldb) image dump symtab hello
+Symtab, num_symbols = 11:
+               Debug symbol
+               |Synthetic symbol
+               ||Externally Visible
+               |||
+Index   UserID DSX Type            File Address/Value Load Address       Size               Flags      Name
+------- ------ --- --------------- ------------------ ------------------ ------------------ ---------- ----------------------------------
+[    0]      0     Code            0x0000000100007e44 0x000000010252fe44 0x0000000000000038 0x001e0080 __os_log_helper_16_0_1_4_0
+[    1]      1   X Data            0x0000000100000000 0x0000000102528000 0x0000000000007d08 0x000f0010 _mh_execute_header
+[    2]      2   X Code            0x0000000100007d08 0x000000010252fd08 0x000000000000013c 0x000f0000 main
+[    3]      3     Trampoline      0x0000000100007e7c 0x000000010252fe7c 0x0000000000000010 0x00010200 __stack_chk_fail
+[    4]      4   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010200 __stack_chk_guard
+[    5]      5     Trampoline      0x0000000100007e8c 0x000000010252fe8c 0x0000000000000010 0x00010100 __ubsan_handle_nonnull_arg
+[    6]      6     Trampoline      0x0000000100007e9c 0x000000010252fe9c 0x0000000000000010 0x00010200 _os_log_impl
+[    7]      7     Trampoline      0x0000000100007eac 0x000000010252feac 0x0000000000000010 0x00010200 getpid
+[    8]      8     Trampoline      0x0000000100007ebc 0x000000010252febc 0x0000000000000010 0x00010200 os_log_create
+[    9]      9     Trampoline      0x0000000100007ecc 0x000000010252fecc 0x0000000000000010 0x00010200 os_log_type_enabled
+[   10]     10     Trampoline      0x0000000100007edc 0x000000010252fedc 0x0000000000000010 0x00010200 printf
+(lldb) q
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
 ```
 ### Process Information Tracing | WIP
 SRD
