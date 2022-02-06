@@ -388,9 +388,9 @@ Signed File: iPhone13,2,iPhone13,3_15.2.1_19C63_Restore.ipsw | defaults write co
 Signed File: iPhone11,8,iPhone12,1_15.3_19E5209h_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 Signed File: iPhone13,2,iPhone13,3_15.3_19E5209h_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 
-QA: From X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
+QA: From X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified
 ```
-## SRD SAN Installation Information | Drilling Down
+## SRD ASAN & UBSAN Installation Information | Drilling Down
 Caveat
 ----
 There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. If you see the unsuitable CT policy message, just repeat the personalization process until you get success.
