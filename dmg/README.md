@@ -426,7 +426,7 @@ Signed File: iPhone13,2,iPhone13,3_15.3_19E5209h_Restore.ipsw | defaults write c
 ```
 The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
 ```
-##  iPhone 12 TSS
+##  iPhone 12 - TSS ASAN Cryptex HTTP Response of Success
 ```
 HTTP/1.1 200 OK
 Server: Apple
@@ -440,7 +440,7 @@ X-Frame-Options: SAMEORIGIN
 
 STATUS=0&MESSAGE=SUCCESS&REQUEST_STRING=<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 ```
-### ASAN DMG Install
+### iPhone 12 - ASAN DMG Install
 ```
 [example-cryptex] - Creating cryptex /Users/xss/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
 [example-cryptex] - Installing /Users/xss/example-cryptex/com.example.cryptex.cxbd onto device: 00008101-001418DA3CC0013A
@@ -449,7 +449,7 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.Neszwd
 ```
-### otool -L
+### otool -L hello confirming Link to SAN Lib
 ```
 otool -L com.example.cryptex.dstroot/usr/bin/hello
 com.example.cryptex.dstroot/usr/bin/hello:
@@ -461,7 +461,7 @@ com.example.cryptex.dstroot/usr/bin/hello:
 default	17:14:09.460577-0500	dropbear	Password auth succeeded for 'root' from 192.168.3.83:63634
 
 ```
-### SRD Audit Trail - iPhone 12
+### SRD Audit Trail - iPhone 12 - hello with SAN Lib
 ```
 date
 Sat Feb  5 17:16:41 EST 2022
@@ -576,4 +576,17 @@ Index   UserID DSX Type            File Address/Value Load Address       Size   
 [   29]     29     Trampoline      0x0000000100007e9c 0x0000000104a07e9c 0x0000000000000010 0x00010200 os_log_type_enabled
 [   30]     30     Trampoline      0x0000000100007eac 0x0000000104a07eac 0x0000000000000010 0x00010200 printf
 (lldb) quit
+```
+### Process Information Tracing | WIP
+SRD
+----
+```
+export CODE_MACH_KMSG_INFO=0x1200028
+export CODE_MACH_PROC_EXEC=0x401000C
+export CODE_MACH_MSG_SEND=0x120000C
+export CODE_MACH_MSG_RECV=0x1200010
+export CODE_TRACE_DATA_EXEC=0x7000008
+ofile=~/${1:-ipc.raw}
+ps -Ac | sed 's,\s*\([0-9][0-9]*\) .*[0-9]*:[0-9]*\.[0-9]* \(.*\), 00000000.0  0.0(0.0)  proc_exec  \1 0 0 0 0 0  \2,' > "${ofile}.txt"
+
 ```
