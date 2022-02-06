@@ -1,8 +1,8 @@
-# SRD DMG Install
+# SRD Example DMG Install with ASAN & UBSAN
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-# SRD DMG Build & Installation Status
+## SRD Example DMG ASAN UBSAN Build & Installation Status
 SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 
 | Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
@@ -17,18 +17,18 @@ SRD launchd Console Log for SAN Libs FAIL - Intermittent
 ```
 unsuitable CT policy 0 for this platform/device, rejecting signature on SAN dylibs
 ```
-Comment
+Caveat
 ----
 There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. If you see the unsuitable CT policy message, just repeat the personalization process until you get success.
 
-## Resources
+### Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
 - Universal DMG: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
 - ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
 - UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
-## Prerequisites
+### Prerequisites
 - macOS 12.2 (21D49)
 - Xcode Version 13.3 beta (13E5086k)
 - Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
@@ -40,18 +40,18 @@ If you use brew:
 ```
 brew install gnu-sed automake
 ```
-# SRD DMG Testing
+### SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms
 - BETA ASAN DMG contains Example hello example Makefile with sample Entitlements
 
-# SRD Cryptex Log Collector
+### SRD Cryptex Log Collector
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
-# SRD Cryptex Log Collector Example
+### SRD Cryptex Log Collector Example
 ```
 srd0037-srd-cryptex-troubleshooter.log
 Sat Feb  5 07:04:42 EST 2022
@@ -86,7 +86,7 @@ cryptexctl.research:   [5] = --persist
 cryptexctl.research:   [6] = --print-info
 cryptexctl.research:   [7] = ./com.example.cryptex.cxbd.signed
 ```
-# How To Build toybox unstripped DMG and Install to SRD
+## How To Build toybox unstripped DMG and Install to SRD
 ```
 cd example-cryptex
 make
@@ -99,7 +99,7 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-# How to Install an example cryptex DMG to the SRD
+## How to Install an example cryptex DMG to the SRD
 ```
 cd example-cryptex
 wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
@@ -109,7 +109,7 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-# How to Confirm a Cryptex is Installed on iPhone 11 SRD0009
+## How to Confirm a Cryptex is Installed on iPhone 11 SRD0009
 ```
 cryptexctl list
 com.example.cryptex
@@ -117,24 +117,23 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
-# Latest IPSW 15.4 Beta
-iPhone 11 SRD0009
-----
+## How to Notarize a DMG
 ```
-uname -a
-Darwin SRD0009 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8030 iPhone12,1 Toybox
-date
-Fri Feb  4 13:05:41 EST 2022
+codesign --timestamp --force -s "DEVELOPER_ID" srd-universal-cryptex.dmg
+xcrun notarytool submit srd-universal-cryptex.dmg --credz
+xcrun stapler staple srd-universal-cryptex.dmg
 ```
-iPhone 12 SRD0037
-----
+## Validate Notarization of DMG
 ```
-uname -a
-Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8101 iPhone13,2 Toybox
-date
-Fri Feb  4 13:05:46 EST 2022
+xcrun stapler validate  srd-universal-cryptex.dmg
+Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
+The validate action worked!
+codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
+srd-universal-cryptex.dmg: valid on disk
+srd-universal-cryptex.dmg: satisfies its Designated Requirement
+srd-universal-cryptex.dmg: explicit requirement satisfied
 ```
-# SRD Example Cryptex DMG Contents 
+## SRD Example Cryptex DMG Contents 
 ```
 tree com.example.cryptex.dstroot
 com.example.cryptex.dstroot
@@ -359,10 +358,10 @@ PID  Name                Identifier
   -   Xcode Previews  com.apple.dt.XcodePreviews
   -   iTunes Store    com.apple.MobileStore
 ```
-# Frida History
+### Frida History
 Frida built from Commit in https://github.com/apple/security-research-device/issues/13
 
-# SRD Example DMG Install Audit Trail
+### SRD Example DMG Install Audit Trail
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
@@ -383,23 +382,7 @@ com.example.cryptex
   device = /dev/disk2s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.yobZuo
   ```
-# How to Notarize a DMG
-```
-codesign --timestamp --force -s "DEVELOPER_ID" srd-universal-cryptex.dmg
-xcrun notarytool submit srd-universal-cryptex.dmg --credz
-xcrun stapler staple srd-universal-cryptex.dmg
-```
-# Validate Notarization of DMG
-```
-xcrun stapler validate  srd-universal-cryptex.dmg
-Processing: /Users/xss/security-research-device-main/example-cryptex/srd-universal-cryptex.dmg
-The validate action worked!
-codesign -vvvv -R="notarized"  srd-universal-cryptex.dmg
-srd-universal-cryptex.dmg: valid on disk
-srd-universal-cryptex.dmg: satisfies its Designated Requirement
-srd-universal-cryptex.dmg: explicit requirement satisfied
-```
-# Recent IPSW + Cryptex Installations 
+### Recent IPSW + Cryptex Installations 
 ```
 Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)' 
 Signed File: iPhone13,2,iPhone13,3_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
@@ -408,7 +391,12 @@ Signed File: iPhone13,2,iPhone13,3_15.3_19E5209h_Restore.ipsw | defaults write c
 
 QA: From X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
 ```
-##  iPhone 12 - TSS ASAN Cryptex Example HTTP Response of Success for Personalization
+## SRD SAN Installation Information | Drilling Down
+Caveat
+----
+There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. If you see the unsuitable CT policy message, just repeat the personalization process until you get success.
+
+###  iPhone 12 - TSS ASAN Cryptex Example HTTP Response of Success for Personalization
 ```
 HTTP/1.1 200 OK
 Server: Apple
