@@ -45,13 +45,13 @@ brew install gnu-sed automake
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms
-- BETA ASAN DMG contains Example hello binary for the iPhone 11 & iPhone 12  
+- BETA ASAN DMG contains Example hello example Makefile with sample Entitlements
 
 # SRD Cryptex Log Collector
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
-# SRD Log Collector Example
+# SRD Cryptex Log Collector Example
 ```
 srd0037-srd-cryptex-troubleshooter.log
 Sat Feb  5 07:04:42 EST 2022
@@ -99,8 +99,7 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-# How to Install example cryptex DMG to the SRD
-Download: https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
+# How to Install an example cryptex DMG to the SRD
 ```
 cd example-cryptex
 wget https://xss.cx/srd/dmg/srd-universal-cryptex.dmg
@@ -110,12 +109,7 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-# Toybox Unstripped Details
-```
-nm -a com.example.cryptex.dstroot/usr/bin/toybox| wc -l
-     869
-```
-# Confirm that the Cryptex is Installed on iPhone 11 SRD0009
+# How to Confirm a Cryptex is Installed on iPhone 11 SRD0009
 ```
 cryptexctl list
 com.example.cryptex
@@ -123,18 +117,7 @@ com.example.cryptex
   device = /dev/disk3s1
   mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.nJlkxj
 ```
-# Confirm that the Cryptex is Installed on iPhone 12 SRD0037
-```
-[example-cryptex] - Creating cryptex /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
-[example-cryptex] - Installing /Users/xss/security-research-device/example-cryptex/com.example.cryptex.cxbd onto device: 00008101-001418DA3CC0013A
-cryptexctl: mount entry invalid: idx = 0, val = null
-cryptexctl: cryptex not installed on device: com.example.cryptex
-com.example.cryptex
-  version = 1.3.3.7
-  device = /dev/disk3s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.Jp4Egr
-```
-# SSH Audit Trail
+# Latest IPSW 15.4 Beta
 iPhone 11 SRD0009
 ----
 ```
@@ -151,7 +134,7 @@ Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022
 date
 Fri Feb  4 13:05:46 EST 2022
 ```
-# SRD DMG Contents 
+# SRD Example Cryptex DMG Contents 
 ```
 tree com.example.cryptex.dstroot
 com.example.cryptex.dstroot
@@ -330,7 +313,7 @@ com.example.cryptex.dstroot
 
 6 directories, 166 files
 ```
-# frida-ps Audit Trail
+# frida-ps Example Listing
 ```
 frida-ps -Uai
 PID  Name                Identifier
@@ -376,10 +359,10 @@ PID  Name                Identifier
   -   Xcode Previews  com.apple.dt.XcodePreviews
   -   iTunes Store    com.apple.MobileStore
 ```
-# History
+# Frida History
 Frida built from Commit in https://github.com/apple/security-research-device/issues/13
 
-# Example SRD DMG Install Audit Trail
+# SRD Example DMG Install Audit Trail
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
@@ -422,11 +405,10 @@ Signed File: iPhone11,8,iPhone12,1_15.2.1_19C63_Restore.ipsw | defaults write co
 Signed File: iPhone13,2,iPhone13,3_15.2.1_19C63_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Customer Erase Install (IPSW)'
 Signed File: iPhone11,8,iPhone12,1_15.3_19E5209h_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
 Signed File: iPhone13,2,iPhone13,3_15.3_19E5209h_Restore.ipsw | defaults write com.apple.AMPDevicesAgent ipsw-variant -string 'Research Developer Erase Install (IPSW)'
+
+QA: From X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
 ```
-```
-The above means that from X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified.
-```
-##  iPhone 12 - TSS ASAN Cryptex HTTP Response of Success
+##  iPhone 12 - TSS ASAN Cryptex Example HTTP Response of Success for Personalization
 ```
 HTTP/1.1 200 OK
 Server: Apple
@@ -440,15 +422,6 @@ X-Frame-Options: SAMEORIGIN
 
 STATUS=0&MESSAGE=SUCCESS&REQUEST_STRING=<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 ```
-### iPhone 12 - ASAN DMG Install
-```
-[example-cryptex] - Creating cryptex /Users/xss/example-cryptex/com.example.cryptex.cxbd - 1.3.3.7 from the disk image com.example.cryptex.dmg
-[example-cryptex] - Installing /Users/xss/example-cryptex/com.example.cryptex.cxbd onto device: 00008101-001418DA3CC0013A
-com.example.cryptex
-  version = 1.3.3.7
-  device = /dev/disk2s1
-  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.Neszwd
-```
 ### otool -L hello confirming Link to SAN Lib
 ```
 otool -L com.example.cryptex.dstroot/usr/bin/hello
@@ -456,14 +429,8 @@ com.example.cryptex.dstroot/usr/bin/hello:
 	@rpath/libclang_rt.asan_ios_dynamic.dylib (compatibility version 0.0.0, current version 0.0.0)
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.100.2)
 ```
-### SRD Audit Trail - iPhone 12 - hello with SAN Lib
+### iPhone 12 - hello with SAN Lib
 ```
-date
-Sat Feb  5 17:16:41 EST 2022
-
-uname -a
-Darwin SRD0037 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022; root:xnu-8020.100.406.0.1~10/RELEASE_ARM64_T8101 iPhone13,2 Toybox
-
 ./hello
 Hello researcher from pid 953!
 ```
@@ -525,8 +492,6 @@ Darwin SRD0009 21.4.0 Darwin Kernel Version 21.4.0: Sun Jan 16 20:50:39 PST 2022
 debugserver-@(#)PROGRAM:LLDB  PROJECT:lldb-1316.2.4.12
  for arm64.
 Listening to port 1921 for a connection from 192.168.3.83...
-Got a connection, launched process ./hello (pid = 1184).
-Exiting.
 ```
 iPhone 11 debugserver for hello binary with asan dylib
 ---
@@ -594,8 +559,6 @@ Index   UserID DSX Type            File Address/Value Load Address       Size   
 [    8]      8     Trampoline      0x0000000100007ebc 0x000000010252febc 0x0000000000000010 0x00010200 os_log_create
 [    9]      9     Trampoline      0x0000000100007ecc 0x000000010252fecc 0x0000000000000010 0x00010200 os_log_type_enabled
 [   10]     10     Trampoline      0x0000000100007edc 0x000000010252fedc 0x0000000000000010 0x00010200 printf
-(lldb) q
-Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
 ```
 ### Process Information Tracing | WIP
 SRD
