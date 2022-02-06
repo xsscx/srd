@@ -53,7 +53,6 @@ brew install gnu-sed automake
 ```
 ### SRD Cryptex Log Collector Example
 ```
-srd0037-srd-cryptex-troubleshooter.log
 Sat Feb  5 07:04:42 EST 2022
 kern.version: Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_X86_64
 kern.osversion: 21D49
