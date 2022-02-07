@@ -16,7 +16,6 @@ SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 
 Caveat
 ----
-- There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. 
 - https://github.com/apple/security-research-device/issues/47
 
 ## Resources
