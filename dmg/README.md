@@ -108,7 +108,7 @@ cryptexctl uninstall com.example.cryptex
 cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
 cryptexctl list
 ```
-## How to Confirm a Cryptex is Installed on iPhone 11 SRD0009
+## How to Confirm a Cryptex is Installed
 ```
 cryptexctl list
 com.example.cryptex
