@@ -9,18 +9,13 @@ FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
 - ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
 - UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- Discussion: nvram settings disabling KTRR, CTRR and kASLR https://github.com/apple/security-research-device/discussions/2
+
 ## Prerequisites
 - macOS 12.2 (21D49)
 - Xcode Version 13.3 beta (13E5086k)
 - Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
-- GNU sed
-- automake
-
-If you use brew:
-
-```
-brew install gnu-sed automake
-```
+- brew install gnu-sed automake
 # SRD Source Build example-cryptex with toybox unstripped
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/build.sh" 
