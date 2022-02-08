@@ -23,6 +23,7 @@ Caveat
 - ASAN Beta DMG: https://xss.cx/srd/dmg/srd-asan-cryptex-beta.dmg
 - UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
+- Discussion: nvram settings disabling KTRR, CTRR and kASLR https://github.com/apple/security-research-device/discussions/2
 ### Prerequisites
 - macOS 12.2 (21D49)
 - Xcode Version 13.3 beta (13E5086k)
