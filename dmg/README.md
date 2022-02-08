@@ -27,7 +27,7 @@ Caveat
 ### Prerequisites
 - macOS 12.2 (21D49)
 - Xcode Version 13.3 beta (13E5086k)
-- Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
+- Security Research Tools https://github.com/apple/security-research-device
 - brew install gnu-sed automake
 ### SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
