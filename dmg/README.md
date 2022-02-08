@@ -28,14 +28,7 @@ Caveat
 - macOS 12.2 (21D49)
 - Xcode Version 13.3 beta (13E5086k)
 - Security Research Tools https://github.com/apple/security-research-device/tree/main/example-cryptex
-- GNU sed
-- automake
-
-If you use brew:
-
-```
-brew install gnu-sed automake
-```
+- brew install gnu-sed automake
 ### SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
