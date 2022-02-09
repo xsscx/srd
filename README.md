@@ -1,5 +1,5 @@
 # Welcome to Hoyt's SRD Repo
-SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
+WED 9 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
  
 # SRD DMG Install
 ```
