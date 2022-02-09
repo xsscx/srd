@@ -374,10 +374,6 @@ Signed File: iPhone13,2,iPhone13,3_15.3_19E5209h_Restore.ipsw | defaults write c
 QA: From X86_64 and/or M1 ARM the SRD IPSW has been installed with cryptex personalization verified
 ```
 ## SRD ASAN & UBSAN Installation Information | Drilling Down
-Caveat
-----
-There is a backend TSS Server that is sending back bad HTTP Responses for Personalization Requests for asan and ubsan dylibs. If you see the unsuitable CT policy message, just repeat the personalization process until you get success.
-
 ###  iPhone 12 - TSS ASAN Cryptex Example HTTP Response of Success for Personalization
 ```
 HTTP/1.1 200 OK
