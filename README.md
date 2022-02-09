@@ -10,7 +10,7 @@ WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
 | Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
 | -------------------------------- | ------------- | ------------- | -------------
 | Build macOS 12.2 21D49 X86_64    | PASS          | PASS          | PASS
-| Build macOS 12.3 21E5196i T8101  | PASS          | PASS          | PASS
+| Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | PASS
 | Install to iPhone 11 19E5209h    | PASS          | PASS          | PASS
 | Install to iPhone 12 19E5209h    | PASS          | PASS          | PASS
 
