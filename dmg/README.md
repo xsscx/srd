@@ -12,10 +12,6 @@ SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
 | Install to iPhone 11 19E5209h    | PASS          | PASS          | PASS
 | Install to iPhone 12 19E5209h    | PASS          | PASS          | PASS
 
-Caveat
-----
-- https://github.com/apple/security-research-device/issues/47
-
 ### Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
