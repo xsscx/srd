@@ -1,4 +1,24 @@
-# debugserver for Apple Security Research Device
+# debugserver
+See https://github.com/apple/security-research-device/pull/49/files
+
+Here we extract debugserver from the Developer Disk Image included with Xcode and inject some entitlements to allow it to attach to any process on the system.
+
+We also enable a launchd service to keep debugserver listening on all interfaces on port 2345.
+
+Connecting to debugserver from lldb
+The following is a summary of the information found in the lldb documentation
+
+The quickstart is below:
+
+Start up the SRD
+Launch lldb with xcrun lldb
+In the lldb prompt connect to your device with gdb-remote ${device_ip}:2345
+Find your desired process with platform shell ps -eaf
+Attach to your desired process with process attach --pid ${process_pid}
+
+
+### DEMOTED
+###### debugserver for Apple Security Research Device
 
 11 JAN 2022 - Read more at URL https://srd.cx/debugserver-installation-configuration/
 ```
