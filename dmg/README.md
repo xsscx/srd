@@ -3,7 +3,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
 ## SRD Example DMG ASAN UBSAN Build & Installation Status
-SAT 5 FEB 2022 at 0730 US EST: Current Build Target 19E5209h | 13E5086k
+WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
 
 | Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
 | -------------------------------- | ------------- | ------------- | -------------
