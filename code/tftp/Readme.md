@@ -1,4 +1,4 @@
-### Apple Security Research Device | TFTP Server & Client with Makefile for Cannibalized for the Apple SRD
+### Apple Security Research Device | TFTP Server & Client with Makefile Cannibalized for the Apple SRD
 
 Example TFTP Client & Server for the Apple Security Research Device ripped from the Internet and cannabalized for the SRD by Hoyt
 
