@@ -18,7 +18,7 @@ cryptexctl version >> srd-cryptex-troubleshooter.log 2>&1
 sysctl -a | grep brand >> srd-cryptex-troubleshooter.log 2>&1
 csrutil status >> srd-cryptex-troubleshooter.log 2>&1
 echo "Install cryptex to SRD"
-cryptexctl -v9 -d9  install --variant=research --persist --print-info ./com.example.cryptex.cxbd.signed >> srd-cryptex-troubleshooter.log 2>&1
+cryptexctl -v9 -d9 -ldt install --variant=research --persist --print-info ./com.example.cryptex.cxbd.signed >> srd-cryptex-troubleshooter.log 2>&1
 echo "====================================="
 echo "Check for cryptex install on SRD"
 cryptexctl list 2>&1
