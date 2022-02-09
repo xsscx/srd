@@ -3,7 +3,7 @@ echo "Running Clean, Build, Install for iPhone 12"
 export CRYPTEXCTL_UDID=00008101-001418DA3CC0013A
 echo "DMG Backup"
 backup_files="srd-universal-cryptex.dmg"
-dest="/Users/xss/security-research-device-main/example-cryptex/dmg-backup"
+dest="~/security-research-device-main/example-cryptex/dmg-backup"
 day=$(date +%A)
 hostname=$(hostname -s)
 archive_file="$hostname.X86_64.cryptex.$day.tgz"
