@@ -1,7 +1,4 @@
 # Hoyt's Example Cryptex & DMG for SRT 21C39
-
-FRI 4 FEB 2022: Current Build Target 19E5209h | 13E5086k
-
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
