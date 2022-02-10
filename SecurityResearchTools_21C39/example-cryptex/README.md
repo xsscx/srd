@@ -10,7 +10,7 @@
 
 ## Prerequisites
 - macOS 12.2 (21D49)
-- Xcode Version 13.3 beta (13E5086k)
+- Xcode Version 13.3 beta 2 (13E5095k)
 - Security Research Tools https://github.com/apple/security-research-device
 - brew install gnu-sed automake
 # SRD Source Build example-cryptex with toybox unstripped
