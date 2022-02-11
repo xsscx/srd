@@ -10,9 +10,9 @@ FRI 11 FEB 2022 at 1700 US EST: Current Build Target 21E5206e | 13E5086k
 | Build OS & Device Info           | Example DMG   |  debugserver  |  ASAN DMG     | UBSAN DMG 
 | -------------------------------- | ------------- | ------------- | ------------- | -------------
 | macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | FAIL          | FAIL          
-| PR 42  21E5206e T8101            | PASS          | FAIL          | FAIL          | FAIL
-| PR 48  21E5206e T8101            | PASS          | FAIL          | FAIL          | FAIL
-| PR 49  21E5206e T8101            | NA            | FAIL          | FAIL          | FAIL
+| PR 42  21E5206e T8101            | PASS          | PASS          | FAIL          | FAIL
+| PR 48  21E5206e T8101            | PASS          | PASS          | FAIL          | FAIL
+| PR 49  21E5206e T8101            | NA            | PASS          | FAIL          | FAIL
 | Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | FAIL          | FAIL
 | Install to iPhone 11 19E5219e    | PASS          | PASS          | FAIL          | FAIL
 | Install to iPhone 12 19E5219e    | PASS          | PASS          | FAIL          | FAIL
