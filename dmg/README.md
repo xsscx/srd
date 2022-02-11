@@ -2,12 +2,12 @@
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-## SRD Example DMG ASAN UBSAN Build & Installation Status
-WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
+FRI 11 FEB 2022 at 1700 US EST: Current Build Target 21E5206e | 13E5086k
 
+## SRD Example DMG ASAN UBSAN Build & Installation Status
 | Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
 | -------------------------------- | ------------- | ------------- | -------------
-| Build macOS 12.2 21D49 X86_64    | PASS          | PASS          | PASS
+| macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | FAIL
 | Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | PASS
 | Install to iPhone 11 19E5219e    | PASS          | PASS          | PASS
 | Install to iPhone 12 19E5219e    | PASS          | PASS          | PASS
