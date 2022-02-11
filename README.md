@@ -5,7 +5,8 @@ WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-# SRD DMG Build & Installation Status
+FRI 11 FEB 2022 at 1700 US EST: Current Build Target 21E5206e | 13E5086k
+## SRD Example DMG ASAN UBSAN Build & Installation Status
 | Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
 | -------------------------------- | ------------- | ------------- | -------------
 | macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | FAIL
