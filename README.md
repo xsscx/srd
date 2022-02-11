@@ -6,13 +6,16 @@ WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
 FRI 11 FEB 2022 at 1700 US EST: Current Build Target 21E5206e | 13E5086k
-## SRD Example DMG ASAN UBSAN Build & Installation Status
-| Build OS & Device Info           | Release DMG   | ASAN DMG      | UBSAN DMG
-| -------------------------------- | ------------- | ------------- | -------------
-| macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | FAIL
-| Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | PASS
-| Install to iPhone 11 19E5219e    | PASS          | PASS          | PASS
-| Install to iPhone 12 19E5219e    | PASS          | PASS          | PASS
+## SRD Example DMG Example, ASAN & UBSAN Build & Installation Status
+| Build OS & Device Info           | Example DMG   |  debugserver  |  ASAN DMG     | UBSAN DMG 
+| -------------------------------- | ------------- | ------------- | ------------- | -------------
+| macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | FAIL          | FAIL          
+| PR 42  21E5206e T8101            | PASS          | FAIL          | FAIL          | FAIL
+| PR 48  21E5206e T8101            | PASS          | FAIL          | FAIL          | FAIL
+| PR 49  21E5206e T8101            | NA            | FAIL          | FAIL          | FAIL
+| Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | FAIL          | FAIL
+| Install to iPhone 11 19E5219e    | PASS          | PASS          | FAIL          | FAIL
+| Install to iPhone 12 19E5219e    | PASS          | PASS          | FAIL          | FAIL
 
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
