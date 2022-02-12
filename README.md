@@ -48,8 +48,8 @@ FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
     - Example aslr Binary
     - Example Binaries in /bin
 ## Prerequisites
-- macOS 12.2 (21D49)
-- Xcode Version 13.3 beta 2 (13E5095k)
+- macOS 12.2.1 (21D62) or macOS 12.3 Beta (21E5206e)
+- Xcode Version 13.3 beta  
 - Security Research Tools https://github.com/apple/security-research-device
 - brew install gnu-sed automake
 # SRD DMG Testing
