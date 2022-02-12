@@ -1,5 +1,5 @@
 # Welcome to Hoyt's SRD Repo
-SAT 12 FEB 2022 at 0800 US EST: Current Build Target macOS 12.3 21E5206e | Xcode Version 13.3 beta 2 (13E5095k) for IPSW 15.4_19E5219e
+SAT 12 FEB 2022 at 0800 US EST
 # SRD DMG Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
