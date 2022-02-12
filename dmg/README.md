@@ -3,7 +3,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
 FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
-## SRD Example DMG, PR 42,48,49 Build & Installation Status
+### SRD Example DMG, PR 42,48,49 Build & Installation Status
 | Build OS & Device Info           | Example DMG   |  debugserver DMG  |  ASAN DMG     | UBSAN DMG 
 | -------------------------------- | ------------- | ------------- | ------------- | -------------
 | macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | PASS          | PASS          
@@ -13,7 +13,8 @@ FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
 | Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | FAIL          | FAIL
 | Install to iPhone 11 19E5219e    | PASS          | PASS          | PASS          | PASS
 | Install to iPhone 12 19E5219e    | PASS          | PASS          | PASS          | PASS
-
+## Prerequisites
+- Security Research Tools https://github.com/apple/security-research-device
 ### Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
@@ -22,17 +23,12 @@ FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
 - UBSAN Beta DMG: https://xss.cx/srd/dmg/srd-ubsan-cryptex-beta.dmg
 - Install: https://github.com/xsscx/srd/tree/main/dmg#readme
 - Discussion: nvram settings disabling KTRR, CTRR and kASLR https://github.com/apple/security-research-device/discussions/2
-## Prerequisites
-- macOS 12.2.1 (21D62) or macOS 12.3 Beta (21E5206e)
-- Xcode Version 13.3 beta  
-- Security Research Tools https://github.com/apple/security-research-device
-- brew install gnu-sed automake
-### SRD DMG Testing
+## SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
 - Tested on the iPhone 12 for all IPSW from the iOS 15.2 floor for the iPhone 12 up to the latest iOS 15.4 Beta
 - Tested on macOS 11.6.x using SRT 20C80, macOS 12.x using 21C39 and Cryptex Manager from X86_64 and M1 T8101 Platforms
-### SRD Cryptex Log Collector
+## SRD Cryptex Log Collector
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/SecurityResearchTools_21C39/example-cryptex/srd-cryptex-troubleshooter.sh)"
 ```
