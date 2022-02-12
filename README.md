@@ -1,11 +1,10 @@
 # Welcome to Hoyt's SRD Repo
-WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
- 
+SAT 12 FEB 2022 at 0800 US EST: Current Build Target macOS 12.3 21E5206e | Xcode Version 13.3 beta 2 (13E5095k) for IPSW 15.4_19E5219e
 # SRD DMG Install
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/xsscx/srd/main/dmg/install.sh)"
 ```
-FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
+This SRD Example DMG Repo is __1 PR__ https://github.com/apple/security-research-device/pull/42 _ahead_ of https://github.com/apple/security-research-device/tree/main/example-cryptex and _includes_ PR https://github.com/apple/security-research-device/pull/48 and PR https://github.com/apple/security-research-device/pull/49.
 ## SRD Example DMG, PR 42,48,49 Build & Installation Status
 | Build OS & Device Info           | Example DMG   |  debugserver DMG  |  ASAN DMG     | UBSAN DMG 
 | -------------------------------- | ------------- | ------------- | ------------- | -------------
