@@ -7,7 +7,7 @@ WED 9 FEB 2022 at 0630 US EST: Current Build Target 19E5209h | 13E5086k
 ```
 FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
 ## SRD Example DMG, PR 42,48,49 Build & Installation Status
-| Build OS & Device Info           | Example DMG   |  debugserver  |  ASAN DMG     | UBSAN DMG 
+| Build OS & Device Info           | Example DMG   |  debugserver DMG  |  ASAN DMG     | UBSAN DMG 
 | -------------------------------- | ------------- | ------------- | ------------- | -------------
 | macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | PASS          | PASS          
 | PR 42  21E5206e T8101            | PASS          | PASS          | FAIL          | FAIL
