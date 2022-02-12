@@ -16,7 +16,8 @@ FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
 | Build macOS 12.3 21E5206e T8101  | PASS          | PASS          | FAIL          | FAIL
 | Install to iPhone 11 19E5219e    | PASS          | PASS          | PASS          | PASS
 | Install to iPhone 12 19E5219e    | PASS          | PASS          | PASS          | PASS
-
+## Prerequisites 
+- Security Research Tools https://github.com/apple/security-research-device
 ## Resources
 - Source: https://github.com/apple/security-research-device/tree/main/example-cryptex
 - PR42: https://github.com/apple/security-research-device/pull/42
@@ -47,11 +48,6 @@ FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
     - Example libarchive.a
     - Example aslr Binary
     - Example Binaries in /bin
-## Prerequisites
-- macOS 12.2.1 (21D62) or macOS 12.3 Beta (21E5206e)
-- Xcode Version 13.3 beta  
-- Security Research Tools https://github.com/apple/security-research-device
-- brew install gnu-sed automake
 # SRD DMG Testing
 - Universal cryptex for iPhone 11 and iPhone 12 SRD Models 
 - Tested on the iPhone 11 for all IPSW from the iOS 14.3 floor for the iPhone 11 up to the latest iOS 15.4 Beta 
