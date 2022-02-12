@@ -98,7 +98,7 @@ machdep.cpu.brand_string: Apple M1
 ```
 ```
 clang -v
-Apple clang version 13.1.6 (clang-1316.0.19.2)
+Apple clang version 13.1.6 (clang-1316.0.20.6)
 Target: arm64-apple-darwin21.4.0
 InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
