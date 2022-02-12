@@ -1,5 +1,5 @@
 # Hoyt's Example Cryptex & DMG for SRT 21C39
-This Repo is __1 PR__ https://github.com/apple/security-research-device/pull/42 _ahead_ of https://github.com/apple/security-research-device/tree/main/example-cryptex and _includes_ PR https://github.com/apple/security-research-device/pull/48 and PR https://github.com/apple/security-research-device/pull/49.
+This SRD Example DMG Repo is __1 PR__ https://github.com/apple/security-research-device/pull/42 _ahead_ of https://github.com/apple/security-research-device/tree/main/example-cryptex and _includes_ PR https://github.com/apple/security-research-device/pull/48 and PR https://github.com/apple/security-research-device/pull/49.
 
 FRI 11 FEB 2022 at 1830 US EST: Current Build Target 21E5206e | 13E5086k
 ## SRD Example DMG, PR 42,48,49 Build & Installation Status
