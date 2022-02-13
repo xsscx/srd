@@ -8,7 +8,7 @@ This SRD Example DMG Repo is __1 PR__ https://github.com/apple/security-research
 ## SRD Example DMG, PR 42,48,49 Build & Installation Status
 | Build OS & Device Info           | Example DMG   |  debugserver DMG  |  ASAN DMG     | UBSAN DMG 
 | -------------------------------- | ------------- | ------------- | ------------- | -------------
-| macOS 12.2.1 (21D62) X86_64      | PASS          | FAIL          | PASS          | PASS          
+| macOS 12.2.1 (21D62) X86_64      | PASS          | PASS          | PASS          | PASS          
 | PR 42  21E5206e T8101            | PASS          | PASS          | FAIL          | FAIL
 | PR 48  21E5206e T8101            | PASS          | PASS          | FAIL          | FAIL
 | PR 49  21E5206e T8101            | PASS          | PASS          | FAIL          | FAIL
