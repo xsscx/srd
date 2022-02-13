@@ -1,4 +1,8 @@
 #!/bin/sh
+echo "Start ubsan build"
+cp src/hello/Makefile.ubsan src/hello/Makefile
+make clean
+make all
 echo "Start of entitlement checks....."
 rm /private/tmp/*.xml
 echo "Check the entitlements in the src/"
