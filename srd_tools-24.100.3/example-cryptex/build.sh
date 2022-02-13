@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "Start the Build"
+cp src/hello/Makefile.dist src/hello/Makefile
 make clean
 make all
 echo "Start of entitlement checks..... for example-cryptex with debugserver and latest entitlements from PR48 + PR49....."
