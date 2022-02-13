@@ -1,12 +1,7 @@
 #!/bin/sh
-echo "Start of Build & Install for Cryptex to SRD....
-echo "make clean"
-make clean
-echo "make install"
-make install
-echo "Start of entitlement checks, delete any existing scratch files...."
+echo "Start of entitlement checks....."
 rm /private/tmp/*.xml
-echo "Checking the entitlements in the src/"
+echo "Check the entitlements in the src/"
 codesign --display --entitlements - --xml src/frida/frida-agent.dylib > /private/tmp/src-frida-agent.xml 
 codesign --display --entitlements - --xml src/frida/frida-server > /private/tmp/src-frida-server.xml 
 codesign --display --entitlements - --xml src/dropbear/dropbear > /private/tmp/src-dropbear.xml
@@ -58,10 +53,3 @@ diff /private/tmp/src-cryptex-run.xml /private/tmp/dst-cryptex-run.xml
 echo "Check for libclang_rt.asan_ios_dynamic.dylib"
 diff /private/tmp/src-libclang_rt.asan_ios_dynamic.dylib.xml /private/tmp/dst-libclang_rt.asan_ios_dynamic.dylib.xml
 echo "End of entitlement checks....."
-echo "Finishing Install to SRD..."
-hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
-cryptexctl ${CRYPTEXCTL_FLAGS} create --research --replace ${CRYPTEXCTL_CREATE_FLAGS} --identifier=com.example.cryptex --version=1.3.3.7 --variant=research srd-universal-cryptex.dmg
-cryptexctl ${CRYPTEXCTL_PERSONALIZE_FLAGS} personalize --replace  --variant=research com.example.cryptex.cxbd
-cryptexctl uninstall com.example.cryptex
-cryptexctl install --variant=research --persist com.example.cryptex.cxbd.signed
-cryptexctl list
