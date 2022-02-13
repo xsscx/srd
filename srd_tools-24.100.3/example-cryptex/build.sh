@@ -55,6 +55,8 @@ diff /private/tmp/src-nvram.xml /private/tmp/dst-nvram.xml
 echo "Check for cryptex-run"
 diff /private/tmp/src-cryptex-run.xml /private/tmp/dst-cryptex-run.xml
 echo "End of entitlement checks....."
+echo "Delete srd-universal-cryptex.dmg"
+rm srd-universal-cryptex.dmg
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
 cryptexctl ${CRYPTEXCTL_FLAGS} create --research --replace ${CRYPTEXCTL_CREATE_FLAGS} --identifier=com.example.cryptex --version=1.3.3.7 --variant=research srd-universal-cryptex.dmg
 cryptexctl ${CRYPTEXCTL_PERSONALIZE_FLAGS} personalize --replace  --variant=research com.example.cryptex.cxbd
