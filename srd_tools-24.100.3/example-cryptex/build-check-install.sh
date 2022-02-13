@@ -1,23 +1,19 @@
 #!/bin/sh
-echo "unmounting com.example.cryptex"
-cryptexctl uninstall com.example.cryptex
-echo "Start asan build"
-cp src/hello/Makefile.san src/hello/Makefile
+echo "Start the Build"
 make clean
 make all
-echo "Start of entitlement checks....."
+echo "Start of entitlement checks..... for example-cryptex with debugserver and latest entitlements from PR48 + PR49....."
 rm /private/tmp/*.xml
 echo "Check the entitlements in the src/"
 codesign --display --entitlements - --xml src/frida/frida-agent.dylib > /private/tmp/src-frida-agent.xml 
 codesign --display --entitlements - --xml src/frida/frida-server > /private/tmp/src-frida-server.xml 
-codesign --display --entitlements - --xml src/dropbear/dropbear > /private/tmp/src-dropbear.xml
-codesign --display --entitlements - --xml /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.asan_ios_dynamic.dylib > /private/tmp/src-libclang_rt.asan_ios_dynamic.dylib.xml 
+codesign --display --entitlements - --xml src/dropbear/dropbear > /private/tmp/src-dropbear.xml 
 echo "Changing to toybox unstripped"
-chmod 775 src/toybox/toybox-src/generated/unstripped/toybox src/toybox/toybox-src/generated/unstripped/toybox
-codesign --force -s - --entitlements src/toybox/entitlements.plist src/toybox/toybox-src/generated/unstripped/toybox
+chmod 775 src/toybox/toybox-src/generated/unstripped/toybox 
+codesign --force -s - --entitlements src/toybox/entitlements.plist  src/toybox/toybox-src/generated/unstripped/toybox 
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
-codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
-codesign --force -s - --entitlements src/toybox/entitlements.plist com.example.cryptex.dstroot/usr/bin/toybox 
+codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox 
+codesign --force -s - --entitlements src/toybox/entitlements.plist com.example.cryptex.dstroot/usr/bin/toybox
 codesign --display --entitlements - --xml src/toybox/toybox-src/generated/unstripped/toybox > /private/tmp/src-toybox.xml 
 codesign --display --entitlements - --xml src/simple-shell/simple-shell > /private/tmp/src-simple-server.xml 
 codesign --display --entitlements - --xml src/debugserver/debugserver > /private/tmp/src-debugserver.xml 
@@ -36,8 +32,7 @@ codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/he
 codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/simple-server > /private/tmp/dst-simple-server.xml 
 codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/nvram > /private/tmp/dst-nvram.xml 
 codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/cryptex-run > /private/tmp/dst-cryptex-run.xml 
-codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/libclang_rt.asan_ios_dynamic.dylib > /private/tmp/dst-libclang_rt.asan_ios_dynamic.dylib.xml 
-echo "diff the entitlements..."
+echo "diff the entitlements... if anything different check Console Log.. cryptex install has failed if the entitlements aren't the same.."
 echo "Check for frida-agent"
 diff /private/tmp/src-frida-agent.xml /private/tmp/dst-frida-agent.xml
 echo "Check for frida-server"
@@ -56,8 +51,6 @@ echo "Check for nvram"
 diff /private/tmp/src-nvram.xml /private/tmp/dst-nvram.xml
 echo "Check for cryptex-run"
 diff /private/tmp/src-cryptex-run.xml /private/tmp/dst-cryptex-run.xml
-echo "Check for libclang_rt.asan_ios_dynamic.dylib"
-diff /private/tmp/src-libclang_rt.asan_ios_dynamic.dylib.xml /private/tmp/dst-libclang_rt.asan_ios_dynamic.dylib.xml
 echo "End of entitlement checks....."
 hdiutil create -fs hfs+ -srcfolder com.example.cryptex.dstroot srd-universal-cryptex.dmg
 cryptexctl ${CRYPTEXCTL_FLAGS} create --research --replace ${CRYPTEXCTL_CREATE_FLAGS} --identifier=com.example.cryptex --version=1.3.3.7 --variant=research srd-universal-cryptex.dmg
