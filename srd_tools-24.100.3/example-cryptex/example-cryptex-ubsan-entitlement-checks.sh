@@ -8,7 +8,7 @@ codesign --display --entitlements - --xml src/dropbear/dropbear > /private/tmp/s
 codesign --display --entitlements - --xml /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.ubsan_ios_dynamic.dylib > /private/tmp/src-libclang_rt.ubsan_ios_dynamic.dylib.xml 
 echo "Changing to toybox unstripped"
 chmod 775 src/toybox/toybox-src/generated/unstripped/toybox src/toybox/toybox-src/generated/unstripped/toybox
-codesign --force -s - --entitlements src/toybox/entitlements.plist 
+codesign --force -s - --entitlements src/toybox/entitlements.plist src/toybox/toybox-src/generated/unstripped/toybox
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
 codesign --force -s -  com.example.cryptex.dstroot/usr/bin/toybox
 codesign --force -s - --entitlements src/toybox/entitlements.plist com.example.cryptex.dstroot/usr/bin/toybox 
