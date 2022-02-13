@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "unmounting com.example.cryptex"
 cryptexctl uninstall com.example.cryptex
-echo "Start asan build"
+echo "Start ubsan build"
 cp src/hello/Makefile.ubsan src/hello/Makefile
 make clean
 make all
