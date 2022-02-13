@@ -8,7 +8,7 @@ echo "Check the entitlements in the src/"
 codesign --display --entitlements - --xml src/frida/frida-agent.dylib > /private/tmp/src-frida-agent.xml
 codesign --display --entitlements - --xml src/frida/frida-server > /private/tmp/src-frida-server.xml
 codesign --display --entitlements - --xml src/dropbear/dropbear > /private/tmp/src-dropbear.xml
-echo "Changing to toybox unstripped"
+echo "Changing to toybox unstripped, this is ugly, but gets past AMFI complaints"
 chmod 775 src/toybox/toybox-src/generated/unstripped/toybox
 codesign --force -s - --entitlements src/toybox/entitlements.plist  src/toybox/toybox-src/generated/unstripped/toybox
 sudo cp src/toybox/toybox-src/generated/unstripped/toybox com.example.cryptex.dstroot/usr/bin
