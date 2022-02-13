@@ -5,7 +5,6 @@ echo "Check the entitlements in the src/"
 codesign --display --entitlements - --xml src/frida/frida-agent.dylib > /private/tmp/src-frida-agent.xml 
 codesign --display --entitlements - --xml src/frida/frida-server > /private/tmp/src-frida-server.xml 
 codesign --display --entitlements - --xml src/dropbear/dropbear > /private/tmp/src-dropbear.xml
-codesign --display --entitlements - --xml /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.asan_ios_dynamic.dylib > /private/tmp/src-libclang_rt.asan_ios_dynamic.dylib.xml 
 echo "Changing to toybox unstripped"
 chmod 775 src/toybox/toybox-src/generated/unstripped/toybox src/toybox/toybox-src/generated/unstripped/toybox
 codesign --force -s - --entitlements src/toybox/entitlements.plist 
@@ -30,7 +29,6 @@ codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/he
 codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/simple-server > /private/tmp/dst-simple-server.xml 
 codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/nvram > /private/tmp/dst-nvram.xml 
 codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/cryptex-run > /private/tmp/dst-cryptex-run.xml 
-codesign --display --entitlements - --xml com.example.cryptex.dstroot/usr/bin/libclang_rt.asan_ios_dynamic.dylib > /private/tmp/dst-libclang_rt.asan_ios_dynamic.dylib.xml 
 echo "diff the entitlements..."
 echo "Check for frida-agent"
 diff /private/tmp/src-frida-agent.xml /private/tmp/dst-frida-agent.xml
