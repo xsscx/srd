@@ -52,6 +52,8 @@ echo "Check for debugserver"
 diff /private/tmp/src-debugserver.xml /private/tmp/dst-debugserver.xml
 echo "Check for hello"
 diff /private/tmp/src-hello.xml /private/tmp/dst-hello.xml
+echo "Check for simple-server"
+diff /private/tmp/src-simple-server.xml /private/tmp/dst-simple-server.xml
 echo "Check for nvram"
 diff /private/tmp/src-nvram.xml /private/tmp/dst-nvram.xml
 echo "Check for cryptex-run"
