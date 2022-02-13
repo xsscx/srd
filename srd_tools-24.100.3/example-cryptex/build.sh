@@ -1,4 +1,6 @@
 #!/bin/sh
+echo "unmounting com.example.cryptex"
+cryptexctl uninstall com.example.cryptex
 echo "Start the Build"
 cp src/hello/Makefile.dist src/hello/Makefile
 make clean
