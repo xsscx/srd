@@ -1,0 +1,16 @@
+name: SRD CI
+
+on:
+  schedule:
+    - cron:  '0 2 * * *'
+  push:
+    branches: [ master ]
+
+jobs:
+  MacOS-12_0:
+    runs-on: macos-12.0
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: make
