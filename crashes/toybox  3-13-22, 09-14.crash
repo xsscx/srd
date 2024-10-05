@@ -1,0 +1,66 @@
+
+Incident Identifier: 79734A0A-D680-4D55-95EA-B859873D0E4B
+CrashReporter Key:   1eb6378ccbf6da538aaea634bf3b47cdbe3f7b2a
+Hardware Model:      iPhone13,2
+Process:             toybox [761]
+Path:                /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.0jKSi8/usr/bin/toybox
+Identifier:          toybox
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      dropbear [759]
+Coalition:           com.example.cryptex.sshd [540]
+
+Date/Time:           2022-03-13 09:14:52.9389 -0400
+Launch Time:         2022-03-13 09:12:18.7356 -0400
+OS Version:          iPhone OS 15.4 (19E241)
+Release Type:        User
+Baseband Version:    2.53.01
+Report Version:      104
+
+Exception Type:  EXC_BAD_ACCESS (SIGSEGV)
+Exception Subtype: KERN_INVALID_ADDRESS at 0x4000000102abcb98 -> 0x0000000102abcb98 (possible pointer authentication failure)
+Exception Codes: 0x0000000000000001, 0x4000000102abcb98
+VM Region Info: 0x102abcb98 is in 0x102ab0000-0x102afc000;  bytes after start: 52120  bytes before end: 259175
+      REGION TYPE                 START - END      [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      UNUSED SPACE AT START
+--->  __TEXT                   102ab0000-102afc000 [  304K] r-x/r-x SM=COW  ...sr/bin/toybox
+      __DATA_CONST             102afc000-102b00000 [   16K] r--/rw- SM=COW  ...sr/bin/toybox
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL 11 Segmentation fault: 11
+Terminating Process: exc handler [761]
+
+Triggered by Thread:  0
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   toybox                        	       0x102abcb98 xclose + 0
+1   toybox                        	       0x102abcb98 xcreate_stdio + 112
+2   toybox                        	       0x102acc600 expand_redir + 1680
+3   toybox                        	       0x102acbac4 run_command + 204
+4   toybox                        	       0x102ac7bf0 do_source + 5816
+5   toybox                        	       0x102ac919c sh_main + 2004
+6   toybox                        	       0x102abe8e4 toy_exec_which + 140
+7   toybox                        	       0x102abe180 toybox_main + 140
+8   toybox                        	       0x102abe92c main + 68
+9   dyld                          	       0x102ec5ce4 start + 520
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x0000000000000000   x2: 0x00000000000120a8   x3: 0x000000016d34e851
+    x4: 0x0000000102af72f6   x5: 0x000000016d34ed90   x6: 0x0000000000000064   x7: 0x0000000000000d00
+    x8: 0x0000000000000084   x9: 0x0000000206ddc060  x10: 0x0000000000000002  x11: 0x00000000fffffffd
+   x12: 0x0000010000000000  x13: 0x0000000000000000  x14: 0x0000000000000000  x15: 0x0000000000000000
+   x16: 0x0000000000000006  x17: 0x0000000102afc0c8  x18: 0x0000000000000000  x19: 0x0000000103a04480
+   x20: 0x0000000080000601  x21: 0x0000000103a04470  x22: 0x0000000000000000  x23: 0x0000000103a04470
+   x24: 0x0000000103a04480  x25: 0x0000000000000000  x26: 0x0000000102d064b0  x27: 0x0000000102af926b
+   x28: 0x0000000103a04338   fp: 0x000000016d34ee50   lr: 0x0000000102abcb98
+    sp: 0x000000016d34ee30   pc: 0x0000000102abcb98 cpsr: 0x00001000
+   far: 0x4000000102abcb98  esr: 0x82000004 (Instruction Abort) Translation fault
+
+Binary Images:
+       0x102ab0000 -        0x102afbfff toybox arm64e  <e7ceae276f513b9997c91ce3ec70556d> /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.0jKSi8/usr/bin/toybox
+       0x102eac000 -        0x102f03fff dyld arm64e  <d16b72c0d6193e4892622c10a1d3066f> /usr/lib/dyld
+
+EOF
+

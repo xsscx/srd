@@ -1,0 +1,117 @@
+-------------------------------------
+Translated Report (Full Report Below)
+-------------------------------------
+
+Process:               diskimages-helper [53014]
+Path:                  /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/Resources/diskimages-helper
+Identifier:            diskimages-helper
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        Exited process [53013]
+Responsible:           iTerm2 [462]
+User ID:               501
+
+Date/Time:             2022-05-31 17:57:13.5179 -0400
+OS Version:            macOS 12.4 (21F79)
+Report Version:        12
+Bridge OS Version:     6.5 (19P5071)
+
+System Integrity Protection: enabled
+
+Crashed Thread:        2
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x00006a0997d28350
+Exception Codes:       0x0000000000000001, 0x00006a0997d28350
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Reason:    Namespace SIGNAL, Code 11 Segmentation fault: 11
+Terminating Process:   exc handler [53014]
+
+VM Region Info: 0x6a0997d28350 is not in any region.  Bytes after previous region: 11035781268305  Bytes before following region: 6556000046256
+      REGION TYPE                    START - END         [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      MALLOC_NANO (reserved)   600018000000-600020000000 [128.0M] rw-/rwx SM=NUL  ...(unallocated)
+--->  GAP OF 0xfffe7e05000 BYTES
+      Stack Guard              700007e05000-700007e06000 [    4K] ---/rwx SM=NUL  
+
+Thread 0::  Dispatch queue: com.apple.main-thread
+0   libsystem_malloc.dylib        	    0x7ff80ab3dcda tiny_free_list_add_ptr + 135
+1   libsystem_malloc.dylib        	    0x7ff80ab3b477 tiny_malloc_from_free_list + 1671
+2   libsystem_malloc.dylib        	    0x7ff80ab3a8ad tiny_malloc_should_clear + 255
+3   libsystem_malloc.dylib        	    0x7ff80ab397d2 szone_malloc_should_clear + 66
+4   libsystem_malloc.dylib        	    0x7ff80ab54b75 _malloc_zone_calloc + 60
+5   libobjc.A.dylib               	    0x7ff80abb01dd class_createInstance + 64
+6   libdispatch.dylib             	    0x7ff80ab65a31 _os_object_alloc_realized + 25
+7   libdispatch.dylib             	    0x7ff80ab90ffe dispatch_data_create_alloc + 34
+8   libxpc.dylib                  	    0x7ff80aa52b3c xpc_data_create + 45
+9   Foundation                    	    0x7ff80bc04a72 _NSXPCSerializationCreateWriteData + 170
+10  Foundation                    	    0x7ff80bc095ab -[NSXPCEncoder _encodeInvocationObjectArgumentsOnly:count:typeString:selector:isReply:into:] + 223
+11  Foundation                    	    0x7ff80bc02943 -[NSXPCConnection _sendInvocation:orArguments:count:methodSignature:selector:withProxy:] + 1864
+12  Foundation                    	    0x7ff80bc0949d -[NSXPCConnection _sendSelector:withProxy:arg1:arg2:] + 132
+13  Foundation                    	    0x7ff80bc093ca _NSXPCDistantObjectSimpleMessageSend2 + 63
+14  diskimages-helper             	       0x1057db21b 0x1057c9000 + 74267
+15  Foundation                    	    0x7ff80bc67557 __NSThreadPerformPerform + 179
+16  CoreFoundation                	    0x7ff80ade419b __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+17  CoreFoundation                	    0x7ff80ade4103 __CFRunLoopDoSource0 + 180
+18  CoreFoundation                	    0x7ff80ade3e7d __CFRunLoopDoSources0 + 242
+19  CoreFoundation                	    0x7ff80ade2898 __CFRunLoopRun + 892
+20  CoreFoundation                	    0x7ff80ade1e5c CFRunLoopRunSpecific + 562
+21  Foundation                    	    0x7ff80bc45d6a -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 216
+22  diskimages-helper             	       0x1057d08bb 0x1057c9000 + 30907
+23  dyld                          	       0x11146d51e start + 462
+
+Thread 1:
+0   libsystem_pthread.dylib       	    0x7ff80ad18f48 start_wqthread + 0
+
+Thread 2 Crashed:
+0   libobjc.A.dylib               	    0x7ff80abb301f objc_release + 31
+1   libobjc.A.dylib               	    0x7ff80abb70da AutoreleasePoolPage::releaseUntil(objc_object**) + 164
+2   libobjc.A.dylib               	    0x7ff80abb3f5f objc_autoreleasePoolPop + 168
+3   diskimages-helper             	       0x1057d143e 0x1057c9000 + 33854
+4   Foundation                    	    0x7ff80bc3e9c4 __NSThread__start__ + 1009
+5   libsystem_pthread.dylib       	    0x7ff80ad1d4e1 _pthread_start + 125
+6   libsystem_pthread.dylib       	    0x7ff80ad18f6b thread_start + 15
+
+Thread 3:
+0   libsystem_pthread.dylib       	    0x7ff80ad18f48 start_wqthread + 0
+
+Thread 4:
+0   libsystem_pthread.dylib       	    0x7ff80ad18f48 start_wqthread + 0
+
+
+Thread 2 crashed with X86 Thread State (64-bit):
+  rax: 0x0000ea0997d28330  rbx: 0x0000000000000001  rcx: 0x00006a0997d28330  rdx: 0x00000000b42da02d
+  rdi: 0x00006000013d8330  rsi: 0x0000600001dd8580  rbp: 0x0000700007f08cf0  rsp: 0x0000700007f08cb8
+   r8: 0x0000000000000580   r9: 0x0000000000000020  r10: 0x00000000000007fb  r11: 0x00000000000001ff
+  r12: 0x00006000013d8330  r13: 0xa3a3a3a3a3a3a3a3  r14: 0x00007f897b00b038  r15: 0x00007f897b00b000
+  rip: 0x00007ff80abb301f  rfl: 0x0000000000010206  cr2: 0x00006a0997d28350
+  
+Logical CPU:     10
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 2 instruction stream:
+  48 85 ff 74 76 89 f8 83-e0 01 48 85 c0 75 6c 48  H..tv.....H..ulH
+  8b 07 48 b9 f8 ff ff ff-ff 7f 00 00 48 21 c1[48] ..H.........H!.H	<==
+  8b 51 20 f6 c2 04 74 54-a8 01 74 72 48 b9 00 00  .Q ...tT..trH...
+  00 00 00 00 80 00 48 ba-00 00 00 00 00 00 00 01  ......H.........
+  48 39 c8 72 36 48 89 c6-48 29 d6 72 17 f0 48 0f  H9.r6H..H).r..H.
+  b1 37 74 22 a8 01 75 e8-31 f6 ba 01 00 00 00 e9  .7t"..u.1.......
+  46 cd 01 00 48 85 c8 75-3d 48 8b 35 18 91 8d 41  F...H..u=H.5...A
+  ff 25 da 70 e6 3f 48 39-ce 72 ee c3 66 83 79 1c  .%.p.?H9.r..f.y.
+  00 79 0e 83 e2 02 48 85-d2 74 06 f6 41 28 02 75  .y....H..t..A(.u
+  1f 48 8b 35 40 90 8d 41-ff 25 b2 70 e6 3f f6 41  .H.5@..A.%.p.?.A
+  1c 01 74 b4 eb d5 be 01-00 00 00 e9 4c a3 00 00  ..t.........L...
+  48 8b 05 81 4c 89 41 ff-e0 90 90 90 90 90 90 90  H...L.A.........
+
+Binary Images:
+    0x7ff80ab37000 -     0x7ff80ab62fff libsystem_malloc.dylib (*) <109a9983-dd1f-3e38-aa9b-2c4da8f3529d> /usr/lib/system/libsystem_malloc.dylib
+    0x7ff80abaa000 -     0x7ff80abe3fff libobjc.A.dylib (*) <a02a893a-79ff-39f2-a3f2-796b4d877b68> /usr/lib/libobjc.A.dylib
+    0x7ff80ab63000 -     0x7ff80aba9fff libdispatch.dylib (*) <534511b9-b3b0-33a7-b1ea-402595d28bda> /usr/lib/system/libdispatch.dylib
+    0x7ff80aa50000 -     0x7ff80aa8bfff libxpc.dylib (*) <a675716f-f789-3d56-bc4f-8ff2c94e1080> /usr/lib/system/libxpc.dylib
+    0x7ff80bbe6000 -     0x7ff80bfa2fff com.apple.Foundation (6.9) <ceb9e591-a1ad-3ebc-ab8d-410f4ff96307> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+       0x1057c9000 -        0x105814fff diskimages-helper (*) <e10d6e74-b346-3ce4-a7a5-158e0a65101d> /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/Resources/diskimages-helper
+    0x7ff80ad64000 -     0x7ff80b266fff com.apple.CoreFoundation (6.9) <f8e45ef9-9fd2-3331-bb1b-703d5dacdaf1> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+       0x111468000 -        0x1114d3fff dyld (*) <b70ce1ec-b902-3852-8268-05de00bfa8d5> /usr/lib/dyld
+    0x7ff80ad17000 -     0x7ff80ad22fff libsystem_pthread.dylib (*) <bc574849-1aae-31e7-b350-916dda999d97> /usr/lib/system/libsystem_pthread.dylib
+               0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???

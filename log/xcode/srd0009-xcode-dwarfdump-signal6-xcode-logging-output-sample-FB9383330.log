@@ -1,0 +1,1125 @@
+objc[18468]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x1f3f1fad8) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x1078e42c8). One of the two will be used. Which one is undefined.
+objc[18468]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x1f3f1fb28) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x1078e4318). One of the two will be used. Which one is undefined.
+2021-07-29 09:14:13.306 Xcode[18468:720330] [MT] DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/IDEFrameworks/IDEFrameworks-19211.1/IDEKit/CommandsAndSelection/IDEMenuBuilder.m:190
+Details:  Unknown command: "Xcode.IDEKit.CmdDefinition.TestLocalChanges" in menu: "Xcode.IDEKit.MenuDefinition.PerformAction"!
+Object:   <IDEMenuBuilder>
+Method:   +_menuItemForMenuItemElement:inMenuWithIdentifierUsedForDebugging:forViewController:fillingExtensionIdToMenuMap:
+Thread:   <NSThread: 0x138e19f50>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2021-07-29 09:14:13.746 Xcode[18468:720445] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2021-07-29 09:14:13.746 Xcode[18468:720445] nil host used in call to allowsAnyHTTPSCertificateForHost:
+objc[18468]: Class ASVError is implemented in both /Applications/Xcode-beta.app/Contents/SharedFrameworks/GPUToolsCore.framework/Versions/A/GPUToolsCore (0x13d1ba170) and /Applications/Xcode-beta.app/Contents/PlugIns/GPUDebugger.ideplugin/Contents/Frameworks/GPUToolsASVC.framework/Versions/A/GPUToolsASVC (0x13c6987b0). One of the two will be used. Which one is undefined.
+2021-07-29 09:14:14.289 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.289 Xcode[18468:720330] CoreText note: Set a breakpoint on CTFontLogSystemFontNameRequest to debug.
+2021-07-29 09:14:14.292 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-Bold", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.293 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-RegularItalic", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.295 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.295 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.295 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.295 Xcode[18468:720330] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2021-07-29 09:14:14.330 Xcode[18468:720421]  DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTiOSFrameworks/DVTiOSFrameworks-19111/DTDeviceKitBase/DTDKRemoteDeviceData.m:373
+Details:  (null) deviceType from 00008030-001538D03C40012E was NULL when -platform called.
+Object:   <DTDKMobileDeviceToken: 0x12a4382c0>
+Method:   -platform
+Thread:   <NSThread: 0x128fc2150>{number = 9, name = (null)}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2021-07-29 09:14:14.531 Xcode[18468:720456]  DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTiOSFrameworks/DVTiOSFrameworks-19111/DTDeviceKitBase/DTDKRemoteDeviceData.m:373
+Details:  (null) deviceType from 00008030-001538D03C40012E was NULL when -platform called.
+Object:   <DTDKMobileDeviceToken: 0x12a4382c0>
+Method:   -platform
+Thread:   <NSThread: 0x11ff7f6c0>{number = 8, name = (null)}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2021-07-29 09:14:14.606 Xcode[18468:720456]  DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTiOSFrameworks/DVTiOSFrameworks-19111/DTDeviceKitBase/DTDKRemoteDeviceData.m:373
+Details:  (null) deviceType from 00008030-001538D03C40012E was NULL when -platform called.
+Object:   <DTDKMobileDeviceToken: 0x12a4382c0>
+Method:   -platform
+Thread:   <NSThread: 0x11ff7f6c0>{number = 8, name = (null)}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+objc[18468]: Class DYShaderAnalyzerNextGPU is implemented in both /Applications/Xcode-beta.app/Contents/SharedFrameworks/MTLToolsShaderProfiler.framework/Versions/A/MTLToolsShaderProfiler (0x13d569bf0) and /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/GPUTools/PlugIns/GLToolsShaderProfilerMobileSupport.gtplugin/Contents/MacOS/GLToolsShaderProfilerMobileSupport (0x2dd4e49c0). One of the two will be used. Which one is undefined.
+2021-07-29 09:14:15.450 Xcode[18468:720818] CFURLRequestSetHTTPCookieStorageAcceptPolicy_block_invoke: no longer implemented and should not be called
+2021-07-29 09:14:15.453 Xcode[18468:720330] SourceKit-client: [2:sourcekit_connection_create:259:-0.0000] context creation
+2021-07-29 09:14:15.454 Xcode[18468:720819] SourceKit-client: [2:request:259: 0.0014] [1] {
+  key.request: source.request.testme,
+  key.name: "ping"
+}
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1017] service queried UID for: key.test_failed_request_text
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1018] service queried UID for: key.crash
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1019] service queried UID for: key.results
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1019] service queried UID for: key.request
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1020] service queried UID for: key.kind
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1020] service queried UID for: key.id
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1020] service queried UID for: key.name
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1021] service queried UID for: key.names
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1021] service queried UID for: key.compilerargs
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1022] service queried UID for: key.offset
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1022] service queried UID for: key.length
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1023] service queried UID for: key.usr
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1023] service queried UID for: key.line
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1024] service queried UID for: key.column
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1024] service queried UID for: key.endline
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1024] service queried UID for: key.endcolumn
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1025] service queried UID for: key.nameoffset
+2021-07-29 09:14:15.555 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1025] service queried UID for: key.namelength
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1026] service queried UID for: key.sourcefile
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1026] service queried UID for: key.sourcetext
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1026] service queried UID for: key.notification
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1027] service queried UID for: key.callback
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1027] service queried UID for: key.crashed
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1028] service queried UID for: key.keyword
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1028] service queried UID for: key.enablesyntaxmap
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1029] service queried UID for: key.enablediagnostics
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1029] service queried UID for: key.syntactic_only
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1030] service queried UID for: key.receiver_usr
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1030] service queried UID for: key.invocation
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1030] service queried UID for: key.is_dynamic
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1031] service queried UID for: key.is_test_candidate
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1031] service queried UID for: key.description
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1032] service queried UID for: key.typename
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1032] service queried UID for: key.modulename
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1032] service queried UID for: key.runtime_name
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1033] service queried UID for: key.selector_name
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1033] service queried UID for: key.annotated_decl
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1034] service queried UID for: key.doc.brief
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1034] service queried UID for: key.context
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1034] service queried UID for: key.moduleimportdepth
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1035] service queried UID for: key.num_bytes_to_erase
+2021-07-29 09:14:15.556 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1035] service queried UID for: key.not_recommended
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1036] service queried UID for: key.overrides
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1036] service queried UID for: key.associated_usrs
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1036] service queried UID for: key.doc.full_as_xml
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1037] service queried UID for: key.generic_params
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1037] service queried UID for: key.generic_requirements
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1038] service queried UID for: key.related_decls
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1038] service queried UID for: key.filepath
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1038] service queried UID for: key.filepaths
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1039] service queried UID for: key.prev_filepath
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1039] service queried UID for: key.main_filepath
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1039] service queried UID for: key.fileurls
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1040] service queried UID for: key.platform_identifier
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1040] service queried UID for: key.supported_platforms
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1041] service queried UID for: key.module_interface_name
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1041] service queried UID for: key.hash
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1041] service queried UID for: key.related
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1042] service queried UID for: key.inherits
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1042] service queried UID for: key.conforms
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1043] service queried UID for: key.extends
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1043] service queried UID for: key.dependencies
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1043] service queried UID for: key.entities
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1044] service queried UID for: key.diagnostics
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1044] service queried UID for: key.categoryname
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1044] service queried UID for: key.severity
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1045] service queried UID for: key.ranges
+2021-07-29 09:14:15.557 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1045] service queried UID for: key.range
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1046] service queried UID for: key.fixits
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1046] service queried UID for: key.annotations
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1046] service queried UID for: key.diagnostic_stage
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1047] service queried UID for: key.syntaxmap
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1047] service queried UID for: key.is_system
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1047] service queried UID for: key.enablesubstructure
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1048] service queried UID for: key.substructure
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1048] service queried UID for: key.elements
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1049] service queried UID for: key.bodyoffset
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1049] service queried UID for: key.bodylength
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1049] service queried UID for: key.accessibility
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1050] service queried UID for: key.setter_accessibility
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1050] service queried UID for: key.throwoffset
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1050] service queried UID for: key.throwlength
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1051] service queried UID for: key.is_local
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1051] service queried UID for: key.attributes
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1052] service queried UID for: key.attribute
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1052] service queried UID for: key.inheritedtypes
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1052] service queried UID for: key.editor.format.options
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1053] service queried UID for: key.codecomplete.options
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1053] service queried UID for: key.nextrequeststart
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1053] service queried UID for: key.popular
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1054] service queried UID for: key.unpopular
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1054] service queried UID for: key.parent
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1055] service queried UID for: key.children
+2021-07-29 09:14:15.558 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1055] service queried UID for: key.included_files
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1055] service queried UID for: key.rename-file
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1056] service queried UID for: key.category
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1056] service queried UID for: key.argindex
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1057] service queried UID for: key.simplified
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1057] service queried UID for: key.crosslanguage
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1057] service queried UID for: key.priority
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1058] service queried UID for: key.is_deprecated
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1058] service queried UID for: key.is_unavailable
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1058] service queried UID for: key.platform
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1059] service queried UID for: key.message
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1059] service queried UID for: key.introduced
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1060] service queried UID for: key.deprecated
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1060] service queried UID for: key.obsoleted
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1060] service queried UID for: key.removecache
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1061] service queried UID for: key.typeinterface
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1061] service queried UID for: key.enable-log-notification
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1061] service queried UID for: key.loglevel
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1062] service queried UID for: key.toolchains
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1062] service queried UID for: key.is_default
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1063] service queried UID for: key.disable_client_response_handling
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1063] service queried UID for: key.modulegroups
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1063] service queried UID for: key.groupname
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1064] service queried UID for: key.edits
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1064] service queried UID for: key.newname
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1064] service queried UID for: key.oldname
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1065] service queried UID for: key.percent-completed
+2021-07-29 09:14:15.559 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1065] service queried UID for: key.error
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1066] service queried UID for: key.isfinished
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1066] service queried UID for: key.find-files-token
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1066] service queried UID for: key.search-string
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1067] service queried UID for: key.is_supported
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1067] service queried UID for: key.urls
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1068] service queried UID for: key.compileid
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1068] service queried UID for: key.toolid
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1068] service queried UID for: key.title
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1069] service queried UID for: key.console-output
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1069] service queried UID for: key.value
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1069] service queried UID for: key.affects-all-compilations-for-tool
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1070] service queried UID for: key.symbols
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1070] service queried UID for: key.symbol
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1071] service queried UID for: key.symbol-occurrence
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1071] service queried UID for: key.containing-symbol
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1071] service queried UID for: key.members
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1072] service queried UID for: key.enable-index-build-arena
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1072] service queried UID for: key.indexer.arg.workspace-name
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1072] service queried UID for: key.indexer.arg.workspace-file
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1073] service queried UID for: key.indexer.arg.index-folder
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1073] service queried UID for: key.indexer.arg.datastore-folder
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1074] service queried UID for: key.indexer.arg.database-folder
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1074] service queried UID for: key.indexer.arg.pch-header-folder
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1074] service queried UID for: key.index-build-products-folder
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1075] service queried UID for: key.regular-build-products-folder
+2021-07-29 09:14:15.560 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1075] service queried UID for: key.indexer.arg.build-config
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1076] service queried UID for: key.indexer.arg.destination-target-id
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1076] service queried UID for: key.indexer.arg.destination-sdk-variant
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1076] service queried UID for: key.indexer.arg.index-database-path
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1077] service queried UID for: key.indexer.arg.toolchain-invocation-logging-path
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1077] service queried UID for: key.disable-background-indexer
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1077] service queried UID for: key.enable-explicit-output-units
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1078] service queried UID for: key.indexer.arg.enable-full-store-visibility
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1078] service queried UID for: key.enable-pch-creation
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1079] service queried UID for: key.indexer.arg.dump-indexables
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1079] service queried UID for: key.indexer.arg.initial-db-size
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1079] service queried UID for: key.indexer.arg.throttle-factor
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1080] service queried UID for: key.indexer.arg.file-path
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1080] service queried UID for: key.indexer.arg.indexable
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1081] service queried UID for: key.indexer.arg.indexable-list
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1081] service queried UID for: key.indexer.arg.indexer-token
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1081] service queried UID for: key.indexer.arg.build-operation-token
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1082] service queried UID for: key.refactoring-action-token
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1082] service queried UID for: key.index-settings-token
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1083] service queried UID for: key.indexer.arg.database-file
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1083] service queried UID for: key.indexer.arg.index-data-dump
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1084] service queried UID for: key.wait-for-processing
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1084] service queried UID for: key.indexer.arg.query.name
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1084] service queried UID for: key.indexer.arg.query.doc-location
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1085] service queried UID for: key.indexer.arg.query.file-content
+2021-07-29 09:14:15.561 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1085] service queried UID for: key.indexer.arg.query.is-in-comment
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1086] service queried UID for: key.indexer.arg.query.is-in-func-or-method-body
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1086] service queried UID for: key.indexer.arg.query.looks-like-a-setter
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1086] service queried UID for: key.indexer.arg.query.only-current-declarator
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1087] service queried UID for: key.indexer.arg.query.include-current-loc
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1087] service queried UID for: key.indexer.is-prebuild
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1087] service queried UID for: key.indexer.arg.query.result
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1088] service queried UID for: key.indexer.arg.doc-loc.url
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1088] service queried UID for: key.indexer.arg.doc-loc.start-line
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1089] service queried UID for: key.indexer.arg.doc-loc.start-col
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1089] service queried UID for: key.indexer.arg.doc-loc.end-line
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1089] service queried UID for: key.indexer.arg.doc-loc.end-col
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1090] service queried UID for: key.indexer.arg.doc-loc.range-loc
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1090] service queried UID for: key.indexer.arg.doc-loc.range-count
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1090] service queried UID for: key.indexer.arg.doc-loc.time-stamp
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1091] service queried UID for: key.indexer.arg.doc-loc.encoding
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1091] service queried UID for: key.indexer.arg.occurrence.role
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1092] service queried UID for: key.indexer.arg.occurrence.location
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1092] service queried UID for: key.indexer.arg.occurrence.line
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1092] service queried UID for: key.indexer.arg.occurrence.col
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1093] service queried UID for: key.indexer.arg.occurrence.file
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1093] service queried UID for: key.indexer.arg.occurrence.module-url
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1094] service queried UID for: key.target_name
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1094] service queried UID for: key.test_symbols
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1094] service queried UID for: key.symbol.can-have-subtests
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1095] service queried UID for: key.symbol.inherited-parent
+2021-07-29 09:14:15.562 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1095] service queried UID for: key.callers
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1096] service queried UID for: key.test-callers
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1096] service queried UID for: key.callees
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1096] service queried UID for: key.temp-test-callers
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1097] service queried UID for: key.doc-ranges
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1097] service queried UID for: key.indexer.arg.symbol.name
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1097] service queried UID for: key.indexer.arg.symbol.display-name
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1098] service queried UID for: key.indexer.arg.symbol.kind
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1098] service queried UID for: key.indexer.arg.symbol.kinds
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1099] service queried UID for: key.indexer.arg.symbol.language
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1099] service queried UID for: key.indexer.arg.symbol.resolution
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1099] service queried UID for: key.indexer.arg.symbol.resolutions
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1100] service queried UID for: key.receivers
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1100] service queried UID for: key.indexer.arg.symbol.module-name
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1100] service queried UID for: key.indexer.arg.symbol.is-in-project
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1101] service queried UID for: key.indexer.arg.symbol.is-virtual
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1101] service queried UID for: key.indexer.arg.symbol.is-system
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1102] service queried UID for: key.indexer.arg.symbol.is-anchor-start
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1102] service queried UID for: key.indexer.arg.symbol.is-anchor-end
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1102] service queried UID for: key.indexer.arg.symbol.is-subsequence
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1103] service queried UID for: key.indexer.arg.symbol.is-ignore-case
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1103] service queried UID for: key.workspace-only
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1103] service queried UID for: key.toplevel-only
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1104] service queried UID for: key.indexer.arg.indexable.id
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1104] service queried UID for: key.indexer.arg.indexable.is-unit-test
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1104] service queried UID for: key.indexer.arg.indexable.settings
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1105] service queried UID for: key.indexer.arg.preferred-targets
+2021-07-29 09:14:15.563 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1105] service queried UID for: key.indexer.arg.priority-targets
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1106] service queried UID for: key.indexer.arg.indexable.linked-targets
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1106] service queried UID for: key.output-path-only
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1106] service queried UID for: key.prepare-build-dependencies-action
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1107] service queried UID for: key.build-dependencies-update-time
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1107] service queried UID for: key.high-priority
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1107] service queried UID for: key.error-description
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1108] service queried UID for: key.indexer.arg.preferred-target-info.is-built-for-run
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1108] service queried UID for: key.indexer.arg.preferred-target-info.is-implicit-dependency
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1109] service queried UID for: key.indexer.callback.kind
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1109] service queried UID for: key.indexer.callback.on-will-index-workspace.deferred-reindexing
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1109] service queried UID for: key.indexer.callback.on-is-indexing-workspace.user-info
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1110] service queried UID for: key.notification.user-info
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1110] service queried UID for: key.indexer.callback.indexable-root-paths
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1111] service queried UID for: key.indexer.callback.workspace-root-paths
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1111] service queried UID for: key.indexer.callback.indexable-index-header-map
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1111] service queried UID for: source.request.testme
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1112] service queried UID for: source.request.testecho
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1112] service queried UID for: source.request.testing.invalidate-filepath
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1112] service queried UID for: source.request.set-logging-settings
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1113] service queried UID for: source.request.set-enable-compile-notifications
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1113] service queried UID for: source.request.demangle
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1114] service queried UID for: source.request.mangle_simple_class
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1114] service queried UID for: source.request.indexer.open-or-create
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1114] service queried UID for: source.request.indexer.start
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1115] service queried UID for: source.request.indexer.close
+2021-07-29 09:14:15.564 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1115] service queried UID for: source.request.indexer.register-obj
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1115] service queried UID for: source.request.indexer.unregister-obj
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1116] service queried UID for: source.request.indexer.add-unit-out-files
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1116] service queried UID for: source.request.indexer.remove-unit-out-files
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1117] service queried UID for: source.request.indexer.update-preferred-targets
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1117] service queried UID for: source.request.indexer.set-throttle-factor
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1117] service queried UID for: source.request.indexer.is-quiescent
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1118] service queried UID for: source.request.indexer.suspend-indexing
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1118] service queried UID for: source.request.indexer.resume-indexing
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1119] service queried UID for: source.request.module.groups
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1119] service queried UID for: source.request.register-toolchains
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1119] service queried UID for: source.request.unregister-toolchains
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1120] service queried UID for: source.request.indexer.srv.jump-to-expression-definition
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1120] service queried UID for: source.request.indexer.srv.jump-to-imported-file
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1120] service queried UID for: source.request.indexer.srv.jump-to-module-import-headers
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1121] service queried UID for: source.request.indexer.srv.code-completions-at-location
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1121] service queried UID for: source.request.indexer.srv.symbol-contains
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1122] service queried UID for: source.request.indexer.srv.file-contains
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1122] service queried UID for: source.request.indexer.srv.test-methods-structure
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1122] service queried UID for: source.request.indexer.srv.main-files-for-file
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1123] service queried UID for: source.request.workspace.callers-for-symbol
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1123] service queried UID for: source.request.workspace.symbol-declarations
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1123] service queried UID for: source.request.workspace.symbol-qualified-display-name
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1124] service queried UID for: source.request.workspace.symbol-definitions
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1124] service queried UID for: source.request.workspace.symbol-occurrences
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1125] service queried UID for: source.request.workspace.symbol-references
+2021-07-29 09:14:15.565 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1125] service queried UID for: source.request.workspace.symbol-subclasses
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1125] service queried UID for: source.request.workspace.symbol-superclasses
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1126] service queried UID for: source.request.workspace.symbol-categories
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1126] service queried UID for: source.request.workspace.symbol-interfaces
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1126] service queried UID for: source.request.workspace.symbol-protocols
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1127] service queried UID for: source.request.workspace.symbol-all-protocols
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1127] service queried UID for: source.request.workspace.symbol-all-superclasses
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1128] service queried UID for: source.request.workspace.symbol-all-subclasses
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1128] service queried UID for: source.request.workspace.symbol-implementing-classes-for-protocol
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1128] service queried UID for: source.request.workspace.implementing-symbols-for-protocol
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1129] service queried UID for: source.request.workspace.symbol-referencing-files
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1129] service queried UID for: source.request.workspace.symbol-model-occurrence
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1130] service queried UID for: source.request.workspace.symbol-container
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1130] service queried UID for: source.request.workspace.symbol-containers
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1130] service queried UID for: source.request.workspace.symbol-overridden-symbols
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1131] service queried UID for: source.request.workspace.symbol-overriding-symbols
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1131] service queried UID for: source.request.workspace.symbol-property
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1131] service queried UID for: source.request.workspace.symbol-related-class
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1132] service queried UID for: source.request.workspace.symbol-ib-relation-class
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1132] service queried UID for: source.request.workspace.symbol-members-matching-kind
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1133] service queried UID for: source.request.workspace.all-symbols-matching-name
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1133] service queried UID for: source.request.workspace.all-classes-matching-name
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1133] service queried UID for: source.request.workspace.all-symbols-matching-kind
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1134] service queried UID for: source.request.workspace.count-of-symbols-matching-kind
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1134] service queried UID for: source.request.workspace.all-parents-of-symbols
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1134] service queried UID for: source.request.workspace.symbols-for-resolutions
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1135] service queried UID for: source.request.workspace.files-including-file
+2021-07-29 09:14:15.566 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1135] service queried UID for: source.request.workspace.files-included-by-file
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1136] service queried UID for: source.request.workspace.members-matching-kinds
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1136] service queried UID for: source.request.workspace.all-symbol-names
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1136] service queried UID for: source.request.document.symbols-matching-name
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1137] service queried UID for: source.request.document.symbol-occurrences
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1137] service queried UID for: source.request.document.references-to-symbol
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1137] service queried UID for: source.request.document.code-diagnostics
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1138] service queried UID for: source.request.document.parsed-code-comment
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1138] service queried UID for: source.request.document.type-symbol-for-symbol
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1139] service queried UID for: source.request.document.imported-files
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1139] service queried UID for: source.request.document.genius-callers-callees
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1139] service queried UID for: source.request.document.tests-calling-document-ranges
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1140] service queried UID for: source.request.workspace.refactoring.find-rename-ranges-at-location
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1140] service queried UID for: source.request.workspace.refactoring.rename-at-location
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1140] service queried UID for: source.request.workspace.refactoring.local-refactoring
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1141] service queried UID for: source.request.refactoring-action-cancel
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1141] service queried UID for: source.request.refactoring-action-close
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1142] service queried UID for: source.request.refactoring-action-start
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1142] service queried UID for: source.request.workspace.refactoring.available-refactorings
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1142] service queried UID for: source.request.workspace.filescontainingword.update
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1143] service queried UID for: source.request.workspace.filescontainingword.test
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1143] service queried UID for: source.request.indexer.prebuild-completed
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1143] service queried UID for: source.request.indexer.notify-indexable-did-add-file
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1144] service queried UID for: source.request.indexer.notify-indexable-will-remove-file
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1144] service queried UID for: source.request.indexer.notify-indexable-did-rename-file
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1145] service queried UID for: source.request.indexer.notify-indexable-changed-linked-indexables
+2021-07-29 09:14:15.567 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1145] service queried UID for: source.request.indexer.build-settings-changed
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1145] service queried UID for: source.request.indexer.build-operation-will-start
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1146] service queried UID for: source.request.indexer.build-operation-did-stop
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1146] service queried UID for: source.request.indexer.active-run-destination-did-change
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1146] service queried UID for: source.request.indexer.editor-moved-focus-to-file
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1147] service queried UID for: source.request.indexer.editor-associated-with-file
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1147] service queried UID for: source.request.indexer.editor-disassociated-with-file
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1148] service queried UID for: source.request.indexer.editor-will-save-file
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1148] service queried UID for: source.request.indexer.editor-did-save-file
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1148] service queried UID for: source.request.indexer.register-file-for-build-settings-notifications
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1149] service queried UID for: source.request.indexer.unregister-file-for-build-settings-notifications
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1149] service queried UID for: source.request.indexer.build-system-updated-build-description
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1149] service queried UID for: source.request.indexer.build-system-produced-index-settings
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1150] service queried UID for: source.request.indexer.cancel-index-settings
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1150] service queried UID for: notification.logoutput
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1151] service queried UID for: notification.toolchain-compiler-crashed
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1151] service queried UID for: notification.index-compile-will-start
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1151] service queried UID for: notification.index-compile-did-finish
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1152] service queried UID for: indexer.callback.initiate-prebuild
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1152] service queried UID for: indexer.callback.on-did-change
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1153] service queried UID for: indexer.callback.on-did-change-state
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1153] service queried UID for: indexer.callback.on-will-index-workspace
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1153] service queried UID for: indexer.callback.on-is-indexing-workspace
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1154] service queried UID for: indexer.callback.on-did-index-workspace
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1154] service queried UID for: indexer.callback.on-did-suspend-indexing-workspace
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1154] service queried UID for: indexer.callback.on-did-resume-indexing-workspace
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1155] service queried UID for: notification.index.will-populate-database
+2021-07-29 09:14:15.568 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1155] service queried UID for: notification.index.is-populating-database
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1156] service queried UID for: notification.index.did-populate-database
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1156] service queried UID for: notification.index.will-fast-scan
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1156] service queried UID for: notification.index.is-fast-scanning
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1157] service queried UID for: notification.index.did-fast-scan
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1157] service queried UID for: notification.index.unit-tests-did-change
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1157] service queried UID for: notification.index.build-settings-for-file
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1158] service queried UID for: notification.index.index-build-settings-for-indexable
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1158] service queried UID for: notification.index.cancel-build-settings-for-indexable
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1159] service queried UID for: notification.refactoring.state-changed
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1159] service queried UID for: notification.refactoring.progress-updated
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1159] service queried UID for: notification.refactoring.rename-ranges-found
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1160] service queried UID for: notification.refactoring.unhandled-urls
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1160] service queried UID for: indexer.callback.write-header-map
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1161] service queried UID for: indexer.callback.gather-product-headers
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1161] service queried UID for: indexer.callback.settings-for-indexable
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1162] service queried UID for: indexer.callback.source-files-did-change
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1162] service queried UID for: indexer.callback.files-containing-word
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1162] service queried UID for: indexer.callback
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1163] service queried UID for: indexer.callback.post-notification
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1163] service queried UID for: refactoring.callback
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1164] service queried UID for: codecompletion.context.objc_class
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1164] service queried UID for: codecompletion.context.objc_category
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1164] service queried UID for: codecompletion.context.objc_protocol
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1165] service queried UID for: codecompletion.context.objc_instance_message
+2021-07-29 09:14:15.569 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1165] service queried UID for: codecompletion.context.objc_class_message
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1166] service queried UID for: codecompletion.context.function
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1166] service queried UID for: codecompletion.context.enum_constant
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1166] service queried UID for: codecompletion.context.dot_member_access
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1167] service queried UID for: codecompletion.context.arrow_member_access
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1167] service queried UID for: codecompletion.context.objc_property_access
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1167] service queried UID for: codecompletion.context.namespace
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1168] service queried UID for: codecompletion.context.enum_tag
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1168] service queried UID for: codecompletion.context.union_tag
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1169] service queried UID for: codecompletion.context.struct_tag
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1169] service queried UID for: codecompletion.context.class_tag
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1169] service queried UID for: codecompletion.context.nested_name_specifier
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1170] service queried UID for: codecompletion.context.typedef
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1170] service queried UID for: codecompletion.context.macro
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1171] service queried UID for: codecompletion.context.natural_language
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1171] service queried UID for: source.symbol.typedef
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1172] service queried UID for: source.symbol.struct
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1172] service queried UID for: source.symbol.union
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1172] service queried UID for: source.symbol.field
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1173] service queried UID for: source.symbol.enum
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1173] service queried UID for: source.symbol.enum_constant
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1174] service queried UID for: source.symbol.variable.global
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1174] service queried UID for: source.symbol.variable.parameter
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1175] service queried UID for: source.symbol.variable.instance
+2021-07-29 09:14:15.570 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1175] service queried UID for: source.symbol.property
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1175] service queried UID for: source.symbol.extension
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1176] service queried UID for: source.symbol.protocol
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1176] service queried UID for: source.symbol.function.free
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1177] service queried UID for: source.symbol.function.instance
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1177] service queried UID for: source.symbol.function.class
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1177] service queried UID for: source.symbol.function.template
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1178] service queried UID for: source.symbol.class
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1178] service queried UID for: source.symbol.class.template
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1179] service queried UID for: source.symbol.macro
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1179] service queried UID for: source.symbol.namespace
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1179] service queried UID for: source.symbol.unknown
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1180] service queried UID for: refactoring.state.requested
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1180] service queried UID for: refactoring.state.running
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1181] service queried UID for: refactoring.state.succeeded
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1181] service queried UID for: refactoring.state.cancelled
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1182] service queried UID for: refactoring.state.failed
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1182] service queried UID for: editkind.sourcecode
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1183] service queried UID for: editkind.inactive-sourcecode
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1183] service queried UID for: editkind.selector-expr
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1183] service queried UID for: editkind.comment
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1184] service queried UID for: editkind.filename
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1184] service queried UID for: editkind.string-literal
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1185] service queried UID for: source.refactoring.range.kind.basename
+2021-07-29 09:14:15.571 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1185] service queried UID for: source.refactoring.range.kind.keyword-basename
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1185] service queried UID for: source.refactoring.range.kind.parameter
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1186] service queried UID for: source.refactoring.range.kind.parameter-and-whitespace
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1186] service queried UID for: source.refactoring.range.kind.noncollapsible-parameter
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1187] service queried UID for: source.refactoring.range.kind.decl-argument-label
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1187] service queried UID for: source.refactoring.range.kind.call-argument-label
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1187] service queried UID for: source.refactoring.range.kind.call-argument-colon
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1188] service queried UID for: source.refactoring.range.kind.call-argument-combined
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1188] service queried UID for: source.refactoring.range.kind.selector-argument-label
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1189] service queried UID for: source.refactoring.range.kind.objc-setter
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1189] service queried UID for: source.refactoring.range.kind.objc-selector-piece
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1189] service queried UID for: source.refactoring.range.kind.objc-underscored-ivar
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1190] service queried UID for: availablerefactoring.rename
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1190] service queried UID for: availablerefactoring.local-rename
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [4:handleInternalUIDRequest:18179: 0.1191] service queried UID for: availablerefactoring.local
+2021-07-29 09:14:15.572 Xcode[18468:720444] SourceKit-client: [2:response:259: 0.1193] [1] {
+  key.name: "hello ping!",
+  key.not_recommended: false
+}
+2021-07-29 09:14:15.573 Xcode[18468:720912] SourceKit-client: [2:request:18179: 0.1197] [2] {
+  key.request: source.request.register-toolchains,
+  key.toolchains: [
+    {
+      key.id: "com.apple.dt.toolchain.XcodeDefault",
+      key.name: "Xcode 13.0",
+      key.filepath: "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain",
+      key.is_default: true
+    }
+  ]
+}
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1549] service queried UID for: key.compilerargs-string
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1550] service queried UID for: source.notification.editor.documentupdate
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1551] service queried UID for: source.notification.sema_disabled
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1551] service queried UID for: key.duration
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1551] service queried UID for: key.renamelocations
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1552] service queried UID for: key.locations
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1552] service queried UID for: key.nametype
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1553] service queried UID for: key.categorizedranges
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1554] service queried UID for: key.categorizededits
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1554] service queried UID for: key.text
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1555] service queried UID for: key.retrieve_refactor_actions
+2021-07-29 09:14:15.608 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1555] service queried UID for: key.refactor_actions
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1555] service queried UID for: key.actionname
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1556] service queried UID for: key.actionuid
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1556] service queried UID for: key.actionunavailablereason
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1557] service queried UID for: key.is_function_like
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1557] service queried UID for: key.is_non_protocol_type
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1558] service queried UID for: key.namekind
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1558] service queried UID for: key.basename
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1558] service queried UID for: key.selectorpieces
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1559] service queried UID for: key.is_zero_arg_selector
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1559] service queried UID for: key.argnames
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1560] service queried UID for: key.rangesworthnote
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1560] service queried UID for: key.parent_loc
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1560] service queried UID for: key.cancel_on_subsequent_request
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1561] service queried UID for: source.request.cursorinfo
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1561] service queried UID for: source.request.indexsource
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1562] service queried UID for: source.request.editor.open
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1562] service queried UID for: source.request.editor.close
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1562] service queried UID for: source.request.find-syntactic-rename-ranges
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1563] service queried UID for: source.request.find-local-rename-ranges
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1563] service queried UID for: source.request.syntacticrename
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1564] service queried UID for: source.request.semantic.refactoring
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1564] service queried UID for: source.request.name.translation
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1564] service queried UID for: source.request.enable-compile-notifications
+2021-07-29 09:14:15.609 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1565] service queried UID for: source.lang.swift.decl.enum
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1565] service queried UID for: source.lang.swift.decl.enumelement
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1566] service queried UID for: source.lang.swift.decl.struct
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1566] service queried UID for: source.lang.swift.decl.class
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1567] service queried UID for: source.lang.swift.decl.protocol
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1567] service queried UID for: source.lang.swift.decl.extension
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1567] service queried UID for: source.lang.swift.decl.extension.class
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1568] service queried UID for: source.lang.swift.decl.extension.struct
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1568] service queried UID for: source.lang.swift.decl.extension.enum
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1569] service queried UID for: source.lang.swift.decl.extension.protocol
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1569] service queried UID for: source.lang.swift.decl.typealias
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1570] service queried UID for: source.lang.swift.decl.var.global
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1570] service queried UID for: source.lang.swift.decl.var.instance
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1571] service queried UID for: source.lang.swift.decl.var.class
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1571] service queried UID for: source.lang.swift.decl.var.static
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1571] service queried UID for: source.lang.swift.decl.var.local
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1572] service queried UID for: source.lang.swift.decl.var.parameter
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1572] service queried UID for: source.lang.swift.decl.function.free
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1572] service queried UID for: source.lang.swift.decl.function.method.instance
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1573] service queried UID for: source.lang.swift.decl.function.method.class
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1573] service queried UID for: source.lang.swift.decl.function.method.static
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1574] service queried UID for: source.lang.swift.decl.function.constructor
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1574] service queried UID for: source.lang.swift.decl.function.destructor
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1575] service queried UID for: source.lang.swift.decl.function.operator
+2021-07-29 09:14:15.610 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1575] service queried UID for: source.lang.swift.decl.function.operator.prefix
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1575] service queried UID for: source.lang.swift.decl.function.operator.postfix
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1576] service queried UID for: source.lang.swift.decl.function.operator.infix
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1576] service queried UID for: source.lang.swift.decl.function.subscript
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1577] service queried UID for: source.lang.swift.decl.function.accessor.getter
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1577] service queried UID for: source.lang.swift.decl.function.accessor.setter
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1577] service queried UID for: source.lang.swift.decl.function.accessor.willset
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1578] service queried UID for: source.lang.swift.decl.function.accessor.didset
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1578] service queried UID for: source.lang.swift.ref.enum
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1579] service queried UID for: source.lang.swift.ref.enumelement
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1579] service queried UID for: source.lang.swift.ref.struct
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1579] service queried UID for: source.lang.swift.ref.class
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1580] service queried UID for: source.lang.swift.ref.protocol
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1580] service queried UID for: source.lang.swift.ref.typealias
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1580] service queried UID for: source.lang.swift.ref.var.global
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1581] service queried UID for: source.lang.swift.ref.var.instance
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1581] service queried UID for: source.lang.swift.ref.var.class
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1582] service queried UID for: source.lang.swift.ref.var.static
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1582] service queried UID for: source.lang.swift.ref.var.local
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1582] service queried UID for: source.lang.swift.ref.function.free
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1583] service queried UID for: source.lang.swift.ref.function.method.instance
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1583] service queried UID for: source.lang.swift.ref.function.method.class
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1584] service queried UID for: source.lang.swift.ref.function.method.static
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1584] service queried UID for: source.lang.swift.ref.function.constructor
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1584] service queried UID for: source.lang.swift.ref.function.destructor
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1585] service queried UID for: source.lang.swift.ref.function.operator
+2021-07-29 09:14:15.611 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1585] service queried UID for: source.lang.swift.ref.function.operator.prefix
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1586] service queried UID for: source.lang.swift.ref.function.operator.postfix
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1587] service queried UID for: source.lang.swift.ref.function.operator.infix
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1587] service queried UID for: source.lang.swift.ref.function.subscript
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1588] service queried UID for: source.lang.swift.ref.function.accessor.getter
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1588] service queried UID for: source.lang.swift.ref.function.accessor.setter
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1588] service queried UID for: source.lang.swift.import.module.clang
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1589] service queried UID for: source.lang.swift.import.module.swift
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1589] service queried UID for: source.lang.swift.import.sourcefile
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1590] service queried UID for: source.lang.swift.ref.module
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1590] service queried UID for: source.decl.attribute.gkinspectable
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1591] service queried UID for: source.refactoring.kind.rename.global
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1591] service queried UID for: source.refactoring.kind.rename.local
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1591] service queried UID for: source.syntacticrename.definition
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1592] service queried UID for: source.syntacticrename.reference
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1592] service queried UID for: source.syntacticrename.call
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1593] service queried UID for: source.syntacticrename.unknown
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1593] service queried UID for: source.edit.kind.active
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1593] service queried UID for: source.edit.kind.inactive
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1594] service queried UID for: source.edit.kind.string
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1594] service queried UID for: source.edit.kind.comment
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1595] service queried UID for: source.edit.kind.selector
+2021-07-29 09:14:15.612 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1595] service queried UID for: source.edit.kind.mismatch
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1596] service queried UID for: source.edit.kind.unknown
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1596] service queried UID for: source.lang.name.kind.objc
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1596] service queried UID for: source.lang.name.kind.swift
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1597] service queried UID for: source.notification.compile-will-start
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1597] service queried UID for: source.notification.compile-did-finish
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1598] service queried UID for: source.diagnostic.severity.error
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1598] service queried UID for: source.diagnostic.severity.warning
+2021-07-29 09:14:15.613 Xcode[18468:720457] SourceKit-client: [4:handleInternalUIDRequest:23811: 0.1599] service queried UID for: source.diagnostic.severity.note
+2021-07-29 09:14:15.615 Xcode[18468:720457] SourceKit-client: [2:initialize:23811: 0.1617] sourcekitd loading plugin /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/SwiftSourceKitPlugin.framework/SwiftSourceKitPlugin
+2021-07-29 09:14:15.615 Xcode[18468:720457] SourceKit-client: [2:initialize:23811: 0.1617] sourcekitd loading client plugin /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/SwiftSourceKitClientPlugin.framework/SwiftSourceKitClientPlugin
+sourcekit: [2:sourcekitd_initialize:23811: 0.0000] initializing2021-07-29 09:14:15.616 Xcode[18468:720457] SourceKit-client: [2:response:18179: 0.1627] [2] {
+}
+2021-07-29 09:14:15.924 Xcode[18468:720330] [MT] DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/IDEFrameworks/IDEFrameworks-19211.1/IDEKit/NavigableItems/IDENavigableItem.m:1269
+Details:  No match from <IDEKeyDrivenNavigableItem 0x16fbae930: (supports Any NSObject, represents: <Xcode3EditingGroup: 0x16fe3f000>)> to <Xcode3Target:0x13fe0efc0:hello-world-003>. Iterating the whole tree might have taken a significant amount of time.
+Object:   <IDEKeyDrivenNavigableItem_Xcode3EditingGroup_Any: 0x16fbae930>
+Method:   -_descendantItemForRepresentedObject:stopAtClass:
+Thread:   <NSThread: 0x138e19f50>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2021-07-29 09:14:15.949 Xcode[18468:720330] Could not find image named 'ActionTemplate_Info'.
+2021-07-29 09:14:16.105 Xcode[18468:720819] SourceKit-client: [2:request:259: 0.6520] [3] {
+  key.request: source.request.indexer.open-or-create,
+  key.platform_identifier: "com.apple.platform.macosx",
+  key.enable-index-build-arena: true,
+  key.indexer.arg.workspace-name: "hello-world-003",
+  key.indexer.arg.workspace-file: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index",
+  key.indexer.arg.index-folder: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index",
+  key.indexer.arg.datastore-folder: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index/DataStore",
+  key.indexer.arg.database-folder: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index/DataStore",
+  key.indexer.arg.pch-header-folder: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index/PrecompiledHeaders",
+  key.index-build-products-folder: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index/Build/Products",
+  key.regular-build-products-folder: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Build/Products",
+  key.indexer.arg.build-config: "Debug",
+  key.indexer.arg.destination-target-id: "macosx12.0-arm64e",
+  key.indexer.arg.index-database-path: "/Users/xss/Library/Developer/Xcode/DerivedData/hello-world-003-buueknkouhdllpewvjlzbluroetm/Index/UniDB/hello-world-003.xcindex"
+}
+2021-07-29 09:14:16.106 Xcode[18468:720819] SourceKit-client: [2:response:259: 0.6528] [3] {
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.106 Xcode[18468:720456] SourceKit-client: [2:request:259: 0.6529] [4] {
+  key.request: source.request.indexer.start,
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.111 Xcode[18468:720456] SourceKit-client: [2:response:259: 0.6575] [4] {
+}
+2021-07-29 09:14:16.115 Xcode[18468:720819] SourceKit-client: [2:notification:42251: 0.6616] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.will-populate-database
+}
+2021-07-29 09:14:16.131 Xcode[18468:720456] SourceKit-client: [2:request:259: 0.6779] [5] {
+  key.request: source.request.indexer.update-preferred-targets,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.preferred-targets: [
+    {
+      key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003-1DE7BA5F26ADB74000DB3A4F",
+      key.indexer.arg.preferred-target-info.is-built-for-run: true,
+      key.indexer.arg.preferred-target-info.is-implicit-dependency: false
+    },
+    {
+      key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003Tests-1DE7BA7826ADB74500DB3A4F",
+      key.indexer.arg.preferred-target-info.is-built-for-run: false,
+      key.indexer.arg.preferred-target-info.is-implicit-dependency: false
+    },
+    {
+      key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003UITests-1DE7BA8226ADB74500DB3A4F",
+      key.indexer.arg.preferred-target-info.is-built-for-run: false,
+      key.indexer.arg.preferred-target-info.is-implicit-dependency: false
+    }
+  ]
+}
+2021-07-29 09:14:16.131 Xcode[18468:720819] SourceKit-client: [2:response:42251: 0.6781] [5] {
+}
+2021-07-29 09:14:16.131 Xcode[18468:720819] SourceKit-client: [2:request:259: 0.6782] [6] {
+  key.request: source.request.indexer.register-obj,
+  key.indexer.arg.indexable: {
+    key.fileurls: [
+      "file:///Users/xss/Library/Autosave%20Information/hello-world-003/hello-world-003/AppDelegate.swift",
+      "file:///Users/xss/Library/Autosave%20Information/hello-world-003/hello-world-003/ViewController.swift",
+      "file:///Users/xss/Library/Autosave%20Information/hello-world-003/hello-world-003/hello_world_003.xcdatamodeld/hello_world_003.xcdatamodel/",
+      "file:///Users/xss/Library/Autosave%20Information/hello-world-003/hello-world-003/SceneDelegate.swift"
+    ],
+    key.supported_platforms: [
+      "com.apple.platform.iphonesimulator",
+      "com.apple.platform.iphoneos"
+    ],
+    key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003-1DE7BA5F26ADB74000DB3A4F",
+    key.indexer.arg.indexable.linked-targets: [
+    ]
+  },
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.131 Xcode[18468:720456] SourceKit-client: [2:response:51971: 0.6785] [6] {
+}
+2021-07-29 09:14:16.295 Xcode[18468:720913] SourceKit-client: [2:request:259: 0.8423] [7] {
+  key.request: source.request.indexer.register-obj,
+  key.indexer.arg.indexable: {
+    key.fileurls: [
+      "file:///Users/xss/Library/Autosave%20Information/hello-world-003/hello-world-003UITests/hello_world_003UITests.swift"
+    ],
+    key.supported_platforms: [
+      "com.apple.platform.iphonesimulator",
+      "com.apple.platform.iphoneos"
+    ],
+    key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003UITests-1DE7BA8226ADB74500DB3A4F",
+    key.indexer.arg.indexable.is-unit-test: true,
+    key.indexer.arg.indexable.linked-targets: [
+    ]
+  },
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.296 Xcode[18468:720444] SourceKit-client: [2:notification:9735: 0.8426] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 1,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003UITests-1DE7BA8226ADB74500DB3A4F",
+  key.output-path-only: true,
+  key.prepare-build-dependencies-action: 0,
+  key.high-priority: false,
+  key.indexer.callback.kind: notification.index.index-build-settings-for-indexable
+}
+2021-07-29 09:14:16.296 Xcode[18468:720444] SourceKit-client: [2:response:9735: 0.8428] [7] {
+}
+2021-07-29 09:14:16.296 Xcode[18468:720456] SourceKit-client: [2:request:259: 0.8431] [8] {
+  key.request: source.request.indexer.register-obj,
+  key.indexer.arg.indexable: {
+    key.fileurls: [
+      "file:///Users/xss/Library/Autosave%20Information/hello-world-003/hello-world-003Tests/hello_world_003Tests.swift"
+    ],
+    key.supported_platforms: [
+      "com.apple.platform.iphonesimulator",
+      "com.apple.platform.iphoneos"
+    ],
+    key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003Tests-1DE7BA7826ADB74500DB3A4F",
+    key.indexer.arg.indexable.is-unit-test: true,
+    key.indexer.arg.indexable.linked-targets: [
+    ]
+  },
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.296 Xcode[18468:720456] SourceKit-client: [2:notification:42251: 0.8434] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 2,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003Tests-1DE7BA7826ADB74500DB3A4F",
+  key.output-path-only: true,
+  key.prepare-build-dependencies-action: 0,
+  key.high-priority: false,
+  key.indexer.callback.kind: notification.index.index-build-settings-for-indexable
+}
+2021-07-29 09:14:16.297 Xcode[18468:720456] SourceKit-client: [2:response:10499: 0.8435] [8] {
+}
+2021-07-29 09:14:16.297 Xcode[18468:720456] SourceKit-client: [2:notification:76115: 0.8441] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.will-fast-scan
+}
+2021-07-29 09:14:16.580 Xcode[18468:720794] SourceKit-client: [2:request:259: 1.1269] [9] {
+  key.request: source.request.indexer.active-run-destination-did-change,
+  key.platform_identifier: "com.apple.platform.iphoneos",
+  key.indexer.arg.destination-target-id: "iphoneos15.0-arm64",
+  key.indexer.arg.destination-sdk-variant: "iphoneos",
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.580 Xcode[18468:720457] SourceKit-client: [2:response:78091: 1.1272] [9] {
+}
+2021-07-29 09:14:16.580 Xcode[18468:720457] SourceKit-client: [2:notification:78091: 1.1272] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 2,
+  key.indexer.callback.kind: notification.index.cancel-build-settings-for-indexable
+}
+2021-07-29 09:14:16.580 Xcode[18468:720794] SourceKit-client: [2:notification:23811: 1.1273] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 3,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003Tests-1DE7BA7826ADB74500DB3A4F",
+  key.output-path-only: true,
+  key.prepare-build-dependencies-action: 0,
+  key.high-priority: false,
+  key.indexer.callback.kind: notification.index.index-build-settings-for-indexable
+}
+2021-07-29 09:14:16.580 Xcode[18468:720794] SourceKit-client: [2:notification:23811: 1.1273] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 1,
+  key.indexer.callback.kind: notification.index.cancel-build-settings-for-indexable
+}
+2021-07-29 09:14:16.580 Xcode[18468:720794] SourceKit-client: [2:notification:23811: 1.1273] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 4,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003UITests-1DE7BA8226ADB74500DB3A4F",
+  key.output-path-only: true,
+  key.prepare-build-dependencies-action: 0,
+  key.high-priority: false,
+  key.indexer.callback.kind: notification.index.index-build-settings-for-indexable
+}
+2021-07-29 09:14:16.589 Xcode[18468:720457] SourceKit-client: [2:request:259: 1.1356] [10] {
+  key.request: source.request.indexer.cancel-index-settings,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 2
+}
+2021-07-29 09:14:16.589 Xcode[18468:720457] SourceKit-client: [2:request:259: 1.1356] [11] {
+  key.request: source.request.indexer.cancel-index-settings,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 1
+}
+2021-07-29 09:14:16.589 Xcode[18468:720421] SourceKit-client: [2:response:23811: 1.1358] [10] {
+}
+2021-07-29 09:14:16.589 Xcode[18468:720421] SourceKit-client: [2:response:18179: 1.1358] [11] {
+}
+2021-07-29 09:14:16.595 Xcode[18468:720794] SourceKit-client: [2:request:259: 1.1423] [12] {
+  key.request: source.request.indexer.build-system-updated-build-description,
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.601 Xcode[18468:720794] SourceKit-client: [2:response:65307: 1.1424] [12] {
+}
+2021-07-29 09:14:16.692 Xcode[18468:720912] SourceKit-client: [4:handleInternalUIDRequest:73739: 1.2389] service queried UID for: source.request.configuration.global
+2021-07-29 09:14:16.692 Xcode[18468:720912] SourceKit-client: [4:handleInternalUIDRequest:73739: 1.2392] service queried UID for: key.optimize_for_ide
+2021-07-29 09:14:16.727 Xcode[18468:720912] SourceKit-client: [2:request:259: 1.2735] [13] {
+  key.request: source.request.indexer.build-system-updated-build-description,
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:16.727 Xcode[18468:720912] SourceKit-client: [2:response:51971: 1.2736] [13] {
+}
+2021-07-29 09:14:16.732 Xcode[18468:720912] SourceKit-client: [2:request:259: 1.2792] [14] {
+  key.request: source.request.indexer.build-system-produced-index-settings,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 3,
+  key.indexer.arg.query.result: {
+    key.indexer.arg.indexable.settings: "<DATA>"
+  }
+}
+2021-07-29 09:14:16.732 Xcode[18468:720819] SourceKit-client: [2:response:73739: 1.2795] [14] {
+}
+2021-07-29 09:14:16.734 Xcode[18468:720819] SourceKit-client: [2:request:259: 1.2810] [15] {
+  key.request: source.request.indexer.build-system-produced-index-settings,
+  key.indexer.arg.indexer-token: 1,
+  key.index-settings-token: 4,
+  key.indexer.arg.query.result: {
+    key.indexer.arg.indexable.settings: "<DATA>"
+  }
+}
+2021-07-29 09:14:16.734 Xcode[18468:720912] SourceKit-client: [2:response:51971: 1.2811] [15] {
+}
+2021-07-29 09:14:16.788 Xcode[18468:720912] SourceKit-client: [4:handleInternalUIDRequest:73739: 1.3353] service queried UID for: source.statistic.num-requests
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3355] service queried UID for: source.statistic.num-semantic-requests
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3359] service queried UID for: source.request.editor.replacetext
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3360] service queried UID for: source.request.codecomplete.open
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3362] service queried UID for: source.request.codecomplete.update
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3363] service queried UID for: source.request.codecomplete.close
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3363] service queried UID for: source.request.codecomplete.documentation
+2021-07-29 09:14:16.789 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3364] service queried UID for: source.request.codecomplete.diagnostic
+2021-07-29 09:14:16.790 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3365] service queried UID for: source.request.codecomplete.setpopularapi
+2021-07-29 09:14:16.790 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3367] service queried UID for: source.request.dependency_updated
+2021-07-29 09:14:16.790 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3369] service queried UID for: source.request.protocol_version
+2021-07-29 09:14:16.790 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3371] service queried UID for: source.request.compiler_version
+2021-07-29 09:14:16.790 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3371] service queried UID for: source.request.crash_exit
+2021-07-29 09:14:16.790 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3372] service queried UID for: source.request.test_notification
+2021-07-29 09:14:16.791 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3375] service queried UID for: source.request.buildsettings.register
+2021-07-29 09:14:16.791 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3378] service queried UID for: source.request.docinfo
+2021-07-29 09:14:16.795 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3422] service queried UID for: source.diagnostic.stage.swift.parse
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3427] service queried UID for: source.decl.attribute.override
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3428] service queried UID for: source.lang.swift.accessibility.internal
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3430] service queried UID for: source.lang.swift.expr.call
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3431] service queried UID for: source.lang.swift.structure.elem.expr
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3432] service queried UID for: source.lang.swift.expr.array
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3433] service queried UID for: source.lang.swift.expr.argument
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3434] service queried UID for: source.lang.swift.stmt.brace
+2021-07-29 09:14:16.796 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3435] service queried UID for: source.lang.swift.expr.closure
+2021-07-29 09:14:16.797 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3436] service queried UID for: source.lang.swift.structure.elem.condition_expr
+2021-07-29 09:14:16.797 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3439] service queried UID for: source.lang.swift.stmt.if
+2021-07-29 09:14:16.797 Xcode[18468:720445] SourceKit-client: [4:handleInternalUIDRequest:17667: 1.3441] service queried UID for: source.lang.swift.structure.elem.typeref
+2021-07-29 09:14:16.799 Xcode[18468:720912] SourceKit-client: [2:notification:17667: 1.3458] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.did-fast-scan
+}
+2021-07-29 09:14:16.799 Xcode[18468:720912] SourceKit-client: [2:notification:17667: 1.3458] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-did-change
+}
+2021-07-29 09:14:16.799 Xcode[18468:720912] SourceKit-client: [2:notification:17667: 1.3458] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.will-fast-scan
+}
+2021-07-29 09:14:16.799 Xcode[18468:720912] SourceKit-client: [2:notification:17667: 1.3458] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.unit-tests-did-change
+}
+2021-07-29 09:14:16.821 Xcode[18468:720817] SourceKit-client: [2:notification:73739: 1.3676] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.did-fast-scan
+}
+2021-07-29 09:14:16.821 Xcode[18468:720817] SourceKit-client: [2:notification:73739: 1.3676] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-did-change
+}
+2021-07-29 09:14:16.821 Xcode[18468:720817] SourceKit-client: [2:notification:73739: 1.3676] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.unit-tests-did-change
+}
+2021-07-29 09:14:17.332 Xcode[18468:720444] SourceKit-client: [2:notification:73739: 1.8794] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.is-populating-database,
+  key.notification.user-info: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>IDEIndexingFilesCompletedKey</key>\n\t<integer>22</integer>\n\t<key>IDEIndexingFilesRemainingKey</key>\n\t<integer>46</integer>\n</dict>\n</plist>\n"
+}
+2021-07-29 09:14:17.974 Xcode[18468:720445] SourceKit-client: [2:notification:51459: 2.5211] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-did-change-state
+}
+2021-07-29 09:14:18.124 Xcode[18468:720330] +[NSSavePanel _warmUp] attempted warmup
+2021-07-29 09:14:18.438 Xcode[18468:720793] SourceKit-client: [2:request:259: 2.9854] [16] {
+  key.request: source.request.indexer.build-operation-will-start,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.build-operation-token: 12425744752,
+  key.indexer.is-prebuild: false
+}
+2021-07-29 09:14:18.439 Xcode[18468:720793] SourceKit-client: [2:response:49163: 2.9856] [16] {
+}
+2021-07-29 09:14:19.298 Xcode[18468:720456] SourceKit-client: [2:notification:51971: 3.8454] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.is-populating-database,
+  key.notification.user-info: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>IDEIndexingFilesCompletedKey</key>\n\t<integer>27</integer>\n\t<key>IDEIndexingFilesRemainingKey</key>\n\t<integer>41</integer>\n</dict>\n</plist>\n"
+}
+2021-07-29 09:14:19.445 Xcode[18468:720456] SourceKit-client: [2:request:259: 3.9915] [17] {
+  key.request: source.request.indexer.build-operation-did-stop,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.build-operation-token: 12425744752,
+  key.indexer.is-prebuild: false
+}
+2021-07-29 09:14:19.445 Xcode[18468:720793] SourceKit-client: [2:response:18179: 3.9918] [17] {
+}
+2021-07-29 09:14:19.740 Xcode[18468:720815] SourceKit-client: [2:callback-info:76115: 4.2867] {
+  key.callback: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003UITests-1DE7BA8226ADB74500DB3A4F",
+  key.indexer.callback.kind: indexer.callback.gather-product-headers
+}
+2021-07-29 09:14:19.740 Xcode[18468:720815] SourceKit-client: [2:callback-info:76115: 4.2867] {
+  key.callback: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003-1DE7BA5F26ADB74000DB3A4F",
+  key.indexer.callback.kind: indexer.callback.gather-product-headers
+}
+2021-07-29 09:14:19.740 Xcode[18468:720815] SourceKit-client: [2:callback-info:76115: 4.2867] {
+  key.callback: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.indexable.id: "/Users/xss/Library/Autosave Information/hello-world-003/hello-world-003.xcodeproj/hello-world-003Tests-1DE7BA7826ADB74500DB3A4F",
+  key.indexer.callback.kind: indexer.callback.gather-product-headers
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:callback-reply:76115: 4.2875] {
+  key.indexer.callback.indexable-index-header-map: "<DATA>"
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:callback-reply:76115: 4.2875] {
+  key.indexer.callback.indexable-index-header-map: "<DATA>"
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:notification:76115: 4.2875] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: notification.index.did-populate-database
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:notification:76115: 4.2876] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-will-index-workspace,
+  key.indexer.callback.on-will-index-workspace.deferred-reindexing: false
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:callback-reply:49163: 4.2879] {
+  key.indexer.callback.indexable-index-header-map: "<DATA>"
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:request:259: 4.2882] [18] {
+  key.request: source.request.indexer.set-throttle-factor,
+  key.indexer.arg.throttle-factor: 0.000000e+00,
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:19.741 Xcode[18468:720793] SourceKit-client: [2:response:49163: 4.2883] [18] {
+}
+2021-07-29 09:14:19.801 Xcode[18468:720793] SourceKit-client: [2:notification:49163: 4.3481] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-did-index-workspace
+}
+2021-07-29 09:14:19.801 Xcode[18468:720793] SourceKit-client: [2:request:259: 4.3481] [19] {
+  key.request: source.request.indexer.set-throttle-factor,
+  key.indexer.arg.throttle-factor: 1.000000e+00,
+  key.indexer.arg.indexer-token: 1
+}
+2021-07-29 09:14:19.801 Xcode[18468:720793] SourceKit-client: [2:response:49163: 4.3482] [19] {
+}
+2021-07-29 09:14:21.014 Xcode[18468:720444] SourceKit-client: [2:notification:51715: 5.5612] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-did-change-state
+}
+2021-07-29 09:14:37.038 Xcode[18468:720420] SourceKit-client: [2:request:259:21.5852] [20] {
+  key.request: source.request.indexer.build-operation-will-start,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.build-operation-token: 5245945488,
+  key.indexer.is-prebuild: false
+}
+2021-07-29 09:14:37.039 Xcode[18468:720818] SourceKit-client: [2:response:10499:21.5855] [20] {
+}
+2021-07-29 09:14:39.530 Xcode[18468:720819] SourceKit-client: [2:request:259:24.0774] [21] {
+  key.request: source.request.indexer.build-operation-did-stop,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.arg.build-operation-token: 5245945488,
+  key.indexer.is-prebuild: false
+}
+2021-07-29 09:14:39.531 Xcode[18468:720458] SourceKit-client: [2:response:51459:24.0775] [21] {
+}
+2021-07-29 09:14:39.703 Xcode[18468:720330] [MT] DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTFrameworks/DVTFrameworks-19192.1/DVTUserInterfaceKit/Icons/FileIcons/DVTIcon.m:603
+Details:  Do not call -setSize: on a possibly shared instance, use -[DVTIcon compatibilityImageOfSize:] or -dvt_cachedImageOfSize:
+Object:   <_DVTIconImage: 0x2e2d19500>
+Method:   -setSize:
+Thread:   <NSThread: 0x138e19f50>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2021-07-29 09:14:39.704 Xcode[18468:720330] [MT] DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTFrameworks/DVTFrameworks-19192.1/DVTUserInterfaceKit/Icons/FileIcons/DVTIcon.m:603
+Details:  Do not call -setSize: on a possibly shared instance, use -[DVTIcon compatibilityImageOfSize:] or -dvt_cachedImageOfSize:
+Object:   <_DVTIconImage: 0x2e4fb6cb0>
+Method:   -setSize:
+Thread:   <NSThread: 0x138e19f50>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2021-07-29 09:14:40.798 Xcode[18468:720445] SourceKit-client: [2:notification:17667:25.3446] {
+  key.notification: indexer.callback,
+  key.indexer.arg.indexer-token: 1,
+  key.indexer.callback.kind: indexer.callback.on-did-change-state
+}
+2021-07-29 09:14:42.192 Xcode[18468:720330] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/v7/w5gr45q92658nxj314jsms7r0000gn/T/hello-world-003_2021-07-29_09-14-42.192.xcdistributionlogs".
+2021-07-29 09:14:48.423 Xcode[18468:720817]  DVTAssertions: UNCAUGHT EXCEPTION (NSInvalidArgumentException): *** +[NSURLComponents setPercentEncodedQuery:]: invalid characters in percentEncodedQuery
+UserInfo: (null)
+Open FDs: 67/7168
+Hints: 
+  0: Calling block provided by:
+
+  0   DVTDispatchAsync (in DVTFoundation)
+  1   DVTAsyncPerformBlock (in DVTFoundation)
+  2   -[IDEDistributionAnalyzeVersionStepViewController setupVersion] (in IDEKit)
+  3   -[IDEDistributionAnalyzeVersionStepViewController viewDidLoad] (in IDEKit)
+  4   -[NSViewController _sendViewDidLoad] (in AppKit)
+  5   -[NSViewController _loadViewIfRequired] (in AppKit)
+  6   -[NSViewController view] (in AppKit)
+  7   -[DVTViewController view] (in DVTViewControllerKit)
+  8   -[IDEDistributionAssistantWindowController setDistributionStepViewController:] (in IDEKit)
+  9   -[NSObject(NSKeyValueObservingPrivate) _changeValueForKeys:count:maybeOldValuesDict:maybeNewValuesDict:usingBlock:] (in Foundation)
+ 10   -[NSObject(NSKeyValueObservingPrivate) _changeValueForKey:key:key:usingBlock:] (in Foundation)
+ 11   _NSSetObjectValueAndNotify (in Foundation)
+ 12   -[IDEDistributionAssistantWindowController next:] (in IDEKit)
+ 13   __87-[IDEDistributionStepViewController spinProgressIndicatorForMinimumDurationAndContinue]_block_invoke (in IDEKit)
+ 14   __DVT_CALLING_CLIENT_BLOCK__ (in DVTFoundation)
+ 15   __DVTDispatchAsync_block_invoke (in DVTFoundation)
+ 16   _dispatch_call_block_and_release (in libdispatch.dylib)
+ 17   _dispatch_client_callout (in libdispatch.dylib)
+ 18   _dispatch_main_queue_callback_4CF (in libdispatch.dylib)
+ 19   __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ (in CoreFoundation)
+ 20   __CFRunLoopRun (in CoreFoundation)
+ 21   CFRunLoopRunSpecific (in CoreFoundation)
+ 22   RunCurrentEventLoopInMode (in HIToolbox)
+ 23   ReceiveNextEventCommon (in HIToolbox)
+ 24   _BlockUntilNextEventMatchingListInModeWithFilter (in HIToolbox)
+ 25   _DPSNextEvent (in AppKit)
+ 26   -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] (in AppKit)
+ 27   -[DVTApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in DVTKit)
+ 28   -[NSApplication run] (in AppKit)
+ 29   -[DVTApplication run] (in DVTKit)
+ 30   NSApplicationMain (in AppKit)
+ 31   start (in libdyld.dylib)
+
+
+2021-07-29 09:14:48.456 Xcode[18468:720817]  DVTAssertions: 
+Backtrace:
+  0   __exceptionPreprocess (in CoreFoundation)
+  1   DVTFailureHintExceptionPreprocessor (in DVTFoundation)
+  2   objc_exception_throw (in libobjc.A.dylib)
+  3   -[__NSConcreteURLComponents setPercentEncodedQuery:] (in Foundation)
+  4   specialized URLComponents.scheme.setter (in libswiftFoundation.dylib)
+  5   URLComponents.percentEncodedQuery.setter (in libswiftFoundation.dylib)
+  6   APIRequest.createURLRequest(baseURL:encoder:) (in XCServices)
+  7   APIClient.makeRequest<A>(_:behaviours:completionQueue:complete:) (in XCServices)
+  8   closure #1 in APIClientServiceBackend.makeRequest<A, B>(_:log:behaviours:completionQueue:transform:) (in DVTAppStoreConnect)
+  9   partial apply for closure #1 in APIClientServiceBackend.makeRequest<A, B>(_:log:behaviours:completionQueue:transform:) (in DVTAppStoreConnect)
+ 10   partial apply for thunk for @escaping @callee_guaranteed (@guaranteed @escaping @callee_guaranteed @substituted <A> (@in_guaranteed Result<A, Error>) -> () for <B>) -> () (in DVTAppStoreConnect)
+ 11   specialized Future.init(_:) (in Combine)
+ 12   Future.__allocating_init(_:) (in Combine)
+ 13   APIClientServiceBackend.makeRequest<A, B>(_:log:behaviours:completionQueue:transform:) (in DVTAppStoreConnect)
+ 14   protocol witness for ServiceBackend.makeRequest<A, B>(_:log:behaviours:completionQueue:transform:) in conformance APIClientServiceBackend (in DVTAppStoreConnect)
+ 15   ServiceBackend.makeRequest<A, B>(_:log:transform:) (in DVTAppStoreConnect)
+ 16   specialized Service.runPageableRequest<A, B, C>(_:fetchAllPages:accumulatedItems:parseResponse:makePagedRequest:) (in DVTAppStoreConnect)
+ 17   BuildsService.run(for:) (in DVTAppStoreConnect)
+ 18   DistributionAppRecord.fetchBuilds(requestedVersion:appStoreConnectPlatform:) (in IDEFoundation)
+ 19   DistributionAppRecord.nextBuildNumber(requestedVersion:requestedBuildNumber:appStoreConnectPlatform:) (in IDEFoundation)
+ 20   @objc DistributionAppRecord.nextBuildNumber(requestedVersion:requestedBuildNumber:platform:) (in IDEFoundation)
+ 21   -[IDEDistributionAnalyzeVersionStep nextAvailableBuildNumberForAppRecord:error:] (in IDEFoundation)
+ 22   -[IDEDistributionAnalyzeVersionStep analyzeVersionWithError:] (in IDEFoundation)
+ 23   __63-[IDEDistributionAnalyzeVersionStepViewController setupVersion]_block_invoke_2 (in IDEKit)
+ 24   __DVT_CALLING_CLIENT_BLOCK__ (in DVTFoundation)
+ 25   __DVTDispatchAsync_block_invoke (in DVTFoundation)
+ 26   _dispatch_call_block_and_release (in libdispatch.dylib)
+ 27   _dispatch_client_callout (in libdispatch.dylib)
+ 28   _dispatch_continuation_pop (in libdispatch.dylib)
+ 29   _dispatch_async_redirect_invoke (in libdispatch.dylib)
+ 30   _dispatch_root_queue_drain (in libdispatch.dylib)
+ 31   _dispatch_worker_thread2 (in libdispatch.dylib)
+ 32   _pthread_wqthread (in libsystem_pthread.dylib)
+ 33   start_wqthread (in libsystem_pthread.dylib)

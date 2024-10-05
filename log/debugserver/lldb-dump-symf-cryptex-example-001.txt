@@ -1,0 +1,1062 @@
+[  623]    623  S  Code            0x00000001000165a4                    0x00000000000001e8 0x00000000 ___lldb_unnamed_symbol244$$cryptexd
+[  624]    624  S  Code            0x000000010001678c                    0x0000000000000058 0x00000000 ___lldb_unnamed_symbol245$$cryptexd
+[  625]    625  S  Code            0x00000001000167e4                    0x00000000000003d8 0x00000000 ___lldb_unnamed_symbol246$$cryptexd
+[  626]    626  S  Code            0x0000000100016bbc                    0x0000000000000150 0x00000000 ___lldb_unnamed_symbol247$$cryptexd
+[  627]    627  S  Code            0x0000000100016d0c                    0x0000000000000098 0x00000000 ___lldb_unnamed_symbol248$$cryptexd
+[  628]    628  S  Code            0x0000000100016da4                    0x00000000000002e0 0x00000000 ___lldb_unnamed_symbol249$$cryptexd
+[  629]    629  S  Code            0x0000000100017084                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol250$$cryptexd
+[  630]    630  S  Code            0x00000001000170e8                    0x0000000000000370 0x00000000 ___lldb_unnamed_symbol251$$cryptexd
+[  631]    631  S  Code            0x0000000100017458                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol252$$cryptexd
+[  632]    632  S  Code            0x00000001000174bc                    0x0000000000000078 0x00000000 ___lldb_unnamed_symbol253$$cryptexd
+[  633]    633  S  Code            0x0000000100017534                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol254$$cryptexd
+[  634]    634  S  Code            0x00000001000175d4                    0x00000000000007f0 0x00000000 ___lldb_unnamed_symbol255$$cryptexd
+[  635]    635  S  Code            0x0000000100017dc4                    0x0000000000000010 0x00000000 ___lldb_unnamed_symbol256$$cryptexd
+[  636]    636  S  Code            0x0000000100017dd4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol257$$cryptexd
+[  637]    637  S  Code            0x0000000100017ddc                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol258$$cryptexd
+[  638]    638  S  Code            0x0000000100017edc                    0x0000000000000624 0x00000000 ___lldb_unnamed_symbol259$$cryptexd
+[  639]    639  S  Code            0x0000000100018500                    0x00000000000006e0 0x00000000 ___lldb_unnamed_symbol260$$cryptexd
+[  640]    640  S  Code            0x0000000100018be0                    0x0000000000000068 0x00000000 ___lldb_unnamed_symbol261$$cryptexd
+[  641]    641  S  Code            0x0000000100018c48                    0x0000000000000378 0x00000000 ___lldb_unnamed_symbol262$$cryptexd
+[  642]    642  S  Code            0x0000000100018fc0                    0x0000000000000288 0x00000000 ___lldb_unnamed_symbol263$$cryptexd
+[  643]    643  S  Code            0x0000000100019248                    0x00000000000002c0 0x00000000 ___lldb_unnamed_symbol264$$cryptexd
+[  644]    644  S  Code            0x0000000100019508                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol265$$cryptexd
+[  645]    645  S  Code            0x0000000100019544                    0x000000000000041c 0x00000000 ___lldb_unnamed_symbol266$$cryptexd
+[  646]    646  S  Code            0x0000000100019960                    0x0000000000000134 0x00000000 ___lldb_unnamed_symbol267$$cryptexd
+[  647]    647  S  Code            0x0000000100019a94                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol268$$cryptexd
+[  648]    648  S  Code            0x0000000100019b90                    0x0000000000000214 0x00000000 ___lldb_unnamed_symbol269$$cryptexd
+[  649]    649  S  Code            0x0000000100019da4                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol270$$cryptexd
+[  650]    650  S  Code            0x0000000100019dec                    0x00000000000000d0 0x00000000 ___lldb_unnamed_symbol271$$cryptexd
+[  651]    651  S  Code            0x0000000100019ebc                    0x0000000000000140 0x00000000 ___lldb_unnamed_symbol272$$cryptexd
+[  652]    652  S  Code            0x0000000100019ffc                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol273$$cryptexd
+[  653]    653  S  Code            0x000000010001a000                    0x0000000000000838 0x00000000 ___lldb_unnamed_symbol274$$cryptexd
+[  654]    654  S  Code            0x000000010001a838                    0x00000000000001b0 0x00000000 ___lldb_unnamed_symbol275$$cryptexd
+[  655]    655  S  Code            0x000000010001a9e8                    0x00000000000001c4 0x00000000 ___lldb_unnamed_symbol276$$cryptexd
+[  656]    656  S  Code            0x000000010001abac                    0x0000000000000148 0x00000000 ___lldb_unnamed_symbol277$$cryptexd
+[  657]    657  S  Code            0x000000010001acf4                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol278$$cryptexd
+[  658]    658  S  Code            0x000000010001adf4                    0x000000000000002c 0x00000000 ___lldb_unnamed_symbol279$$cryptexd
+[  659]    659  S  Code            0x000000010001ae20                    0x000000000000008c 0x00000000 ___lldb_unnamed_symbol280$$cryptexd
+[  660]    660  S  Code            0x000000010001aeac                    0x0000000000000184 0x00000000 ___lldb_unnamed_symbol281$$cryptexd
+[  661]    661  S  Code            0x000000010001b030                    0x0000000000000054 0x00000000 ___lldb_unnamed_symbol282$$cryptexd
+[  662]    662  S  Code            0x000000010001b084                    0x0000000000000050 0x00000000 ___lldb_unnamed_symbol283$$cryptexd
+[  663]    663  S  Code            0x000000010001b0d4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol284$$cryptexd
+[  664]    664  S  Code            0x000000010001b0dc                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol285$$cryptexd
+[  665]    665  S  Code            0x000000010001b0e4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol286$$cryptexd
+[  666]    666  S  Code            0x000000010001b0ec                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol287$$cryptexd
+[  667]    667  S  Code            0x000000010001b0f4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol288$$cryptexd
+[  668]    668  S  Code            0x000000010001b0fc                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol289$$cryptexd
+[  669]    669  S  Code            0x000000010001b12c                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol290$$cryptexd
+[  670]    670  S  Code            0x000000010001b140                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol291$$cryptexd
+[  671]    671  S  Code            0x000000010001b17c                    0x00000000000000a4 0x00000000 ___lldb_unnamed_symbol292$$cryptexd
+[  672]    672  S  Code            0x000000010001b220                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol293$$cryptexd
+[  673]    673  S  Code            0x000000010001b2b0                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol294$$cryptexd
+[  674]    674  S  Code            0x000000010001b2f8                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol295$$cryptexd
+[  675]    675  S  Code            0x000000010001b304                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol296$$cryptexd
+[  676]    676  S  Code            0x000000010001b3a4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol297$$cryptexd
+[  677]    677  S  Code            0x000000010001b3c0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol298$$cryptexd
+[  678]    678  S  Code            0x000000010001b3dc                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol299$$cryptexd
+[  679]    679  S  Code            0x000000010001b3f8                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol300$$cryptexd
+[  680]    680  S  Code            0x000000010001b414                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol301$$cryptexd
+[  681]    681  S  Code            0x000000010001b420                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol302$$cryptexd
+[  682]    682  S  Code            0x000000010001b450                    0x0000000000000038 0x00000000 ___lldb_unnamed_symbol303$$cryptexd
+[  683]    683  S  Code            0x000000010001b488                    0x0000000000000174 0x00000000 ___lldb_unnamed_symbol304$$cryptexd
+[  684]    684  S  Code            0x000000010001b5fc                    0x000000000000031c 0x00000000 ___lldb_unnamed_symbol305$$cryptexd
+[  685]    685  S  Code            0x000000010001b918                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol306$$cryptexd
+[  686]    686  S  Code            0x000000010001b9d0                    0x000000000000015c 0x00000000 ___lldb_unnamed_symbol307$$cryptexd
+[  687]    687  S  Code            0x000000010001bb2c                    0x0000000000000074 0x00000000 ___lldb_unnamed_symbol308$$cryptexd
+[  688]    688  S  Code            0x000000010001bba0                    0x000000000000027c 0x00000000 ___lldb_unnamed_symbol309$$cryptexd
+[  689]    689  S  Code            0x000000010001be1c                    0x00000000000002d8 0x00000000 ___lldb_unnamed_symbol310$$cryptexd
+[  690]    690  S  Code            0x000000010001c0f4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol311$$cryptexd
+[  691]    691  S  Code            0x000000010001c110                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol312$$cryptexd
+[  692]    692  S  Code            0x000000010001c12c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol313$$cryptexd
+[  693]    693  S  Code            0x000000010001c148                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol314$$cryptexd
+[  694]    694  S  Code            0x000000010001c164                    0x0000000000000034 0x00000000 ___lldb_unnamed_symbol315$$cryptexd
+[  695]    695  S  Code            0x000000010001c198                    0x0000000000000230 0x00000000 ___lldb_unnamed_symbol316$$cryptexd
+[  696]    696  S  Code            0x000000010001c3c8                    0x0000000000000144 0x00000000 ___lldb_unnamed_symbol317$$cryptexd
+[  697]    697  S  Code            0x000000010001c50c                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol318$$cryptexd
+[  698]    698  S  Code            0x000000010001c548                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol319$$cryptexd
+[  699]    699  S  Code            0x000000010001c55c                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol320$$cryptexd
+[  700]    700  S  Code            0x000000010001c570                    0x0000000000000268 0x00000000 ___lldb_unnamed_symbol321$$cryptexd
+[  701]    701  S  Code            0x000000010001c7d8                    0x000000000000002c 0x00000000 ___lldb_unnamed_symbol322$$cryptexd
+[  702]    702  S  Code            0x000000010001c804                    0x000000000000014c 0x00000000 ___lldb_unnamed_symbol323$$cryptexd
+[  703]    703  S  Code            0x000000010001c950                    0x00000000000001a4 0x00000000 ___lldb_unnamed_symbol324$$cryptexd
+[  704]    704  S  Code            0x000000010001caf4                    0x0000000000000154 0x00000000 ___lldb_unnamed_symbol325$$cryptexd
+[  705]    705  S  Code            0x000000010001cc48                    0x000000000000026c 0x00000000 ___lldb_unnamed_symbol326$$cryptexd
+[  706]    706  S  Code            0x000000010001ceb4                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol327$$cryptexd
+[  707]    707  S  Code            0x000000010001cf54                    0x0000000000000f30 0x00000000 ___lldb_unnamed_symbol328$$cryptexd
+[  708]    708  S  Code            0x000000010001de84                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol329$$cryptexd
+[  709]    709  S  Code            0x000000010001df80                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol330$$cryptexd
+[  710]    710  S  Code            0x000000010001e080                    0x00000000000001e0 0x00000000 ___lldb_unnamed_symbol331$$cryptexd
+[  711]    711  S  Code            0x000000010001e260                    0x0000000000000560 0x00000000 ___lldb_unnamed_symbol332$$cryptexd
+[  712]    712  S  Code            0x000000010001e7c0                    0x000000000000005c 0x00000000 ___lldb_unnamed_symbol333$$cryptexd
+[  713]    713  S  Code            0x000000010001e81c                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol334$$cryptexd
+[  714]    714  S  Code            0x000000010001e91c                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol335$$cryptexd
+[  715]    715  S  Code            0x000000010001e928                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol336$$cryptexd
+[  716]    716  S  Code            0x000000010001e93c                    0x000000000000008c 0x00000000 ___lldb_unnamed_symbol337$$cryptexd
+[  717]    717  S  Code            0x000000010001e9c8                    0x0000000000000274 0x00000000 ___lldb_unnamed_symbol338$$cryptexd
+[  718]    718  S  Code            0x000000010001ec3c                    0x0000000000000360 0x00000000 ___lldb_unnamed_symbol339$$cryptexd
+[  719]    719  S  Code            0x000000010001ef9c                    0x0000000000000200 0x00000000 ___lldb_unnamed_symbol340$$cryptexd
+[  720]    720  S  Code            0x000000010001f19c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol341$$cryptexd
+[  721]    721  S  Code            0x000000010001f1b8                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol342$$cryptexd
+[  722]    722  S  Code            0x000000010001f1d4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol343$$cryptexd
+[  723]    723  S  Code            0x000000010001f1f0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol344$$cryptexd
+[  724]    724  S  Code            0x000000010001f20c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol345$$cryptexd
+[  725]    725  S  Code            0x000000010001f228                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol346$$cryptexd
+[  726]    726  S  Code            0x000000010001f244                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol347$$cryptexd
+[  727]    727  S  Code            0x000000010001f248                    0x00000000000000f4 0x00000000 ___lldb_unnamed_symbol348$$cryptexd
+[  728]    728  S  Code            0x000000010001f33c                    0x00000000000000f0 0x00000000 ___lldb_unnamed_symbol349$$cryptexd
+[  729]    729  S  Code            0x000000010001f42c                    0x00000000000000f4 0x00000000 ___lldb_unnamed_symbol350$$cryptexd
+[  730]    730  S  Code            0x000000010001f520                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol351$$cryptexd
+[  731]    731  S  Code            0x000000010001f52c                    0x0000000000000120 0x00000000 ___lldb_unnamed_symbol352$$cryptexd
+[  732]    732  S  Code            0x000000010001f64c                    0x0000000000000028 0x00000000 ___lldb_unnamed_symbol353$$cryptexd
+[  733]    733  S  Code            0x000000010001f674                    0x0000000000000040 0x00000000 ___lldb_unnamed_symbol354$$cryptexd
+[  734]    734  S  Code            0x000000010001f6b4                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol355$$cryptexd
+[  735]    735  S  Code            0x000000010001f6c0                    0x00000000000001bc 0x00000000 ___lldb_unnamed_symbol356$$cryptexd
+[  736]    736  S  Code            0x000000010001f87c                    0x0000000000000058 0x00000000 ___lldb_unnamed_symbol357$$cryptexd
+[  737]    737  S  Code            0x000000010001f8d4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol358$$cryptexd
+[  738]    738  S  Code            0x000000010001f8f0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol359$$cryptexd
+[  739]    739  S  Code            0x000000010001f90c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol360$$cryptexd
+[  740]    740  S  Code            0x000000010001f928                    0x00000000000001ec 0x00000000 ___lldb_unnamed_symbol361$$cryptexd
+[  741]    741  S  Code            0x000000010001fb14                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol362$$cryptexd
+[  742]    742  S  Code            0x000000010001fb5c                    0x00000000000000e0 0x00000000 ___lldb_unnamed_symbol363$$cryptexd
+[  743]    743  S  Code            0x000000010001fc3c                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol364$$cryptexd
+[  744]    744  S  Code            0x000000010001fcf4                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol365$$cryptexd
+[  745]    745  S  Code            0x000000010001fdac                    0x0000000000000118 0x00000000 ___lldb_unnamed_symbol366$$cryptexd
+[  746]    746  S  Code            0x000000010001fec4                    0x0000000000000020 0x00000000 ___lldb_unnamed_symbol367$$cryptexd
+[  747]    747  S  Code            0x000000010001fee4                    0x0000000000000010 0x00000000 ___lldb_unnamed_symbol368$$cryptexd
+[  748]    748  S  Code            0x000000010001fef4                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol369$$cryptexd
+[  749]    749  S  Code            0x000000010001ff00                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol370$$cryptexd
+[  750]    750  S  Code            0x000000010001ff1c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol371$$cryptexd
+[  751]    751  S  Code            0x000000010001ff38                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol372$$cryptexd
+[  752]    752  S  Code            0x000000010001ff54                    0x0000000000000080 0x00000000 ___lldb_unnamed_symbol373$$cryptexd
+[  753]    753  S  Code            0x000000010001ffd4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol374$$cryptexd
+[  754]    754  S  Code            0x000000010001fff0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol375$$cryptexd
+[  755]    755  S  Code            0x000000010002000c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol376$$cryptexd
+[  756]    756  S  Code            0x0000000100020028                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol377$$cryptexd
+[  757]    757  S  Code            0x0000000100020044                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol378$$cryptexd
+[  758]    758  S  Code            0x0000000100020060                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol379$$cryptexd
+[  759]    759  S  Code            0x000000010002007c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol380$$cryptexd
+[  760]    760  S  Code            0x0000000100020098                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol381$$cryptexd
+[  761]    761  S  Code            0x00000001000200b4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol382$$cryptexd
+[  762]    762  S  Code            0x00000001000200d0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol383$$cryptexd
+[  763]    763  S  Code            0x00000001000200ec                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol384$$cryptexd
+[  764]    764  S  Code            0x0000000100020108                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol385$$cryptexd
+[  765]    765  S  Code            0x0000000100020124                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol386$$cryptexd
+[  766]    766  S  Code            0x0000000100020140                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol387$$cryptexd
+[  767]    767  S  Code            0x000000010002017c                    0x0000000000000038 0x00000000 ___lldb_unnamed_symbol388$$cryptexd
+[  768]    768  S  Code            0x00000001000201b4                    0x0000000000000078 0x00000000 ___lldb_unnamed_symbol389$$cryptexd
+[  769]    769  S  Code            0x000000010002022c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol390$$cryptexd
+[  770]    770  S  Code            0x0000000100020248                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol391$$cryptexd
+[  771]    771  S  Code            0x0000000100020264                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol392$$cryptexd
+[  772]    772  S  Code            0x0000000100020280                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol393$$cryptexd
+[  773]    773  S  Code            0x000000010002029c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol394$$cryptexd
+[  774]    774  S  Code            0x00000001000202b8                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol395$$cryptexd
+[  775]    775  S  Code            0x00000001000202d4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol396$$cryptexd
+[  776]    776  S  Code            0x00000001000202f0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol397$$cryptexd
+[  777]    777  S  Code            0x000000010002030c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol398$$cryptexd
+[  778]    778  S  Code            0x0000000100020328                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol399$$cryptexd
+[  779]    779  S  Code            0x0000000100020344                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol400$$cryptexd
+[  780]    780  S  Code            0x0000000100020360                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol401$$cryptexd
+[  781]    781  S  Code            0x000000010002037c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol402$$cryptexd
+[  782]    782  S  Code            0x0000000100020398                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol403$$cryptexd
+[  783]    783  S  Code            0x00000001000203b4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol404$$cryptexd
+[  784]    784  S  Code            0x00000001000203d0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol405$$cryptexd
+[  785]    785  S  Code            0x00000001000203ec                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol406$$cryptexd
+(lldb) re re
+error: invalid thread
+(lldb)  image list
+[  0] 3C51A7CD-8588-3D78-AF6C-86DEB05B3737 0x00000001025cc000 /usr/libexec/cryptexd (0x00000001025cc000)
+[  1] 13216777-F4BE-3A7B-B470-857E80AD3300 0x00000001029a4000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e/Symbols/usr/lib/dyld
+[  2] EE138A24-F925-3923-B7A1-0BED9B8A75E9 0x00000001f1134000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e/Symbols/usr/lib/libbsm.0.dylib
+[  3] 6999BE69-9CAC-3E65-9803-2D4BB876882D 0x000000018eeab000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+[  4] F337C458-7FDD-34F2-99A0-E0F5AB2DCB71 0x0000000182018000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+[  5] 7F08BC64-0A3C-319B-8AC6-59B673B0F990 0x00000001f10a8000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libauthinstall.dylib
+[  6] 0095EFC3-750B-3417-B203-4EC66ED0BB54 0x00000001e680c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/ServiceManagement.framework/ServiceManagement
+[  7] A4F55E64-A11F-3370-87CA-3A8A66AEBDB5 0x000000019abf2000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+[  8] AE78C62B-DD65-3199-9D67-DCC835C9ED8F 0x000000019a708000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libobjc.A.dylib
+[  9] 3155D477-906B-3A62-AEBB-121B62F674FE 0x00000001f1265000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcryptex_core.dylib
+[ 10] 19272890-4547-319D-A8B2-ED3E16665110 0x00000001f1285000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcryptex_interface.dylib
+[ 11] 5D8D1FA8-DC46-3A84-BD33-06977114666C 0x00000001f13ff000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libimg4.dylib
+[ 12] 154BDEB1-50B1-3AAF-8F6F-42B6DB4A2B2A 0x000000018383a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/Foundation.framework/Foundation
+[ 13] 6A75D453-054E-3818-B955-BA239C578F58 0x00000001f1ce7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libsandbox.1.dylib
+[ 14] 7794D53E-065D-38B1-B33E-56446B15C0EE 0x00000001bc330000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libSystem.B.dylib
+[ 15] 9FB4E9C5-5D96-394E-9A0A-5303002D5997 0x00000001f216a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcache.dylib
+[ 16] C2675325-F4CF-3824-85F1-8A3EA2547F47 0x00000001f2170000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcommonCrypto.dylib
+[ 17] B7ECCD15-554C-3E4B-B43C-526374FFB6EE 0x00000001f217d000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcompiler_rt.dylib
+[ 18] EA63A9D7-F737-3C9C-B5E5-F98C321403AB 0x00000001f2181000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcopyfile.dylib
+[ 19] 1174293D-9D04-337F-AF7C-A1685EDA86EA 0x00000001a1c26000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcorecrypto.dylib
+[ 20] D805D535-1DA0-37B8-9AB2-8A446A5C8948 0x0000000181d1f000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libdispatch.dylib
+[ 21] 16469E18-9B4A-36C4-9B83-4484F65850E7 0x0000000181d66000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libdyld.dylib
+[ 22] 5BB49B6C-E8D6-39BF-BF8B-B2FFB0B83B24 0x00000001f227c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libmacho.dylib
+[ 23] AC50AC12-031D-3403-B203-DEAC433C3059 0x00000001f2282000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libremovefile.dylib
+[ 24] A54E1277-BB3B-31A7-9DA7-31F012517A33 0x00000001a1dba000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_asl.dylib
+[ 25] 448A4D71-686F-3A95-8416-BE18F8C86E56 0x00000001f2285000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_blocks.dylib
+[ 26] 1E990F16-0D83-36EE-B349-FC15FE4834C1 0x000000018cecb000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_c.dylib
+[ 27] 6418315D-3061-30B4-BEEC-FBB8B1226134 0x00000001f2287000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_collections.dylib
+[ 28] D3AFF5C0-4E98-3246-8E9B-56E1C58100F5 0x00000001f228c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_configuration.dylib
+[ 29] 1FD38217-2B80-306E-B409-92BDD0F8C643 0x00000001f2291000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_containermanager.dylib
+[ 30] D0BD0364-902B-3588-999A-E3669AE21201 0x00000001f22b1000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_coreservices.dylib
+[ 31] DFDCDD76-3525-384D-A6B9-BD959AC390BB 0x00000001f22b3000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_darwin.dylib
+[ 32] 50DD9219-DF04-3498-A76A-D72A44D1366C 0x00000001f22be000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_dnssd.dylib
+[ 33] 11BC3901-0E27-349A-9FA8-6B240A535C55 0x00000001f22c7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_featureflags.dylib
+[ 34] E4D8239B-C28B-3E5E-A261-6AD95EC6B58A 0x000000018cea5000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_info.dylib
+[ 35] B04F71F3-820E-391C-895A-C2AC4526B8F3 0x00000001f22ca000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_m.dylib
+[ 36] D0B92828-ACC5-3C2B-8E60-C3AEFFDF2512 0x0000000193c25000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_malloc.dylib
+[ 37] 98E6498D-8122-30FE-936E-16D6396C5BC6 0x0000000196187000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_networkextension.dylib
+[ 38] 1D314358-D740-3BFB-9D32-B784D8BA23FE 0x00000001a1b22000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_notify.dylib
+[ 39] 778E6194-4CD5-3839-A5AF-2588E40E521E 0x00000001f2308000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_product_info_filter.dylib
+[ 40] 2D30D889-DC2A-33C5-B3CA-E2FC34617D58 0x00000001f2315000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_sandbox.dylib
+[ 41] A80E1E35-C1CC-3ACA-B26E-FEC6071C69C2 0x00000001b8ebf000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_kernel.dylib
+[ 42] 00240372-A14D-3718-B6E8-FD429C5B48C5 0x00000001f2301000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_platform.dylib
+[ 43] 89C2D9FB-65D5-398C-B665-D7B99B08E586 0x00000001f2309000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_pthread.dylib
+[ 44] 03953132-4D1D-3101-B6DA-3B109941F9C5 0x00000001ab6e4000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_symptoms.dylib
+[ 45] 4EC25273-E77E-3125-B2EC-7E03868C325A 0x000000019c824000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_trace.dylib
+[ 46] C4E75123-26C5-309A-AB81-BE365C638387 0x00000001f2319000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libunwind.dylib
+[ 47] 16FB7508-81FF-3A64-BBAD-D412DB45EC27 0x00000001f2324000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libxpc.dylib
+[ 48] CC8667B1-E63F-3907-A755-753207D65E3D 0x000000019a812000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libc++abi.dylib
+[ 49] 28F4D740-543E-31B1-99E3-BB7D37D03D59 0x000000019a7ae000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libc++.1.dylib
+[ 50] 36A7B266-D189-3D2E-9F55-6E3D9F9C590B 0x00000001f12b9000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libenergytrace.dylib
+[ 51] 3A72EBC6-749E-3BFD-955D-1BA8FE9BADB9 0x00000001f1e54000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libz.1.dylib
+[ 52] 65EB2548-0588-3A38-8F28-4D646C8374C7 0x0000000181d73000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libicucore.A.dylib
+[ 53] 4E8D3A0D-373F-3CC2-83D6-B8CADFCEC066 0x000000018246c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/CoreServices.framework/CoreServices
+[ 54] CB166769-2D60-3BDE-B586-8D4AFB924460 0x00000001c88e3000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/DiskImages.framework/DiskImages
+[ 55] 04727D74-6C02-3422-BDA0-84C552585775 0x00000001c8812000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+[ 56] 88CCAF3E-D5A8-3D53-AA86-43D8ED4EFFE0 0x00000001f0d61000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libReverseProxyDevice.dylib
+[ 57] EE6983B8-2903-3B10-A835-BF4C24FCB2E7 0x00000001f6b29000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/AppleConvergedFirmwareUpdater.framework/AppleConvergedFirmwareUpdater
+[ 58] D8345ECF-4E85-3517-AA54-1A3E9728A8DF 0x000000018ae0e000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/Security.framework/Security
+[ 59] 55A96210-CCA8-3406-B4EE-557D36F51C05 0x0000000182831000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+[ 60] 5D81E913-5CDD-3FFC-9CD4-D94C3AB84A73 0x0000000182695000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+[ 61] 289D8EBA-8A77-3B5D-A4CA-DD1D74345168 0x00000001a05df000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation
+[ 62] 5371DF46-4CC4-3684-9B50-0A4414815798 0x00000001a2112000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/CoreServicesStore.framework/CoreServicesStore
+[ 63] D7788190-2E83-3DE9-B372-F7653A48F1DC 0x000000019367a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libMobileGestalt.dylib
+[ 64] A925E9AE-41B0-3E33-BAEF-A9FD47C4885C 0x000000019aa0b000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/CoreAutoLayout.framework/CoreAutoLayout
+[ 65] DDC4F615-9FE8-3BF1-A73F-2307CA62B497 0x00000001f1165000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcompression.dylib
+[ 66] 40C00EAD-32D9-3BAC-BC26-16CA2FF33C50 0x00000001bc849000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libarchive.2.dylib
+[ 67] 9F978D94-2789-3E0D-8F27-2085E44EE9DF 0x00000001f1d38000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libxml2.2.dylib
+[ 68] CB33E669-18DB-3CC2-9548-BB390AE97F18 0x00000001f1430000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/liblangid.dylib
+[ 69] D722BF2E-FD1D-3C37-AF6A-605593240C0E 0x00000001e8e2f000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+[ 70] 5F3BBA4D-EE34-3AA1-A571-D805D7F08CC5 0x00000001f143c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/liblzma.5.dylib
+[ 71] C5A51828-5B6B-3652-8C4B-6600521D7089 0x00000001f0ffe000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libapple_nghttp2.dylib
+[ 72] 6A5AA9DA-13CD-3EDA-A956-68267C5DA6DD 0x0000000182cf6000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libnetwork.dylib
+[ 73] 60B51B8D-5B72-3A08-AD1F-8E441A5461E8 0x00000001a08f7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libsqlite3.dylib
+[ 74] 507EAA6B-023C-37F6-AF07-D0663078A810 0x00000001ff0a7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libCoreEntitlements.dylib
+[ 75] 387693FB-FC6E-301F-ADE8-30942C7DFF56 0x00000001f122f000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcoretls.dylib
+[ 76] B4AC5C37-5520-3DA5-9861-76049E64FD1D 0x00000001f1246000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcoretls_cfhelpers.dylib
+[ 77] 12C83676-804B-3456-8F37-5D76DB130A7B 0x00000001a73b4000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+[ 78] BD4ED82F-B6D5-3C25-A753-6DCBE53EF7CE 0x00000001f1b37000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libpcap.A.dylib
+[ 79] AF305D58-E142-3187-BC57-3ACBA8645048 0x00000001f1292000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libdns_services.dylib
+[ 80] 346A4738-D293-34A7-A78C-49B2398C3B98 0x00000001aafa3000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/IOSurface.framework/IOSurface
+[ 81] A49F4541-2A53-3359-AD0A-6586CD878B7B 0x00000001f1145000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libbz2.1.0.dylib
+[ 82] 33154DC6-6533-3FB9-931B-F846AE6839FC 0x00000001f130c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libiconv.2.dylib
+[ 83] 943ED20B-2F94-358B-8348-23F13BE71E68 0x00000001f1152000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcharset.1.dylib
+[ 84] 801CFAB9-C48E-34D5-B35A-BC5DBCEBAB79 0x00000001e32ec000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices
+[ 85] FB61C763-AD64-382D-B8AD-CEC2324AA0B6 0x00000001e2886000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MediaKit.framework/MediaKit
+[ 86] 053CCDC1-0F35-315F-A0FB-EB68ABF3D4A1 0x00000001c1cd2000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/APFS.framework/APFS
+[ 87] 23FA8229-EA4E-3A5A-B7B9-C3F5E14C9493 0x00000001f1d34000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libutil.dylib
+[ 88] 141F1519-6495-3AB6-AEAE-55847AF5AE4B 0x000000019c336000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libFDR.dylib
+[ 89] 21B5C301-333F-310C-908C-BDE836F62654 0x00000001f0fcb000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libamsupport.dylib
+[ 90] A38B4968-1E9B-303F-85EE-3323ADB31437 0x0000000196157000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MSUDataAccessor.framework/MSUDataAccessor
+[ 91] 14841607-6CDB-366D-B9F2-DA9DA94F108D 0x00000001f1b26000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libpartition2_dynamic.dylib
+[ 92] 1447ED0A-0804-31F5-96E9-210C257225E9 0x00000001a214d000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+[ 93] 18BC7EB8-61BD-3E18-A5EC-1C80C91E4857 0x00000001c2650000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+[ 94] F9ABEF51-0731-3312-888B-75B6BD97F250 0x00000001c5028000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/AppleSauce.framework/AppleSauce
+[ 95] 8E414FCC-E6FB-33CF-B6F0-C073C6605668 0x00000001f0c9a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libMatch.1.dylib
+(lldb)  image dump symf cryptexd
+SymbolFile symtab ((empty))
+Types:
+
+Compile units:
+
+Symtab, num_symbols = 786:
+               Debug symbol
+               |Synthetic symbol
+               ||Externally Visible
+               |||
+Index   UserID DSX Type            File Address/Value Load Address       Size               Flags      Name
+------- ------ --- --------------- ------------------ ------------------ ------------------ ---------- ----------------------------------
+[    0]      0 D   Compiler        0x0000000005614542                    0x0000000000000000 0x003c0000 radr://5614542
+[    1]      1   X Data            0x0000000100000000                    0x00000000000013e0 0x000f0010 _mh_execute_header
+[    2]      2     Trampoline      0x0000000100020408                    0x0000000000000010 0x00010400 AMAuthInstallLogSetHandler
+[    3]      3     Trampoline      0x0000000100020418                    0x0000000000000010 0x00010300 CFBooleanGetTypeID
+[    4]      4     Trampoline      0x0000000100020428                    0x0000000000000010 0x00010300 CFDataCreate
+[    5]      5     Trampoline      0x0000000100020438                    0x0000000000000010 0x00010300 CFDataGetBytePtr
+[    6]      6     Trampoline      0x0000000100020448                    0x0000000000000010 0x00010300 CFDataGetLength
+[    7]      7     Trampoline      0x0000000100020458                    0x0000000000000010 0x00010300 CFDataGetTypeID
+[    8]      8     Trampoline      0x0000000100020468                    0x0000000000000010 0x00010300 CFDictionaryCreate
+[    9]      9     Trampoline      0x0000000100020478                    0x0000000000000010 0x00010300 CFDictionaryCreateMutable
+[   10]     10     Trampoline      0x0000000100020488                    0x0000000000000010 0x00010300 CFDictionaryGetValue
+[   11]     11     Trampoline      0x0000000100020498                    0x0000000000000010 0x00010300 CFDictionarySetValue
+[   12]     12     Trampoline      0x00000001000204a8                    0x0000000000000010 0x00010300 CFEqual
+[   13]     13     Trampoline      0x00000001000204b8                    0x0000000000000010 0x00010300 CFErrorCopyDescription
+[   14]     14     Trampoline      0x00000001000204c8                    0x0000000000000010 0x00010300 CFErrorGetCode
+[   15]     15     Trampoline      0x00000001000204d8                    0x0000000000000010 0x00010300 CFGetTypeID
+[   16]     16     Trampoline      0x00000001000204e8                    0x0000000000000010 0x00010300 CFNumberCreate
+[   17]     17     Trampoline      0x00000001000204f8                    0x0000000000000010 0x00010300 CFNumberGetTypeID
+[   18]     18     Trampoline      0x0000000100020508                    0x0000000000000010 0x00010300 CFNumberGetValue
+[   19]     19     Trampoline      0x0000000100020518                    0x0000000000000010 0x00010300 CFPropertyListCreateData
+[   20]     20     Trampoline      0x0000000100020528                    0x0000000000000010 0x00010300 CFRelease
+[   21]     21     Trampoline      0x0000000100020538                    0x0000000000000010 0x00010300 CFRetain
+[   22]     22     Trampoline      0x0000000100020548                    0x0000000000000010 0x00010300 CFStringCompare
+[   23]     23     Trampoline      0x0000000100020558                    0x0000000000000010 0x00010300 CFStringCreateWithBytes
+[   24]     24     Trampoline      0x0000000100020568                    0x0000000000000010 0x00010300 CFStringCreateWithCString
+[   25]     25     Trampoline      0x0000000100020578                    0x0000000000000010 0x00010300 CFStringGetCString
+[   26]     26     Trampoline      0x0000000100020588                    0x0000000000000010 0x00010300 CFStringGetCStringPtr
+[   27]     27     Trampoline      0x0000000100020598                    0x0000000000000010 0x00010300 CFStringGetLength
+[   28]     28     Trampoline      0x00000001000205a8                    0x0000000000000010 0x00010300 CFStringGetMaximumSizeForEncoding
+[   29]     29     Trampoline      0x00000001000205b8                    0x0000000000000010 0x00010300 CFStringGetTypeID
+[   30]     30     Trampoline      0x00000001000205c8                    0x0000000000000010 0x00010300 CFURLCreateWithFileSystemPath
+[   31]     31     Trampoline      0x00000001000205d8                    0x0000000000000010 0x00010300 CFUUIDCreate
+[   32]     32     Trampoline      0x00000001000205e8                    0x0000000000000010 0x00010300 CFUUIDCreateString
+[   33]     33     Trampoline      0x00000001000205f8                    0x0000000000000010 0x00010200 IOConnectCallMethod
+[   34]     34     Trampoline      0x0000000100020608                    0x0000000000000010 0x00010200 IOConnectCallStructMethod
+[   35]     35     Trampoline      0x0000000100020618                    0x0000000000000010 0x00010200 IOIteratorNext
+[   36]     36     Trampoline      0x0000000100020628                    0x0000000000000010 0x00010200 IONotificationPortCreate
+[   37]     37     Trampoline      0x0000000100020638                    0x0000000000000010 0x00010200 IONotificationPortDestroy
+[   38]     38     Trampoline      0x0000000100020648                    0x0000000000000010 0x00010200 IOObjectRelease
+[   39]     39     Trampoline      0x0000000100020658                    0x0000000000000010 0x00010200 IOObjectRetain
+[   40]     40     Trampoline      0x0000000100020668                    0x0000000000000010 0x00010200 IORegistryEntryCreateCFProperty
+[   41]     41     Trampoline      0x0000000100020678                    0x0000000000000010 0x00010200 IORegistryEntryGetParentEntry
+[   42]     42     Trampoline      0x0000000100020688                    0x0000000000000010 0x00010200 IORegistryEntrySearchCFProperty
+[   43]     43     Trampoline      0x0000000100020698                    0x0000000000000010 0x00010200 IOServiceAddMatchingNotification
+[   44]     44     Trampoline      0x00000001000206a8                    0x0000000000000010 0x00010200 IOServiceClose
+[   45]     45     Trampoline      0x00000001000206b8                    0x0000000000000010 0x00010200 IOServiceGetMatchingService
+[   46]     46     Trampoline      0x00000001000206c8                    0x0000000000000010 0x00010200 IOServiceMatching
+[   47]     47     Trampoline      0x00000001000206d8                    0x0000000000000010 0x00010200 IOServiceOpen
+[   48]     48     Trampoline      0x00000001000206e8                    0x0000000000000010 0x00010600 MKBDeviceUnlockedSinceBoot
+[   49]     49     Trampoline      0x00000001000206f8                    0x0000000000000010 0x00010600 MKBEventsRegister
+[   50]     50     Trampoline      0x0000000100020708                    0x0000000000000010 0x00010600 MKBEventsUnregister
+[   51]     51     Trampoline      0x0000000100020718                    0x0000000000000010 0x00010600 MKBGetDeviceLockState
+[   52]     52   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 OBJC_CLASS_$_NSMutableArray
+[   53]     53   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010700 OBJC_CLASS_$_NSObject
+[   54]     54   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010b00 OBJC_CLASS_$_NSString
+[   55]     55   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 OBJC_CLASS_$_OS_object
+[   56]     56   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010700 OBJC_METACLASS_$_NSObject
+[   57]     57   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 OBJC_METACLASS_$_OS_object
+[   58]     58     Trampoline      0x0000000100020728                    0x0000000000000010 0x00010500 SMJobRemove
+[   59]     59     Trampoline      0x0000000100020738                    0x0000000000000010 0x00010500 SMJobSubmit
+[   60]     60     Trampoline      0x0000000100020748                    0x0000000000000010 0x00010d00 _Block_object_assign
+[   61]     61     Trampoline      0x0000000100020758                    0x0000000000000010 0x00010d00 _Block_object_dispose
+[   62]     62     Trampoline      0x0000000100020768                    0x0000000000000010 0x00010300 _CFXPCCreateCFObjectFromXPCObject
+[   63]     63   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _NSConcreteGlobalBlock
+[   64]     64   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _NSConcreteStackBlock
+[   65]     65     Trampoline      0x0000000100020778                    0x0000000000000010 0x00010d00 _NSGetArgc
+[   66]     66     Trampoline      0x0000000100020788                    0x0000000000000010 0x00010d00 _NSGetArgv
+[   67]     67     Trampoline      0x0000000100020798                    0x0000000000000010 0x00010d00 _NSGetEnviron
+[   68]     68     Trampoline      0x00000001000207a8                    0x0000000000000010 0x00010d00 _NSGetExecutablePath
+[   69]     69     Trampoline      0x00000001000207b8                    0x0000000000000010 0x00010d00 _NSGetMachExecuteHeader
+[   70]     70     Trampoline      0x00000001000207c8                    0x0000000000000010 0x00010d00 _Unwind_Resume
+[   71]     71   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 __CFConstantStringClassReference
+[   72]     72   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 __chkstk_darwin
+[   73]     73     Trampoline      0x00000001000207d8                    0x0000000000000010 0x00010d00 __error
+[   74]     74   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010700 __objc_personality_v0
+[   75]     75     Trampoline      0x00000001000207e8                    0x0000000000000010 0x00010d00 __os_temporary_resource_shortage
+[   76]     76     Trampoline      0x00000001000207f8                    0x0000000000000010 0x00010d00 __stack_chk_fail
+[   77]     77   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 __stack_chk_guard
+[   78]     78     Trampoline      0x0000000100020808                    0x0000000000000010 0x00010d00 __strlcpy_chk
+[   79]     79   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010800 _cryptex_asset_type_c411
+[   80]     80   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010800 _cryptex_asset_type_im4m
+[   81]     81   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010800 _cryptex_asset_type_ltrs
+[   82]     82   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010800 _cryptex_asset_type_root
+[   83]     83     Trampoline      0x0000000100020818                    0x0000000000000010 0x00010800 _cryptex_base_dealloc
+[   84]     84     Trampoline      0x0000000100020828                    0x0000000000000010 0x00010d00 _dispatch_is_multithreaded
+[   85]     85   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _dispatch_source_type_data_add
+[   86]     86   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _dispatch_source_type_mach_recv
+[   87]     87   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _dispatch_source_type_signal
+[   88]     88     Trampoline      0x0000000100020838                    0x0000000000000010 0x00010d00 _dyld_get_image_slide
+[   89]     89   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010a00 _img4_chip_ap_sha1
+[   90]     90   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010a00 _img4_chip_ap_supplemental
+[   91]     91   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010700 _objc_empty_cache
+[   92]     92     Trampoline      0x0000000100020848                    0x0000000000000010 0x00010d00 _os_crash
+[   93]     93     Trampoline      0x0000000100020858                    0x0000000000000010 0x00010d00 _os_crash_fmt
+[   94]     94   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _os_log_default
+[   95]     95     Trampoline      0x0000000100020868                    0x0000000000000010 0x00010d00 _os_log_error_impl
+[   96]     96     Trampoline      0x0000000100020878                    0x0000000000000010 0x00010d00 _os_log_fault_impl
+[   97]     97     Trampoline      0x0000000100020888                    0x0000000000000010 0x00010d00 _os_log_impl
+[   98]     98     Trampoline      0x0000000100020898                    0x0000000000000010 0x00010d00 _os_log_pack_fill
+[   99]     99     Trampoline      0x00000001000208a8                    0x0000000000000010 0x00010d00 _os_log_pack_size
+[  100]    100     Trampoline      0x00000001000208b8                    0x0000000000000010 0x00010d00 _os_object_alloc
+[  101]    101     Trampoline      0x00000001000208c8                    0x0000000000000010 0x00010d00 _vproc_set_global_on_demand
+[  102]    102   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_error_key_description
+[  103]    103   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_array
+[  104]    104   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_connection
+[  105]    105   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_dictionary
+[  106]    106   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_error
+[  107]    107   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_int64
+[  108]    108   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_mach_send
+[  109]    109   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_string
+[  110]    110   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 _xpc_type_uint64
+[  111]    111     Trampoline      0x00000001000208d8                    0x0000000000000010 0x00010d00 asprintf
+[  112]    112     Trampoline      0x00000001000208e8                    0x0000000000000010 0x00010100 audit_token_to_asid
+[  113]    113     Trampoline      0x00000001000208f8                    0x0000000000000010 0x00010100 audit_token_to_auid
+[  114]    114     Trampoline      0x0000000100020908                    0x0000000000000010 0x00010100 audit_token_to_egid
+[  115]    115     Trampoline      0x0000000100020918                    0x0000000000000010 0x00010100 audit_token_to_euid
+[  116]    116     Trampoline      0x0000000100020928                    0x0000000000000010 0x00010100 audit_token_to_pid
+[  117]    117     Trampoline      0x0000000100020938                    0x0000000000000010 0x00010100 audit_token_to_pidversion
+[  118]    118     Trampoline      0x0000000100020948                    0x0000000000000010 0x00010100 audit_token_to_rgid
+[  119]    119     Trampoline      0x0000000100020958                    0x0000000000000010 0x00010100 audit_token_to_ruid
+[  120]    120     Trampoline      0x0000000100020968                    0x0000000000000010 0x00010d00 basename
+[  121]    121     Trampoline      0x0000000100020978                    0x0000000000000010 0x00010d00 bootstrap_check_in
+[  122]    122   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 bootstrap_port
+[  123]    123     Trampoline      0x0000000100020988                    0x0000000000000010 0x00010d00 bzero
+[  124]    124     Trampoline      0x0000000100020998                    0x0000000000000010 0x00010d00 calloc
+[  125]    125     Trampoline      0x00000001000209a8                    0x0000000000000010 0x00010d00 claimfd_np
+[  126]    126     Trampoline      0x00000001000209b8                    0x0000000000000010 0x00010d00 close
+[  127]    127     Trampoline      0x00000001000209c8                    0x0000000000000010 0x00010d00 close_drop_np
+[  128]    128     Trampoline      0x00000001000209d8                    0x0000000000000010 0x00010d00 close_drop_optional_np
+[  129]    129     Trampoline      0x00000001000209e8                    0x0000000000000010 0x00010d00 closedir
+[  130]    130     Trampoline      0x00000001000209f8                    0x0000000000000010 0x00010900 codex_install_reply_pack
+[  131]    131     Trampoline      0x0000000100020a08                    0x0000000000000010 0x00010900 codex_install_unpack
+[  132]    132     Trampoline      0x0000000100020a18                    0x0000000000000010 0x00010900 codex_list_reply_pack
+[  133]    133     Trampoline      0x0000000100020a28                    0x0000000000000010 0x00010900 codex_list_unpack
+[  134]    134     Trampoline      0x0000000100020a38                    0x0000000000000010 0x00010d00 confstr
+[  135]    135     Trampoline      0x0000000100020a48                    0x0000000000000010 0x00010d00 copyfile
+[  136]    136     Trampoline      0x0000000100020a58                    0x0000000000000010 0x00010800 cryptex_activate
+[  137]    137     Trampoline      0x0000000100020a68                    0x0000000000000010 0x00010800 cryptex_asset_copy
+[  138]    138     Trampoline      0x0000000100020a78                    0x0000000000000010 0x00010800 cryptex_asset_destroy
+[  139]    139     Trampoline      0x0000000100020a88                    0x0000000000000010 0x00010800 cryptex_asset_evaluate
+[  140]    140     Trampoline      0x0000000100020a98                    0x0000000000000010 0x00010800 cryptex_asset_new
+[  141]    141   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010800 cryptex_asset_types
+[  142]    142     Trampoline      0x0000000100020aa8                    0x0000000000000010 0x00010800 cryptex_async
+[  143]    143     Trampoline      0x0000000100020ab8                    0x0000000000000010 0x00010800 cryptex_core_attach_host
+[  144]    144     Trampoline      0x0000000100020ac8                    0x0000000000000010 0x00010800 cryptex_core_attach_signature
+[  145]    145     Trampoline      0x0000000100020ad8                    0x0000000000000010 0x00010800 cryptex_core_create
+[  146]    146     Trampoline      0x0000000100020ae8                    0x0000000000000010 0x00010800 cryptex_core_generate_identifier
+[  147]    147     Trampoline      0x0000000100020af8                    0x0000000000000010 0x00010800 cryptex_core_generate_version
+[  148]    148     Trampoline      0x0000000100020b08                    0x0000000000000010 0x00010800 cryptex_core_get_asset
+[  149]    149     Trampoline      0x0000000100020b18                    0x0000000000000010 0x00010800 cryptex_core_get_image_asset
+[  150]    150     Trampoline      0x0000000100020b28                    0x0000000000000010 0x00010800 cryptex_core_parse_hdiid
+[  151]    151     Trampoline      0x0000000100020b38                    0x0000000000000010 0x00010800 cryptex_core_set_asset
+[  152]    152     Trampoline      0x0000000100020b48                    0x0000000000000010 0x00010800 cryptex_core_set_assets_from_directory
+[  153]    153     Trampoline      0x0000000100020b58                    0x0000000000000010 0x00010800 cryptex_core_set_assets_from_fds
+[  154]    154     Trampoline      0x0000000100020b68                    0x0000000000000010 0x00010800 cryptex_core_unparse_hdiid
+[  155]    155     Trampoline      0x0000000100020b78                    0x0000000000000010 0x00010800 cryptex_get_error
+[  156]    156     Trampoline      0x0000000100020b88                    0x0000000000000010 0x00010800 cryptex_host_create
+[  157]    157     Trampoline      0x0000000100020b98                    0x0000000000000010 0x00010800 cryptex_init
+[  158]    158     Trampoline      0x0000000100020ba8                    0x0000000000000010 0x00010800 cryptex_magister_authenticate
+[  159]    159     Trampoline      0x0000000100020bb8                    0x0000000000000010 0x00010800 cryptex_magister_create
+[  160]    160     Trampoline      0x0000000100020bc8                    0x0000000000000010 0x00010800 cryptex_scrivener_create
+[  161]    161     Trampoline      0x0000000100020bd8                    0x0000000000000010 0x00010800 cryptex_scrivener_read_signature
+[  162]    162     Trampoline      0x0000000100020be8                    0x0000000000000010 0x00010800 cryptex_scrivener_sign
+[  163]    163     Trampoline      0x0000000100020bf8                    0x0000000000000010 0x00010800 cryptex_session_core_append_to_array
+[  164]    164     Trampoline      0x0000000100020c08                    0x0000000000000010 0x00010800 cryptex_session_core_copy_name
+[  165]    165     Trampoline      0x0000000100020c18                    0x0000000000000010 0x00010800 cryptex_session_core_copy_xpc_object
+[  166]    166     Trampoline      0x0000000100020c28                    0x0000000000000010 0x00010800 cryptex_session_core_create_from_xpc
+[  167]    167     Trampoline      0x0000000100020c38                    0x0000000000000010 0x00010800 cryptex_session_core_get_overrides
+[  168]    168     Trampoline      0x0000000100020c48                    0x0000000000000010 0x00010800 cryptex_session_core_get_state
+[  169]    169     Trampoline      0x0000000100020c58                    0x0000000000000010 0x00010800 cryptex_session_core_get_uid
+[  170]    170     Trampoline      0x0000000100020c68                    0x0000000000000010 0x00010800 cryptex_session_core_set_endpoint
+[  171]    171     Trampoline      0x0000000100020c78                    0x0000000000000010 0x00010800 cryptex_session_core_set_homedir
+[  172]    172     Trampoline      0x0000000100020c88                    0x0000000000000010 0x00010800 cryptex_session_core_set_uid
+[  173]    173     Trampoline      0x0000000100020c98                    0x0000000000000010 0x00010800 cryptex_session_core_transition
+[  174]    174     Trampoline      0x0000000100020ca8                    0x0000000000000010 0x00010800 cryptex_set_error
+[  175]    175     Trampoline      0x0000000100020cb8                    0x0000000000000010 0x00010800 cryptex_set_target_object
+[  176]    176     Trampoline      0x0000000100020cc8                    0x0000000000000010 0x00010800 cryptex_set_target_queue
+[  177]    177     Trampoline      0x0000000100020cd8                    0x0000000000000010 0x00010800 cryptex_signature_lock
+[  178]    178     Trampoline      0x0000000100020ce8                    0x0000000000000010 0x00010800 cryptex_signature_seal
+[  179]    179     Trampoline      0x0000000100020cf8                    0x0000000000000010 0x00010800 cryptex_signature_write
+[  180]    180     Trampoline      0x0000000100020d08                    0x0000000000000010 0x00010800 cryptex_target_async
+[  181]    181     Trampoline      0x0000000100020d18                    0x0000000000000010 0x00010900 cryptex_uninstall_unpack
+[  182]    182     Trampoline      0x0000000100020d28                    0x0000000000000010 0x00010800 cryptex_version_destroy
+[  183]    183     Trampoline      0x0000000100020d38                    0x0000000000000010 0x00010800 cryptex_version_new
+[  184]    184     Trampoline      0x0000000100020d48                    0x0000000000000010 0x00010d00 csops_audittoken
+[  185]    185     Trampoline      0x0000000100020d58                    0x0000000000000010 0x00010900 daemon_open_mountable_reply_pack
+[  186]    186     Trampoline      0x0000000100020d68                    0x0000000000000010 0x00010900 daemon_open_mountable_unpack
+[  187]    187     Trampoline      0x0000000100020d78                    0x0000000000000010 0x00010900 daemon_version_reply_pack
+[  188]    188     Trampoline      0x0000000100020d88                    0x0000000000000010 0x00010900 daemon_version_unpack
+[  189]    189     Trampoline      0x0000000100020d98                    0x0000000000000010 0x00010d00 dirfd
+[  190]    190     Trampoline      0x0000000100020da8                    0x0000000000000010 0x00010d00 dispatch_activate
+[  191]    191     Trampoline      0x0000000100020db8                    0x0000000000000010 0x00010d00 dispatch_assert_queue$V2
+[  192]    192     Trampoline      0x0000000100020dc8                    0x0000000000000010 0x00010d00 dispatch_async_f
+[  193]    193     Trampoline      0x0000000100020dd8                    0x0000000000000010 0x00010d00 dispatch_group_create
+[  194]    194     Trampoline      0x0000000100020de8                    0x0000000000000010 0x00010d00 dispatch_group_enter
+[  195]    195     Trampoline      0x0000000100020df8                    0x0000000000000010 0x00010d00 dispatch_group_leave
+[  196]    196     Trampoline      0x0000000100020e08                    0x0000000000000010 0x00010d00 dispatch_group_notify_f
+[  197]    197     Trampoline      0x0000000100020e18                    0x0000000000000010 0x00010d00 dispatch_main
+[  198]    198     Trampoline      0x0000000100020e28                    0x0000000000000010 0x00010d00 dispatch_once
+[  199]    199     Trampoline      0x0000000100020e38                    0x0000000000000010 0x00010d00 dispatch_queue_create
+[  200]    200     Trampoline      0x0000000100020e48                    0x0000000000000010 0x00010d00 dispatch_release
+[  201]    201     Trampoline      0x0000000100020e58                    0x0000000000000010 0x00010d00 dispatch_set_context
+[  202]    202     Trampoline      0x0000000100020e68                    0x0000000000000010 0x00010d00 dispatch_source_cancel
+[  203]    203     Trampoline      0x0000000100020e78                    0x0000000000000010 0x00010d00 dispatch_source_create
+[  204]    204     Trampoline      0x0000000100020e88                    0x0000000000000010 0x00010d00 dispatch_source_get_handle
+[  205]    205     Trampoline      0x0000000100020e98                    0x0000000000000010 0x00010d00 dispatch_source_merge_data
+[  206]    206     Trampoline      0x0000000100020ea8                    0x0000000000000010 0x00010d00 dispatch_source_set_cancel_handler_f
+[  207]    207     Trampoline      0x0000000100020eb8                    0x0000000000000010 0x00010d00 dispatch_source_set_event_handler_f
+[  208]    208     Trampoline      0x0000000100020ec8                    0x0000000000000010 0x00010d00 dup_np
+[  209]    209     Trampoline      0x0000000100020ed8                    0x0000000000000010 0x00010d00 fcheck_np
+[  210]    210     Trampoline      0x0000000100020ee8                    0x0000000000000010 0x00010d00 fclose
+[  211]    211     Trampoline      0x0000000100020ef8                    0x0000000000000010 0x00010d00 fcntl
+[  212]    212     Trampoline      0x0000000100020f08                    0x0000000000000010 0x00010d00 fcopyfile
+[  213]    213     Trampoline      0x0000000100020f18                    0x0000000000000010 0x00010d00 fdopendir
+[  214]    214     Trampoline      0x0000000100020f28                    0x0000000000000010 0x00010d00 fmemopen
+[  215]    215     Trampoline      0x0000000100020f38                    0x0000000000000010 0x00010d00 fmount
+[  216]    216     Trampoline      0x0000000100020f48                    0x0000000000000010 0x00010d00 free
+[  217]    217     Trampoline      0x0000000100020f58                    0x0000000000000010 0x00010d00 fseek
+[  218]    218     Trampoline      0x0000000100020f68                    0x0000000000000010 0x00010d00 fstat
+[  219]    219     Trampoline      0x0000000100020f78                    0x0000000000000010 0x00010d00 fstatat
+[  220]    220     Trampoline      0x0000000100020f88                    0x0000000000000010 0x00010d00 fwrite
+[  221]    221     Trampoline      0x0000000100020f98                    0x0000000000000010 0x00010d00 getfsstat
+[  222]    222     Trampoline      0x0000000100020fa8                    0x0000000000000010 0x00010d00 getgid
+[  223]    223     Trampoline      0x0000000100020fb8                    0x0000000000000010 0x00010d00 getopt_long
+[  224]    224     Trampoline      0x0000000100020fc8                    0x0000000000000010 0x00010d00 getprogname
+[  225]    225     Trampoline      0x0000000100020fd8                    0x0000000000000010 0x00010d00 getpwuid
+[  226]    226     Trampoline      0x0000000100020fe8                    0x0000000000000010 0x00010d00 getsectdatafromheader_64
+[  227]    227     Trampoline      0x0000000100020ff8                    0x0000000000000010 0x00010d00 gettimeofday
+[  228]    228     Trampoline      0x0000000100021008                    0x0000000000000010 0x00010d00 getuid
+[  229]    229     Trampoline      0x0000000100021018                    0x0000000000000010 0x00010d00 getvfsbyname
+[  230]    230     Trampoline      0x0000000100021028                    0x0000000000000010 0x00010a00 img4_chip_instantiate
+[  231]    231     Trampoline      0x0000000100021038                    0x0000000000000010 0x00010a00 img4_chip_select_personalized_ap
+[  232]    232     Trampoline      0x0000000100021048                    0x0000000000000010 0x00010d00 ioctl
+[  233]    233   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterBoardID
+[  234]    234   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterChipID
+[  235]    235   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterECID
+[  236]    236   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterEffectiveProductionMode
+[  237]    237   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterEffectiveSecurityMode
+[  238]    238   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterImg4DigestSHA1
+[  239]    239   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterImg4DigestSHA256
+[  240]    240   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterImg4DigestSHA384
+[  241]    241   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterImg4DigestType
+[  242]    242   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterProductionMode
+[  243]    243   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterSecurityDomain
+[  244]    244   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterSecurityMode
+[  245]    245   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010400 kAMAuthInstallApParameterSupportsImg4
+[  246]    246   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 kCFAllocatorDefault
+[  247]    247   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 kCFBooleanFalse
+[  248]    248   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 kCFBooleanTrue
+[  249]    249   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 kCFTypeDictionaryKeyCallBacks
+[  250]    250   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010300 kCFTypeDictionaryValueCallBacks
+[  251]    251   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010500 kSMDomainSystemLaunchd
+[  252]    252   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010500 kSMDomainUserLaunchd
+[  253]    253     Trampoline      0x0000000100021058                    0x0000000000000010 0x00010d00 lseek
+[  254]    254     Trampoline      0x0000000100021068                    0x0000000000000010 0x00010d00 mach_right_recv_destruct
+[  255]    255     Trampoline      0x0000000100021078                    0x0000000000000010 0x00010d00 mach_right_send_release
+[  256]    256     Trampoline      0x0000000100021088                    0x0000000000000010 0x00010d00 mach_right_send_retain
+[  257]    257   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 mach_task_self_
+[  258]    258     Trampoline      0x0000000100021098                    0x0000000000000010 0x00010d00 malloc
+[  259]    259     Trampoline      0x00000001000210a8                    0x0000000000000010 0x00010d00 memcmp
+[  260]    260     Trampoline      0x00000001000210b8                    0x0000000000000010 0x00010d00 memcpy
+[  261]    261     Trampoline      0x00000001000210c8                    0x0000000000000010 0x00010d00 memset
+[  262]    262     Trampoline      0x00000001000210d8                    0x0000000000000010 0x00010d00 mkdirat
+[  263]    263     Trampoline      0x00000001000210e8                    0x0000000000000010 0x00010d00 mkdtempat_np
+[  264]    264     Trampoline      0x00000001000210f8                    0x0000000000000010 0x00010d00 mmap
+[  265]    265     Trampoline      0x0000000100021108                    0x0000000000000010 0x00010d00 munmap
+[  266]    266     Trampoline      0x0000000100021118                    0x0000000000000010 0x00010700 objc_alloc
+[  267]    267     Trampoline      0x0000000100021128                    0x0000000000000010 0x00010700 objc_alloc_init
+[  268]    268     Trampoline      0x0000000100021138                    0x0000000000000010 0x00010700 objc_autoreleasePoolPop
+[  269]    269     Trampoline      0x0000000100021148                    0x0000000000000010 0x00010700 objc_autoreleasePoolPush
+[  270]    270     Trampoline      0x0000000100021158                    0x0000000000000010 0x00010700 objc_autoreleaseReturnValue
+[  271]    271     Trampoline      0x0000000100021168                    0x0000000000000010 0x00010700 objc_enumerationMutation
+[  272]    272     Trampoline      0x0000000100021178                    0x0000000000000010 0x00010700 objc_getProperty
+[  273]    273     Trampoline      0x0000000100021188                    0x0000000000000010 0x00010700 objc_msgSend
+[  274]    274     Trampoline      0x0000000100021198                    0x0000000000000010 0x00010700 objc_msgSendSuper2
+[  275]    275     Trampoline      0x00000001000211a8                    0x0000000000000010 0x00010700 objc_opt_class
+[  276]    276     Trampoline      0x00000001000211b8                    0x0000000000000010 0x00010700 objc_opt_new
+[  277]    277     Trampoline      0x00000001000211c8                    0x0000000000000010 0x00010700 objc_release
+[  278]    278     Trampoline      0x00000001000211d8                    0x0000000000000010 0x00010700 objc_retain
+[  279]    279     Trampoline      0x00000001000211e8                    0x0000000000000010 0x00010700 objc_retainAutorelease
+[  280]    280     Trampoline      0x00000001000211f8                    0x0000000000000010 0x00010700 objc_retainAutoreleaseReturnValue
+[  281]    281     Trampoline      0x0000000100021208                    0x0000000000000010 0x00010700 objc_retainAutoreleasedReturnValue
+[  282]    282     Trampoline      0x0000000100021218                    0x0000000000000010 0x00010700 objc_setProperty_atomic
+[  283]    283     Trampoline      0x0000000100021228                    0x0000000000000010 0x00010700 objc_storeStrong
+[  284]    284     Trampoline      0x0000000100021238                    0x0000000000000010 0x00010700 objc_terminate
+[  285]    285     Trampoline      0x0000000100021248                    0x0000000000000010 0x00010d00 open
+[  286]    286     Trampoline      0x0000000100021258                    0x0000000000000010 0x00010d00 openat
+[  287]    287   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010d00 optind
+[  288]    288     Trampoline      0x0000000100021268                    0x0000000000000010 0x00010d00 os_flagset_copy_string
+[  289]    289     Trampoline      0x0000000100021278                    0x0000000000000010 0x00010d00 os_log_create
+[  290]    290     Trampoline      0x0000000100021288                    0x0000000000000010 0x00010d00 os_log_type_enabled
+[  291]    291     Trampoline      0x0000000100021298                    0x0000000000000010 0x00010d00 os_mach_port_copy_description
+[  292]    292     Trampoline      0x00000001000212a8                    0x0000000000000010 0x00010d00 os_release
+[  293]    293     Trampoline      0x00000001000212b8                    0x0000000000000010 0x00010d00 os_retain
+[  294]    294     Trampoline      0x00000001000212c8                    0x0000000000000010 0x00010d00 os_simple_hash
+[  295]    295     Trampoline      0x00000001000212d8                    0x0000000000000010 0x00010d00 os_transaction_copy_description
+[  296]    296     Trampoline      0x00000001000212e8                    0x0000000000000010 0x00010d00 os_transaction_create
+[  297]    297     Trampoline      0x00000001000212f8                    0x0000000000000010 0x00010d00 os_unfair_lock_lock
+[  298]    298     Trampoline      0x0000000100021308                    0x0000000000000010 0x00010d00 os_unfair_lock_unlock
+[  299]    299     Trampoline      0x0000000100021318                    0x0000000000000010 0x00010d00 os_variant_allows_internal_security_policies
+[  300]    300     Trampoline      0x0000000100021328                    0x0000000000000010 0x00010d00 os_variant_is_darwinos
+[  301]    301     Trampoline      0x0000000100021338                    0x0000000000000010 0x00010d00 pread
+[  302]    302     Trampoline      0x0000000100021348                    0x0000000000000010 0x00010d00 proc_pidinfo
+[  303]    303     Trampoline      0x0000000100021358                    0x0000000000000010 0x00010d00 pwrite
+[  304]    304     Trampoline      0x0000000100021368                    0x0000000000000010 0x00010d00 read
+[  305]    305     Trampoline      0x0000000100021378                    0x0000000000000010 0x00010d00 readdir
+[  306]    306     Trampoline      0x0000000100021388                    0x0000000000000010 0x00010d00 realloc
+[  307]    307     Trampoline      0x0000000100021398                    0x0000000000000010 0x00010d00 realpath_np
+[  308]    308     Trampoline      0x00000001000213a8                    0x0000000000000010 0x00010d00 renameat
+[  309]    309     Trampoline      0x00000001000213b8                    0x0000000000000010 0x00010900 session_activate_reply_pack
+[  310]    310     Trampoline      0x00000001000213c8                    0x0000000000000010 0x00010900 session_activate_unpack
+[  311]    311     Trampoline      0x00000001000213d8                    0x0000000000000010 0x00010900 session_list_reply_pack
+[  312]    312     Trampoline      0x00000001000213e8                    0x0000000000000010 0x00010900 session_list_unpack
+[  313]    313     Trampoline      0x00000001000213f8                    0x0000000000000010 0x00010d00 signal
+[  314]    314     Trampoline      0x0000000100021408                    0x0000000000000010 0x00010d00 snprintf
+[  315]    315     Trampoline      0x0000000100021418                    0x0000000000000010 0x00010d00 stat
+[  316]    316     Trampoline      0x0000000100021428                    0x0000000000000010 0x00010d00 strcmp
+[  317]    317     Trampoline      0x0000000100021438                    0x0000000000000010 0x00010d00 strdup
+[  318]    318     Trampoline      0x0000000100021448                    0x0000000000000010 0x00010d00 strerror
+[  319]    319     Trampoline      0x0000000100021458                    0x0000000000000010 0x00010d00 strlcpy
+[  320]    320     Trampoline      0x0000000100021468                    0x0000000000000010 0x00010d00 strlen
+[  321]    321     Trampoline      0x0000000100021478                    0x0000000000000010 0x00010d00 strrchr
+[  322]    322     Trampoline      0x0000000100021488                    0x0000000000000010 0x00010d00 strtol
+[  323]    323     Trampoline      0x0000000100021498                    0x0000000000000010 0x00010d00 strtoul
+[  324]    324     Trampoline      0x00000001000214a8                    0x0000000000000010 0x00010d00 sysctl
+[  325]    325     Trampoline      0x00000001000214b8                    0x0000000000000010 0x00010d00 task_info
+[  326]    326     Trampoline      0x00000001000214c8                    0x0000000000000010 0x00010d00 task_name_for_pid
+[  327]    327     Trampoline      0x00000001000214d8                    0x0000000000000010 0x00010d00 unlinkat
+[  328]    328     Trampoline      0x00000001000214e8                    0x0000000000000010 0x00010d00 unmount
+[  329]    329     Trampoline      0x00000001000214f8                    0x0000000000000010 0x00010d00 usleep
+[  330]    330     Trampoline      0x0000000100021508                    0x0000000000000010 0x00010d00 vsnprintf
+[  331]    331     Trampoline      0x0000000100021518                    0x0000000000000010 0x00010d00 xpc_array_append_value
+[  332]    332     Trampoline      0x0000000100021528                    0x0000000000000010 0x00010d00 xpc_array_apply
+[  333]    333     Trampoline      0x0000000100021538                    0x0000000000000010 0x00010d00 xpc_array_create
+[  334]    334     Trampoline      0x0000000100021548                    0x0000000000000010 0x00010d00 xpc_array_get_count
+[  335]    335     Trampoline      0x0000000100021558                    0x0000000000000010 0x00010d00 xpc_array_get_string
+[  336]    336     Trampoline      0x0000000100021568                    0x0000000000000010 0x00010d00 xpc_array_get_value
+[  337]    337     Trampoline      0x0000000100021578                    0x0000000000000010 0x00010d00 xpc_array_set_int64
+[  338]    338     Trampoline      0x0000000100021588                    0x0000000000000010 0x00010d00 xpc_array_set_string
+[  339]    339     Trampoline      0x0000000100021598                    0x0000000000000010 0x00010d00 xpc_connection_activate
+[  340]    340     Trampoline      0x00000001000215a8                    0x0000000000000010 0x00010d00 xpc_connection_cancel
+[  341]    341     Trampoline      0x00000001000215b8                    0x0000000000000010 0x00010d00 xpc_connection_create
+[  342]    342     Trampoline      0x00000001000215c8                    0x0000000000000010 0x00010d00 xpc_connection_get_pid
+[  343]    343     Trampoline      0x00000001000215d8                    0x0000000000000010 0x00010d00 xpc_connection_send_message
+[  344]    344     Trampoline      0x00000001000215e8                    0x0000000000000010 0x00010d00 xpc_connection_set_event_handler
+[  345]    345     Trampoline      0x00000001000215f8                    0x0000000000000010 0x00010d00 xpc_copy
+[  346]    346     Trampoline      0x0000000100021608                    0x0000000000000010 0x00010d00 xpc_copy_description
+[  347]    347     Trampoline      0x0000000100021618                    0x0000000000000010 0x00010d00 xpc_create_from_plist
+[  348]    348     Trampoline      0x0000000100021628                    0x0000000000000010 0x00010d00 xpc_dictionary_apply
+[  349]    349     Trampoline      0x0000000100021638                    0x0000000000000010 0x00010d00 xpc_dictionary_apply_f
+[  350]    350     Trampoline      0x0000000100021648                    0x0000000000000010 0x00010d00 xpc_dictionary_create
+[  351]    351     Trampoline      0x0000000100021658                    0x0000000000000010 0x00010d00 xpc_dictionary_create_empty
+[  352]    352     Trampoline      0x0000000100021668                    0x0000000000000010 0x00010d00 xpc_dictionary_create_reply
+[  353]    353     Trampoline      0x0000000100021678                    0x0000000000000010 0x00010d00 xpc_dictionary_dup_fd
+[  354]    354     Trampoline      0x0000000100021688                    0x0000000000000010 0x00010d00 xpc_dictionary_get_array
+[  355]    355     Trampoline      0x0000000100021698                    0x0000000000000010 0x00010d00 xpc_dictionary_get_audit_token
+[  356]    356     Trampoline      0x00000001000216a8                    0x0000000000000010 0x00010d00 xpc_dictionary_get_bool
+[  357]    357     Trampoline      0x00000001000216b8                    0x0000000000000010 0x00010d00 xpc_dictionary_get_dictionary
+[  358]    358     Trampoline      0x00000001000216c8                    0x0000000000000010 0x00010d00 xpc_dictionary_get_int64
+[  359]    359     Trampoline      0x00000001000216d8                    0x0000000000000010 0x00010d00 xpc_dictionary_get_string
+[  360]    360     Trampoline      0x00000001000216e8                    0x0000000000000010 0x00010d00 xpc_dictionary_get_value
+[  361]    361     Trampoline      0x00000001000216f8                    0x0000000000000010 0x00010d00 xpc_dictionary_send_reply
+[  362]    362     Trampoline      0x0000000100021708                    0x0000000000000010 0x00010d00 xpc_dictionary_set_int64
+[  363]    363     Trampoline      0x0000000100021718                    0x0000000000000010 0x00010d00 xpc_dictionary_set_mach_send
+[  364]    364     Trampoline      0x0000000100021728                    0x0000000000000010 0x00010d00 xpc_dictionary_set_string
+[  365]    365     Trampoline      0x0000000100021738                    0x0000000000000010 0x00010d00 xpc_dictionary_set_uint64
+[  366]    366     Trampoline      0x0000000100021748                    0x0000000000000010 0x00010d00 xpc_dictionary_set_value
+[  367]    367     Trampoline      0x0000000100021758                    0x0000000000000010 0x00010d00 xpc_endpoint_create
+[  368]    368     Trampoline      0x0000000100021768                    0x0000000000000010 0x00010d00 xpc_get_type
+[  369]    369     Trampoline      0x0000000100021778                    0x0000000000000010 0x00010d00 xpc_mach_send_copy_right
+[  370]    370     Trampoline      0x0000000100021788                    0x0000000000000010 0x00010d00 xpc_pipe_receive
+[  371]    371     Trampoline      0x0000000100021798                    0x0000000000000010 0x00010d00 xpc_pipe_routine
+[  372]    372     Trampoline      0x00000001000217a8                    0x0000000000000010 0x00010d00 xpc_pipe_routine_reply
+[  373]    373     Trampoline      0x00000001000217b8                    0x0000000000000010 0x00010d00 xpc_release
+[  374]    374     Trampoline      0x00000001000217c8                    0x0000000000000010 0x00010d00 xpc_retain
+[  375]    375     Trampoline      0x00000001000217d8                    0x0000000000000010 0x00010d00 xpc_string_create
+[  376]    376     Trampoline      0x00000001000217e8                    0x0000000000000010 0x00010d00 xpc_string_get_length
+[  377]    377     Trampoline      0x00000001000217f8                    0x0000000000000010 0x00010d00 xpc_string_get_string_ptr
+[  378]    378     Trampoline      0x0000000100021808                    0x0000000000000010 0x00010d00 xpc_transaction_exit_clean
+[  379]    379     Trampoline      0x0000000100021818                    0x0000000000000010 0x00010d00 xpc_uint64_get_value
+[  380]    380  S  Code            0x00000001000013e0                    0x000000000000008c 0x00000000 ___lldb_unnamed_symbol1$$cryptexd
+[  381]    381  S  Code            0x000000010000146c                    0x000000000000017c 0x00000000 ___lldb_unnamed_symbol2$$cryptexd
+[  382]    382  S  Code            0x00000001000015e8                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol3$$cryptexd
+[  383]    383  S  Code            0x0000000100001688                    0x00000000000004c8 0x00000000 ___lldb_unnamed_symbol4$$cryptexd
+[  384]    384  S  Code            0x0000000100001b50                    0x0000000000000420 0x00000000 ___lldb_unnamed_symbol5$$cryptexd
+[  385]    385  S  Code            0x0000000100001f70                    0x00000000000000f4 0x00000000 ___lldb_unnamed_symbol6$$cryptexd
+[  386]    386  S  Code            0x0000000100002064                    0x0000000000000558 0x00000000 ___lldb_unnamed_symbol7$$cryptexd
+[  387]    387  S  Code            0x00000001000025bc                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol8$$cryptexd
+[  388]    388  S  Code            0x00000001000025c8                    0x0000000000000010 0x00000000 ___lldb_unnamed_symbol9$$cryptexd
+[  389]    389  S  Code            0x00000001000025d8                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol10$$cryptexd
+[  390]    390  S  Code            0x00000001000025ec                    0x00000000000000c8 0x00000000 ___lldb_unnamed_symbol11$$cryptexd
+[  391]    391  S  Code            0x00000001000026b4                    0x000000000000016c 0x00000000 ___lldb_unnamed_symbol12$$cryptexd
+[  392]    392  S  Code            0x0000000100002820                    0x000000000000010c 0x00000000 ___lldb_unnamed_symbol13$$cryptexd
+[  393]    393  S  Code            0x000000010000292c                    0x000000000000013c 0x00000000 ___lldb_unnamed_symbol14$$cryptexd
+[  394]    394  S  Code            0x0000000100002a68                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol15$$cryptexd
+[  395]    395  S  Code            0x0000000100002a84                    0x000000000000002c 0x00000000 ___lldb_unnamed_symbol16$$cryptexd
+[  396]    396  S  Code            0x0000000100002ab0                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol17$$cryptexd
+[  397]    397  S  Code            0x0000000100002bb0                    0x0000000000000268 0x00000000 ___lldb_unnamed_symbol18$$cryptexd
+[  398]    398  S  Code            0x0000000100002e18                    0x00000000000000c0 0x00000000 ___lldb_unnamed_symbol19$$cryptexd
+[  399]    399  S  Code            0x0000000100002ed8                    0x0000000000000120 0x00000000 ___lldb_unnamed_symbol20$$cryptexd
+[  400]    400  S  Code            0x0000000100002ff8                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol21$$cryptexd
+[  401]    401  S  Code            0x0000000100002ffc                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol22$$cryptexd
+[  402]    402  S  Code            0x0000000100003000                    0x00000000000000e0 0x00000000 ___lldb_unnamed_symbol23$$cryptexd
+[  403]    403  S  Code            0x00000001000030e0                    0x0000000000000034 0x00000000 ___lldb_unnamed_symbol24$$cryptexd
+[  404]    404  S  Code            0x0000000100003114                    0x00000000000000cc 0x00000000 ___lldb_unnamed_symbol25$$cryptexd
+[  405]    405  S  Code            0x00000001000031e0                    0x0000000000000108 0x00000000 ___lldb_unnamed_symbol26$$cryptexd
+[  406]    406  S  Code            0x00000001000032e8                    0x0000000000000028 0x00000000 ___lldb_unnamed_symbol27$$cryptexd
+[  407]    407  S  Code            0x0000000100003310                    0x0000000000000140 0x00000000 ___lldb_unnamed_symbol28$$cryptexd
+[  408]    408  S  Code            0x0000000100003450                    0x00000000000000b0 0x00000000 ___lldb_unnamed_symbol29$$cryptexd
+[  409]    409  S  Code            0x0000000100003500                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol30$$cryptexd
+[  410]    410  S  Code            0x0000000100003514                    0x00000000000000ac 0x00000000 ___lldb_unnamed_symbol31$$cryptexd
+[  411]    411  S  Code            0x00000001000035c0                    0x0000000000000040 0x00000000 ___lldb_unnamed_symbol32$$cryptexd
+[  412]    412  S  Code            0x0000000100003600                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol33$$cryptexd
+[  413]    413  S  Code            0x0000000100003664                    0x0000000000000534 0x00000000 ___lldb_unnamed_symbol34$$cryptexd
+[  414]    414  S  Code            0x0000000100003b98                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol35$$cryptexd
+[  415]    415  S  Code            0x0000000100003c98                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol36$$cryptexd
+[  416]    416  S  Code            0x0000000100003d94                    0x0000000000000134 0x00000000 ___lldb_unnamed_symbol37$$cryptexd
+[  417]    417  S  Code            0x0000000100003ec8                    0x000000000000012c 0x00000000 ___lldb_unnamed_symbol38$$cryptexd
+[  418]    418  S  Code            0x0000000100003ff4                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol39$$cryptexd
+[  419]    419  S  Code            0x0000000100004084                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol40$$cryptexd
+[  420]    420  S  Code            0x00000001000040b4                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol41$$cryptexd
+[  421]    421  S  Code            0x00000001000040e4                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol42$$cryptexd
+[  422]    422  S  Code            0x0000000100004114                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol43$$cryptexd
+[  423]    423  S  Code            0x0000000100004144                    0x0000000000000098 0x00000000 ___lldb_unnamed_symbol44$$cryptexd
+[  424]    424  S  Code            0x00000001000041dc                    0x0000000000000104 0x00000000 ___lldb_unnamed_symbol45$$cryptexd
+[  425]    425  S  Code            0x00000001000042e0                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol46$$cryptexd
+[  426]    426  S  Code            0x00000001000043e0                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol47$$cryptexd
+[  427]    427  S  Code            0x00000001000043f4                    0x000000000000007c 0x00000000 ___lldb_unnamed_symbol48$$cryptexd
+[  428]    428  S  Code            0x0000000100004470                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol49$$cryptexd
+[  429]    429  S  Code            0x00000001000044ac                    0x00000000000001f4 0x00000000 ___lldb_unnamed_symbol50$$cryptexd
+[  430]    430  S  Code            0x00000001000046a0                    0x0000000000000110 0x00000000 ___lldb_unnamed_symbol51$$cryptexd
+[  431]    431  S  Code            0x00000001000047b0                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol52$$cryptexd
+[  432]    432  S  Code            0x00000001000048b0                    0x0000000000000020 0x00000000 ___lldb_unnamed_symbol53$$cryptexd
+[  433]    433  S  Code            0x00000001000048d0                    0x0000000000000124 0x00000000 ___lldb_unnamed_symbol54$$cryptexd
+[  434]    434  S  Code            0x00000001000049f4                    0x0000000000000124 0x00000000 ___lldb_unnamed_symbol55$$cryptexd
+[  435]    435  S  Code            0x0000000100004b18                    0x0000000000000124 0x00000000 ___lldb_unnamed_symbol56$$cryptexd
+[  436]    436  S  Code            0x0000000100004c3c                    0x0000000000000124 0x00000000 ___lldb_unnamed_symbol57$$cryptexd
+[  437]    437  S  Code            0x0000000100004d60                    0x0000000000000130 0x00000000 ___lldb_unnamed_symbol58$$cryptexd
+[  438]    438  S  Code            0x0000000100004e90                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol59$$cryptexd
+[  439]    439  S  Code            0x0000000100004e9c                    0x00000000000001a4 0x00000000 ___lldb_unnamed_symbol60$$cryptexd
+[  440]    440  S  Code            0x0000000100005040                    0x00000000000001a4 0x00000000 ___lldb_unnamed_symbol61$$cryptexd
+[  441]    441  S  Code            0x00000001000051e4                    0x00000000000000bc 0x00000000 ___lldb_unnamed_symbol62$$cryptexd
+[  442]    442  S  Code            0x00000001000052a0                    0x00000000000002f0 0x00000000 ___lldb_unnamed_symbol63$$cryptexd
+[  443]    443  S  Code            0x0000000100005590                    0x0000000000000138 0x00000000 ___lldb_unnamed_symbol64$$cryptexd
+[  444]    444  S  Code            0x00000001000056c8                    0x00000000000002bc 0x00000000 ___lldb_unnamed_symbol65$$cryptexd
+[  445]    445  S  Code            0x0000000100005984                    0x0000000000000168 0x00000000 ___lldb_unnamed_symbol66$$cryptexd
+[  446]    446  S  Code            0x0000000100005aec                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol67$$cryptexd
+[  447]    447  S  Code            0x0000000100005bec                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol68$$cryptexd
+[  448]    448  S  Code            0x0000000100005bf4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol69$$cryptexd
+[  449]    449  S  Code            0x0000000100005bfc                    0x0000000000000234 0x00000000 ___lldb_unnamed_symbol70$$cryptexd
+[  450]    450  S  Code            0x0000000100005e30                    0x0000000000000318 0x00000000 ___lldb_unnamed_symbol71$$cryptexd
+[  451]    451  S  Code            0x0000000100006148                    0x00000000000002fc 0x00000000 ___lldb_unnamed_symbol72$$cryptexd
+[  452]    452  S  Code            0x0000000100006444                    0x0000000000000124 0x00000000 ___lldb_unnamed_symbol73$$cryptexd
+[  453]    453  S  Code            0x0000000100006568                    0x0000000000000240 0x00000000 ___lldb_unnamed_symbol74$$cryptexd
+[  454]    454  S  Code            0x00000001000067a8                    0x0000000000000078 0x00000000 ___lldb_unnamed_symbol75$$cryptexd
+[  455]    455  S  Code            0x0000000100006820                    0x0000000000000218 0x00000000 ___lldb_unnamed_symbol76$$cryptexd
+[  456]    456  S  Code            0x0000000100006a38                    0x00000000000002c0 0x00000000 ___lldb_unnamed_symbol77$$cryptexd
+[  457]    457  S  Code            0x0000000100006cf8                    0x00000000000002a0 0x00000000 ___lldb_unnamed_symbol78$$cryptexd
+[  458]    458  S  Code            0x0000000100006f98                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol79$$cryptexd
+[  459]    459  S  Code            0x0000000100006fa0                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol80$$cryptexd
+[  460]    460  S  Code            0x0000000100006fac                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol81$$cryptexd
+[  461]    461  S  Code            0x0000000100006fb4                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol82$$cryptexd
+[  462]    462  S  Code            0x0000000100006fc0                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol83$$cryptexd
+[  463]    463  S  Code            0x0000000100006fc8                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol84$$cryptexd
+[  464]    464  S  Code            0x0000000100006fd4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol85$$cryptexd
+[  465]    465  S  Code            0x0000000100006fdc                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol86$$cryptexd
+[  466]    466  S  Code            0x0000000100006fe8                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol87$$cryptexd
+[  467]    467  S  Code            0x0000000100006ff0                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol88$$cryptexd
+[  468]    468  S  Code            0x0000000100006ffc                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol89$$cryptexd
+[  469]    469  S  Code            0x0000000100007004                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol90$$cryptexd
+[  470]    470  S  Code            0x0000000100007010                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol91$$cryptexd
+[  471]    471  S  Code            0x0000000100007018                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol92$$cryptexd
+[  472]    472  S  Code            0x0000000100007024                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol93$$cryptexd
+[  473]    473  S  Code            0x000000010000702c                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol94$$cryptexd
+[  474]    474  S  Code            0x0000000100007034                    0x0000000000000080 0x00000000 ___lldb_unnamed_symbol95$$cryptexd
+[  475]    475  S  Code            0x00000001000070b4                    0x0000000000000080 0x00000000 ___lldb_unnamed_symbol96$$cryptexd
+[  476]    476  S  Code            0x0000000100007134                    0x0000000000000054 0x00000000 ___lldb_unnamed_symbol97$$cryptexd
+[  477]    477  S  Code            0x0000000100007188                    0x0000000000000050 0x00000000 ___lldb_unnamed_symbol98$$cryptexd
+[  478]    478  S  Code            0x00000001000071d8                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol99$$cryptexd
+[  479]    479  S  Code            0x0000000100007268                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol100$$cryptexd
+[  480]    480  S  Code            0x00000001000072f8                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol101$$cryptexd
+[  481]    481  S  Code            0x0000000100007304                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol102$$cryptexd
+[  482]    482  S  Code            0x000000010000730c                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol103$$cryptexd
+[  483]    483  S  Code            0x0000000100007314                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol104$$cryptexd
+[  484]    484  S  Code            0x0000000100007320                    0x0000000000000044 0x00000000 ___lldb_unnamed_symbol105$$cryptexd
+[  485]    485  S  Code            0x0000000100007364                    0x0000000000000240 0x00000000 ___lldb_unnamed_symbol106$$cryptexd
+[  486]    486  S  Code            0x00000001000075a4                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol107$$cryptexd
+[  487]    487  S  Code            0x000000010000765c                    0x0000000000000104 0x00000000 ___lldb_unnamed_symbol108$$cryptexd
+[  488]    488  S  Code            0x0000000100007760                    0x0000000000000320 0x00000000 ___lldb_unnamed_symbol109$$cryptexd
+[  489]    489  S  Code            0x0000000100007a80                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol110$$cryptexd
+[  490]    490  S  Code            0x0000000100007a9c                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol111$$cryptexd
+[  491]    491  S  Code            0x0000000100007aa4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol112$$cryptexd
+[  492]    492  S  Code            0x0000000100007aac                    0x0000000000000044 0x00000000 ___lldb_unnamed_symbol113$$cryptexd
+[  493]    493  S  Code            0x0000000100007af0                    0x00000000000002dc 0x00000000 ___lldb_unnamed_symbol114$$cryptexd
+[  494]    494  S  Code            0x0000000100007dcc                    0x0000000000000164 0x00000000 ___lldb_unnamed_symbol115$$cryptexd
+[  495]    495  S  Code            0x0000000100007f30                    0x000000000000002c 0x00000000 ___lldb_unnamed_symbol116$$cryptexd
+[  496]    496  S  Code            0x0000000100007f5c                    0x0000000000000060 0x00000000 ___lldb_unnamed_symbol117$$cryptexd
+[  497]    497  S  Code            0x0000000100007fbc                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol118$$cryptexd
+[  498]    498  S  Code            0x0000000100008074                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol119$$cryptexd
+[  499]    499  S  Code            0x0000000100008170                    0x000000000000006c 0x00000000 ___lldb_unnamed_symbol120$$cryptexd
+[  500]    500  S  Code            0x00000001000081dc                    0x0000000000000350 0x00000000 ___lldb_unnamed_symbol121$$cryptexd
+[  501]    501  S  Code            0x000000010000852c                    0x0000000000000394 0x00000000 ___lldb_unnamed_symbol122$$cryptexd
+[  502]    502  S  Code            0x00000001000088c0                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol123$$cryptexd
+[  503]    503  S  Code            0x00000001000089c0                    0x000000000000004c 0x00000000 ___lldb_unnamed_symbol124$$cryptexd
+[  504]    504  S  Code            0x0000000100008a0c                    0x0000000000000524 0x00000000 ___lldb_unnamed_symbol125$$cryptexd
+[  505]    505  S  Code            0x0000000100008f30                    0x00000000000000b0 0x00000000 ___lldb_unnamed_symbol126$$cryptexd
+[  506]    506  S  Code            0x0000000100008fe0                    0x0000000000000078 0x00000000 ___lldb_unnamed_symbol127$$cryptexd
+[  507]    507  S  Code            0x0000000100009058                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol128$$cryptexd
+[  508]    508  S  Code            0x0000000100009110                    0x00000000000000c8 0x00000000 ___lldb_unnamed_symbol129$$cryptexd
+[  509]    509  S  Code            0x00000001000091d8                    0x00000000000000c4 0x00000000 ___lldb_unnamed_symbol130$$cryptexd
+[  510]    510  S  Code            0x000000010000929c                    0x00000000000000e0 0x00000000 ___lldb_unnamed_symbol131$$cryptexd
+[  511]    511  S  Code            0x000000010000937c                    0x00000000000000bc 0x00000000 ___lldb_unnamed_symbol132$$cryptexd
+[  512]    512  S  Code            0x0000000100009438                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol133$$cryptexd
+[  513]    513  S  Code            0x000000010000944c                    0x000000000000022c 0x00000000 ___lldb_unnamed_symbol134$$cryptexd
+[  514]    514  S  Code            0x0000000100009678                    0x00000000000000d0 0x00000000 ___lldb_unnamed_symbol135$$cryptexd
+[  515]    515  S  Code            0x0000000100009748                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol136$$cryptexd
+[  516]    516  S  Code            0x0000000100009790                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol137$$cryptexd
+[  517]    517  S  Code            0x00000001000098a4                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol138$$cryptexd
+[  518]    518  S  Code            0x00000001000098ec                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol139$$cryptexd
+[  519]    519  S  Code            0x0000000100009a00                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol140$$cryptexd
+[  520]    520  S  Code            0x0000000100009a48                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol141$$cryptexd
+[  521]    521  S  Code            0x0000000100009b5c                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol142$$cryptexd
+[  522]    522  S  Code            0x0000000100009ba4                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol143$$cryptexd
+[  523]    523  S  Code            0x0000000100009cb8                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol144$$cryptexd
+[  524]    524  S  Code            0x0000000100009d00                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol145$$cryptexd
+[  525]    525  S  Code            0x0000000100009e14                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol146$$cryptexd
+[  526]    526  S  Code            0x0000000100009e5c                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol147$$cryptexd
+[  527]    527  S  Code            0x0000000100009f70                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol148$$cryptexd
+[  528]    528  S  Code            0x0000000100009fb8                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol149$$cryptexd
+[  529]    529  S  Code            0x000000010000a0cc                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol150$$cryptexd
+[  530]    530  S  Code            0x000000010000a114                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol151$$cryptexd
+[  531]    531  S  Code            0x000000010000a228                    0x0000000000000050 0x00000000 ___lldb_unnamed_symbol152$$cryptexd
+[  532]    532  S  Code            0x000000010000a278                    0x0000000000000068 0x00000000 ___lldb_unnamed_symbol153$$cryptexd
+[  533]    533  S  Code            0x000000010000a2e0                    0x0000000000000ca4 0x00000000 ___lldb_unnamed_symbol154$$cryptexd
+[  534]    534  S  Code            0x000000010000af84                    0x00000000000001c8 0x00000000 ___lldb_unnamed_symbol155$$cryptexd
+[  535]    535  S  Code            0x000000010000b14c                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol156$$cryptexd
+[  536]    536  S  Code            0x000000010000b17c                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol157$$cryptexd
+[  537]    537  S  Code            0x000000010000b180                    0x0000000000000114 0x00000000 ___lldb_unnamed_symbol158$$cryptexd
+[  538]    538  S  Code            0x000000010000b294                    0x0000000000000274 0x00000000 ___lldb_unnamed_symbol159$$cryptexd
+[  539]    539  S  Code            0x000000010000b508                    0x0000000000000028 0x00000000 ___lldb_unnamed_symbol160$$cryptexd
+[  540]    540  S  Code            0x000000010000b530                    0x0000000000000028 0x00000000 ___lldb_unnamed_symbol161$$cryptexd
+[  541]    541  S  Code            0x000000010000b558                    0x0000000000000968 0x00000000 ___lldb_unnamed_symbol162$$cryptexd
+[  542]    542  S  Code            0x000000010000bec0                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol163$$cryptexd
+[  543]    543  S  Code            0x000000010000befc                    0x00000000000001e8 0x00000000 ___lldb_unnamed_symbol164$$cryptexd
+[  544]    544  S  Code            0x000000010000c0e4                    0x000000000000011c 0x00000000 ___lldb_unnamed_symbol165$$cryptexd
+[  545]    545  S  Code            0x000000010000c200                    0x00000000000001c4 0x00000000 ___lldb_unnamed_symbol166$$cryptexd
+[  546]    546  S  Code            0x000000010000c3c4                    0x0000000000000094 0x00000000 ___lldb_unnamed_symbol167$$cryptexd
+[  547]    547  S  Code            0x000000010000c458                    0x000000000000005c 0x00000000 ___lldb_unnamed_symbol168$$cryptexd
+[  548]    548  S  Code            0x000000010000c4b4                    0x0000000000000140 0x00000000 ___lldb_unnamed_symbol169$$cryptexd
+[  549]    549  S  Code            0x000000010000c5f4                    0x00000000000000e4 0x00000000 ___lldb_unnamed_symbol170$$cryptexd
+[  550]    550  S  Code            0x000000010000c6d8                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol171$$cryptexd
+[  551]    551  S  Code            0x000000010000c6e4                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol172$$cryptexd
+[  552]    552  S  Code            0x000000010000c774                    0x0000000000000118 0x00000000 ___lldb_unnamed_symbol173$$cryptexd
+[  553]    553  S  Code            0x000000010000c88c                    0x000000000000011c 0x00000000 ___lldb_unnamed_symbol174$$cryptexd
+[  554]    554  S  Code            0x000000010000c9a8                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol175$$cryptexd
+[  555]    555  S  Code            0x000000010000caa8                    0x00000000000001f8 0x00000000 ___lldb_unnamed_symbol176$$cryptexd
+[  556]    556  S  Code            0x000000010000cca0                    0x0000000000000230 0x00000000 ___lldb_unnamed_symbol177$$cryptexd
+[  557]    557  S  Code            0x000000010000ced0                    0x0000000000000120 0x00000000 ___lldb_unnamed_symbol178$$cryptexd
+[  558]    558  S  Code            0x000000010000cff0                    0x000000000000008c 0x00000000 ___lldb_unnamed_symbol179$$cryptexd
+[  559]    559  S  Code            0x000000010000d07c                    0x000000000000011c 0x00000000 ___lldb_unnamed_symbol180$$cryptexd
+[  560]    560  S  Code            0x000000010000d198                    0x0000000000000080 0x00000000 ___lldb_unnamed_symbol181$$cryptexd
+[  561]    561  S  Code            0x000000010000d218                    0x00000000000002d8 0x00000000 ___lldb_unnamed_symbol182$$cryptexd
+[  562]    562  S  Code            0x000000010000d4f0                    0x0000000000000084 0x00000000 ___lldb_unnamed_symbol183$$cryptexd
+[  563]    563  S  Code            0x000000010000d574                    0x00000000000001b4 0x00000000 ___lldb_unnamed_symbol184$$cryptexd
+[  564]    564  S  Code            0x000000010000d728                    0x0000000000000080 0x00000000 ___lldb_unnamed_symbol185$$cryptexd
+[  565]    565  S  Code            0x000000010000d7a8                    0x0000000000000238 0x00000000 ___lldb_unnamed_symbol186$$cryptexd
+[  566]    566  S  Code            0x000000010000d9e0                    0x0000000000000058 0x00000000 ___lldb_unnamed_symbol187$$cryptexd
+[  567]    567  S  Code            0x000000010000da38                    0x000000000000007c 0x00000000 ___lldb_unnamed_symbol188$$cryptexd
+[  568]    568  S  Code            0x000000010000dab4                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol189$$cryptexd
+[  569]    569  S  Code            0x000000010000dbb0                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol190$$cryptexd
+[  570]    570  S  Code            0x000000010000dc14                    0x00000000000002ac 0x00000000 ___lldb_unnamed_symbol191$$cryptexd
+[  571]    571  S  Code            0x000000010000dec0                    0x00000000000003f4 0x00000000 ___lldb_unnamed_symbol192$$cryptexd
+[  572]    572  S  Code            0x000000010000e2b4                    0x00000000000001ec 0x00000000 ___lldb_unnamed_symbol193$$cryptexd
+[  573]    573  S  Code            0x000000010000e4a0                    0x00000000000003b4 0x00000000 ___lldb_unnamed_symbol194$$cryptexd
+[  574]    574  S  Code            0x000000010000e854                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol195$$cryptexd
+[  575]    575  S  Code            0x000000010000e954                    0x00000000000001b8 0x00000000 ___lldb_unnamed_symbol196$$cryptexd
+[  576]    576  S  Code            0x000000010000eb0c                    0x00000000000002e4 0x00000000 ___lldb_unnamed_symbol197$$cryptexd
+[  577]    577  S  Code            0x000000010000edf0                    0x000000000000037c 0x00000000 ___lldb_unnamed_symbol198$$cryptexd
+[  578]    578  S  Code            0x000000010000f16c                    0x0000000000000174 0x00000000 ___lldb_unnamed_symbol199$$cryptexd
+[  579]    579  S  Code            0x000000010000f2e0                    0x0000000000000194 0x00000000 ___lldb_unnamed_symbol200$$cryptexd
+[  580]    580  S  Code            0x000000010000f474                    0x0000000000000980 0x00000000 ___lldb_unnamed_symbol201$$cryptexd
+[  581]    581  S  Code            0x000000010000fdf4                    0x00000000000000b0 0x00000000 ___lldb_unnamed_symbol202$$cryptexd
+[  582]    582  S  Code            0x000000010000fea4                    0x00000000000001dc 0x00000000 ___lldb_unnamed_symbol203$$cryptexd
+[  583]    583  S  Code            0x0000000100010080                    0x00000000000002a8 0x00000000 ___lldb_unnamed_symbol204$$cryptexd
+[  584]    584  S  Code            0x0000000100010328                    0x0000000000000120 0x00000000 ___lldb_unnamed_symbol205$$cryptexd
+[  585]    585  S  Code            0x0000000100010448                    0x00000000000000f8 0x00000000 ___lldb_unnamed_symbol206$$cryptexd
+[  586]    586  S  Code            0x0000000100010540                    0x0000000000000164 0x00000000 ___lldb_unnamed_symbol207$$cryptexd
+[  587]    587  S  Code            0x00000001000106a4                    0x0000000000000388 0x00000000 ___lldb_unnamed_symbol208$$cryptexd
+[  588]    588  S  Code            0x0000000100010a2c                    0x0000000000000180 0x00000000 ___lldb_unnamed_symbol209$$cryptexd
+[  589]    589  S  Code            0x0000000100010bac                    0x00000000000003c4 0x00000000 ___lldb_unnamed_symbol210$$cryptexd
+[  590]    590  S  Code            0x0000000100010f70                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol211$$cryptexd
+[  591]    591  S  Code            0x0000000100010fd4                    0x0000000000000128 0x00000000 ___lldb_unnamed_symbol212$$cryptexd
+[  592]    592  S  Code            0x00000001000110fc                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol213$$cryptexd
+[  593]    593  S  Code            0x000000010001118c                    0x0000000000000068 0x00000000 ___lldb_unnamed_symbol214$$cryptexd
+[  594]    594  S  Code            0x00000001000111f4                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol215$$cryptexd
+[  595]    595  S  Code            0x0000000100011284                    0x0000000000000224 0x00000000 ___lldb_unnamed_symbol216$$cryptexd
+[  596]    596  S  Code            0x00000001000114a8                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol217$$cryptexd
+[  597]    597  S  Code            0x0000000100011538                    0x0000000000000318 0x00000000 ___lldb_unnamed_symbol218$$cryptexd
+[  598]    598  S  Code            0x0000000100011850                    0x000000000000023c 0x00000000 ___lldb_unnamed_symbol219$$cryptexd
+[  599]    599  S  Code            0x0000000100011a8c                    0x0000000000000194 0x00000000 ___lldb_unnamed_symbol220$$cryptexd
+[  600]    600  S  Code            0x0000000100011c20                    0x0000000000000060 0x00000000 ___lldb_unnamed_symbol221$$cryptexd
+[  601]    601  S  Code            0x0000000100011c80                    0x00000000000009b8 0x00000000 ___lldb_unnamed_symbol222$$cryptexd
+[  602]    602  S  Code            0x0000000100012638                    0x0000000000000324 0x00000000 ___lldb_unnamed_symbol223$$cryptexd
+[  603]    603  S  Code            0x000000010001295c                    0x0000000000000568 0x00000000 ___lldb_unnamed_symbol224$$cryptexd
+[  604]    604  S  Code            0x0000000100012ec4                    0x000000000000081c 0x00000000 ___lldb_unnamed_symbol225$$cryptexd
+[  605]    605  S  Code            0x00000001000136e0                    0x00000000000007b0 0x00000000 ___lldb_unnamed_symbol226$$cryptexd
+[  606]    606  S  Code            0x0000000100013e90                    0x00000000000000f0 0x00000000 ___lldb_unnamed_symbol227$$cryptexd
+[  607]    607  S  Code            0x0000000100013f80                    0x000000000000047c 0x00000000 ___lldb_unnamed_symbol228$$cryptexd
+[  608]    608  S  Code            0x00000001000143fc                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol229$$cryptexd
+[  609]    609  S  Code            0x00000001000144fc                    0x0000000000000210 0x00000000 ___lldb_unnamed_symbol230$$cryptexd
+[  610]    610  S  Code            0x000000010001470c                    0x00000000000003c4 0x00000000 ___lldb_unnamed_symbol231$$cryptexd
+[  611]    611  S  Code            0x0000000100014ad0                    0x0000000000000050 0x00000000 ___lldb_unnamed_symbol232$$cryptexd
+[  612]    612  S  Code            0x0000000100014b20                    0x00000000000001cc 0x00000000 ___lldb_unnamed_symbol233$$cryptexd
+[  613]    613  S  Code            0x0000000100014cec                    0x0000000000000270 0x00000000 ___lldb_unnamed_symbol234$$cryptexd
+[  614]    614  S  Code            0x0000000100014f5c                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol235$$cryptexd
+[  615]    615  S  Code            0x000000010001505c                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol236$$cryptexd
+[  616]    616  S  Code            0x0000000100015064                    0x0000000000000880 0x00000000 ___lldb_unnamed_symbol237$$cryptexd
+[  617]    617  S  Code            0x00000001000158e4                    0x0000000000000448 0x00000000 ___lldb_unnamed_symbol238$$cryptexd
+[  618]    618  S  Code            0x0000000100015d2c                    0x0000000000000054 0x00000000 ___lldb_unnamed_symbol239$$cryptexd
+[  619]    619  S  Code            0x0000000100015d80                    0x000000000000004c 0x00000000 ___lldb_unnamed_symbol240$$cryptexd
+[  620]    620  S  Code            0x0000000100015dcc                    0x000000000000017c 0x00000000 ___lldb_unnamed_symbol241$$cryptexd
+[  621]    621  S  Code            0x0000000100015f48                    0x000000000000055c 0x00000000 ___lldb_unnamed_symbol242$$cryptexd
+[  622]    622  S  Code            0x00000001000164a4                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol243$$cryptexd
+[  623]    623  S  Code            0x00000001000165a4                    0x00000000000001e8 0x00000000 ___lldb_unnamed_symbol244$$cryptexd
+[  624]    624  S  Code            0x000000010001678c                    0x0000000000000058 0x00000000 ___lldb_unnamed_symbol245$$cryptexd
+[  625]    625  S  Code            0x00000001000167e4                    0x00000000000003d8 0x00000000 ___lldb_unnamed_symbol246$$cryptexd
+[  626]    626  S  Code            0x0000000100016bbc                    0x0000000000000150 0x00000000 ___lldb_unnamed_symbol247$$cryptexd
+[  627]    627  S  Code            0x0000000100016d0c                    0x0000000000000098 0x00000000 ___lldb_unnamed_symbol248$$cryptexd
+[  628]    628  S  Code            0x0000000100016da4                    0x00000000000002e0 0x00000000 ___lldb_unnamed_symbol249$$cryptexd
+[  629]    629  S  Code            0x0000000100017084                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol250$$cryptexd
+[  630]    630  S  Code            0x00000001000170e8                    0x0000000000000370 0x00000000 ___lldb_unnamed_symbol251$$cryptexd
+[  631]    631  S  Code            0x0000000100017458                    0x0000000000000064 0x00000000 ___lldb_unnamed_symbol252$$cryptexd
+[  632]    632  S  Code            0x00000001000174bc                    0x0000000000000078 0x00000000 ___lldb_unnamed_symbol253$$cryptexd
+[  633]    633  S  Code            0x0000000100017534                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol254$$cryptexd
+[  634]    634  S  Code            0x00000001000175d4                    0x00000000000007f0 0x00000000 ___lldb_unnamed_symbol255$$cryptexd
+[  635]    635  S  Code            0x0000000100017dc4                    0x0000000000000010 0x00000000 ___lldb_unnamed_symbol256$$cryptexd
+[  636]    636  S  Code            0x0000000100017dd4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol257$$cryptexd
+[  637]    637  S  Code            0x0000000100017ddc                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol258$$cryptexd
+[  638]    638  S  Code            0x0000000100017edc                    0x0000000000000624 0x00000000 ___lldb_unnamed_symbol259$$cryptexd
+[  639]    639  S  Code            0x0000000100018500                    0x00000000000006e0 0x00000000 ___lldb_unnamed_symbol260$$cryptexd
+[  640]    640  S  Code            0x0000000100018be0                    0x0000000000000068 0x00000000 ___lldb_unnamed_symbol261$$cryptexd
+[  641]    641  S  Code            0x0000000100018c48                    0x0000000000000378 0x00000000 ___lldb_unnamed_symbol262$$cryptexd
+[  642]    642  S  Code            0x0000000100018fc0                    0x0000000000000288 0x00000000 ___lldb_unnamed_symbol263$$cryptexd
+[  643]    643  S  Code            0x0000000100019248                    0x00000000000002c0 0x00000000 ___lldb_unnamed_symbol264$$cryptexd
+[  644]    644  S  Code            0x0000000100019508                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol265$$cryptexd
+[  645]    645  S  Code            0x0000000100019544                    0x000000000000041c 0x00000000 ___lldb_unnamed_symbol266$$cryptexd
+[  646]    646  S  Code            0x0000000100019960                    0x0000000000000134 0x00000000 ___lldb_unnamed_symbol267$$cryptexd
+[  647]    647  S  Code            0x0000000100019a94                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol268$$cryptexd
+[  648]    648  S  Code            0x0000000100019b90                    0x0000000000000214 0x00000000 ___lldb_unnamed_symbol269$$cryptexd
+[  649]    649  S  Code            0x0000000100019da4                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol270$$cryptexd
+[  650]    650  S  Code            0x0000000100019dec                    0x00000000000000d0 0x00000000 ___lldb_unnamed_symbol271$$cryptexd
+[  651]    651  S  Code            0x0000000100019ebc                    0x0000000000000140 0x00000000 ___lldb_unnamed_symbol272$$cryptexd
+[  652]    652  S  Code            0x0000000100019ffc                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol273$$cryptexd
+[  653]    653  S  Code            0x000000010001a000                    0x0000000000000838 0x00000000 ___lldb_unnamed_symbol274$$cryptexd
+[  654]    654  S  Code            0x000000010001a838                    0x00000000000001b0 0x00000000 ___lldb_unnamed_symbol275$$cryptexd
+[  655]    655  S  Code            0x000000010001a9e8                    0x00000000000001c4 0x00000000 ___lldb_unnamed_symbol276$$cryptexd
+[  656]    656  S  Code            0x000000010001abac                    0x0000000000000148 0x00000000 ___lldb_unnamed_symbol277$$cryptexd
+[  657]    657  S  Code            0x000000010001acf4                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol278$$cryptexd
+[  658]    658  S  Code            0x000000010001adf4                    0x000000000000002c 0x00000000 ___lldb_unnamed_symbol279$$cryptexd
+[  659]    659  S  Code            0x000000010001ae20                    0x000000000000008c 0x00000000 ___lldb_unnamed_symbol280$$cryptexd
+[  660]    660  S  Code            0x000000010001aeac                    0x0000000000000184 0x00000000 ___lldb_unnamed_symbol281$$cryptexd
+[  661]    661  S  Code            0x000000010001b030                    0x0000000000000054 0x00000000 ___lldb_unnamed_symbol282$$cryptexd
+[  662]    662  S  Code            0x000000010001b084                    0x0000000000000050 0x00000000 ___lldb_unnamed_symbol283$$cryptexd
+[  663]    663  S  Code            0x000000010001b0d4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol284$$cryptexd
+[  664]    664  S  Code            0x000000010001b0dc                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol285$$cryptexd
+[  665]    665  S  Code            0x000000010001b0e4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol286$$cryptexd
+[  666]    666  S  Code            0x000000010001b0ec                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol287$$cryptexd
+[  667]    667  S  Code            0x000000010001b0f4                    0x0000000000000008 0x00000000 ___lldb_unnamed_symbol288$$cryptexd
+[  668]    668  S  Code            0x000000010001b0fc                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol289$$cryptexd
+[  669]    669  S  Code            0x000000010001b12c                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol290$$cryptexd
+[  670]    670  S  Code            0x000000010001b140                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol291$$cryptexd
+[  671]    671  S  Code            0x000000010001b17c                    0x00000000000000a4 0x00000000 ___lldb_unnamed_symbol292$$cryptexd
+[  672]    672  S  Code            0x000000010001b220                    0x0000000000000090 0x00000000 ___lldb_unnamed_symbol293$$cryptexd
+[  673]    673  S  Code            0x000000010001b2b0                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol294$$cryptexd
+[  674]    674  S  Code            0x000000010001b2f8                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol295$$cryptexd
+[  675]    675  S  Code            0x000000010001b304                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol296$$cryptexd
+[  676]    676  S  Code            0x000000010001b3a4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol297$$cryptexd
+[  677]    677  S  Code            0x000000010001b3c0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol298$$cryptexd
+[  678]    678  S  Code            0x000000010001b3dc                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol299$$cryptexd
+[  679]    679  S  Code            0x000000010001b3f8                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol300$$cryptexd
+[  680]    680  S  Code            0x000000010001b414                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol301$$cryptexd
+[  681]    681  S  Code            0x000000010001b420                    0x0000000000000030 0x00000000 ___lldb_unnamed_symbol302$$cryptexd
+[  682]    682  S  Code            0x000000010001b450                    0x0000000000000038 0x00000000 ___lldb_unnamed_symbol303$$cryptexd
+[  683]    683  S  Code            0x000000010001b488                    0x0000000000000174 0x00000000 ___lldb_unnamed_symbol304$$cryptexd
+[  684]    684  S  Code            0x000000010001b5fc                    0x000000000000031c 0x00000000 ___lldb_unnamed_symbol305$$cryptexd
+[  685]    685  S  Code            0x000000010001b918                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol306$$cryptexd
+[  686]    686  S  Code            0x000000010001b9d0                    0x000000000000015c 0x00000000 ___lldb_unnamed_symbol307$$cryptexd
+[  687]    687  S  Code            0x000000010001bb2c                    0x0000000000000074 0x00000000 ___lldb_unnamed_symbol308$$cryptexd
+[  688]    688  S  Code            0x000000010001bba0                    0x000000000000027c 0x00000000 ___lldb_unnamed_symbol309$$cryptexd
+[  689]    689  S  Code            0x000000010001be1c                    0x00000000000002d8 0x00000000 ___lldb_unnamed_symbol310$$cryptexd
+[  690]    690  S  Code            0x000000010001c0f4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol311$$cryptexd
+[  691]    691  S  Code            0x000000010001c110                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol312$$cryptexd
+[  692]    692  S  Code            0x000000010001c12c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol313$$cryptexd
+[  693]    693  S  Code            0x000000010001c148                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol314$$cryptexd
+[  694]    694  S  Code            0x000000010001c164                    0x0000000000000034 0x00000000 ___lldb_unnamed_symbol315$$cryptexd
+[  695]    695  S  Code            0x000000010001c198                    0x0000000000000230 0x00000000 ___lldb_unnamed_symbol316$$cryptexd
+[  696]    696  S  Code            0x000000010001c3c8                    0x0000000000000144 0x00000000 ___lldb_unnamed_symbol317$$cryptexd
+[  697]    697  S  Code            0x000000010001c50c                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol318$$cryptexd
+[  698]    698  S  Code            0x000000010001c548                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol319$$cryptexd
+[  699]    699  S  Code            0x000000010001c55c                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol320$$cryptexd
+[  700]    700  S  Code            0x000000010001c570                    0x0000000000000268 0x00000000 ___lldb_unnamed_symbol321$$cryptexd
+[  701]    701  S  Code            0x000000010001c7d8                    0x000000000000002c 0x00000000 ___lldb_unnamed_symbol322$$cryptexd
+[  702]    702  S  Code            0x000000010001c804                    0x000000000000014c 0x00000000 ___lldb_unnamed_symbol323$$cryptexd
+[  703]    703  S  Code            0x000000010001c950                    0x00000000000001a4 0x00000000 ___lldb_unnamed_symbol324$$cryptexd
+[  704]    704  S  Code            0x000000010001caf4                    0x0000000000000154 0x00000000 ___lldb_unnamed_symbol325$$cryptexd
+[  705]    705  S  Code            0x000000010001cc48                    0x000000000000026c 0x00000000 ___lldb_unnamed_symbol326$$cryptexd
+[  706]    706  S  Code            0x000000010001ceb4                    0x00000000000000a0 0x00000000 ___lldb_unnamed_symbol327$$cryptexd
+[  707]    707  S  Code            0x000000010001cf54                    0x0000000000000f30 0x00000000 ___lldb_unnamed_symbol328$$cryptexd
+[  708]    708  S  Code            0x000000010001de84                    0x00000000000000fc 0x00000000 ___lldb_unnamed_symbol329$$cryptexd
+[  709]    709  S  Code            0x000000010001df80                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol330$$cryptexd
+[  710]    710  S  Code            0x000000010001e080                    0x00000000000001e0 0x00000000 ___lldb_unnamed_symbol331$$cryptexd
+[  711]    711  S  Code            0x000000010001e260                    0x0000000000000560 0x00000000 ___lldb_unnamed_symbol332$$cryptexd
+[  712]    712  S  Code            0x000000010001e7c0                    0x000000000000005c 0x00000000 ___lldb_unnamed_symbol333$$cryptexd
+[  713]    713  S  Code            0x000000010001e81c                    0x0000000000000100 0x00000000 ___lldb_unnamed_symbol334$$cryptexd
+[  714]    714  S  Code            0x000000010001e91c                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol335$$cryptexd
+[  715]    715  S  Code            0x000000010001e928                    0x0000000000000014 0x00000000 ___lldb_unnamed_symbol336$$cryptexd
+[  716]    716  S  Code            0x000000010001e93c                    0x000000000000008c 0x00000000 ___lldb_unnamed_symbol337$$cryptexd
+[  717]    717  S  Code            0x000000010001e9c8                    0x0000000000000274 0x00000000 ___lldb_unnamed_symbol338$$cryptexd
+[  718]    718  S  Code            0x000000010001ec3c                    0x0000000000000360 0x00000000 ___lldb_unnamed_symbol339$$cryptexd
+[  719]    719  S  Code            0x000000010001ef9c                    0x0000000000000200 0x00000000 ___lldb_unnamed_symbol340$$cryptexd
+[  720]    720  S  Code            0x000000010001f19c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol341$$cryptexd
+[  721]    721  S  Code            0x000000010001f1b8                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol342$$cryptexd
+[  722]    722  S  Code            0x000000010001f1d4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol343$$cryptexd
+[  723]    723  S  Code            0x000000010001f1f0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol344$$cryptexd
+[  724]    724  S  Code            0x000000010001f20c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol345$$cryptexd
+[  725]    725  S  Code            0x000000010001f228                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol346$$cryptexd
+[  726]    726  S  Code            0x000000010001f244                    0x0000000000000004 0x00000000 ___lldb_unnamed_symbol347$$cryptexd
+[  727]    727  S  Code            0x000000010001f248                    0x00000000000000f4 0x00000000 ___lldb_unnamed_symbol348$$cryptexd
+[  728]    728  S  Code            0x000000010001f33c                    0x00000000000000f0 0x00000000 ___lldb_unnamed_symbol349$$cryptexd
+[  729]    729  S  Code            0x000000010001f42c                    0x00000000000000f4 0x00000000 ___lldb_unnamed_symbol350$$cryptexd
+[  730]    730  S  Code            0x000000010001f520                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol351$$cryptexd
+[  731]    731  S  Code            0x000000010001f52c                    0x0000000000000120 0x00000000 ___lldb_unnamed_symbol352$$cryptexd
+[  732]    732  S  Code            0x000000010001f64c                    0x0000000000000028 0x00000000 ___lldb_unnamed_symbol353$$cryptexd
+[  733]    733  S  Code            0x000000010001f674                    0x0000000000000040 0x00000000 ___lldb_unnamed_symbol354$$cryptexd
+[  734]    734  S  Code            0x000000010001f6b4                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol355$$cryptexd
+[  735]    735  S  Code            0x000000010001f6c0                    0x00000000000001bc 0x00000000 ___lldb_unnamed_symbol356$$cryptexd
+[  736]    736  S  Code            0x000000010001f87c                    0x0000000000000058 0x00000000 ___lldb_unnamed_symbol357$$cryptexd
+[  737]    737  S  Code            0x000000010001f8d4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol358$$cryptexd
+[  738]    738  S  Code            0x000000010001f8f0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol359$$cryptexd
+[  739]    739  S  Code            0x000000010001f90c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol360$$cryptexd
+[  740]    740  S  Code            0x000000010001f928                    0x00000000000001ec 0x00000000 ___lldb_unnamed_symbol361$$cryptexd
+[  741]    741  S  Code            0x000000010001fb14                    0x0000000000000048 0x00000000 ___lldb_unnamed_symbol362$$cryptexd
+[  742]    742  S  Code            0x000000010001fb5c                    0x00000000000000e0 0x00000000 ___lldb_unnamed_symbol363$$cryptexd
+[  743]    743  S  Code            0x000000010001fc3c                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol364$$cryptexd
+[  744]    744  S  Code            0x000000010001fcf4                    0x00000000000000b8 0x00000000 ___lldb_unnamed_symbol365$$cryptexd
+[  745]    745  S  Code            0x000000010001fdac                    0x0000000000000118 0x00000000 ___lldb_unnamed_symbol366$$cryptexd
+[  746]    746  S  Code            0x000000010001fec4                    0x0000000000000020 0x00000000 ___lldb_unnamed_symbol367$$cryptexd
+[  747]    747  S  Code            0x000000010001fee4                    0x0000000000000010 0x00000000 ___lldb_unnamed_symbol368$$cryptexd
+[  748]    748  S  Code            0x000000010001fef4                    0x000000000000000c 0x00000000 ___lldb_unnamed_symbol369$$cryptexd
+[  749]    749  S  Code            0x000000010001ff00                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol370$$cryptexd
+[  750]    750  S  Code            0x000000010001ff1c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol371$$cryptexd
+[  751]    751  S  Code            0x000000010001ff38                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol372$$cryptexd
+[  752]    752  S  Code            0x000000010001ff54                    0x0000000000000080 0x00000000 ___lldb_unnamed_symbol373$$cryptexd
+[  753]    753  S  Code            0x000000010001ffd4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol374$$cryptexd
+[  754]    754  S  Code            0x000000010001fff0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol375$$cryptexd
+[  755]    755  S  Code            0x000000010002000c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol376$$cryptexd
+[  756]    756  S  Code            0x0000000100020028                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol377$$cryptexd
+[  757]    757  S  Code            0x0000000100020044                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol378$$cryptexd
+[  758]    758  S  Code            0x0000000100020060                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol379$$cryptexd
+[  759]    759  S  Code            0x000000010002007c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol380$$cryptexd
+[  760]    760  S  Code            0x0000000100020098                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol381$$cryptexd
+[  761]    761  S  Code            0x00000001000200b4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol382$$cryptexd
+[  762]    762  S  Code            0x00000001000200d0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol383$$cryptexd
+[  763]    763  S  Code            0x00000001000200ec                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol384$$cryptexd
+[  764]    764  S  Code            0x0000000100020108                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol385$$cryptexd
+[  765]    765  S  Code            0x0000000100020124                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol386$$cryptexd
+[  766]    766  S  Code            0x0000000100020140                    0x000000000000003c 0x00000000 ___lldb_unnamed_symbol387$$cryptexd
+[  767]    767  S  Code            0x000000010002017c                    0x0000000000000038 0x00000000 ___lldb_unnamed_symbol388$$cryptexd
+[  768]    768  S  Code            0x00000001000201b4                    0x0000000000000078 0x00000000 ___lldb_unnamed_symbol389$$cryptexd
+[  769]    769  S  Code            0x000000010002022c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol390$$cryptexd
+[  770]    770  S  Code            0x0000000100020248                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol391$$cryptexd
+[  771]    771  S  Code            0x0000000100020264                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol392$$cryptexd
+[  772]    772  S  Code            0x0000000100020280                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol393$$cryptexd
+[  773]    773  S  Code            0x000000010002029c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol394$$cryptexd
+[  774]    774  S  Code            0x00000001000202b8                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol395$$cryptexd
+[  775]    775  S  Code            0x00000001000202d4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol396$$cryptexd
+[  776]    776  S  Code            0x00000001000202f0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol397$$cryptexd
+[  777]    777  S  Code            0x000000010002030c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol398$$cryptexd
+[  778]    778  S  Code            0x0000000100020328                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol399$$cryptexd
+[  779]    779  S  Code            0x0000000100020344                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol400$$cryptexd
+[  780]    780  S  Code            0x0000000100020360                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol401$$cryptexd
+[  781]    781  S  Code            0x000000010002037c                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol402$$cryptexd
+[  782]    782  S  Code            0x0000000100020398                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol403$$cryptexd
+[  783]    783  S  Code            0x00000001000203b4                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol404$$cryptexd
+[  784]    784  S  Code            0x00000001000203d0                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol405$$cryptexd
+[  785]    785  S  Code            0x00000001000203ec                    0x000000000000001c 0x00000000 ___lldb_unnamed_symbol406$$cryptexd
+(lldb)

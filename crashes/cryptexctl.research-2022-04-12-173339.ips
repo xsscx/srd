@@ -1,0 +1,119 @@
+{"app_name":"cryptexctl.research","timestamp":"2022-04-12 17:33:39.00 -0400","app_version":"","slice_uuid":"c6cbb58f-9ab2-3213-8142-4a796bea7f2e","build_version":"","platform":1,"share_with_app_devs":0,"is_first_party":1,"bug_type":"309","os_version":"macOS 12.3.1 (21E258)","incident_id":"41BB896B-FFA4-4E04-9B03-52CBA9B7DE92","name":"cryptexctl.research"}
+{
+  "uptime" : 10000,
+  "procLaunch" : "2022-04-12 17:33:39.5047 -0400",
+  "procRole" : "Unspecified",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "Macmini8,1",
+  "procStartAbsTime" : 10574939718146,
+  "coalitionID" : 449,
+  "osVersion" : {
+    "train" : "macOS 12.3.1",
+    "build" : "21E258",
+    "releaseType" : "User"
+  },
+  "captureTime" : "2022-04-12 17:33:39.5957 -0400",
+  "incident" : "41BB896B-FFA4-4E04-9B03-52CBA9B7DE92",
+  "bug_type" : "309",
+  "pid" : 64572,
+  "procExitAbsTime" : 10575029718137,
+  "cpuType" : "X86-64",
+  "procName" : "cryptexctl.research",
+  "procPath" : "\/usr\/local\/bin\/cryptexctl.research",
+  "parentProc" : "bash",
+  "parentPid" : 43004,
+  "coalitionName" : "com.googlecode.iterm2",
+  "crashReporterKey" : "9547D8B0-D35D-3401-C64E-CF0C51C28F6C",
+  "responsiblePid" : 447,
+  "responsibleProc" : "iTerm2",
+  "wakeTime" : 987,
+  "bridgeVersion" : {"build":"19P4243","train":"6.4"},
+  "sleepWakeUUID" : "4943D3F7-CCD0-460E-82A0-59509FB7998A",
+  "sip" : "disabled",
+  "vmRegionInfo" : "0x10 is not in any region.  Bytes before following region: 4420841456\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      10780b000-107853000    [  288K] r-x\/r-x SM=COW  ...xctl.research",
+  "isCorpse" : 1,
+  "exception" : {"codes":"0x0000000000000001, 0x0000000000000010","rawCodes":[1,16],"type":"EXC_BAD_ACCESS","signal":"SIGSEGV","subtype":"KERN_INVALID_ADDRESS at 0x0000000000000010"},
+  "termination" : {"flags":0,"code":11,"namespace":"SIGNAL","indicator":"Segmentation fault: 11","byProc":"exc handler","byPid":64572},
+  "vmregioninfo" : "0x10 is not in any region.  Bytes before following region: 4420841456\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      10780b000-107853000    [  288K] r-x\/r-x SM=COW  ...xctl.research",
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":249967,"instructionState":{"instructionStream":{"bytes":[255,72,139,149,216,251,255,255,72,139,5,107,110,3,0,72,139,8,49,255,232,225,39,2,0,72,133,192,15,132,198,0,0,0,72,137,195,72,199,133,248,251,255,255,0,0,0,0,72,137,199,232,58,40,2,0,73,137,199,235,81,76,141,189,208,251,255,255,186,0,4,0,0,76,137,255,190,170,0,0,0,232,156,44,2,0,73,139,68,36,24,72,139,68,195,56,139,120,16,76,137,254,232,83,45,2,0,133,192,117,91,72,141,189,208,251,255,255,232,205,173,255,255,72,137,195,72,137,199,232,236,39,2,0,73,137,199,72,133,219,116,8,72,137,223,232,214,39,2,0,77,137,62,49,219,72,139,5,16,109,3,0,72,139,0,72,59,69,216,117,56,137,216,72,141,101,224,91,65,92,65,94,65,95,93,195,137,195,73,139,84,36],"offset":96}},"threadState":{"r13":{"value":105553149804832},"rax":{"value":0},"rflags":{"value":66183},"cpu":{"value":6},"r14":{"value":140701927949992},"rsi":{"value":12297829382473034410},"r8":{"value":864},"cr2":{"value":16},"rdx":{"value":18446744073709551600},"r10":{"value":2043},"r9":{"value":32},"r15":{"value":140701927948784},"rbx":{"value":105553149804832},"trap":{"value":14,"description":"(no mapping for user data read)"},"err":{"value":4},"r11":{"value":511},"rip":{"value":4420911822,"matchesCrashFrame":1},"rbp":{"value":140701927949856},"rsp":{"value":140701927948784},"r12":{"value":140713209663224,"symbolLocation":0,"symbol":"_cryptex_asset_type_cpxd"},"rcx":{"value":16},"flavor":"x86_THREAD_STATE","rdi":{"value":140701927949760}},"queue":"com.apple.main-thread","frames":[{"imageOffset":70350,"imageIndex":0},{"imageOffset":68948,"imageIndex":0},{"imageOffset":14335,"symbol":"os_subcommand_main","symbolLocation":671,"imageIndex":1},{"imageOffset":122736,"imageIndex":0},{"imageOffset":21790,"symbol":"start","symbolLocation":462,"imageIndex":2}]},{"id":249968,"frames":[{"imageOffset":8008,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":3}]},{"id":249969,"frames":[{"imageOffset":8008,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":3}]}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4420841472,
+    "size" : 294912,
+    "uuid" : "c6cbb58f-9ab2-3213-8142-4a796bea7f2e",
+    "path" : "\/usr\/local\/bin\/cryptexctl.research",
+    "name" : "cryptexctl.research"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703548665856,
+    "size" : 40960,
+    "uuid" : "a1c57f3c-0b85-367d-afd8-ce4b01b638c6",
+    "path" : "\/usr\/lib\/system\/libsystem_darwin.dylib",
+    "name" : "libsystem_darwin.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4430876672,
+    "size" : 442368,
+    "uuid" : "dd9e80de-fb3b-349b-96a4-46874ad34d11",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703508627456,
+    "size" : 49152,
+    "uuid" : "2f6c275d-7e14-3d31-a924-e1bb41d2415f",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  }
+],
+  "sharedCache" : {
+  "base" : 140703505354752,
+  "size" : 15224815616,
+  "uuid" : "6cc5ecdc-5119-37f0-9a85-4f48a50f5f78"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=819.2M resident=0K(0%) swapped_out_or_unallocated=819.2M(100%)\nWritable regions: Total=568.4M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=568.4M(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nKernel Alloc Once                    8K        1 \nMALLOC                           175.1M       20 \nMALLOC guard page                   16K        4 \nMALLOC_NANO (reserved)           384.0M        1         reserved VM address space (unallocated)\nSTACK GUARD                       56.0M        3 \nStack                             9232K        3 \nVM_ALLOCATE                         16K        3 \n__CTF                               759        1 \n__DATA                            13.1M      238 \n__DATA_CONST                      8763K      140 \n__DATA_DIRTY                       302K       79 \n__FONT_DATA                          4K        1 \n__LINKEDIT                       652.0M        9 \n__OBJC_RO                         82.6M        1 \n__OBJC_RW                         3200K        2 \n__TEXT                           167.2M      254 \n__UNICODE                          592K        1 \ndyld private memory               1024K        1 \nmapped file                       29.0M        2 \nshared memory                       44K        4 \n===========                     =======  ======= \nTOTAL                              1.5G      769 \nTOTAL, minus reserved VM space     1.2G      769 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.main-thread"
+  }
+},
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "60356660bbe37970735c5624",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000027
+    },
+    {
+      "rolloutId" : "6112dda2fc54bc3389840642",
+      "factorPackIds" : {
+        "SIRI_DICTATION_ASSETS" : "620aec83b02b354d3afd2f50"
+      },
+      "deploymentId" : 240000101
+    }
+  ],
+  "experiments" : [
+
+  ]
+}
+}

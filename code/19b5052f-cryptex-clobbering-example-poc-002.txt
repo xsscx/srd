@@ -1,0 +1,38 @@
+FB9680107 | 19B5052f | SRT_20C80 | cryptexctl | com.apple.cryptexd | undefined behavior | segfault 11 | multiple cryptex | cryptex clobbering
+
+CRYPTEX CLOBBERING PoC
+// Show existing cryptex
+% cryptexctl list
+  com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bwKojU
+
+// Create a new cryptex
+% cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i cx.srd.cryptex -v 0.0.0.1 toyboxunstripped.dmg
+ 
+// Install a new cryptex
+% cryptexctl install cx.srd.cryptex.cptx
+
+// Where is com.example.cryptex?? 
+// com.example.cryptex has been cryptex clobbered
+% cryptexctl list
+cx.srd.cryptex
+  version = 0.0.0.1
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bwKojU
+cx.srd.cryptex
+  version = 0.0.0.1
+  device = /dev/disk3s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/cx.srd.cryptex.K4dgvc
+
+// unclobber the com.example.cryptex
+% cryptexctl uninstall cx.srd.cryptex
+
+% cryptexctl list
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bwKojU
+  
+WORKAROUND == FB9567387 | Cryptex File System does not Persist upon Reboot. User Experience (UX): Loss of Availability. Hardware: iPhone 12,1 SRD. Reason: Quality Assurance.

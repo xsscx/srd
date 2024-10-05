@@ -1,0 +1,59 @@
+Incident Identifier: 75251216-BE5E-4F7B-BF1A-028965B098CE
+CrashReporter Key:   27edf64d589e9bcaab259afec6efbedd615c1c40
+Hardware Model:      iPhone12,1
+Process:             debugserver [795]
+Path:                /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.k6Rp0l/usr/bin/debugserver
+Identifier:          debugserver
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      sh [732]
+Coalition:           com.example.cryptex.sshd [492]
+
+Date/Time:           2021-06-29 15:46:07.6887 -0400
+Launch Time:         2021-06-29 15:46:07.6749 -0400
+OS Version:          iPhone OS 15.0 (19A5281h)
+Release Type:        Beta
+Baseband Version:    2.50.04
+Report Version:      104
+
+Exception Type:  EXC_BREAKPOINT (SIGTRAP)
+Exception Codes: 0x0000000000000001, 0x000000019944effc
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL; [5]
+Terminating Process: exc handler [795]
+
+Terminating Process: exc handler [795]
+Triggered by Thread:  0
+
+Thread 0 name:  main thread Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   libc++.1.dylib                	       0x19944effc std::__1::__shared_weak_count::__release_weak() + 60
+1   debugserver                   	       0x1029abdbc std::__1::shared_ptr<LogFilterChain>::~shared_ptr() + 72
+2   libsystem_c.dylib             	       0x18bac0dd0 __cxa_finalize_ranges + 460
+3   libsystem_c.dylib             	       0x18bac0bc0 exit + 32
+4   debugserver                   	       0x1029ad074 show_usage_and_exit(int) + 224
+5   debugserver                   	       0x1029aeff0 main + 7892
+6   dyld                          	       0x102f2371c start + 520
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x000000010310a360   x1: 0x0000000102e8de00   x2: 0x0000000103100000   x3: 0x0000000103108430
+    x4: 0x0000000000000020   x5: 0x0000000103108430   x6: 0x0000000000000006   x7: 0x000000000000003e
+    x8: 0x000000010310a370   x9: 0x0000000000000000  x10: 0x0000000000000000  x11: 0x0000000000179f41
+   x12: 0x0000000103100000  x13: 0x0000000000000000  x14: 0x00000000f343a1dc  x15: 0x0000000000005202
+   x16: 0x0020000102a1cdc0  x17: 0x0000000102a1cdc0  x18: 0x0000000000000000  x19: 0x0000000102e31b78
+   x20: 0x000000010310a360  x21: 0x00000001da89d000  x22: 0x0000000102e74030  x23: 0x0000000000000000
+   x24: 0x0000000000000008  x25: 0x00000001da89d000  x26: 0x0000000000000003  x27: 0x0000000000000002
+   x28: 0x0000000000000002   fp: 0x000000016d45ab90   lr: 0x00000001029abdbc
+    sp: 0x000000016d45ab80   pc: 0x000000019944effc cpsr: 0x20000000
+   far: 0x00000001029abd74  esr: 0xf200c472 (Breakpoint) pointer authentication trap DA
+
+Binary Images:
+       0x199440000 -        0x1994a9fff libc++.1.dylib arm64e  <f7a780c792db3cf8b8f1641bd5a643e4> /usr/lib/libc++.1.dylib
+       0x1029a4000 -        0x102a1bfff debugserver arm64e  <54186028cc6b35dfaf1be2fd9ab24404> /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.k6Rp0l/usr/bin/debugserver
+       0x18baa8000 -        0x18bb26fff libsystem_c.dylib arm64e  <e766c6ff4b5437dea4fe84c3c427d3e0> /usr/lib/system/libsystem_c.dylib
+       0x102f04000 -        0x102f5bfff dyld arm64e  <9bca7d9fe7ba314d8c36e3396b56ffa6> /usr/lib/dyld
+
+EOF
+

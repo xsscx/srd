@@ -1,0 +1,123 @@
+Exception Name: NSUncaughtSystemExceptionException
+Description: Uncaught system exception: signal 11
+User Info: {
+    NSStackTraceKey = "0x19e792c44  0x1a4b001e0  0x1a4b07554  0x1a4cd5e70  0x1a4cd5c30  0x1a4b18764  0x1a4b13b28  0x1c18926e4  0x1c189226c  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1d2734e2c  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c1892f14  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8  0x1c1892ae4  0x19e839c10  0x19e839bbc  0x1c1892368  0x1c18920c8";
+}
+
+0   CoreFoundation                      0x000000019e8c4c78 __exceptionPreprocess + 240
+1   libobjc.A.dylib                     0x000000019e5ed0a8 objc_exception_throw + 60
+2   CoreFoundation                      0x000000019e8ef330 _CFBundleGetValueForInfoKey + 0
+3   ExceptionHandling                   0x00000001b94bac14 NSExceptionHandlerUncaughtSignalHandler + 52
+4   libsystem_platform.dylib            0x000000019e792c44 _sigtramp + 56
+5   QuartzCore                          0x00000001a4b001e0 CARequiresColorMatching + 64
+6   QuartzCore                          0x00000001a4b07554 CA_CGColorGetRGBComponents + 68
+7   QuartzCore                          0x00000001a4cd5e70 _ZL24CGColor_interpolateValueP7CGColorS0_f + 120
+8   QuartzCore                          0x00000001a4cd5c30 -[NSObject(CAAnimatableValue) CA_interpolateValue:byFraction:] + 92
+9   QuartzCore                          0x00000001a4b18764 -[CABasicAnimation applyForTime:presentationObject:modelObject:] + 520
+10  QuartzCore                          0x00000001a4b13b28 _ZN2CA5Layer18presentation_layerEPNS_11TransactionE + 536
+11  UIKitCore                           0x00000001c18926e4 _UIViewEatsTouchesAndAnimationDelegateAllowsInteraction + 108
+12  UIKitCore                           0x00000001c189226c -[UIView(Geometry) hitTest:withEvent:] + 224
+13  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+14  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+15  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+16  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+17  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+18  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+19  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+20  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+21  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+22  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+23  ChatKit                             0x00000001d2734e2c -[CKTranscriptPluginBalloonView hitTest:withEvent:] + 124
+24  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+25  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+26  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+27  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+28  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+29  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+30  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+31  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+32  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+33  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+34  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+35  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+36  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+37  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+38  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+39  UIKitCore                           0x00000001c1892f14 -[UIScrollView hitTest:withEvent:] + 76
+40  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+41  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+42  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+43  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+44  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+45  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+46  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+47  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+48  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+49  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+50  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+51  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+52  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+53  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+54  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+55  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+56  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+57  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+58  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+59  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+60  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+61  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+62  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+63  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+64  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+65  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+66  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+67  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+68  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+69  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+70  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+71  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+72  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+73  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+74  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+75  UIKitCore                           0x00000001c25ef86c -[UIDropShadowView hitTest:withEvent:] + 256
+76  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+77  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+78  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+79  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+80  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+81  UIKitCore                           0x00000001c18a8068 -[UITransitionView hitTest:withEvent:] + 52
+82  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+83  UIKitCore                           0x00000001c1892ae4 __38-[UIView(Geometry) hitTest:withEvent:]_block_invoke + 132
+84  CoreFoundation                      0x000000019e839c10 __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+85  CoreFoundation                      0x000000019e839bbc -[__NSArrayM enumerateObjectsWithOptions:usingBlock:] + 488
+86  UIKitCore                           0x00000001c1892368 -[UIView(Geometry) hitTest:withEvent:] + 476
+87  UIKitCore                           0x00000001c18920c8 -[UIView(Geometry) _hitTest:withEvent:windowServerHitTestWindow:] + 96
+88  UIKitCore                           0x00000001c22cab34 ___UITouchHitTestView_block_invoke + 100
+89  UIKitCore                           0x00000001c22caba8 ___UITouchHitTestView_block_invoke.15 + 32
+90  UIKitCore                           0x00000001c16b9a74 __46-[UIWindowScene _topVisibleWindowPassingTest:]_block_invoke + 136
+91  UIKitCore                           0x00000001c162d5f8 -[UIWindowScene _enumerateWindowsIncludingInternalWindows:onlyVisibleWindows:asCopy:stopped:withBlock:] + 276
+92  UIKitCore                           0x00000001c16a12b4 -[UIWindowScene _topVisibleWindowPassingTest:] + 212
+93  UIKitCore                           0x00000001c22cc304 -[UITouch _rehitTestWithEvent:constrainingToCurrentWindow:] + 528
+94  UIKitCore                           0x00000001c18913fc -[_UIHoverTouchDeliveryTable updateForEvent:forcingHitTest:] + 132
+95  UIKitCore                           0x00000001c22c0b40 -[UIHoverEvent _setNeedsUpdateForWindow:forcingHitTest:] + 240
+96  UIKitCore                           0x00000001c1890968 -[UIWindow sendEvent:] + 4396
+97  UIKitCore                           0x00000001c188ed48 -[UIApplication sendEvent:] + 688
+98  UIKitCore                           0x00000001c22da68c __processEventQueue + 12656
+99  UIKitCore                           0x00000001c22d3760 __eventFetcherSourceCallback + 168
+100 CoreFoundation                      0x000000019e846ad4 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 28
+101 CoreFoundation                      0x000000019e846a20 __CFRunLoopDoSource0 + 208
+102 CoreFoundation                      0x000000019e84670c __CFRunLoopDoSources0 + 268
+103 CoreFoundation                      0x000000019e845094 __CFRunLoopRun + 820
+104 CoreFoundation                      0x000000019e8445e8 CFRunLoopRunSpecific + 600
+105 HIToolbox                           0x00000001a675f2a0 RunCurrentEventLoopInMode + 292
+106 HIToolbox                           0x00000001a675f014 ReceiveNextEventCommon + 552
+107 HIToolbox                           0x00000001a675edd4 _BlockUntilNextEventMatchingListInModeWithFilter + 72
+108 AppKit                              0x00000001a1033480 _DPSNextEvent + 836
+109 AppKit                              0x00000001a1031e20 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 1292
+110 AppKit                              0x00000001a1023cac -[NSApplication run] + 596
+111 AppKit                              0x00000001a0ff571c NSApplicationMain + 1064
+112 AppKit                              0x00000001a12e4eb4 +[NSWindow _savedFrameFromString:] + 0
+113 UIKitMacHelper                      0x00000001b174c32c UINSApplicationMain + 1280
+114 UIKitCore                           0x00000001c15fe610 UIApplicationMain + 164
+115 Messages                            0x0000000102153c2c Messages + 15404
+116 libdyld.dylib                       0x000000019e765450 start + 4

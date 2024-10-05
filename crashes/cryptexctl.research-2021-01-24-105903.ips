@@ -1,0 +1,129 @@
+{"app_name":"cryptexctl.research","timestamp":"2021-01-24 10:59:03.00 -0500","app_version":"","slice_uuid":"2326cd9c-2ba7-32f4-bb6c-418e1c2a6c65","build_version":"","platform":1,"share_with_app_devs":0,"is_first_party":1,"bug_type":"309","os_version":"macOS 11.1 (20C69)","incident_id":"62E77094-37A8-415E-8E93-80C96D0DD092","name":"cryptexctl.research"}
+{
+  "uptime" : 62000,
+  "procLaunch" : "2021-01-24 10:59:02.9887 -0500",
+  "procRole" : "Unspecified",
+  "exception" : {
+    "type" : "EXC_BAD_ACCESS",
+    "signal" : "SIGSEGV",
+    "subtype" : "KERN_INVALID_ADDRESS at 0x00000000"
+  },
+  "userID" : 501,
+  "modelCode" : "Macmini8,1",
+  "coalitionID" : 393,
+  "osVersion" : {
+    "train" : "macOS 11.1",
+    "build" : "20C69",
+    "releaseType" : ""
+  },
+  "captureTime" : "2021-01-24 10:59:03.5081 -0500",
+  "incident" : "62E77094-37A8-415E-8E93-80C96D0DD092",
+  "pid" : 7474,
+  "cpuType" : "X86-64",
+  "procName" : "cryptexctl.research",
+  "procPath" : "\/Volumes\/VOLUME\/*\/cryptexctl.research",
+  "parentProc" : "bash",
+  "parentPid" : 459,
+  "coalitionName" : "com.apple.Terminal",
+  "crashReporterKey" : "82507E35-4749-9A32-F6BB-A39F4951B0B0",
+  "responsiblePid" : 371,
+  "responsibleProc" : "Terminal",
+  "bridgeVersion" : {"build":"18P3030","train":"5.1"},
+  "sip" : "enabled",
+  "vmregioninfo" : "0 is not in any region.  Bytes before following region: 4527173632\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      10dd73000-10dda7000    [  208K] r-x\/r-x SM=COW  ...xctl.research",
+  "is_corpse" : 1,
+  "termination" : {"reason":"Namespace SIGNAL, Code 0xb","signal":"Segmentation fault: 11","byProc":"exc handler","code":11,"namespace":"SIGNAL","byPid":7474,"flags":0},
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":57997},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "threads" : [{"triggered":true,"id":1095288,"queue":"com.apple.main-thread","frames":[[0,37760],[1,38674],[1,47467],[1,46735],[2,14425],[1,98702],[3,87585]]},{"id":1095290,"frames":[[4,9304]]},{"id":1095291,"frames":[[4,9304]]}],
+  "threadState" : {
+  "r13" : 1,
+  "rax" : 0,
+  "rflags" : 66118,
+  "cpu" : 1,
+  "rsi" : 4527401432,
+  "r14" : 0,
+  "trap_description" : "(no mapping for user data read)",
+  "r8" : 11,
+  "cr2" : 0,
+  "rdx" : 140617520815584,
+  "r10" : 140735479061120,
+  "r9" : 4527353173,
+  "r15" : 140617539769056,
+  "rbx" : 140617520821760,
+  "trap" : 14,
+  "err" : 4,
+  "r11" : 140733734234012,
+  "rip" : 140733734232960,
+  "rbp" : 140732688549392,
+  "rsp" : 140732688549352,
+  "r12" : 0,
+  "rcx" : 3337538079618957474,
+  "flavor" : "x86_THREAD_STATE",
+  "rdi" : 0
+},
+  "usedImages" : [
+  [
+    "eac298c4-ce3e-3551-a832-42ed9a13ef74",
+    140733734195200,
+    "P"
+  ],
+  [
+    "2326cd9c-2ba7-32f4-bb6c-418e1c2a6c65",
+    4527173632,
+    "P"
+  ],
+  [
+    "bd269412-c9d0-32ee-b42b-b09a187a9b95",
+    140733771862016,
+    "P"
+  ],
+  [
+    "2f8a14f5-7cb8-3edd-85ea-7fa960bbc04e",
+    140733733732352,
+    "P"
+  ],
+  [
+    "8dd3a0bc-2c92-31e3-bbab-ce923a4342e4",
+    140733733683200,
+    "P"
+  ]
+],
+  "legacyInfo" : {
+  "imageExtraInfo" : [
+    {
+      "size" : 4833280,
+      "arch" : "x86_64h",
+      "path" : "\/System\/Library\/Frameworks\/CoreFoundation.framework\/Versions\/A\/CoreFoundation",
+      "name" : "CoreFoundation"
+    },
+    {
+      "size" : 212992,
+      "arch" : "x86_64",
+      "path" : "\/Volumes\/VOLUME\/*\/cryptexctl",
+      "name" : "cryptexctl"
+    },
+    {
+      "size" : 40960,
+      "arch" : "x86_64",
+      "path" : "\/usr\/lib\/system\/libsystem_darwin.dylib",
+      "name" : "libsystem_darwin.dylib"
+    },
+    {
+      "size" : 241664,
+      "arch" : "x86_64",
+      "path" : "\/usr\/lib\/system\/libdyld.dylib",
+      "name" : "libdyld.dylib"
+    },
+    {
+      "size" : 49152,
+      "arch" : "x86_64",
+      "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+      "name" : "libsystem_pthread.dylib"
+    }
+  ],
+  "threadTriggered" : {
+    "index" : 0,
+    "queue" : "com.apple.main-thread"
+  }
+}
+}

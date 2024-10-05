@@ -1,0 +1,114 @@
+
+Incident Identifier: D6BEEE3D-F2BE-4380-ADE2-576997DADA81
+CrashReporter Key:   d46e99c380ad605e2b6b2f8f69d81eac5980c03d
+Hardware Model:      iPhone13,2
+Process:             ReportCrash [296]
+Path:                /System/Library/CoreServices/ReportCrash
+Identifier:          ReportCrash
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      launchd [1]
+Coalition:           com.apple.ReportCrash [460]
+
+Date/Time:           2022-02-26 10:15:03.7085 -0500
+Launch Time:         2022-02-26 10:05:00.9087 -0500
+OS Version:          iPhone OS 15.4 (19E5235a)
+Release Type:        Beta
+Baseband Version:    2.53.01
+Report Version:      104
+
+Exception Type:  EXC_BAD_ACCESS (SIGBUS)
+Exception Subtype: KERN_MEMORY_ERROR at 0x000000010368ae6c
+Exception Codes: 0x000000000000000a, 0x000000010368ae6c
+VM Region Info: 0x10368ae6c is in 0x1035f0000-0x1036b4000;  bytes after start: 634476  bytes before end: 168339
+      REGION TYPE                 START - END      [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      mapped file              1035ec000-1035f0000 [   16K] r--/r-- SM=S/A  ...ct_id=9565c51
+--->  mapped file              1035f0000-1036b4000 [  784K] r--/r-- SM=PRV  ...ct_id=916c251
+      MALLOC_LARGE             1036b4000-10371c000 [  416K] rw-/rwx SM=PRV  
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL 10 Bus error: 10
+Terminating Process: exc handler [296]
+
+Triggered by Thread:  1
+
+Kernel Triage:
+VM - pmap_enter failed with resource shortage
+VM - Object is not alive
+
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0:
+0   libsystem_kernel.dylib        	       0x1f82af4e0 mach_msg_trap + 8
+1   libsystem_kernel.dylib        	       0x1f82afb24 mach_msg + 76
+2   CoreFoundation                	       0x1c0773820 __CFRunLoopServiceMachPort + 372
+3   CoreFoundation                	       0x1c0777cac __CFRunLoopRun + 1180
+4   CoreFoundation                	       0x1c078b6b8 CFRunLoopRunSpecific + 600
+5   Foundation                    	       0x1c1f73414 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 236
+6   Foundation                    	       0x1c1f73bd0 -[NSRunLoop(NSRunLoop) run] + 92
+7   ReportCrash                   	       0x102d86978 0x102d6c000 + 108920
+8   dyld                          	       0x10302dce4 start + 520
+
+Thread 1 Crashed:
+0   CoreSymbolication             	       0x1e99c122c void extract_debug_maps_from_header<SizeAndEndianness<Pointer64, LittleEndian> >(TExtendedMachOHeader<SizeAndEndianness<Pointer64, LittleEndian> >&, TRawSymbolOwnerData<SizeAndEndianness<Pointer64, LittleEndian>::SIZE>&, TNList<SizeAndEndianness<Pointer64, LittleEndian> > const*, unsigned int, TRange<SizeAndEndianness<Pointer64, LittleEndian>::SIZE>) + 308
+1   CoreSymbolication             	       0x1e99c1220 void extract_debug_maps_from_header<SizeAndEndianness<Pointer64, LittleEndian> >(TExtendedMachOHeader<SizeAndEndianness<Pointer64, LittleEndian> >&, TRawSymbolOwnerData<SizeAndEndianness<Pointer64, LittleEndian>::SIZE>&, TNList<SizeAndEndianness<Pointer64, LittleEndian> > const*, unsigned int, TRange<SizeAndEndianness<Pointer64, LittleEndian>::SIZE>) + 296
+2   CoreSymbolication             	       0x1e99b0cf0 TRawSymbolOwnerData<SizeAndEndianness<Pointer64, LittleEndian>::SIZE>* create_traw_symbol_owner_data_arch_specific<SizeAndEndianness<Pointer64, LittleEndian> >(CSCppSymbolOwner*, CSCppDsymData*) + 2080
+3   CoreSymbolication             	       0x1e9998544 CSCppSymbolOwnerData* create_symbol_owner_data_arch_specific<SizeAndEndianness<Pointer64, LittleEndian> >(CSCppSymbolOwner*, CSCppDsymData*) + 736
+4   CoreSymbolication             	       0x1e9988838 create_symbol_owner_data2(CSCppSymbolOwner*, CSCppDsymData*) + 204
+5   CoreSymbolication             	       0x1e99883bc CSCppSymbolOwnerCache::create_symbol_owner_data(CSCppSymbolOwner*, CSCppDsymData*) + 428
+6   CoreSymbolication             	       0x1e9988c38 CSCppSymbolOwnerCache::data_for_symbol_owner(CSCppSymbolOwner*, bool) + 312
+7   CoreSymbolication             	       0x1e998721c CSCppSymbolOwner::_fault_data_purging_empty(bool) + 48
+8   CoreSymbolication             	       0x1e996b030 CSSymbolOwnerForEachStackFrameAtAddress + 60
+9   ReportCrash                   	       0x102d74db4 0x102d6c000 + 36276
+10  ReportCrash                   	       0x102d7ee8c 0x102d6c000 + 77452
+11  ReportCrash                   	       0x102d7e568 0x102d6c000 + 75112
+12  ReportCrash                   	       0x102d71624 0x102d6c000 + 22052
+13  ReportCrash                   	       0x102d71ccc 0x102d6c000 + 23756
+14  ReportCrash                   	       0x102d86068 0x102d6c000 + 106600
+15  ReportCrash                   	       0x102d86450 0x102d6c000 + 107600
+16  ReportCrash                   	       0x102d8758c 0x102d6c000 + 112012
+17  ReportCrash                   	       0x102d876c4 0x102d6c000 + 112324
+18  libsystem_kernel.dylib        	       0x1f82b2fec mach_msg_server_once + 484
+19  ReportCrash                   	       0x102d84a58 0x102d6c000 + 100952
+20  libsystem_pthread.dylib       	       0x231f229ac _pthread_start + 148
+21  libsystem_pthread.dylib       	       0x231f21e68 thread_start + 8
+
+Thread 2:
+0   libsystem_pthread.dylib       	       0x231f21e54 start_wqthread + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	       0x1f82af4e0 mach_msg_trap + 8
+1   libsystem_kernel.dylib        	       0x1f82afb24 mach_msg + 76
+2   libsystem_kernel.dylib        	       0x1f82b2f20 mach_msg_server_once + 280
+3   ReportCrash                   	       0x102d84a58 0x102d6c000 + 100952
+4   libsystem_pthread.dylib       	       0x231f229ac _pthread_start + 148
+5   libsystem_pthread.dylib       	       0x231f21e68 thread_start + 8
+
+Thread 4:
+0   libsystem_pthread.dylib       	       0x231f21e54 start_wqthread + 0
+
+
+Thread 1 crashed with ARM Thread State (64-bit):
+    x0: 0x000000010368ae68   x1: 0x0000000000000008   x2: 0x0000000000017438   x3: 0x0000000000000a29
+    x4: 0x00000000000a34d0   x5: 0x0000000000017438   x6: 0x0000000000000000   x7: 0x0000000000000950
+    x8: 0x000000016d1195d8   x9: 0x000000010368ae68  x10: 0x0000000000000280  x11: 0x00000000000c1750
+   x12: 0x00000001e9a0d425  x13: 0x00000001e9a0d445  x14: 0x0000000000000100  x15: 0x0000000000004b09
+   x16: 0x0000000231e9e4bc  x17: 0x94da00021d836138  x18: 0x0000000000000000  x19: 0x00000001032435d0
+   x20: 0x0000000103242e20  x21: 0x00000001036934d0  x22: 0x000000021d837c50  x23: 0x000000016d119578
+   x24: 0x000000016d119588  x25: 0x000000016d1195d8  x26: 0x0000000000000000  x27: 0x0000000000000000
+   x28: 0x000000016d1195f8   fp: 0x000000016d1196f0   lr: 0x1f2d9701e99c1220
+    sp: 0x000000016d119570   pc: 0x00000001e99c122c cpsr: 0x80001000
+   far: 0x000000010368ae6c  esr: 0x92000007 (Data Abort) byte read Translation fault
+
+Binary Images:
+       0x1f82ae000 -        0x1f82e3fff libsystem_kernel.dylib arm64e  <72526845a0d0363995decf108b0937eb> /usr/lib/system/libsystem_kernel.dylib
+       0x1c076c000 -        0x1c0bc1fff CoreFoundation arm64e  <23263d695cab3822b4f4681ea17b9b64> /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+       0x1c1f5b000 -        0x1c2263fff Foundation arm64e  <74cbb1093ab239dfa1caf6485522d686> /System/Library/Frameworks/Foundation.framework/Foundation
+       0x102d6c000 -        0x102d8ffff ReportCrash arm64e  <03870fca8fb53b6f96ce24624d754796> /System/Library/CoreServices/ReportCrash
+       0x103014000 -        0x10306bfff dyld arm64e  <f591b83471ab3a0d91aa94b7e6be3a03> /usr/lib/dyld
+       0x1e9939000 -        0x1e9a15fff CoreSymbolication arm64e  <0edc46ae6b9334b0b85dc6a8562cb470> /System/Library/PrivateFrameworks/CoreSymbolication.framework/CoreSymbolication
+       0x231f21000 -        0x231f2cfff libsystem_pthread.dylib arm64e  <7b16cf27bf88376e87769d9a9a0ea7f4> /usr/lib/system/libsystem_pthread.dylib
+               0x0 - 0xffffffffffffffff ??? unknown-arch  <00000000000000000000000000000000> ???
+
+EOF
+

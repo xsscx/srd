@@ -1,0 +1,1 @@
+frida -f $(which srdutil) --no-pause -l debug.js -- restore --ecid $ecid --ipsw ~/usb/ipsw/144.ipsw

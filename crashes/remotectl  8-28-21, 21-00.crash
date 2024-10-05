@@ -1,0 +1,60 @@
+Incident Identifier: D72ABE25-C48D-46ED-BC7A-9181E672F68F
+CrashReporter Key:   cdcf1602e035c608b2baa0faf032cfffa559fe20
+Hardware Model:      iPhone12,1
+Process:             remotectl [20878]
+Path:                /usr/libexec/remotectl
+Identifier:          remotectl
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      sh [370]
+Coalition:           com.example.cryptex.sshd [548]
+
+Date/Time:           2021-08-28 21:00:39.3981 -0400
+Launch Time:         2021-08-28 21:00:39.3810 -0400
+OS Version:          iPhone OS 15.0 (19A5337a)
+Release Type:        Beta
+Baseband Version:    3.00.00
+Report Version:      104
+
+Exception Type:  EXC_BAD_ACCESS (SIGSEGV)
+Exception Subtype: KERN_INVALID_ADDRESS at 0x0000000000000000
+Exception Codes: 0x0000000000000001, 0x0000000000000000
+VM Region Info: 0 is not in any region.  Bytes before following region: 4366598144
+      REGION TYPE                 START - END      [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      UNUSED SPACE AT START
+--->  
+      __TEXT                   104450000-104458000 [   32K] r-x/r-x SM=COW  ...xec/remotectl
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL; [11]
+Terminating Process: exc handler [20878]
+
+Terminating Process: exc handler [20878]
+Triggered by Thread:  0
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   libsystem_platform.dylib      	       0x1f3445070 _platform_strcmp + 64
+1   remotectl                     	       0x104452228 0x104450000 + 8744
+2   dyld                          	       0x10477da24 start + 520
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x0000000104457618   x2: 0x000000016b9afa48   x3: 0x0000000000000000
+    x4: 0x0000000000000000   x5: 0x0000000000000000   x6: 0x0000000000000000   x7: 0x00000000000009e0
+    x8: 0x8f6e06a2e69b0045   x9: 0x0000000000000002  x10: 0x0000000000000000  x11: 0x0000000000000002
+   x12: 0x0000000000000002  x13: 0x0000000000000000  x14: 0x00000000e02e9cf2  x15: 0x0000000000004a31
+   x16: 0x4e16b981f3445030  x17: 0x00000001044583f8  x18: 0x0000000000000000  x19: 0x0000000000000000
+   x20: 0x0000000000000000  x21: 0x000000016b9afa30  x22: 0x0000000000000002  x23: 0x000000016b9afb54
+   x24: 0x00000000ffffffff  x25: 0x0000000000000000  x26: 0x0000000000000000  x27: 0x0000000000000000
+   x28: 0x0000000000000000   fp: 0x000000016b9af8c0   lr: 0x0000000104452228
+    sp: 0x000000016b9af7f0   pc: 0x00000001f3445070 cpsr: 0x00000000
+   far: 0x0000000000000000  esr: 0x92000006 (Data Abort) byte read Translation fault
+
+Binary Images:
+       0x1f3444000 -        0x1f344afff libsystem_platform.dylib arm64e  <02f2552e93a43d5ba401477b376d2009> /usr/lib/system/libsystem_platform.dylib
+       0x104450000 -        0x104457fff remotectl arm64e  <c4a9b3eeacbd3d8f95ae762978236d38> /usr/libexec/remotectl
+       0x104764000 -        0x1047bbfff dyld arm64e  <1602b2f2df6234128bc6ece21486c3e0> /usr/lib/dyld
+
+EOF
+

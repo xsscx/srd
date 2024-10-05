@@ -1,0 +1,95 @@
+{"app_name":"cryptexctl","timestamp":"2021-08-26 14:57:49.00 -0400","app_version":"","slice_uuid":"90e8f6b6-ddfb-36b2-98f0-b8ef5041450d","build_version":"","platform":1,"share_with_app_devs":0,"is_first_party":1,"etl_key":"3","bug_type":"309","os_version":"macOS 11.5.2 (20G95)","incident_id":"F2BB298D-2FAE-4DC7-9F1B-918C3763A0C7","name":"cryptexctl"}
+{
+  "uptime" : 100000,
+  "procLaunch" : "2021-08-26 14:57:48.8151 -0400",
+  "procRole" : "Unspecified",
+  "version" : 2,
+  "exception" : {
+    "type" : "EXC_BAD_ACCESS",
+    "signal" : "SIGSEGV",
+    "subtype" : "KERN_INVALID_ADDRESS at 0x0000000000000000"
+  },
+  "userID" : 501,
+  "modelCode" : "Macmini9,1",
+  "coalitionID" : 597,
+  "osVersion" : {
+    "train" : "macOS 11.5.2",
+    "build" : "20G95",
+    "releaseType" : "User"
+  },
+  "captureTime" : "2021-08-26 14:57:48.9410 -0400",
+  "incident" : "F2BB298D-2FAE-4DC7-9F1B-918C3763A0C7",
+  "pid" : 45313,
+  "translated" : false,
+  "cpuType" : "ARM-64",
+  "procName" : "cryptexctl",
+  "procPath" : "\/usr\/local\/bin\/cryptexctl",
+  "parentProc" : "Exited process",
+  "parentPid" : 44649,
+  "coalitionName" : "com.googlecode.iterm2",
+  "crashReporterKey" : "26B48277-99BE-5F4A-802A-F36872C67815",
+  "responsiblePid" : 596,
+  "responsibleProc" : "iTerm2",
+  "wakeTime" : 102300,
+  "sleepWakeUUID" : "83A5FB7E-E4F0-45C9-A00A-CE797A84FC79",
+  "sip" : "disabled",
+  "vmRegionInfo" : "0 is not in any region.  Bytes before following region: 4305633280\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      100a2c000-100a64000    [  224K] r-x\/r-x SM=COW  ...in\/cryptexctl",
+  "isCorpse" : 1,
+  "termination" : {"flags":0,"code":11,"namespace":"SIGNAL","indicator":"Segmentation fault: 11","byProc":"exc handler","byPid":45313},
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":82,"task_for_pid":8},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":708239,"threadState":{"x":[{"value":0},{"value":4305879808},{"value":4305879808},{"value":5721070748},{"value":5721069696},{"value":32},{"value":0},{"value":1},{"value":5703244920},{"value":0},{"value":11},{"value":0},{"value":5},{"value":5703243312},{"value":7022340226},{"value":8811775264},{"value":4613515612795073868},{"value":4305863016},{"value":0},{"value":0},{"value":4305831699},{"value":4305831685},{"value":0},{"value":18},{"value":4305633280},{"value":0},{"value":5703233760},{"value":8612577176},{"value":4305831670}],"flavor":"ARM_THREAD_STATE64","lr":{"value":4305686140},"cpsr":{"value":2147483648},"fp":{"value":6161245728},"sp":{"value":6161245696},"esr":{"value":2449473542,"description":"(Data Abort) byte read Translation fault"},"pc":{"value":7019066708},"far":{"value":0}},"queue":"com.apple.main-thread","frames":[{"imageOffset":38228,"symbol":"CFStringGetLength","symbolLocation":8,"imageIndex":0},{"imageOffset":52860,"imageIndex":1},{"imageOffset":62756,"imageIndex":1},{"imageOffset":61860,"imageIndex":1},{"imageOffset":18780,"symbol":"os_subcommand_main","symbolLocation":764,"imageIndex":2},{"imageOffset":115632,"imageIndex":1},{"imageOffset":99376,"symbol":"start","symbolLocation":4,"imageIndex":3}]},{"id":708242,"frames":[{"imageOffset":9676,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":4}]},{"id":708243,"frames":[{"imageOffset":9676,"symbol":"start_wqthread","symbolLocation":0,"imageIndex":4}]}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7019028480,
+    "size" : 4911104,
+    "uuid" : "0ee241e3-3a80-3f15-ab1e-b5c18ca7e4b1",
+    "path" : "\/System\/Library\/Frameworks\/CoreFoundation.framework\/Versions\/A\/CoreFoundation",
+    "name" : "CoreFoundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 4305633280,
+    "size" : 229376,
+    "uuid" : "90e8f6b6-ddfb-36b2-98f0-b8ef5041450d",
+    "path" : "\/usr\/local\/bin\/cryptexctl",
+    "name" : "cryptexctl"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7056338944,
+    "size" : 45056,
+    "uuid" : "7e7806f7-0442-3280-97a1-2d6364faf68b",
+    "path" : "\/usr\/lib\/system\/libsystem_darwin.dylib",
+    "name" : "libsystem_darwin.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7018549248,
+    "size" : 270336,
+    "uuid" : "ac8db2a8-3012-32b6-87d2-4c5535fca3d8",
+    "path" : "\/usr\/lib\/system\/libdyld.dylib",
+    "name" : "libdyld.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7018496000,
+    "size" : 53248,
+    "uuid" : "85e14929-1f9b-3e79-abde-06eb161f9574",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  }
+],
+  "vmSummary" : "ReadOnly portion of Libraries: Total=639.2M resident=0K(0%) swapped_out_or_unallocated=639.2M(100%)\nWritable regions: Total=156.7M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=156.7M(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nDispatch continuations            64.0M        1 \nKernel Alloc Once                   32K        1 \nMALLOC                            27.1M       12 \nMALLOC guard page                   96K        5 \nSTACK GUARD                         48K        3 \nStack                             65.0M        3 \nVM_ALLOCATE                        1.0G        2 \n__AUTH                             489K      117 \n__AUTH_CONST                      7053K      239 \n__CTF                               759        1 \n__DATA                            4235K      227 \n__DATA_CONST                      5659K      237 \n__DATA_DIRTY                       356K       83 \n__FONT_DATA                          4K        1 \n__LINKEDIT                       491.2M        6 \n__OBJC_CONST                       707K       85 \n__OBJC_RO                         75.1M        1 \n__OBJC_RW                         2576K        1 \n__TEXT                           148.0M      250 \n__UNICODE                          588K        1 \nmapped file                       31.0M        2 \nshared memory                       64K        4 \n===========                     =======  ======= \nTOTAL                              1.9G     1283 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.main-thread"
+  }
+}
+}

@@ -1,0 +1,32 @@
+ log stream --predicate  'process == "srdutil"'
+Filtering the log data using "process == "srdutil""
+
+
+
+
+VS
+
+
+
+
+
+log stream | grep srdutil
+2022-01-04 23:05:11.276491-0500 0x38ff     Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) AMFI: /usr/local/bin/srdutil: Rejecting signature, binary has platform identifier but is not in the trustcache
+2022-01-04 23:05:11.276520-0500 0x38ff     Default     0x0                  0      0    kernel: mac_vnode_check_signature: /usr/local/bin/srdutil: code signature validation failed fatally: When validating /usr/local/bin/srdutil:
+2022-01-04 23:05:11.276529-0500 0x38ff     Default     0x0                  0      0    kernel: proc 1850: load code signature error 4 for file "srdutil"
+2022-01-04 23:05:11.276877-0500 0x38ff     Default     0x0                  0      0    kernel: exec_mach_imgact: not running binary "srdutil" built against preview arm64e ABI
+2022-01-04 23:05:11.276918-0500 0x38ff     Default     0x0                  0      0    kernel: srdutil[1850] Corpse allowed 1 of 5
+2022-01-04 23:05:11.276930-0500 0x38ff     Default     0x0                  0      0    kernel: Process[1850] crashed: srdutil. Too many corpses being created.
+2022-01-04 23:07:53.193387-0500 0x517a     Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) AMFI: /usr/local/bin/srdutil: Rejecting signature, binary has platform identifier but is not in the trustcache
+2022-01-04 23:07:53.193428-0500 0x517a     Default     0x0                  0      0    kernel: mac_vnode_check_signature: /usr/local/bin/srdutil: code signature validation failed fatally: When validating /usr/local/bin/srdutil:
+2022-01-04 23:07:53.193446-0500 0x517a     Default     0x0                  0      0    kernel: proc 2521: load code signature error 4 for file "srdutil"
+2022-01-04 23:07:53.194102-0500 0x517a     Default     0x0                  0      0    kernel: exec_mach_imgact: not running binary "srdutil" built against preview arm64e ABI
+2022-01-04 23:07:53.194163-0500 0x517a     Default     0x0                  0      0    kernel: srdutil[2521] Corpse allowed 1 of 5
+2022-01-04 23:07:53.194188-0500 0x517a     Default     0x0                  0      0    kernel: Process[2521] crashed: srdutil. Too many corpses being created.
+2022-01-04 23:07:56.888843-0500 0x5190     Default     0x0                  0      0    kernel: (AppleMobileFileIntegrity) AMFI: /usr/local/bin/srdutil: Rejecting signature, binary has platform identifier but is not in the trustcache
+2022-01-04 23:07:56.888879-0500 0x5190     Default     0x0                  0      0    kernel: mac_vnode_check_signature: /usr/local/bin/srdutil: code signature validation failed fatally: When validating /usr/local/bin/srdutil:
+2022-01-04 23:07:56.888895-0500 0x5190     Default     0x0                  0      0    kernel: proc 2526: load code signature error 4 for file "srdutil"
+2022-01-04 23:07:56.889332-0500 0x5190     Default     0x0                  0      0    kernel: exec_mach_imgact: not running binary "srdutil" built against preview arm64e ABI
+2022-01-04 23:07:56.889399-0500 0x5190     Default     0x0                  0      0    kernel: srdutil[2526] Corpse allowed 1 of 5
+2022-01-04 23:07:56.889417-0500 0x5190     Default     0x0                  0      0    kernel: Process[2526] crashed: srdutil. Too many corpses being created.
+

@@ -1,0 +1,67 @@
+Incident Identifier: 77573295-9EBC-4204-AD89-03244B4A2A57
+CrashReporter Key:   47f3d2255d71d35f8e3b02c1b8bf47e74310b421
+Hardware Model:      iPhone12,1
+Process:             simple-shell [403]
+Path:                /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.fujCma/usr/bin/simple-shell
+Identifier:          simple-shell
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      simple-shell [324]
+Coalition:           com.example.cryptex.simple-shell [512]
+
+Date/Time:           2021-09-29 09:34:11.8834 -0400
+Launch Time:         2021-09-29 09:34:11.8782 -0400
+OS Version:          iPhone OS 15.1 (19B5052f)
+Release Type:        Beta
+Baseband Version:    2.50.05
+Report Version:      104
+
+Exception Type:  EXC_BAD_ACCESS (SIGBUS)
+Exception Subtype: KERN_PROTECTION_FAILURE at 0x0000000100722c60
+Exception Codes: 0x0000000000000002, 0x0000000100722c60
+VM Region Info: 0x100722c60 is in 0x1006f4000-0x100728000;  bytes after start: 191584  bytes before end: 21407
+      REGION TYPE                 START - END      [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      MALLOC_LARGE             1006f0000-1006f4000 [   16K] rw-/rwx SM=PRV  
+--->  __TEXT                   1006f4000-100728000 [  208K] r--/r-- SM=COW  /usr/lib/dyld
+      __TEXT                   100728000-10072c000 [   16K] r--/rw- SM=COW  /usr/lib/dyld
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: SIGNAL; [10]
+Terminating Process: exc handler [403]
+
+Terminating Process: exc handler [403]
+Triggered by Thread:  0
+
+Application Specific Information:
+crashed on child side of fork pre-exec
+
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   dyld                          	       0x100722c60 dyld4::APIs::_dyld_fork_child() + 0
+1   libSystem.B.dylib             	       0x1bb30ac2c libSystem_atfork_child + 44
+2   libsystem_c.dylib             	       0x18be41180 fork + 112
+3   simple-shell                  	       0x10068b93c main + 1204
+4   dyld                          	       0x10070da24 start + 520
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000100794060   x1: 0x082d2d0100722c60   x2: 0x000000010074e0f0   x3: 0x0000000000000030
+    x4: 0x0000000000000403   x5: 0x0000000000000000   x6: 0x0000000000000000   x7: 0x0000000000000b40
+    x8: 0x00000001da145000   x9: 0x0000000080001200  x10: 0x0000000000003c00  x11: 0x0000000000000006
+   x12: 0x0000000000000002  x13: 0x0000000000000000  x14: 0x0000000000002020  x15: 0x0000000000012820
+   x16: 0xc17f00010074e0f0  x17: 0x63fa000100794060  x18: 0x0000000000000000  x19: 0x0000000000000000
+   x20: 0xef567e010068b488  x21: 0x000000010074c070  x22: 0x0000000000000000  x23: 0x0000000000000000
+   x24: 0x0000000000000000  x25: 0x0000000000000000  x26: 0x0000000000000000  x27: 0x0000000000000000
+   x28: 0x0000000000000000   fp: 0x000000016f77b6b0   lr: 0x00000001bb30ac2c
+    sp: 0x000000016f77b6a0   pc: 0x0000000100722c60 cpsr: 0x80000000
+   far: 0x0000000100722c60  esr: 0x82000007 (Instruction Abort) Translation fault
+
+Binary Images:
+       0x1006f4000 -        0x10074bfff dyld arm64e  <13216777f4be3a7bb470857e80ad3300> /usr/lib/dyld
+       0x1bb309000 -        0x1bb30afff libSystem.B.dylib arm64e  <a6959b83d1fa34c9935f330e373beddc> /usr/lib/libSystem.B.dylib
+       0x18be26000 -        0x18bea4fff libsystem_c.dylib arm64e  <efab9e4910f43011a4a53e8f830c3be5> /usr/lib/system/libsystem_c.dylib
+       0x100684000 -        0x10068ffff simple-shell arm64e  <436e3f8ffdf13ba9b83cccec307593a9> /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.fujCma/usr/bin/simple-shell
+
+EOF
+

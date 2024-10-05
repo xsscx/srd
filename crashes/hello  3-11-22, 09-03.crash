@@ -1,0 +1,54 @@
+Hardware Model:      iPhone13,2
+Process:             hello [469]
+Path:                /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.BmfWKK/usr/bin/hello
+Identifier:          hello
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      launchd [1]
+Coalition:           com.example.cryptex.hello [576]
+
+Date/Time:           2022-03-11 09:03:56.0723 -0500
+Launch Time:         2022-03-11 09:03:56.0484 -0500
+OS Version:          iPhone OS 15.4 (19E241)
+Release Type:        User
+Baseband Version:    2.53.01
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: DYLD 1 Library missing
+Library not loaded: @rpath/libclang_rt.asan_ios_dynamic.dylib
+Referenced from: /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.BmfWKK/usr/bin/hello
+Reason: tried: '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.BmfWKK/usr/bin/libclang_rt.asan_ios_dynamic.dylib' (code signature invalid (errno=1) sliceOffset=0x002B0000, codeBlobOffset=0x000BA910, codeBlobSize=0x00006E40 for '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.BmfWKK/usr/bin/libclang_rt.asan_ios_dynamic.dylib'), '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.asan_ios_dynamic.dylib' (no such file), '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.BmfWKK/usr/bin/libclang_rt.asan_ios_dynamic.dylib' (code signature invalid (errno=1) sliceOffset=0x002B0000, codeBlobOffset=0x000BA910, codeBlobSize=0x00006E40 for '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.BmfWKK/usr
+(terminated at launch; ignore backtrace)
+
+Triggered by Thread:  0
+
+Thread 0 Crashed:
+0   dyld                          	       0x1004507a0 __abort_with_payload + 8
+1   dyld                          	       0x100456388 abort_with_payload_wrapper_internal + 104
+2   dyld                          	       0x1004563bc abort_with_payload + 16
+3   dyld                          	       0x100426828 dyld4::halt(char const*) + 328
+4   dyld                          	       0x100423960 dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) + 3560
+5   dyld                          	       0x100421cc4 start + 488
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000006   x1: 0x0000000000000001   x2: 0x000000016fc7ae50   x3: 0x0000000000000098
+    x4: 0x000000016fc7aa50   x5: 0x0000000000000000   x6: 0x0000000000000000   x7: 0x0000000000000e90
+    x8: 0x0000000000000020   x9: 0x0000000000000009  x10: 0x0000000000000001  x11: 0x000000000000000a
+   x12: 0x0000000000000000  x13: 0x0000000000000034  x14: 0x000000023b744b23  x15: 0x0000000000000000
+   x16: 0x0000000000000209  x17: 0x000000010044ae54  x18: 0x0000000000000000  x19: 0x0000000000000000
+   x20: 0x000000016fc7aa50  x21: 0x0000000000000098  x22: 0x000000016fc7ae50  x23: 0x0000000000000001
+   x24: 0x0000000000000006  x25: 0x000000016fc7b828  x26: 0x0000000000000000  x27: 0x0000000000000000
+   x28: 0x0000000000000000   fp: 0x000000016fc7aa20   lr: 0x0000000100456388
+    sp: 0x000000016fc7a9e0   pc: 0x00000001004507a0 cpsr: 0x00001000
+   far: 0x00000001002a0000  esr: 0x56000080  Address size fault
+
+Binary Images:
+       0x100408000 -        0x10045ffff dyld arm64e  <d16b72c0d6193e4892622c10a1d3066f> /usr/lib/dyld
+
+EOF
+

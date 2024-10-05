@@ -1,0 +1,82 @@
+-------------------------------------
+Translated Report (Full Report Below)
+-------------------------------------
+
+Process:               cryptexctl.research [37559]
+Path:                  /usr/local/bin/cryptexctl.research
+Identifier:            cryptexctl.research
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        bash [37522]
+Responsible:           iTerm2 [1087]
+User ID:               501
+
+Date/Time:             2022-03-14 19:32:25.9114 -0400
+OS Version:            macOS 12.3 (21E230)
+Report Version:        12
+Bridge OS Version:     6.4 (19P4242)
+
+System Integrity Protection: enabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x0000000000000010
+Exception Codes:       0x0000000000000001, 0x0000000000000010
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Reason:    Namespace SIGNAL, Code 11 Segmentation fault: 11
+Terminating Process:   exc handler [37559]
+
+VM Region Info: 0x10 is not in any region.  Bytes before following region: 4490280944
+      REGION TYPE                    START - END         [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      UNUSED SPACE AT START
+--->  
+      __TEXT                      10ba44000-10ba8c000    [  288K] r-x/r-x SM=COW  ...xctl.research
+
+Thread 0 Crashed::  Dispatch queue: com.apple.main-thread
+0   cryptexctl.research           	       0x10ba552ce 0x10ba44000 + 70350
+1   cryptexctl.research           	       0x10ba54d54 0x10ba44000 + 68948
+2   libsystem_darwin.dylib        	    0x7ff818f147ff os_subcommand_main + 671
+3   cryptexctl.research           	       0x10ba61f70 0x10ba44000 + 122736
+4   dyld                          	       0x113ef451e start + 462
+
+Thread 1:
+0   libsystem_pthread.dylib       	    0x7ff8168e3f48 start_wqthread + 0
+
+Thread 2:
+0   libsystem_pthread.dylib       	    0x7ff8168e3f48 start_wqthread + 0
+
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00006000021fce10  rcx: 0x0000000000000010  rdx: 0xfffffffffffffff0
+  rdi: 0x00007ff7b44bb5c0  rsi: 0xaaaaaaaaaaaaaaaa  rbp: 0x00007ff7b44bb620  rsp: 0x00007ff7b44bb1f0
+   r8: 0x0000000000001740   r9: 0x0000000000000020  r10: 0x00000000000007fb  r11: 0x00000000000001ff
+  r12: 0x00007ffa58c82ef8  r13: 0x00006000021fce10  r14: 0x00007ff7b44bb6a8  r15: 0x00007ff7b44bb1f0
+  rip: 0x000000010ba552ce  rfl: 0x0000000000010287  cr2: 0x0000000000000010
+  
+Logical CPU:     2
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  ff 48 8b 95 d8 fb ff ff-48 8b 05 6b 6e 03 00 48  .H......H..kn..H
+  8b 08 31 ff e8 e1 27 02-00 48 85 c0 0f 84 c6 00  ..1...'..H......
+  00 00 48 89 c3 48 c7 85-f8 fb ff ff 00 00 00 00  ..H..H..........
+  48 89 c7 e8 3a 28 02 00-49 89 c7 eb 51 4c 8d bd  H...:(..I...QL..
+  d0 fb ff ff ba 00 04 00-00 4c 89 ff be aa 00 00  .........L......
+  00 e8 9c 2c 02 00 49 8b-44 24 18 48 8b 44 c3 38  ...,..I.D$.H.D.8
+ [8b]78 10 4c 89 fe e8 53-2d 02 00 85 c0 75 5b 48  .x.L...S-....u[H	<==
+  8d bd d0 fb ff ff e8 cd-ad ff ff 48 89 c3 48 89  ...........H..H.
+  c7 e8 ec 27 02 00 49 89-c7 48 85 db 74 08 48 89  ...'..I..H..t.H.
+  df e8 d6 27 02 00 4d 89-3e 31 db 48 8b 05 10 6d  ...'..M.>1.H...m
+  03 00 48 8b 00 48 3b 45-d8 75 38 89 d8 48 8d 65  ..H..H;E.u8..H.e
+  e0 5b 41 5c 41 5e 41 5f-5d c3 89 c3 49 8b 54 24  .[A\A^A_]...I.T$
+
+Binary Images:
+       0x10ba44000 -        0x10ba8bfff cryptexctl.research (*) <c6cbb58f-9ab2-3213-8142-4a796bea7f2e> /usr/local/bin/cryptexctl.research
+    0x7ff818f11000 -     0x7ff818f1afff libsystem_darwin.dylib (*) <a1c57f3c-0b85-367d-afd8-ce4b01b638c6> /usr/lib/system/libsystem_darwin.dylib
+       0x113eef000 -        0x113f5afff dyld (*) <dd9e80de-fb3b-349b-96a4-46874ad34d11> /usr/lib/dyld
+    0x7ff8168e2000 -     0x7ff8168edfff libsystem_pthread.dylib (*) <2f6c275d-7e14-3d31-a924-e1bb41d2415f> /usr/lib/system/libsystem_pthread.dylib
+               0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
+

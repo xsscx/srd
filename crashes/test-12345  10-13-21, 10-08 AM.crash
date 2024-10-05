@@ -1,0 +1,170 @@
+Incident Identifier: 0DDDC06E-DB69-4F4D-A6CA-985218D46A17
+CrashReporter Key:   2de8477db21c245b159eb7c95efcce3e036f5f3c
+Hardware Model:      iPhone12,1
+Process:             test-12345 [274]
+Path:                /private/var/containers/Bundle/Application/7212F8B1-B6D0-47F4-ACBD-CAEFDD5DF9E8/test-12345.app/test-12345
+Identifier:          -.3.41.2.3.4--AAAA-08x.-08x.-08x.-08x.-08x.-08x.-08x.-08x.-n----eval-print-lpstat--W-completed---awk--NR-1-exit---system---lp--i---1---H-restart------
+Version:             1.01.2.\x89PNG\r\n\x1a\n\0\0\0\rIHDR\0\0\x03H\0\xs0\x03[3.4""AAAA%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%n""'"eval(print(lpstat -W completed | awk 'NR>1{exit};{system ("lp -i "$1" -H restart")}')) (11.2\x89PNG\r\n\x1a\n\0\0\0\rIHDR\0\0\x03H\0\xs0\x03[.3.4""AAAA%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%n""'"eval(print(lpstat -W completed | awk 'NR>1{exit};{system ("lp -i "$1" -H restart")}')))
+Code Type:           ARM-64 (Native)
+Role:                unknown
+Parent Process:      launchd [1]
+Coalition:           -.3.41.2.3.4--AAAA-08x.-08x.-08x.-08x.-08x.-08x.-08x.-08x.-n----eval-print-lpstat--W-completed---awk--NR-1-exit---system---lp--i---1---H-restart------ [432]
+
+Date/Time:           2021-10-13 10:08:08.6666 -0400
+Launch Time:         2021-10-13 10:08:08.4970 -0400
+OS Version:          iPhone OS 15.1 (19B5060d)
+Release Type:        Beta
+Baseband Version:    3.00.00
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Triggered by Thread:  0
+
+Application Specific Information:
+abort() called
+
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   libsystem_kernel.dylib        	       0x1b761c964 __pthread_kill + 8
+1   libsystem_pthread.dylib       	       0x1f0a60378 pthread_kill + 268
+2   libsystem_c.dylib             	       0x18b651f50 abort + 164
+3   GraphicsServices              	       0x19c12734c _GSEventInitializeApp.cold.2 + 88
+4   GraphicsServices              	       0x19c122b38 _GSEventInitializeApp + 272
+5   UIKitCore                     	       0x182ebd060 UIApplicationMain + 932
+6   SwiftUI                       	       0x188401258 closure #1 in KitRendererCommon(_:) + 164
+7   SwiftUI                       	       0x18832f534 runApp<A>(_:) + 252
+8   SwiftUI                       	       0x188310cb4 static App.main() + 128
+9   test-12345                    	       0x104c0366c static test_12345App.$main() + 40
+10  test-12345                    	       0x104c0370c main + 12
+11  dyld                          	       0x104ee5a24 start + 520
+
+Thread 1 name:   Dispatch queue: com.apple.root.user-interactive-qos
+Thread 1:
+0   libsystem_kernel.dylib        	       0x1b7616504 mach_msg_trap + 8
+1   libsystem_kernel.dylib        	       0x1b7616b9c mach_msg + 76
+2   libdispatch.dylib             	       0x1804a527c _dispatch_mach_send_and_wait_for_reply + 520
+3   libdispatch.dylib             	       0x1804a562c dispatch_mach_send_with_result_and_wait_for_reply + 56
+4   libxpc.dylib                  	       0x1f0a82b9c xpc_connection_send_message_with_reply_sync + 240
+5   CoreFoundation                	       0x180847c20 __104-[CFPrefsSearchListSource synchronouslySendDaemonMessage:andAgentMessage:andDirectMessage:replyHandler:]_block_invoke_2 + 40
+6   CoreFoundation                	       0x1808146f8 -[_CFXPreferences withConnectionForRole:performBlock:] + 52
+7   CoreFoundation                	       0x18083741c __104-[CFPrefsSearchListSource synchronouslySendDaemonMessage:andAgentMessage:andDirectMessage:replyHandler:]_block_invoke + 140
+8   CoreFoundation                	       0x18084fcb0 CFPREFERENCES_IS_WAITING_FOR_SYSTEM_CFPREFSD + 100
+9   CoreFoundation                	       0x18086e4ec -[CFPrefsSearchListSource synchronouslySendDaemonMessage:andAgentMessage:andDirectMessage:replyHandler:] + 332
+10  CoreFoundation                	       0x1807c5824 -[CFPrefsSearchListSource alreadylocked_generationCountFromListOfSources:count:] + 232
+11  CoreFoundation                	       0x1807b4d04 -[CFPrefsSearchListSource alreadylocked_getDictionary:] + 468
+12  CoreFoundation                	       0x180860e1c -[CFPrefsSearchListSource alreadylocked_copyDictionary] + 140
+13  CoreFoundation                	       0x18087ea88 -[CFPrefsSource copyDictionary] + 52
+14  CoreFoundation                	       0x180802504 __54-[_CFXPreferences copyDictionaryForApp:withContainer:]_block_invoke + 28
+15  CoreFoundation                	       0x1807d6308 __108-[_CFXPreferences(SearchListAdditions) withSearchListForIdentifier:container:cloudConfigurationURL:perform:]_block_invoke + 404
+16  CoreFoundation                	       0x1807ae328 normalizeQuintuplet + 356
+17  CoreFoundation                	       0x1807a73ac -[_CFXPreferences withSearchListForIdentifier:container:cloudConfigurationURL:perform:] + 152
+18  CoreFoundation                	       0x180820398 -[_CFXPreferences copyDictionaryForApp:withContainer:] + 148
+19  CoreFoundation                	       0x18087925c _CFPrefsCopyAppDictionaryWithContainer + 100
+20  Foundation                    	       0x182041a50 -[NSUserDefaults(NSUserDefaults) dictionaryRepresentation] + 64
+21  UIKitCore                     	       0x182f0a200 ___UIKitPreferencesOnce_block_invoke + 44
+22  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+23  libdispatch.dylib             	       0x18048bf08 _dispatch_once_callout + 32
+24  UIKitCore                     	       0x182e5c440 _UIKitPreferencesOnce + 80
+25  UIKitCore                     	       0x182f77fdc ___UIApplicationMainPreparations_block_invoke + 20
+26  libdispatch.dylib             	       0x180488914 _dispatch_call_block_and_release + 32
+27  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+28  libdispatch.dylib             	       0x18049bef0 _dispatch_root_queue_drain + 684
+29  libdispatch.dylib             	       0x18049c5f8 _dispatch_worker_thread2 + 164
+30  libsystem_pthread.dylib       	       0x1f0a5a0b8 _pthread_wqthread + 228
+31  libsystem_pthread.dylib       	       0x1f0a59e94 start_wqthread + 8
+
+Thread 2 name:   Dispatch queue: com.apple.runningboardservices.connection.incoming
+Thread 2:
+0   libsystem_kernel.dylib        	       0x1b761766c __psynch_mutexwait + 8
+1   libsystem_pthread.dylib       	       0x1f0a5b3cc _pthread_mutex_firstfit_lock_wait + 84
+2   libsystem_pthread.dylib       	       0x1f0a6250c _pthread_mutex_firstfit_lock_slow + 240
+3   libobjc.A.dylib               	       0x198e72efc monitor_tt<false>::enter() + 20
+4   libobjc.A.dylib               	       0x198e7314c initializeNonMetaClass + 176
+5   libobjc.A.dylib               	       0x198e775a8 initializeAndMaybeRelock(objc_class*, objc_object*, mutex_tt<false>&, bool) + 156
+6   libobjc.A.dylib               	       0x198e706a0 lookUpImpOrForward + 884
+7   libobjc.A.dylib               	       0x198e6ba84 _objc_msgSend_uncached + 68
+8   libobjc.A.dylib               	       0x198e7d764 CALLING_SOME_+initialize_METHOD + 24
+9   libobjc.A.dylib               	       0x198e733ac initializeNonMetaClass + 784
+10  libobjc.A.dylib               	       0x198e775a8 initializeAndMaybeRelock(objc_class*, objc_object*, mutex_tt<false>&, bool) + 156
+11  libobjc.A.dylib               	       0x198e706a0 lookUpImpOrForward + 884
+12  libobjc.A.dylib               	       0x198e6ba84 _objc_msgSend_uncached + 68
+13  RunningBoardServices          	       0x18b6cd7c4 +[RBSProcessHandle clearAllHandles] + 24
+14  RunningBoardServices          	       0x18b6d0a44 -[RBSConnection _handshake] + 528
+15  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+16  libdispatch.dylib             	       0x1804998b4 _dispatch_lane_barrier_sync_invoke_and_complete + 56
+17  RunningBoardServices          	       0x18b6c8c24 -[RBSConnection _init] + 632
+18  RunningBoardServices          	       0x18b6c8ea0 __31+[RBSConnection sharedInstance]_block_invoke + 28
+19  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+20  libdispatch.dylib             	       0x18048bf08 _dispatch_once_callout + 32
+21  RunningBoardServices          	       0x18b6b5e44 +[RBSConnection sharedInstance] + 80
+22  RunningBoardServices          	       0x18b6b7da4 -[RBSService _init] + 128
+23  RunningBoardServices          	       0x18b6b78c0 __RBSServiceInitialize_block_invoke + 36
+24  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+25  libdispatch.dylib             	       0x18048bf08 _dispatch_once_callout + 32
+26  RunningBoardServices          	       0x18b6b8b24 RBSServiceInitialize + 192
+27  BoardServices                 	       0x19e71f6a0 __34+[BSServiceManager sharedInstance]_block_invoke + 904
+28  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+29  libdispatch.dylib             	       0x18048bf08 _dispatch_once_callout + 32
+30  BoardServices                 	       0x19e7204f0 +[BSServiceManager sharedInstance] + 84
+31  BoardServices                 	       0x19e720ce8 +[BSServiceConnection _connectionWithEndpoint:clientContextBuilder:] + 328
+32  UIKitServices                 	       0x18560df58 __44-[UISApplicationSupportClient _remoteTarget]_block_invoke + 208
+33  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+34  libdispatch.dylib             	       0x1804998b4 _dispatch_lane_barrier_sync_invoke_and_complete + 56
+35  UIKitServices                 	       0x18560de38 -[UISApplicationSupportClient _remoteTarget] + 184
+36  UIKitServices                 	       0x18560b694 -[UISApplicationSupportClient applicationInitializationContextWithParameters:] + 192
+37  UIKitCore                     	       0x182f21214 __63-[_UIApplicationConfigurationLoader _loadInitializationContext]_block_invoke_2 + 228
+38  UIKitCore                     	       0x182f5f3fc __UIAPPLICATION_IS_LOADING_INITIALIZATION_INFO_FROM_THE_SYSTEM__ + 28
+39  UIKitCore                     	       0x1831765b0 __63-[_UIApplicationConfigurationLoader _loadInitializationContext]_block_invoke + 100
+40  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+41  libdispatch.dylib             	       0x18048bf08 _dispatch_once_callout + 32
+42  UIKitCore                     	       0x183147b1c -[_UIApplicationConfigurationLoader _loadInitializationContext] + 152
+43  UIKitCore                     	       0x182eda6fc __70-[_UIApplicationConfigurationLoader startPreloadInitializationContext]_block_invoke + 28
+44  libdispatch.dylib             	       0x180488914 _dispatch_call_block_and_release + 32
+45  libdispatch.dylib             	       0x18048a660 _dispatch_client_callout + 20
+46  libdispatch.dylib             	       0x18049bef0 _dispatch_root_queue_drain + 684
+47  libdispatch.dylib             	       0x18049c5f8 _dispatch_worker_thread2 + 164
+48  libsystem_pthread.dylib       	       0x1f0a5a0b8 _pthread_wqthread + 228
+49  libsystem_pthread.dylib       	       0x1f0a59e94 start_wqthread + 8
+
+Thread 3:
+0   libsystem_pthread.dylib       	       0x1f0a59e8c start_wqthread + 0
+
+Thread 4:
+0   libsystem_pthread.dylib       	       0x1f0a59e98 thread_start + 0
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x0000000000000000   x2: 0x0000000000000000   x3: 0x0000000000000000
+    x4: 0x0000000000000020   x5: 0x000000016b2036d0   x6: 0x000000000000000a   x7: 0x0000000000000000
+    x8: 0x1189f834a2be7948   x9: 0x1189f835a64d7cc8  x10: 0x0000000000000002  x11: 0x00000000fffffffd
+   x12: 0x0000000000000000  x13: 0x0000000000000000  x14: 0x0000000000000001  x15: 0x0000000000000002
+   x16: 0x0000000000000148  x17: 0x0000000104f30580  x18: 0x0000000000000000  x19: 0x0000000000000006
+   x20: 0x0000000000000103  x21: 0x0000000104f30660  x22: 0x00000002813583c0  x23: 0x0000000280b50300
+   x24: 0x00000001da70f7d0  x25: 0x0000000000000000  x26: 0x00000001d725c000  x27: 0x0000000000000000
+   x28: 0x00000001cb530000   fp: 0x000000016b203680   lr: 0x00000001f0a60378
+    sp: 0x000000016b203660   pc: 0x00000001b761c964 cpsr: 0x40000000
+   far: 0x00000001d7588760  esr: 0x56000080  Address size fault
+
+Binary Images:
+       0x1b7615000 -        0x1b7648fff libsystem_kernel.dylib arm64e  <3e34d3ba781e3337a7220a7afc3acd7b> /usr/lib/system/libsystem_kernel.dylib
+       0x1f0a59000 -        0x1f0a64fff libsystem_pthread.dylib arm64e  <9f8c2a4cc7e83932821480ccd53f2812> /usr/lib/system/libsystem_pthread.dylib
+       0x18b632000 -        0x18b6b0fff libsystem_c.dylib arm64e  <1e990f160d8336eeb349fc15fe4834c1> /usr/lib/system/libsystem_c.dylib
+       0x19c120000 -        0x19c128fff GraphicsServices arm64e  <9b6508f858ea3bdf9c374ada6ed241fa> /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+       0x182c25000 -        0x1844a9fff UIKitCore arm64e  <6c3eaf5d59773004af18c934882e11b5> /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+       0x1881c4000 -        0x1891f0fff SwiftUI arm64e  <54976277526b3887aa2c2dc0dcd2d5fe> /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+       0x104bfc000 -        0x104c03fff test-12345 arm64  <08da2bc8246d354a8f54f0c3567dd589> /private/var/containers/Bundle/Application/7212F8B1-B6D0-47F4-ACBD-CAEFDD5DF9E8/test-12345.app/test-12345
+       0x104ecc000 -        0x104f23fff dyld arm64e  <13216777f4be3a7bb470857e80ad3300> /usr/lib/dyld
+       0x180486000 -        0x1804ccfff libdispatch.dylib arm64e  <d805d5351da037b89ab28a446a5c8948> /usr/lib/system/libdispatch.dylib
+       0x1f0a74000 -        0x1f0aabfff libxpc.dylib arm64e  <16fb750881ff3a64bbadd412db45ec27> /usr/lib/system/libxpc.dylib
+       0x18077f000 -        0x180bd2fff CoreFoundation arm64e  <cf92f4e781813325aed3a76e60acf5aa> /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+       0x181fa1000 -        0x1822a6fff Foundation arm64e  <b53f34f630d83208907a0d0bf2ef1a07> /System/Library/Frameworks/Foundation.framework/Foundation
+       0x198e6a000 -        0x198ea3fff libobjc.A.dylib arm64e  <ae78c62bdd6531999d67dcc835c9ed8f> /usr/lib/libobjc.A.dylib
+       0x18b6b1000 -        0x18b708fff RunningBoardServices arm64e  <23d47209f9033a588d836acc43236adf> /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+       0x19e714000 -        0x19e767fff BoardServices arm64e  <ed7bc24873aa3fc6ae61a55230fd02db> /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+       0x185609000 -        0x18562ffff UIKitServices arm64e  <637159277b0a355b9f94c2f3570e496d> /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+
+EOF
+

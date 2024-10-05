@@ -1,0 +1,551 @@
+objc[11475]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18c78) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa82b8). One of the two will be used. Which one is undefined.
+objc[11475]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18cc8) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa8308). One of the two will be used. Which one is undefined.
+2021-03-27 11:32:33.502 Xcode[11475:4516742] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2021-03-27 11:32:33.503 Xcode[11475:4516742] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2021-03-27 11:32:35.564 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x12bf5b580 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:35.618 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x13d124e50 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:41.519 Xcode[11475:4516561] Could not find image named 'ActionTemplate_Gear'.
+2021-03-27 11:32:41.646 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device." UserInfo={NSUnderlyingError=0x13adce950 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e2f84 _dispatch_lane_barrier_sync_invoke_and_complete + 60
+	8   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	9   DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	10  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	11  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	12  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	13  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	14  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	15  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	16  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	17  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	18  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	19  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	20  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	21  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device.}
+2021-03-27 11:32:41.646 Xcode[11475:4516662]  DTDKRemoteDeviceConnection: Unable to start com.apple.instruments.remoteserver.DVTSecureSocketProxy on device 00008030-001538D03C40012E. Falling back to service without proxy.
+2021-03-27 11:32:41.748 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver" on device." UserInfo={NSUnderlyingError=0x12d5e73c0 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e33d0 _dispatch_sync_invoke_and_complete_recurse + 68
+	8   libdispatch.dylib                   0x00000001811e2e28 _dispatch_sync_f_slow + 176
+	9   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	10  DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	11  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	12  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	13  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	14  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	15  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	16  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	17  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	18  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	19  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	20  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	21  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	22  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver" on device.}
+Ds-Mac-mini:Documents xss$ tail -n 200  ~/Documents/xcode-srd-03282021-001.log
+objc[11475]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18c78) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa82b8). One of the two will be used. Which one is undefined.
+objc[11475]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18cc8) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa8308). One of the two will be used. Which one is undefined.
+2021-03-27 11:32:33.502 Xcode[11475:4516742] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2021-03-27 11:32:33.503 Xcode[11475:4516742] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2021-03-27 11:32:35.564 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x12bf5b580 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:35.618 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x13d124e50 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:41.519 Xcode[11475:4516561] Could not find image named 'ActionTemplate_Gear'.
+2021-03-27 11:32:41.646 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device." UserInfo={NSUnderlyingError=0x13adce950 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e2f84 _dispatch_lane_barrier_sync_invoke_and_complete + 60
+	8   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	9   DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	10  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	11  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	12  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	13  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	14  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	15  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	16  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	17  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	18  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	19  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	20  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	21  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device.}
+2021-03-27 11:32:41.646 Xcode[11475:4516662]  DTDKRemoteDeviceConnection: Unable to start com.apple.instruments.remoteserver.DVTSecureSocketProxy on device 00008030-001538D03C40012E. Falling back to service without proxy.
+2021-03-27 11:32:41.748 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver" on device." UserInfo={NSUnderlyingError=0x12d5e73c0 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e33d0 _dispatch_sync_invoke_and_complete_recurse + 68
+	8   libdispatch.dylib                   0x00000001811e2e28 _dispatch_sync_f_slow + 176
+	9   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	10  DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	11  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	12  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	13  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	14  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	15  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	16  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	17  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	18  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	19  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	20  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	21  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	22  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver" on device.}
+Ds-Mac-mini:Documents xss$ tail -n 200  ~/Documents/xcode-srd-03282021-001.log
+objc[11475]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18c78) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa82b8). One of the two will be used. Which one is undefined.
+objc[11475]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18cc8) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa8308). One of the two will be used. Which one is undefined.
+2021-03-27 11:32:33.502 Xcode[11475:4516742] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2021-03-27 11:32:33.503 Xcode[11475:4516742] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2021-03-27 11:32:35.564 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x12bf5b580 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:35.618 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x13d124e50 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:41.519 Xcode[11475:4516561] Could not find image named 'ActionTemplate_Gear'.
+2021-03-27 11:32:41.646 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device." UserInfo={NSUnderlyingError=0x13adce950 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e2f84 _dispatch_lane_barrier_sync_invoke_and_complete + 60
+	8   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	9   DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	10  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	11  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	12  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	13  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	14  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	15  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	16  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	17  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	18  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	19  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	20  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	21  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device.}
+2021-03-27 11:32:41.646 Xcode[11475:4516662]  DTDKRemoteDeviceConnection: Unable to start com.apple.instruments.remoteserver.DVTSecureSocketProxy on device 00008030-001538D03C40012E. Falling back to service without proxy.
+2021-03-27 11:32:41.748 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver" on device." UserInfo={NSUnderlyingError=0x12d5e73c0 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e33d0 _dispatch_sync_invoke_and_complete_recurse + 68
+	8   libdispatch.dylib                   0x00000001811e2e28 _dispatch_sync_f_slow + 176
+	9   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	10  DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	11  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	12  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	13  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	14  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	15  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	16  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	17  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	18  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	19  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	20  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	21  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	22  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver" on device.}
+Ds-Mac-mini:Documents xss$ tail -n 200  ~/Documents/xcode-srd-03282021-001.log
+objc[11475]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18c78) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa82b8). One of the two will be used. Which one is undefined.
+objc[11475]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x1eca18cc8) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x118aa8308). One of the two will be used. Which one is undefined.
+2021-03-27 11:32:33.502 Xcode[11475:4516742] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2021-03-27 11:32:33.503 Xcode[11475:4516742] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2021-03-27 11:32:35.564 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x12bf5b580 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.565 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:35.618 Xcode[11475:4516737]  iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4." UserInfo={NSLocalizedDescription=The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4., NSLocalizedRecoverySuggestion=To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website., DVTRadarComponentKey=487927, DeviceType=iPhone12,1, NSUnderlyingError=0x13d124e50 {Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 "Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}}}) {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+    NSLocalizedDescription = "The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.";
+    NSLocalizedRecoverySuggestion = "To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.";
+    NSUnderlyingError = "Error Domain=com.apple.dt.DVTDeviceSupportFilesError Code=2 \"Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a\" UserInfo={NSLocalizedDescription=Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a, DVTRadarComponentKey=487927}";
+}
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> -- An error occurred whilst preparing device for development -- The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == Underlying device preparation errors ==
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: The current device configuration is unsupported. This iPhone 11 is running iOS 14.5 (18E5186a), which is not supported by Xcode 12.4.
+Domain: com.apple.dtdevicekit
+Code: 601
+Recovery Suggestion: To run on this device, please update to a version of Xcode that supports iOS 14.5. You can download Xcode from the Mac App Store or the Apple Developer website.
+User Info: {
+    DVTRadarComponentKey = 487927;
+    DeviceType = "iPhone12,1";
+}
+--
+Unable to locate ideal DDI for platform: <DVTPlatform:0x13be998a0:'com.apple.platform.iphoneos':<DVTFilePath:0x13be99720:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>, version: 14.5, build: 18E5186a
+Domain: com.apple.dt.DVTDeviceSupportFilesError
+Code: 2
+User Info: {
+    DVTRadarComponentKey = 487927;
+}
+--
+2021-03-27 11:32:35.619 Xcode[11475:4516561] [MT] iPhoneConnect: <DVTiOSDevice (0x13d221400), iPhone, iPhone, 14.5 (18E5186a), 00008030-001538D03C40012E> == END: Underlying device preparation errors ==
+2021-03-27 11:32:41.519 Xcode[11475:4516561] Could not find image named 'ActionTemplate_Gear'.
+2021-03-27 11:32:41.646 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device." UserInfo={NSUnderlyingError=0x13adce950 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e2f84 _dispatch_lane_barrier_sync_invoke_and_complete + 60
+	8   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	9   DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	10  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	11  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	12  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	13  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	14  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	15  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	16  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	17  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	18  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	19  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	20  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	21  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver.DVTSecureSocketProxy" on device.}
+2021-03-27 11:32:41.646 Xcode[11475:4516662]  DTDKRemoteDeviceConnection: Unable to start com.apple.instruments.remoteserver.DVTSecureSocketProxy on device 00008030-001538D03C40012E. Falling back to service without proxy.
+2021-03-27 11:32:41.748 Xcode[11475:4516663]  DTDKRemoteDeviceConnection: Failed to start remote service "com.apple.instruments.remoteserver" on device. Error: Error Domain=com.apple.dtdevicekit Code=811 "Failed to start remote service "com.apple.instruments.remoteserver" on device." UserInfo={NSUnderlyingError=0x12d5e73c0 {Error Domain=com.apple.dt.MobileDeviceErrorDomain Code=-402653150 "The service is invalid." UserInfo={MobileDeviceErrorCode=(0xE8000022), com.apple.dtdevicekit.stacktrace=(
+	0   DTDeviceKitBase                     0x00000001187b52f8 DTDKCreateNSErrorFromAMDErrorCode + 272
+	1   DTDeviceKitBase                     0x00000001187c45d4 __63-[DTDKRemoteDeviceConnection startFirstServiceOf:unlockKeybag:]_block_invoke + 468
+	2   DTDeviceKitBase                     0x00000001187c3d30 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_3 + 28
+	3   DTDeviceKitBase                     0x00000001187b7554 __DTDKExecuteInSession_block_invoke_2 + 48
+	4   DTDeviceKitBase                     0x00000001187b6bf0 __DTDKExecuteWithConnection_block_invoke_2 + 236
+	5   DTDeviceKitBase                     0x00000001187b6ad8 __DTDKExecuteWithConnection_block_invoke + 104
+	6   libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	7   libdispatch.dylib                   0x00000001811e33d0 _dispatch_sync_invoke_and_complete_recurse + 68
+	8   libdispatch.dylib                   0x00000001811e2e28 _dispatch_sync_f_slow + 176
+	9   DVTFoundation                       0x0000000100d09260 DVTDispatchBarrierSync + 208
+	10  DVTFoundation                       0x0000000100ce0d48 -[DVTDispatchLock performLockedBlock:] + 60
+	11  DTDeviceKitBase                     0x00000001187b69d8 DTDKExecuteWithConnection + 204
+	12  DTDeviceKitBase                     0x00000001187b73e0 DTDKExecuteInSession + 236
+	13  DTDeviceKitBase                     0x00000001187c3b78 __48-[DTDKRemoteDeviceConnection futureWithSession:]_block_invoke_2 + 124
+	14  DVTFoundation                       0x0000000100d06718 __DVT_CALLING_CLIENT_BLOCK__ + 16
+	15  DVTFoundation                       0x0000000100d08128 __DVTDispatchAsync_block_invoke + 680
+	16  libdispatch.dylib                   0x00000001811d20f8 _dispatch_call_block_and_release + 32
+	17  libdispatch.dylib                   0x00000001811d3e90 _dispatch_client_callout + 20
+	18  libdispatch.dylib                   0x00000001811db678 _dispatch_lane_serial_drain + 620
+	19  libdispatch.dylib                   0x00000001811dc2a8 _dispatch_lane_invoke + 456
+	20  libdispatch.dylib                   0x00000001811e6b44 _dispatch_workloop_worker_thread + 764
+	21  libsystem_pthread.dylib             0x000000018137eff8 _pthread_wqthread + 276
+	22  libsystem_pthread.dylib             0x000000018137dd30 start_wqthread + 8
+), DVTRadarComponentKey=261622, NSLocalizedDescription=The service is invalid.}}, NSLocalizedRecoverySuggestion=Please check your connection to your device., DVTRadarComponentKey=261622, NSLocalizedDescription=Failed to start remote service "com.apple.instruments.remoteserver" on device.}

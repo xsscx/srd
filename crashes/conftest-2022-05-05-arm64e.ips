@@ -1,0 +1,41 @@
+-------------------------------------
+Translated Report (Full Report Below)
+-------------------------------------
+
+Hardware Model:      MacBookPro17,1
+Process:             conftest [19288]
+Path:                /Users/USER/Downloads/*/conftest
+Identifier:          conftest
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      Exited process [19287]
+Coalition:           com.googlecode.iterm2 [563]
+Responsible Process: iTerm2 [623]
+
+Date/Time:           2022-05-05 10:22:32.6582 -0400
+Launch Time:         2022-05-05 10:22:32.6576 -0400
+OS Version:          macOS 12.3.1 (21E258)
+Release Type:        User
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGKILL (Code Signature Invalid))
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Reason: EXEC 1 Bad Mach-O
+
+Highlighted by Thread:  0
+
+Backtrace not available
+
+No thread state (register information) available
+
+Binary Images:
+Binary images description not available
+
+Error Formulating Crash Report:
+_dyld_process_info_create failed with 1
+dyld_process_snapshot_get_shared_cache failed
+Failed to create CSSymbolicatorRef - corpse still valid ¯\_(ツ)_/¯
+
+EOF

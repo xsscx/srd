@@ -1,0 +1,272 @@
+Wed Mar 16 09:08:04 EDT 2022
+kern.version: Darwin Kernel Version 21.4.0: Mon Feb 21 20:34:37 PST 2022; root:xnu-8020.101.4~2/RELEASE_X86_64
+kern.osversion: 21E230
+kern.iossupportversion: 15.4
+kern.osproductversioncompat: 10.16
+kern.osproductversion: 12.3
+kern.osproductversioncompat: 10.16
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+udid                           name       build      BORD       CHIP       ECID                
+00008030-001538D03C40012E      SRD0009 iPhone 19E241     0x4        0x8030     0x1538d03c40012e    
+00008101-001418DA3CC0013A      SRD0037 iPhone 19E241     0xc        0x8101     0x1418da3cc0013a    
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+Target: x86_64-apple-darwin21.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Darwin Cryptex Management Interface Version 2.0.0: Sun Dec 19 22:28:12 PST 2021; root:libcryptex_executables-169.80.2~9/cryptexctl/WEN_ETA_X86_64
+machdep.cpu.brand_string: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+machdep.cpu.brand: 0
+System Integrity Protection status: disabled.
+cryptexctl: flags = [none]
+cryptexctl: will re-exec: /usr/local/bin/cryptexctl.research
+cryptexctl.research: path = /usr/local/bin/cryptexctl.research
+MobileDevice version = 1369.101.3
+cryptexctl.research: argv[_main] =
+cryptexctl.research:   [0] = cryptexctl
+cryptexctl.research:   [1] = -v9
+cryptexctl.research:   [2] = -d9
+cryptexctl.research:   [3] = -ldt
+cryptexctl.research:   [4] = install
+cryptexctl.research:   [5] = --variant=research
+cryptexctl.research:   [6] = --persist
+cryptexctl.research:   [7] = --print-info
+cryptexctl.research:   [8] = ./com.example.cryptex.cxbd.signed
+...
+2022-03-16 09:08:04.702887-0400 cryptexctl.research[63144:505965] [_main] flags = [none]
+cryptexctl.research: declining to re-exec
+2022-03-16 09:08:04.702910-0400 cryptexctl.research[63144:505965] [_main] declining to re-exec
+2022-03-16 09:08:04.704330-0400 cryptexctl.research[63144:505965] [library] USBMuxListenerCreateFiltered:898 Created 0x6000011e40a0
+2022-03-16 09:08:04.704474-0400 cryptexctl.research[63144:505966] [library] USBMuxHandleDictionary:1437 Adding event 0x6000020f0020 to changelist.
+2022-03-16 09:08:04.704591-0400 cryptexctl.research[63144:505966] [library] USBMuxHandleDictionary:1437 Adding event 0x6000020f01c0 to changelist.
+2022-03-16 09:08:04.705955-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: devices list = (
+    "AMDevice 0x600001fe0000 {UDID = 00008101-001418DA3CC0013A, device ID = 7, location ID = 0x14100000, product ID = 0x12a8}",
+    "AMDevice 0x600001fe00f0 {UDID = 00008030-001538D03C40012E, device ID = 6, location ID = 0x14500000, product ID = 0x12a8}"
+)
+2022-03-16 09:08:04.706008-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: enumerating device: AMDevice 0x600001fe0000 {UDID = 00008101-001418DA3CC0013A, device ID = 7, location ID = 0x14100000, product ID = 0x12a8}
+2022-03-16 09:08:04.706049-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.707154-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: query = {
+    NULL =     (
+        UniqueDeviceID,
+        DeviceName,
+        BuildVersion,
+        Image4CryptoHashMethod,
+        BoardId,
+        ChipID,
+        SecurityDomain,
+        UniqueChipID,
+        CertificateProductionStatus,
+        CertificateSecurityMode,
+        EffectiveProductionStatusAp,
+        EffectiveSecurityModeAp
+    );
+}
+2022-03-16 09:08:04.707219-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.709047-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.713036-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: query result = {
+    SuccessValueKey =     {
+        NULL =         {
+            BoardId = 12;
+            BuildVersion = 19E241;
+            CertificateProductionStatus = 1;
+            CertificateSecurityMode = 1;
+            ChipID = 33025;
+            DeviceName = "SRD0037";
+            EffectiveProductionStatusAp = 1;
+            EffectiveSecurityModeAp = 1;
+            Image4CryptoHashMethod = "sha2-384";
+            SecurityDomain = 1;
+            UniqueChipID = 5656825135366458;
+            UniqueDeviceID = "00008101-001418DA3CC0013A";
+        };
+    };
+}
+2022-03-16 09:08:04.713077-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: instantiating identity from: {
+    BoardId = 12;
+    BuildVersion = 19E241;
+    CertificateProductionStatus = 1;
+    CertificateSecurityMode = 1;
+    ChipID = 33025;
+    DeviceName = "SRD0037";
+    EffectiveProductionStatusAp = 1;
+    EffectiveSecurityModeAp = 1;
+    Image4CryptoHashMethod = "sha2-384";
+    SecurityDomain = 1;
+    UniqueChipID = 5656825135366458;
+    UniqueDeviceID = "00008101-001418DA3CC0013A";
+}
+2022-03-16 09:08:04.713094-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: device: udid = 00008101-001418DA3CC0013A, name = SRD0009, build = 19E241
+2022-03-16 09:08:04.713112-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: identity = '04 00 00 00 00 00 00 00 70 41 CF 4F F8 7F 00 00 00 00 00 00 00 00 00 00 01 00 00 00 0C 00 00 00 01 81 00 00 01 00 00 00 3A 01 C0 3C DA 18 14 00 01 01 01 01 00 00 00 00 00 00 00 00 00 00 00 00 60 00 0F 02 00 60 00 00 40 02 0F 02 00 60 00 00 10 40 2F 02 00 60 00 00'
+2022-03-16 09:08:04.713217-0400 cryptexctl.research[63144:505965] [device] [anonymous]: setting name: SRD0009
+2022-03-16 09:08:04.713236-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: enumerating device: AMDevice 0x600001fe00f0 {UDID = 00008030-001538D03C40012E, device ID = 6, location ID = 0x14500000, product ID = 0x12a8}
+2022-03-16 09:08:04.713263-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.715229-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: query = {
+    NULL =     (
+        UniqueDeviceID,
+        DeviceName,
+        BuildVersion,
+        Image4CryptoHashMethod,
+        BoardId,
+        ChipID,
+        SecurityDomain,
+        UniqueChipID,
+        CertificateProductionStatus,
+        CertificateSecurityMode,
+        EffectiveProductionStatusAp,
+        EffectiveSecurityModeAp
+    );
+}
+2022-03-16 09:08:04.715283-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.718342-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.727158-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: query result = {
+    SuccessValueKey =     {
+        NULL =         {
+            BoardId = 4;
+            BuildVersion = 19E241;
+            CertificateProductionStatus = 1;
+            CertificateSecurityMode = 1;
+            ChipID = 32816;
+            DeviceName = "SRD0009";
+            EffectiveProductionStatusAp = 1;
+            EffectiveSecurityModeAp = 1;
+            Image4CryptoHashMethod = "sha2-384";
+            SecurityDomain = 1;
+            UniqueChipID = 5973441526104366;
+            UniqueDeviceID = "00008030-001538D03C40012E";
+        };
+    };
+}
+2022-03-16 09:08:04.727209-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: instantiating identity from: {
+    BoardId = 4;
+    BuildVersion = 19E241;
+    CertificateProductionStatus = 1;
+    CertificateSecurityMode = 1;
+    ChipID = 32816;
+    DeviceName = "SRD0009";
+    EffectiveProductionStatusAp = 1;
+    EffectiveSecurityModeAp = 1;
+    Image4CryptoHashMethod = "sha2-384";
+    SecurityDomain = 1;
+    UniqueChipID = 5973441526104366;
+    UniqueDeviceID = "00008030-001538D03C40012E";
+}
+2022-03-16 09:08:04.727237-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: device: udid = 00008030-001538D03C40012E, name = SRD0009, build = 19E241
+2022-03-16 09:08:04.727253-0400 cryptexctl.research[63144:505965] [device-manager] [anonymous]: identity = '04 00 00 00 00 00 00 00 70 41 CF 4F F8 7F 00 00 00 00 00 00 00 00 00 00 01 00 00 00 04 00 00 00 30 80 00 00 01 00 00 00 2E 01 40 3C D0 38 15 00 01 01 01 01 00 00 00 00 00 00 00 00 00 00 00 00 A0 80 0C 02 00 60 00 00 40 82 0C 02 00 60 00 00 50 41 2E 02 00 60 00 00'
+2022-03-16 09:08:04.727266-0400 cryptexctl.research[63144:505965] [device] [anonymous]: setting name: SRD0009
+found device for udid: 00008030-001538D03C40012E
+2022-03-16 09:08:04.727288-0400 cryptexctl.research[63144:505965] [_main] found device for udid: 00008030-001538D03C40012E
+will operate on device: SRD0009
+2022-03-16 09:08:04.727302-0400 cryptexctl.research[63144:505965] [_main] will operate on device: SRD0009
+cryptexctl.research: argv[install] =
+2022-03-16 09:08:04.727363-0400 cryptexctl.research[63144:505965] [install] argv[install] =
+cryptexctl.research:   [0] = install
+2022-03-16 09:08:04.727380-0400 cryptexctl.research[63144:505965] [install]   [0] = install
+cryptexctl.research:   [1] = --variant=research
+2022-03-16 09:08:04.727396-0400 cryptexctl.research[63144:505965] [install]   [1] = --variant=research
+cryptexctl.research:   [2] = --persist
+2022-03-16 09:08:04.727411-0400 cryptexctl.research[63144:505965] [install]   [2] = --persist
+cryptexctl.research:   [3] = --print-info
+2022-03-16 09:08:04.727426-0400 cryptexctl.research[63144:505965] [install]   [3] = --print-info
+cryptexctl.research:   [4] = ./com.example.cryptex.cxbd.signed
+2022-03-16 09:08:04.727440-0400 cryptexctl.research[63144:505965] [install]   [4] = ./com.example.cryptex.cxbd.signed
+...
+2022-03-16 09:08:04.727973-0400 cryptexctl.research[63144:505965] [install]   _ => /usr/local/bin/cryptexctl
+cryptexctl.research:   POSIXLY_CORRECT => 1
+2022-03-16 09:08:04.727989-0400 cryptexctl.research[63144:505965] [install]   POSIXLY_CORRECT => 1
+cryptexctl.research:   LOG_STYLE => compact
+2022-03-16 09:08:04.728005-0400 cryptexctl.research[63144:505965] [install]   LOG_STYLE => compact
+cryptexctl.research:   CRYPTEXCTL_VERBOSE_LEVEL => 9
+2022-03-16 09:08:04.728020-0400 cryptexctl.research[63144:505965] [install]   CRYPTEXCTL_VERBOSE_LEVEL => 9
+cryptexctl.research:   CRYPTEXCTL_DEBUG_LEVEL => 9
+2022-03-16 09:08:04.728036-0400 cryptexctl.research[63144:505965] [install]   CRYPTEXCTL_DEBUG_LEVEL => 9
+cryptexctl.research:   _CRYPTEX_CLI_ENV_POST_REEXEC => 1
+2022-03-16 09:08:04.728052-0400 cryptexctl.research[63144:505965] [install]   _CRYPTEX_CLI_ENV_POST_REEXEC => 1
+cryptexctl.research: apple[install] =
+2022-03-16 09:08:04.728066-0400 cryptexctl.research[63144:505965] [install] apple[install] =
+cryptexctl.research:   executable_path => /usr/local/bin/cryptexctl.research
+2022-03-16 09:08:04.728081-0400 cryptexctl.research[63144:505965] [install]   executable_path => /usr/local/bin/cryptexctl.research
+cryptexctl.research:   ptr_munge => 
+2022-03-16 09:08:04.728097-0400 cryptexctl.research[63144:505965] [install]   ptr_munge =>
+cryptexctl.research:   main_stack => 
+2022-03-16 09:08:04.728113-0400 cryptexctl.research[63144:505965] [install]   main_stack =>
+cryptexctl.research:   executable_file => 0x1a01000004,0x774973
+2022-03-16 09:08:04.728129-0400 cryptexctl.research[63144:505965] [install]   executable_file => 0x1a01000004,0x774973
+cryptexctl.research:   dyld_file => 0x1a01000004,0xfffffff000dc0e4
+2022-03-16 09:08:04.728145-0400 cryptexctl.research[63144:505965] [install]   dyld_file => 0x1a01000004,0xfffffff000dc0e4
+cryptexctl.research:   executable_cdhash => 50da1fdfbd3511624b146f0dbf201e7e305a74ae
+2022-03-16 09:08:04.728161-0400 cryptexctl.research[63144:505965] [install]   executable_cdhash => 50da1fdfbd3511624b146f0dbf201e7e305a74ae
+cryptexctl.research:   executable_boothash => fdcb407defe7935a4312738cc03c3bc2a9009fd0
+2022-03-16 09:08:04.728178-0400 cryptexctl.research[63144:505965] [install]   executable_boothash => fdcb407defe7935a4312738cc03c3bc2a9009fd0
+cryptexctl.research:   th_port => 
+2022-03-16 09:08:04.728194-0400 cryptexctl.research[63144:505965] [install]   th_port =>
+will persist cryptex
+2022-03-16 09:08:04.728206-0400 cryptexctl.research[63144:505965] [install] will persist cryptex
+2022-03-16 09:08:04.731901-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.734838-0400 cryptexctl.research[63144:505965] [library] USBMuxConnectByPort:584 Connecting to port 32498 (f2, 7e)
+2022-03-16 09:08:04.778205-0400 cryptexctl.research[63144:505965] [device] SRD0009: connected to device: AMDevice 0x600001fe00f0 {UDID = 00008030-001538D03C40012E, device ID = 6, location ID = 0x14500000, product ID = 0x12a8}
+...
+Date/Time:             2022-03-15 07:23:06.4521 -0400
+OS Version:            macOS 12.3 (21E230)
+Report Version:        12
+Bridge OS Version:     6.4 (19P4242)
+System Integrity Protection: disabled
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x0000000000000010
+Exception Codes:       0x0000000000000001, 0x0000000000000010
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Reason:    Namespace SIGNAL, Code 11 Segmentation fault: 11
+Terminating Process:   exc handler [29644]
+
+VM Region Info: 0x10 is not in any region.  Bytes before following region: 4489105392
+      REGION TYPE                    START - END         [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      UNUSED SPACE AT START
+--->  
+      __TEXT                      10b925000-10b96d000    [  288K] r-x/r-x SM=COW  ...xctl.research
+
+Thread 0 Crashed::  Dispatch queue: com.apple.main-thread
+0   cryptexctl.research           	       0x10b9362ce 0x10b925000 + 70350
+1   cryptexctl.research           	       0x10b935d54 0x10b925000 + 68948
+2   libsystem_darwin.dylib        	    0x7ff80593b7ff os_subcommand_main + 671
+3   cryptexctl.research           	       0x10b942f70 0x10b925000 + 122736
+4   dyld                          	       0x113bc851e start + 462
+
+Thread 1:
+0   libsystem_pthread.dylib       	    0x7ff80330af48 start_wqthread + 0
+
+Thread 2:
+0   libsystem_pthread.dylib       	    0x7ff80330af48 start_wqthread + 0
+
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000600001384090  rcx: 0x0000000000000010  rdx: 0xfffffffffffffff0
+  rdi: 0x00007ff7b45da4a0  rsi: 0xaaaaaaaaaaaaaaaa  rbp: 0x00007ff7b45da500  rsp: 0x00007ff7b45da0d0
+   r8: 0x0000000000000210   r9: 0x00000000000000b0  r10: 0x00000000000007fb  r11: 0x000000000000005c
+  r12: 0x00007ffa456a9ef8  r13: 0x0000600001384090  r14: 0x00007ff7b45da588  r15: 0x00007ff7b45da0d0
+  rip: 0x000000010b9362ce  rfl: 0x0000000000010287  cr2: 0x0000000000000010
+  
+Logical CPU:     4
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  ff 48 8b 95 d8 fb ff ff-48 8b 05 6b 6e 03 00 48  .H......H..kn..H
+  8b 08 31 ff e8 e1 27 02-00 48 85 c0 0f 84 c6 00  ..1...'..H......
+  00 00 48 89 c3 48 c7 85-f8 fb ff ff 00 00 00 00  ..H..H..........
+  48 89 c7 e8 3a 28 02 00-49 89 c7 eb 51 4c 8d bd  H...:(..I...QL..
+  d0 fb ff ff ba 00 04 00-00 4c 89 ff be aa 00 00  .........L......
+  00 e8 9c 2c 02 00 49 8b-44 24 18 48 8b 44 c3 38  ...,..I.D$.H.D.8
+ [8b]78 10 4c 89 fe e8 53-2d 02 00 85 c0 75 5b 48  .x.L...S-....u[H	<==
+  8d bd d0 fb ff ff e8 cd-ad ff ff 48 89 c3 48 89  ...........H..H.
+  c7 e8 ec 27 02 00 49 89-c7 48 85 db 74 08 48 89  ...'..I..H..t.H.
+  df e8 d6 27 02 00 4d 89-3e 31 db 48 8b 05 10 6d  ...'..M.>1.H...m
+  03 00 48 8b 00 48 3b 45-d8 75 38 89 d8 48 8d 65  ..H..H;E.u8..H.e
+  e0 5b 41 5c 41 5e 41 5f-5d c3 89 c3 49 8b 54 24  .[A\A^A_]...I.T$
+
+Binary Images:
+       0x10b925000 -        0x10b96cfff cryptexctl.research (*) <c6cbb58f-9ab2-3213-8142-4a796bea7f2e> /usr/local/bin/cryptexctl.research
+    0x7ff805938000 -     0x7ff805941fff libsystem_darwin.dylib (*) <a1c57f3c-0b85-367d-afd8-ce4b01b638c6> /usr/lib/system/libsystem_darwin.dylib
+       0x113bc3000 -        0x113c2efff dyld (*) <dd9e80de-fb3b-349b-96a4-46874ad34d11> /usr/lib/dyld
+    0x7ff803309000 -     0x7ff803314fff libsystem_pthread.dylib (*) <2f6c275d-7e14-3d31-a924-e1bb41d2415f> /usr/lib/system/libsystem_pthread.dylib
+               0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
+

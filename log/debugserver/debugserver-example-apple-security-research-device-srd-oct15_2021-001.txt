@@ -1,0 +1,508 @@
+./debugserver 192.168.3.37:1921 -x backboard /Applications/MobileSMS.app/MobileSMS
+
+
+
+
+(lldb) platform status
+  Platform: remote-ios
+ Connected: no
+  SDK Path: "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e"
+ SDK Roots: [ 0] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e"
+ SDK Roots: [ 1] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5325f) arm64e"
+ SDK Roots: [ 2] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5060d) arm64e"
+ SDK Roots: [ 3] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/14.7.1 (18G82) arm64e"
+ SDK Roots: [ 4] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e"
+ SDK Roots: [ 5] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5337a) arm64e"
+ SDK Roots: [ 6] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5340a) arm64e"
+ SDK Roots: [ 7] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A344) arm64e"
+ SDK Roots: [ 8] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0.2 (19A404) arm64e"
+ SDK Roots: [ 9] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [10] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A346) arm64e"
+(lldb) platform status ?
+  Platform: remote-ios
+ Connected: no
+  SDK Path: "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e"
+ SDK Roots: [ 0] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e"
+ SDK Roots: [ 1] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5325f) arm64e"
+ SDK Roots: [ 2] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5060d) arm64e"
+ SDK Roots: [ 3] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/14.7.1 (18G82) arm64e"
+ SDK Roots: [ 4] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e"
+ SDK Roots: [ 5] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5337a) arm64e"
+ SDK Roots: [ 6] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5340a) arm64e"
+ SDK Roots: [ 7] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A344) arm64e"
+ SDK Roots: [ 8] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0.2 (19A404) arm64e"
+ SDK Roots: [ 9] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [10] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A346) arm64e"
+(lldb) platform mkdir test
+error: remote platform remote-ios doesn't support virtual lldb_private::Status lldb_private::Platform::MakeDirectory(const lldb_private::FileSpec &, uint32_t)
+(lldb) target create /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.JuoIVP/usr/bin/hello
+error: '/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.JuoIVP/usr/bin/hello' does not exist
+(lldb)
+
+# pwd
+/private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.JuoIVP/usr/bin
+# date
+Fri Oct 15 08:18:58 EDT 2021
+# uname -a
+Darwin iPhone 21.1.0 Darwin Kernel Version 21.1.0: Wed Oct  6 16:16:35 PDT 2021; root:xnu-8019.42.2~3/RELEASE_ARM64_T8030 iPhone12,1 Toybox
+#
+
+cryptexctl list
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.JuoIVP
+xss@Ds-Mac-mini-2 example-cryptex % date
+
+
+Fri Oct 15 08:19:23 EDT 2021
+
+
+(lldb) platform settings -w /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.JuoIVP/usr/bin
+(lldb) pla sta
+  Platform: remote-ios
+ Connected: no
+WorkingDir: /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.JuoIVP/usr/bin
+  SDK Path: "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e"
+ SDK Roots: [ 0] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e"
+ SDK Roots: [ 1] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5325f) arm64e"
+ SDK Roots: [ 2] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5060d) arm64e"
+ SDK Roots: [ 3] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/14.7.1 (18G82) arm64e"
+ SDK Roots: [ 4] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e"
+ SDK Roots: [ 5] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5337a) arm64e"
+ SDK Roots: [ 6] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A5340a) arm64e"
+ SDK Roots: [ 7] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A344) arm64e"
+ SDK Roots: [ 8] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0.2 (19A404) arm64e"
+ SDK Roots: [ 9] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5042h) arm64e"
+ SDK Roots: [10] "/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.0 (19A346) arm64e"
+(lldb)
+
+(lldb) platform status
+  Platform: host
+    Triple: arm64e-apple-macosx
+OS Version: 11.6 (20G165)
+  Hostname: 127.0.0.1
+WorkingDir: /Users/xss/Downloads
+    Kernel: Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:20 PDT 2021; root:xnu-7195.141.6~3/RELEASE_ARM64_T8101
+(lldb)
+
+
+
+
+(lldb) image dump objfile hello
+Dumping headers for 1 module(s).
+0x13c6e8d50:   ObjectFileMachO64, file = '', triple[0] = arm64e-apple-ios15.0.0
+  SectID     Type             File Address                             Perm File Off.  File Size  Flags      Section Name
+  ---------- ---------------- ---------------------------------------  ---- ---------- ---------- ---------- ----------------------------
+  0x00000100 container        [0x0000000000000000-0x0000000100000000)  ---  0x00000000 0x00000000 0x00000000 hello.__PAGEZERO
+  0x00000200 container        [0x0000000100000000-0x000000010000c000)  r-x  0x00000000 0x0000c000 0x00000000 hello.__TEXT
+  0x00000001 code             [0x000000010000794c-0x0000000100007d6c)  r-x  0x0000794c 0x00000420 0x80000400 hello.__TEXT.__text
+  0x00000002 code             [0x0000000100007d6c-0x0000000100007e3c)  r-x  0x00007d6c 0x000000d0 0x80000408 hello.__TEXT.__auth_stubs
+  0x00000003 regular          [0x0000000100007e3c-0x0000000100007e40)  r-x  0x00007e3c 0x00000004 0x00000016 hello.__TEXT.__init_offsets
+  0x00000004 regular          [0x0000000100007e40-0x0000000100007f00)  r-x  0x00007e40 0x000000c0 0x00000000 hello.__TEXT.__asan_cstring
+  0x00000005 data-cstr        [0x0000000100007f00-0x0000000100007f2f)  r-x  0x00007f00 0x0000002f 0x00000002 hello.__TEXT.__cstring
+  0x00000006 regular          [0x0000000100007f2f-0x0000000100007f37)  r-x  0x00007f2f 0x00000008 0x00000000 hello.__TEXT.__const
+  0x00000007 compact-unwind   [0x0000000100007f38-0x0000000100007f98)  r-x  0x00007f38 0x00000060 0x00000000 hello.__TEXT.__unwind_info
+  0x00000008 eh-frame         [0x0000000100007f98-0x0000000100007fec)  r-x  0x00007f98 0x00000054 0x00000000 hello.__TEXT.__eh_frame
+  0x00000009 data-cstr        [0x0000000100008000-0x000000010000801e)  r-x  0x00008000 0x0000001e 0x00000002 hello.__TEXT.__oslogstring
+  0x00000300 container        [0x000000010000c000-0x0000000100010000)  rw-  0x0000c000 0x00004000 0x00000010 hello.__DATA_CONST
+  0x0000000a data-ptrs        [0x000000010000c000-0x000000010000c068)  rw-  0x0000c000 0x00000068 0x00000006 hello.__DATA_CONST.__auth_got
+  0x0000000b data-ptrs        [0x000000010000c068-0x000000010000c080)  rw-  0x0000c068 0x00000018 0x00000006 hello.__DATA_CONST.__got
+  0x0000000c data-ptrs        [0x000000010000c080-0x000000010000c088)  rw-  0x0000c080 0x00000008 0x0000000a hello.__DATA_CONST.__mod_term_func
+  0x0000000d regular          [0x000000010000c088-0x000000010000c0b8)  rw-  0x0000c088 0x00000030 0x00000000 hello.__DATA_CONST.__const
+  0x00000400 container        [0x0000000100010000-0x0000000100014000)  rw-  0x00010000 0x00004000 0x00000000 hello.__DATA
+  0x0000000e regular          [0x0000000100010000-0x00000001000100c0)  rw-  0x00010000 0x000000c0 0x00000000 hello.__DATA.__asan_globals
+  0x0000000f regular          [0x00000001000100c0-0x00000001000100f0)  rw-  0x000100c0 0x00000030 0x00000000 hello.__DATA.__asan_liveness
+  0x00000010 zero-fill        [0x00000001000100f0-0x00000001000100f8)  rw-  0x00000000 0x00000000 0x00000001 hello.__DATA.__common
+  0x00000500 container        [0x0000000100014000-0x000000010001c000)  r--  0x00014000 0x00005150 0x00000000 hello.__LINKEDIT
+  Symtab, num_symbols = 31:
+                 Debug symbol
+                 |Synthetic symbol
+                 ||Externally Visible
+                 |||
+  Index   UserID DSX Type            File Address/Value Load Address       Size               Flags      Name
+  ------- ------ --- --------------- ------------------ ------------------ ------------------ ---------- ----------------------------------
+  [    0]      0     Code            0x0000000100007b84                    0x00000000000001a0 0x001e0080 __os_log_helper_16_0_1_4_0
+  [    1]      1     Code            0x0000000100007d24                    0x0000000000000030 0x000e0000 asan.module_ctor
+  [    2]      2     Code            0x0000000100007d54                    0x0000000000000018 0x000e0000 asan.module_dtor
+  [    3]      3     Data            0x0000000100007e40                    0x0000000000000040 0x000e0000 .str
+  [    4]      4     Data            0x0000000100007e80                    0x0000000000000040 0x000e0000 .str.1
+  [    5]      5     Data            0x0000000100007ec0                    0x0000000000000040 0x000e0000 .str.2
+  [    6]      6     Data            0x0000000100010000                    0x0000000000000040 0x000e0000 __asan_global_.str
+  [    7]      7     Data            0x0000000100010040                    0x0000000000000040 0x000e0000 __asan_global_.str.1
+  [    8]      8     Data            0x0000000100010080                    0x0000000000000040 0x000e0000 __asan_global_.str.2
+  [    9]      9     Data            0x00000001000100c0                    0x0000000000000010 0x000e0000 __asan_binder_.str
+  [   10]     10     Data            0x00000001000100d0                    0x0000000000000010 0x000e0000 __asan_binder_.str.1
+  [   11]     11     Data            0x00000001000100e0                    0x0000000000000010 0x000e0000 __asan_binder_.str.2
+  [   12]     12     Data            0x00000001000100f0                    0x0000000000000008 0x001e0000 ___asan_globals_registered
+  [   13]     13   X Data            0x0000000100000000                    0x000000000000794c 0x000f0010 _mh_execute_header
+  [   14]     14   X Code            0x000000010000794c                    0x0000000000000238 0x000f0000 main
+  [   15]     15     Trampoline      0x0000000100007d6c                    0x0000000000000010 0x00010100 __asan_init
+  [   16]     16   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010100 __asan_option_detect_stack_use_after_return
+  [   17]     17     Trampoline      0x0000000100007d7c                    0x0000000000000010 0x00010100 __asan_register_image_globals
+  [   18]     18     Trampoline      0x0000000100007d8c                    0x0000000000000010 0x00010100 __asan_report_store1
+  [   19]     19     Trampoline      0x0000000100007d9c                    0x0000000000000010 0x00010100 __asan_report_store4
+  [   20]     20   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010100 __asan_shadow_memory_dynamic_address
+  [   21]     21     Trampoline      0x0000000100007dac                    0x0000000000000010 0x00010100 __asan_stack_malloc_0
+  [   22]     22     Trampoline      0x0000000100007dbc                    0x0000000000000010 0x00010100 __asan_unregister_image_globals
+  [   23]     23     Trampoline      0x0000000100007dcc                    0x0000000000000010 0x00010100 __asan_version_mismatch_check_apple_clang_1300
+  [   24]     24     Trampoline      0x0000000100007ddc                    0x0000000000000010 0x00010200 __stack_chk_fail
+  [   25]     25   X Undefined       0x0000000000000000                    0x0000000000000000 0x00010200 __stack_chk_guard
+  [   26]     26     Trampoline      0x0000000100007dec                    0x0000000000000010 0x00010200 _os_log_impl
+  [   27]     27     Trampoline      0x0000000100007dfc                    0x0000000000000010 0x00010200 getpid
+  [   28]     28     Trampoline      0x0000000100007e0c                    0x0000000000000010 0x00010200 os_log_create
+  [   29]     29     Trampoline      0x0000000100007e1c                    0x0000000000000010 0x00010200 os_log_type_enabled
+  [   30]     30     Trampoline      0x0000000100007e2c                    0x0000000000000010 0x00010200 printf
+(lldb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Target 0: (MobileSMS) stopped.
+(lldb) im li
+[  0] 83EF35BE-70BF-3F3E-AC3E-2CEBAD4D44CC 0x0000000100738000 /Applications/MobileSMS.app/MobileSMS (0x0000000100738000)
+[  1] 13216777-F4BE-3A7B-B470-857E80AD3300 0x00000001009c8000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e/Symbols/usr/lib/dyld
+(lldb) settings set target.process.stop-on-sharedlibrary-events 1
+(lldb) c
+Process 579 resuming
+Process 579 stopped
+* thread #1, stop reason = EXC_BAD_ACCESS (code=50, address=0x1009ff44c)
+    frame #0: 0x00000001009ff44c dyld`dyld3::MachOFile::hasLoadCommand(unsigned int) const
+dyld`dyld3::MachOFile::hasLoadCommand:
+->  0x1009ff44c <+0>:  pacibsp
+    0x1009ff450 <+4>:  sub    sp, sp, #0x90             ; =0x90
+    0x1009ff454 <+8>:  stp    x22, x21, [sp, #0x60]
+    0x1009ff458 <+12>: stp    x20, x19, [sp, #0x70]
+Target 0: (MobileSMS) stopped.
+(lldb) settings set target.process.stop-on-sharedlibrary-events 0
+(lldb) image dump sections
+Dumping sections for 2 modules.
+Sections for '/Applications/MobileSMS.app/MobileSMS(0x0000000100738000)' (arm64e):
+  SectID     Type             Load Address                             Perm File Off.  File Size  Flags      Section Name
+  ---------- ---------------- ---------------------------------------  ---- ---------- ---------- ---------- ----------------------------
+  0x00000100 container        [0x0000000000000000-0x0000000100000000)* ---  0x00000000 0x00000000 0x00000000 MobileSMS.__PAGEZERO
+  0x00000200 container        [0x0000000100738000-0x000000010078c000)  r-x  0x00000000 0x00054000 0x00000000 MobileSMS.__TEXT
+  0x00000001 code             [0x000000010073bfbc-0x000000010077ef48)  r-x  0x00003fbc 0x00042f8c 0x80000400 MobileSMS.__TEXT.__text
+  0x00000002 code             [0x000000010077ef48-0x000000010077f668)  r-x  0x00046f48 0x00000720 0x80000408 MobileSMS.__TEXT.__auth_stubs
+  0x00000003 regular          [0x000000010077f668-0x0000000100780a1c)  r-x  0x00047668 0x000013b4 0x00000000 MobileSMS.__TEXT.__objc_methlist
+  0x00000004 data-cstr        [0x0000000100780a1c-0x00000001007861f5)  r-x  0x00048a1c 0x000057d9 0x00000002 MobileSMS.__TEXT.__objc_methname
+  0x00000005 data-cstr        [0x00000001007861f5-0x00000001007891c6)  r-x  0x0004e1f5 0x00002fd1 0x00000002 MobileSMS.__TEXT.__cstring
+  0x00000006 data-cstr        [0x00000001007891c6-0x00000001007892f8)  r-x  0x000511c6 0x00000132 0x00000002 MobileSMS.__TEXT.__objc_classname
+  0x00000007 data-cstr        [0x00000001007892f8-0x000000010078a061)  r-x  0x000512f8 0x00000d69 0x00000002 MobileSMS.__TEXT.__objc_methtype
+  0x00000008 regular          [0x000000010078a068-0x000000010078a098)  r-x  0x00052068 0x00000030 0x00000000 MobileSMS.__TEXT.__const
+  0x00000009 regular          [0x000000010078a098-0x000000010078a66c)  r-x  0x00052098 0x000005d4 0x00000000 MobileSMS.__TEXT.__gcc_except_tab
+  0x0000000a data-cstr        [0x000000010078a66c-0x000000010078a8a6)  r-x  0x0005266c 0x0000023a 0x00000002 MobileSMS.__TEXT.__dlopen_cstrs
+  0x0000000b data-cstr        [0x000000010078a8a6-0x000000010078b28c)  r-x  0x000528a6 0x000009e6 0x00000002 MobileSMS.__TEXT.__oslogstring
+  0x0000000c compact-unwind   [0x000000010078b28c-0x000000010078bffc)  r-x  0x0005328c 0x00000d70 0x00000000 MobileSMS.__TEXT.__unwind_info
+  0x00000300 container        [0x000000010078c000-0x0000000100794000)  rw-  0x00054000 0x00008000 0x00000010 MobileSMS.__DATA_CONST
+  0x0000000d data-ptrs        [0x000000010078c000-0x000000010078c390)  rw-  0x00054000 0x00000390 0x00000006 MobileSMS.__DATA_CONST.__auth_got
+  0x0000000e data-ptrs        [0x000000010078c390-0x000000010078c580)  rw-  0x00054390 0x000001f0 0x00000006 MobileSMS.__DATA_CONST.__got
+  0x0000000f regular          [0x000000010078c580-0x000000010078cf00)  rw-  0x00054580 0x00000980 0x00000000 MobileSMS.__DATA_CONST.__const
+  0x00000010 objc-cfstrings   [0x000000010078cf00-0x0000000100790960)  rw-  0x00054f00 0x00003a60 0x00000000 MobileSMS.__DATA_CONST.__cfstring
+  0x00000011 data-ptrs        [0x0000000100790960-0x0000000100790980)  rw-  0x00058960 0x00000020 0x10000000 MobileSMS.__DATA_CONST.__objc_classlist
+  0x00000012 regular          [0x0000000100790980-0x0000000100790988)  rw-  0x00058980 0x00000008 0x10000000 MobileSMS.__DATA_CONST.__objc_catlist
+  0x00000013 regular          [0x0000000100790988-0x00000001007909c0)  rw-  0x00058988 0x00000038 0x00000000 MobileSMS.__DATA_CONST.__objc_protolist
+  0x00000014 regular          [0x00000001007909c0-0x00000001007909c8)  rw-  0x000589c0 0x00000008 0x00000000 MobileSMS.__DATA_CONST.__objc_imageinfo
+  0x00000400 container        [0x0000000100794000-0x000000010079c000)  rw-  0x0005c000 0x00008000 0x00000000 MobileSMS.__DATA
+  0x00000015 data-ptrs        [0x0000000100794000-0x00000001007959b8)  rw-  0x0005c000 0x000019b8 0x00000000 MobileSMS.__DATA.__objc_const
+  0x00000016 data-cstr-ptr    [0x00000001007959b8-0x0000000100796eb8)  rw-  0x0005d9b8 0x00001500 0x10000005 MobileSMS.__DATA.__objc_selrefs
+  0x00000017 data-ptrs        [0x0000000100796eb8-0x00000001007971a8)  rw-  0x0005eeb8 0x000002f0 0x10000000 MobileSMS.__DATA.__objc_classrefs
+  0x00000018 data-ptrs        [0x00000001007971a8-0x00000001007971c8)  rw-  0x0005f1a8 0x00000020 0x10000000 MobileSMS.__DATA.__objc_superrefs
+  0x00000019 regular          [0x00000001007971c8-0x00000001007971f8)  rw-  0x0005f1c8 0x00000030 0x00000000 MobileSMS.__DATA.__objc_ivar
+  0x0000001a data-ptrs        [0x00000001007971f8-0x0000000100797338)  rw-  0x0005f1f8 0x00000140 0x00000000 MobileSMS.__DATA.__objc_data
+  0x0000001b data             [0x0000000100797338-0x00000001007975d8)  rw-  0x0005f338 0x000002a0 0x00000000 MobileSMS.__DATA.__data
+  0x0000001c regular          [0x00000001007975d8-0x0000000100797608)  rw-  0x0005f5d8 0x00000030 0x00000000 MobileSMS.__DATA.__objc_intobj
+  0x0000001d regular          [0x0000000100797608-0x00000001007981b8)  rw-  0x0005f608 0x00000bb0 0x00000000 MobileSMS.__DATA.__objc_arraydata
+  0x0000001e regular          [0x00000001007981b8-0x0000000100798258)  rw-  0x000601b8 0x000000a0 0x00000000 MobileSMS.__DATA.__objc_dictobj
+  0x0000001f regular          [0x0000000100798258-0x00000001007982e8)  rw-  0x00060258 0x00000090 0x00000000 MobileSMS.__DATA.__objc_arrayobj
+  0x00000020 zero-fill        [0x00000001007982f0-0x0000000100798498)  rw-  0x00000000 0x00000000 0x00000001 MobileSMS.__DATA.__bss
+  0x00000500 container        [0x000000010079c000-0x00000001007b0000)  r--  0x00064000 0x00013af0 0x00000000 MobileSMS.__LINKEDIT
+Sections for '/Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e/Symbols/usr/lib/dyld' (arm64e):
+  SectID     Type             Load Address                             Perm File Off.  File Size  Flags      Section Name
+  ---------- ---------------- ---------------------------------------  ---- ---------- ---------- ---------- ----------------------------
+  0x00000100 container        [0x00000001009c8000-0x0000000100a20000)  r-x  0x00000000 0x00058000 0x00000000 dyld.__TEXT
+  0x00000001 code             [0x00000001009c9000-0x0000000100a15d90)  r-x  0x00001000 0x0004cd90 0x80000400 dyld.__TEXT.__text
+  0x00000002 regular          [0x0000000100a15d90-0x0000000100a16c50)  r-x  0x0004dd90 0x00000ec0 0x00000000 dyld.__TEXT.__const
+  0x00000003 data-cstr        [0x0000000100a16c50-0x0000000100a1f1b4)  r-x  0x0004ec50 0x00008564 0x00000002 dyld.__TEXT.__cstring
+  0x00000004 compact-unwind   [0x0000000100a1f1b4-0x0000000100a1f4c8)  r-x  0x000571b4 0x00000314 0x00000000 dyld.__TEXT.__unwind_info
+  0x00000200 container        [0x0000000100a20000-0x0000000100a2c000)  rw-  0x00058000 0x0000c000 0x00000010 dyld.__DATA_CONST
+  0x00000005 regular          [0x0000000100a20000-0x0000000100a20070)  rw-  0x00058000 0x00000070 0x00000000 dyld.__DATA_CONST.__auth_ptr
+  0x00000006 regular          [0x0000000100a20070-0x0000000100a23c58)  rw-  0x00058070 0x00003be8 0x00000000 dyld.__DATA_CONST.__const
+  0x00000007 regular          [0x0000000100a23c58-0x0000000100a2bc58)  rw-  0x0005bc58 0x00008000 0x00000000 dyld.__DATA_CONST.__bss
+  0x00000300 container        [0x0000000100a2c000-0x0000000100a30000)  rw-  0x00064000 0x00004000 0x00000000 dyld.__DATA
+  0x00000008 data             [0x0000000100a2c000-0x0000000100a2c13c)  rw-  0x00064000 0x0000013c 0x00000000 dyld.__DATA.__data
+  0x00000009 regular          [0x0000000100a2c140-0x0000000100a2c2b0)  rw-  0x00064140 0x00000170 0x00000000 dyld.__DATA.__all_image_info
+  0x0000000a regular          [0x0000000100a2c2b0-0x0000000100a2c2f0)  rw-  0x000642b0 0x00000040 0x00000000 dyld.__DATA.__crash_info
+  0x0000000b zero-fill        [0x0000000100a2c300-0x0000000100a2dcf8)  rw-  0x00000000 0x00000000 0x00000001 dyld.__DATA.__common
+  0x0000000c zero-fill        [0x0000000100a2dcf8-0x0000000100a2e1dc)  rw-  0x00000000 0x00000000 0x00000001 dyld.__DATA.__bss
+  0x00000400 container        [0x0000000100a30000-0x0000000100a68000)  r--  0x00068000 0x00035410 0x00000000 dyld.__LINKEDIT
+(lldb) p/x 0x0000000100738000-0x0000000100000000
+(long) $0 = 0x0000000000738000
+(lldb) process launch --stop-at-entry
+There is a running process, kill it and restart?: [Y/n] y
+Process 579 exited with status = 9 (0x00000009)
+error: the platform is not currently connected
+(lldb)
+
+
+
+
+
+(lldb) c
+Process 585 resuming
+Process 585 stopped
+* thread #1, stop reason = EXC_BAD_ACCESS (code=50, address=0x10276b44c)
+    frame #0: 0x000000010276b44c dyld`dyld3::MachOFile::hasLoadCommand(unsigned int) const
+dyld`dyld3::MachOFile::hasLoadCommand:
+->  0x10276b44c <+0>:  pacibsp
+    0x10276b450 <+4>:  sub    sp, sp, #0x90             ; =0x90
+    0x10276b454 <+8>:  stp    x22, x21, [sp, #0x60]
+    0x10276b458 <+12>: stp    x20, x19, [sp, #0x70]
+Target 0: (MobileSMS) stopped.
+(lldb) ps+8
+error: 'ps' is not a valid command.
+(lldb) pc+8
+error: 'pc' is not a valid command.
+(lldb)
+Process 585 resuming
+Process 585 stopped
+* thread #1, stop reason = EXC_BAD_ACCESS (code=50, address=0x10276b44c)
+    frame #0: 0x000000010276b44c dyld`dyld3::MachOFile::hasLoadCommand(unsigned int) const
+dyld`dyld3::MachOFile::hasLoadCommand:
+->  0x10276b44c <+0>:  pacibsp
+    0x10276b450 <+4>:  sub    sp, sp, #0x90             ; =0x90
+    0x10276b454 <+8>:  stp    x22, x21, [sp, #0x60]
+    0x10276b458 <+12>: stp    x20, x19, [sp, #0x70]
+Target 0: (MobileSMS) stopped.
+(lldb) process launch
+There is a running process, kill it and restart?: [Y/n] y
+Process 585 exited with status = 9 (0x00000009)
+error: the platform is not currently connected
+(lldb)
+
+
+
+
+ mem read -o /tmp/mem.txt -c10000 0x0000000100024000 --force
+ 
+ 
+ 
+ 
+ (lldb)  image list
+[  0] 3C51A7CD-8588-3D78-AF6C-86DEB05B3737 0x00000001025cc000 /usr/libexec/cryptexd (0x00000001025cc000)
+[  1] 13216777-F4BE-3A7B-B470-857E80AD3300 0x00000001029a4000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e/Symbols/usr/lib/dyld
+[  2] EE138A24-F925-3923-B7A1-0BED9B8A75E9 0x00000001f1134000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5052f) arm64e/Symbols/usr/lib/libbsm.0.dylib
+[  3] 6999BE69-9CAC-3E65-9803-2D4BB876882D 0x000000018eeab000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+[  4] F337C458-7FDD-34F2-99A0-E0F5AB2DCB71 0x0000000182018000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+[  5] 7F08BC64-0A3C-319B-8AC6-59B673B0F990 0x00000001f10a8000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libauthinstall.dylib
+[  6] 0095EFC3-750B-3417-B203-4EC66ED0BB54 0x00000001e680c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/ServiceManagement.framework/ServiceManagement
+[  7] A4F55E64-A11F-3370-87CA-3A8A66AEBDB5 0x000000019abf2000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+[  8] AE78C62B-DD65-3199-9D67-DCC835C9ED8F 0x000000019a708000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libobjc.A.dylib
+[  9] 3155D477-906B-3A62-AEBB-121B62F674FE 0x00000001f1265000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcryptex_core.dylib
+[ 10] 19272890-4547-319D-A8B2-ED3E16665110 0x00000001f1285000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcryptex_interface.dylib
+[ 11] 5D8D1FA8-DC46-3A84-BD33-06977114666C 0x00000001f13ff000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libimg4.dylib
+[ 12] 154BDEB1-50B1-3AAF-8F6F-42B6DB4A2B2A 0x000000018383a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/Foundation.framework/Foundation
+[ 13] 6A75D453-054E-3818-B955-BA239C578F58 0x00000001f1ce7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libsandbox.1.dylib
+[ 14] 7794D53E-065D-38B1-B33E-56446B15C0EE 0x00000001bc330000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libSystem.B.dylib
+[ 15] 9FB4E9C5-5D96-394E-9A0A-5303002D5997 0x00000001f216a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcache.dylib
+[ 16] C2675325-F4CF-3824-85F1-8A3EA2547F47 0x00000001f2170000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcommonCrypto.dylib
+[ 17] B7ECCD15-554C-3E4B-B43C-526374FFB6EE 0x00000001f217d000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcompiler_rt.dylib
+[ 18] EA63A9D7-F737-3C9C-B5E5-F98C321403AB 0x00000001f2181000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcopyfile.dylib
+[ 19] 1174293D-9D04-337F-AF7C-A1685EDA86EA 0x00000001a1c26000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libcorecrypto.dylib
+[ 20] D805D535-1DA0-37B8-9AB2-8A446A5C8948 0x0000000181d1f000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libdispatch.dylib
+[ 21] 16469E18-9B4A-36C4-9B83-4484F65850E7 0x0000000181d66000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libdyld.dylib
+[ 22] 5BB49B6C-E8D6-39BF-BF8B-B2FFB0B83B24 0x00000001f227c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libmacho.dylib
+[ 23] AC50AC12-031D-3403-B203-DEAC433C3059 0x00000001f2282000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libremovefile.dylib
+[ 24] A54E1277-BB3B-31A7-9DA7-31F012517A33 0x00000001a1dba000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_asl.dylib
+[ 25] 448A4D71-686F-3A95-8416-BE18F8C86E56 0x00000001f2285000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_blocks.dylib
+[ 26] 1E990F16-0D83-36EE-B349-FC15FE4834C1 0x000000018cecb000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_c.dylib
+[ 27] 6418315D-3061-30B4-BEEC-FBB8B1226134 0x00000001f2287000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_collections.dylib
+[ 28] D3AFF5C0-4E98-3246-8E9B-56E1C58100F5 0x00000001f228c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_configuration.dylib
+[ 29] 1FD38217-2B80-306E-B409-92BDD0F8C643 0x00000001f2291000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_containermanager.dylib
+[ 30] D0BD0364-902B-3588-999A-E3669AE21201 0x00000001f22b1000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_coreservices.dylib
+[ 31] DFDCDD76-3525-384D-A6B9-BD959AC390BB 0x00000001f22b3000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_darwin.dylib
+[ 32] 50DD9219-DF04-3498-A76A-D72A44D1366C 0x00000001f22be000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_dnssd.dylib
+[ 33] 11BC3901-0E27-349A-9FA8-6B240A535C55 0x00000001f22c7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_featureflags.dylib
+[ 34] E4D8239B-C28B-3E5E-A261-6AD95EC6B58A 0x000000018cea5000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_info.dylib
+[ 35] B04F71F3-820E-391C-895A-C2AC4526B8F3 0x00000001f22ca000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_m.dylib
+[ 36] D0B92828-ACC5-3C2B-8E60-C3AEFFDF2512 0x0000000193c25000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_malloc.dylib
+[ 37] 98E6498D-8122-30FE-936E-16D6396C5BC6 0x0000000196187000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_networkextension.dylib
+[ 38] 1D314358-D740-3BFB-9D32-B784D8BA23FE 0x00000001a1b22000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_notify.dylib
+[ 39] 778E6194-4CD5-3839-A5AF-2588E40E521E 0x00000001f2308000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_product_info_filter.dylib
+[ 40] 2D30D889-DC2A-33C5-B3CA-E2FC34617D58 0x00000001f2315000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_sandbox.dylib
+[ 41] A80E1E35-C1CC-3ACA-B26E-FEC6071C69C2 0x00000001b8ebf000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_kernel.dylib
+[ 42] 00240372-A14D-3718-B6E8-FD429C5B48C5 0x00000001f2301000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_platform.dylib
+[ 43] 89C2D9FB-65D5-398C-B665-D7B99B08E586 0x00000001f2309000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_pthread.dylib
+[ 44] 03953132-4D1D-3101-B6DA-3B109941F9C5 0x00000001ab6e4000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_symptoms.dylib
+[ 45] 4EC25273-E77E-3125-B2EC-7E03868C325A 0x000000019c824000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libsystem_trace.dylib
+[ 46] C4E75123-26C5-309A-AB81-BE365C638387 0x00000001f2319000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libunwind.dylib
+[ 47] 16FB7508-81FF-3A64-BBAD-D412DB45EC27 0x00000001f2324000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/system/libxpc.dylib
+[ 48] CC8667B1-E63F-3907-A755-753207D65E3D 0x000000019a812000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libc++abi.dylib
+[ 49] 28F4D740-543E-31B1-99E3-BB7D37D03D59 0x000000019a7ae000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libc++.1.dylib
+[ 50] 36A7B266-D189-3D2E-9F55-6E3D9F9C590B 0x00000001f12b9000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libenergytrace.dylib
+[ 51] 3A72EBC6-749E-3BFD-955D-1BA8FE9BADB9 0x00000001f1e54000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libz.1.dylib
+[ 52] 65EB2548-0588-3A38-8F28-4D646C8374C7 0x0000000181d73000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libicucore.A.dylib
+[ 53] 4E8D3A0D-373F-3CC2-83D6-B8CADFCEC066 0x000000018246c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/CoreServices.framework/CoreServices
+[ 54] CB166769-2D60-3BDE-B586-8D4AFB924460 0x00000001c88e3000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/DiskImages.framework/DiskImages
+[ 55] 04727D74-6C02-3422-BDA0-84C552585775 0x00000001c8812000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+[ 56] 88CCAF3E-D5A8-3D53-AA86-43D8ED4EFFE0 0x00000001f0d61000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libReverseProxyDevice.dylib
+[ 57] EE6983B8-2903-3B10-A835-BF4C24FCB2E7 0x00000001f6b29000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/AppleConvergedFirmwareUpdater.framework/AppleConvergedFirmwareUpdater
+[ 58] D8345ECF-4E85-3517-AA54-1A3E9728A8DF 0x000000018ae0e000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/Security.framework/Security
+[ 59] 55A96210-CCA8-3406-B4EE-557D36F51C05 0x0000000182831000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+[ 60] 5D81E913-5CDD-3FFC-9CD4-D94C3AB84A73 0x0000000182695000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+[ 61] 289D8EBA-8A77-3B5D-A4CA-DD1D74345168 0x00000001a05df000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation
+[ 62] 5371DF46-4CC4-3684-9B50-0A4414815798 0x00000001a2112000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/CoreServicesStore.framework/CoreServicesStore
+[ 63] D7788190-2E83-3DE9-B372-F7653A48F1DC 0x000000019367a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libMobileGestalt.dylib
+[ 64] A925E9AE-41B0-3E33-BAEF-A9FD47C4885C 0x000000019aa0b000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/CoreAutoLayout.framework/CoreAutoLayout
+[ 65] DDC4F615-9FE8-3BF1-A73F-2307CA62B497 0x00000001f1165000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcompression.dylib
+[ 66] 40C00EAD-32D9-3BAC-BC26-16CA2FF33C50 0x00000001bc849000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libarchive.2.dylib
+[ 67] 9F978D94-2789-3E0D-8F27-2085E44EE9DF 0x00000001f1d38000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libxml2.2.dylib
+[ 68] CB33E669-18DB-3CC2-9548-BB390AE97F18 0x00000001f1430000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/liblangid.dylib
+[ 69] D722BF2E-FD1D-3C37-AF6A-605593240C0E 0x00000001e8e2f000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+[ 70] 5F3BBA4D-EE34-3AA1-A571-D805D7F08CC5 0x00000001f143c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/liblzma.5.dylib
+[ 71] C5A51828-5B6B-3652-8C4B-6600521D7089 0x00000001f0ffe000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libapple_nghttp2.dylib
+[ 72] 6A5AA9DA-13CD-3EDA-A956-68267C5DA6DD 0x0000000182cf6000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libnetwork.dylib
+[ 73] 60B51B8D-5B72-3A08-AD1F-8E441A5461E8 0x00000001a08f7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libsqlite3.dylib
+[ 74] 507EAA6B-023C-37F6-AF07-D0663078A810 0x00000001ff0a7000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libCoreEntitlements.dylib
+[ 75] 387693FB-FC6E-301F-ADE8-30942C7DFF56 0x00000001f122f000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcoretls.dylib
+[ 76] B4AC5C37-5520-3DA5-9861-76049E64FD1D 0x00000001f1246000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcoretls_cfhelpers.dylib
+[ 77] 12C83676-804B-3456-8F37-5D76DB130A7B 0x00000001a73b4000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+[ 78] BD4ED82F-B6D5-3C25-A753-6DCBE53EF7CE 0x00000001f1b37000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libpcap.A.dylib
+[ 79] AF305D58-E142-3187-BC57-3ACBA8645048 0x00000001f1292000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libdns_services.dylib
+[ 80] 346A4738-D293-34A7-A78C-49B2398C3B98 0x00000001aafa3000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/Frameworks/IOSurface.framework/IOSurface
+[ 81] A49F4541-2A53-3359-AD0A-6586CD878B7B 0x00000001f1145000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libbz2.1.0.dylib
+[ 82] 33154DC6-6533-3FB9-931B-F846AE6839FC 0x00000001f130c000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libiconv.2.dylib
+[ 83] 943ED20B-2F94-358B-8348-23F13BE71E68 0x00000001f1152000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libcharset.1.dylib
+[ 84] 801CFAB9-C48E-34D5-B35A-BC5DBCEBAB79 0x00000001e32ec000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices
+[ 85] FB61C763-AD64-382D-B8AD-CEC2324AA0B6 0x00000001e2886000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MediaKit.framework/MediaKit
+[ 86] 053CCDC1-0F35-315F-A0FB-EB68ABF3D4A1 0x00000001c1cd2000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/APFS.framework/APFS
+[ 87] 23FA8229-EA4E-3A5A-B7B9-C3F5E14C9493 0x00000001f1d34000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libutil.dylib
+[ 88] 141F1519-6495-3AB6-AEAE-55847AF5AE4B 0x000000019c336000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libFDR.dylib
+[ 89] 21B5C301-333F-310C-908C-BDE836F62654 0x00000001f0fcb000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libamsupport.dylib
+[ 90] A38B4968-1E9B-303F-85EE-3323ADB31437 0x0000000196157000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/MSUDataAccessor.framework/MSUDataAccessor
+[ 91] 14841607-6CDB-366D-B9F2-DA9DA94F108D 0x00000001f1b26000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libpartition2_dynamic.dylib
+[ 92] 1447ED0A-0804-31F5-96E9-210C257225E9 0x00000001a214d000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+[ 93] 18BC7EB8-61BD-3E18-A5EC-1C80C91E4857 0x00000001c2650000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+[ 94] F9ABEF51-0731-3312-888B-75B6BD97F250 0x00000001c5028000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/System/Library/PrivateFrameworks/AppleSauce.framework/AppleSauce
+[ 95] 8E414FCC-E6FB-33CF-B6F0-C073C6605668 0x00000001f0c9a000 /Users/xss/Library/Developer/Xcode/iOS DeviceSupport/15.1 (19B5068a) arm64e/Symbols/usr/lib/libMatch.1.dylib
+(lldb)
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (lldb)  image dump sections cryptexd
+Sections for '/usr/libexec/cryptexd(0x00000001025cc000)' (arm64e):
+  SectID     Type             Load Address                             Perm File Off.  File Size  Flags      Section Name
+  ---------- ---------------- ---------------------------------------  ---- ---------- ---------- ---------- ----------------------------
+  0x00000100 container        [0x0000000000000000-0x0000000100000000)* ---  0x00000000 0x00000000 0x00000000 cryptexd.__PAGEZERO
+  0x00000200 container        [0x00000001025cc000-0x00000001025f4000)  r-x  0x00000000 0x00028000 0x00000000 cryptexd.__TEXT
+  0x00000001 code             [0x00000001025cd3e0-0x00000001025ec408)  r-x  0x000013e0 0x0001f028 0x80000400 cryptexd.__TEXT.__text
+  0x00000002 code             [0x00000001025ec408-0x00000001025ed828)  r-x  0x00020408 0x00001420 0x80000408 cryptexd.__TEXT.__auth_stubs
+  0x00000003 regular          [0x00000001025ed828-0x00000001025edacc)  r-x  0x00021828 0x000002a4 0x00000000 cryptexd.__TEXT.__objc_methlist
+  0x00000004 regular          [0x00000001025edad0-0x00000001025ee070)  r-x  0x00021ad0 0x000005a0 0x00000000 cryptexd.__TEXT.__const
+  0x00000005 data-cstr        [0x00000001025ee070-0x00000001025ef666)  r-x  0x00022070 0x000015f6 0x00000002 cryptexd.__TEXT.__cstring
+  0x00000006 data-cstr        [0x00000001025ef666-0x00000001025f305b)  r-x  0x00023666 0x000039f5 0x00000002 cryptexd.__TEXT.__oslogstring
+  0x00000007 regular          [0x00000001025f305c-0x00000001025f30a4)  r-x  0x0002705c 0x00000048 0x00000000 cryptexd.__TEXT.__gcc_except_tab
+  0x00000008 data-cstr        [0x00000001025f30a4-0x00000001025f34ea)  r-x  0x000270a4 0x00000446 0x00000002 cryptexd.__TEXT.__objc_methname
+  0x00000009 data-cstr        [0x00000001025f34ea-0x00000001025f3562)  r-x  0x000274ea 0x00000078 0x00000002 cryptexd.__TEXT.__objc_classname
+  0x0000000a data-cstr        [0x00000001025f3562-0x00000001025f367f)  r-x  0x00027562 0x0000011d 0x00000002 cryptexd.__TEXT.__objc_methtype
+  0x0000000b regular          [0x00000001025f367f-0x00000001025f3b5d)  r-x  0x0002767f 0x000004de 0x00000000 cryptexd.__TEXT.__info_plist
+  0x0000000c compact-unwind   [0x00000001025f3b60-0x00000001025f3ffc)  r-x  0x00027b60 0x0000049c 0x00000000 cryptexd.__TEXT.__unwind_info
+  0x00000300 container        [0x00000001025f4000-0x00000001025f8000)  rw-  0x00028000 0x00004000 0x00000010 cryptexd.__DATA_CONST
+  0x0000000d data-ptrs        [0x00000001025f4000-0x00000001025f4a10)  rw-  0x00028000 0x00000a10 0x00000006 cryptexd.__DATA_CONST.__auth_got
+  0x0000000e data-ptrs        [0x00000001025f4a10-0x00000001025f4b80)  rw-  0x00028a10 0x00000170 0x00000006 cryptexd.__DATA_CONST.__got
+  0x0000000f regular          [0x00000001025f4b80-0x00000001025f4c10)  rw-  0x00028b80 0x00000090 0x00000000 cryptexd.__DATA_CONST.__auth_ptr
+  0x00000010 regular          [0x00000001025f4c10-0x00000001025f6840)  rw-  0x00028c10 0x00001c30 0x00000000 cryptexd.__DATA_CONST.__const
+  0x00000011 objc-cfstrings   [0x00000001025f6840-0x00000001025f6940)  rw-  0x0002a840 0x00000100 0x00000000 cryptexd.__DATA_CONST.__cfstring
+  0x00000012 data-ptrs        [0x00000001025f6940-0x00000001025f6990)  rw-  0x0002a940 0x00000050 0x10000000 cryptexd.__DATA_CONST.__objc_classlist
+  0x00000013 regular          [0x00000001025f6990-0x00000001025f69d0)  rw-  0x0002a990 0x00000040 0x10000000 cryptexd.__DATA_CONST.__objc_nlclslist
+  0x00000014 regular          [0x00000001025f69d0-0x00000001025f69d8)  rw-  0x0002a9d0 0x00000008 0x00000000 cryptexd.__DATA_CONST.__objc_imageinfo
+  0x00000015 regular          [0x00000001025f69d8-0x00000001025f69f8)  rw-  0x0002a9d8 0x00000020 0x00000000 cryptexd.__DATA_CONST.__subsystem
+  0x00000016 regular          [0x00000001025f69f8-0x00000001025f6a00)  rw-  0x0002a9f8 0x00000008 0x00000000 cryptexd.__DATA_CONST.__object_init
+  0x00000400 container        [0x00000001025f8000-0x00000001025fc000)  rw-  0x0002c000 0x00004000 0x00000000 cryptexd.__DATA
+  0x00000017 data-ptrs        [0x00000001025f8000-0x00000001025f87c0)  rw-  0x0002c000 0x000007c0 0x00000000 cryptexd.__DATA.__objc_const
+  0x00000018 data-cstr-ptr    [0x00000001025f87c0-0x00000001025f8938)  rw-  0x0002c7c0 0x00000178 0x10000005 cryptexd.__DATA.__objc_selrefs
+  0x00000019 data-ptrs        [0x00000001025f8938-0x00000001025f8998)  rw-  0x0002c938 0x00000060 0x10000000 cryptexd.__DATA.__objc_classrefs
+  0x0000001a data-ptrs        [0x00000001025f8998-0x00000001025f89e0)  rw-  0x0002c998 0x00000048 0x10000000 cryptexd.__DATA.__objc_superrefs
+  0x0000001b regular          [0x00000001025f89e0-0x00000001025f8a0c)  rw-  0x0002c9e0 0x0000002c 0x00000000 cryptexd.__DATA.__objc_ivar
+  0x0000001c data-ptrs        [0x00000001025f8a10-0x00000001025f8d30)  rw-  0x0002ca10 0x00000320 0x00000000 cryptexd.__DATA.__objc_data
+  0x0000001d data             [0x00000001025f8d30-0x00000001025f9160)  rw-  0x0002cd30 0x00000430 0x00000000 cryptexd.__DATA.__data
+  0x0000001e zero-fill        [0x00000001025f9160-0x00000001025f9190)  rw-  0x00000000 0x00000000 0x00000001 cryptexd.__DATA.__bss
+  0x00000500 container        [0x00000001025fc000-0x000000010260c000)  r--  0x00030000 0x0000c200 0x00000000 cryptexd.__LINKEDIT
+(lldb)
+
+
+
+
+(lldb) proc
+Commands for interacting with processes on the current platform.
+
+Syntax: process <subcommand> [<subcommand-options>]
+
+The following subcommands are supported:
+
+      attach    -- Attach to a process.
+      connect   -- Connect to a remote debug service.
+      continue  -- Continue execution of all threads in the current process.
+      detach    -- Detach from the current target process.
+      handle    -- Manage LLDB handling of OS signals for the current target process.  Defaults to showing current policy.
+      interrupt -- Interrupt the current target process.
+      kill      -- Terminate the current target process.
+      launch    -- Launch the executable in the debugger.
+      load      -- Load a shared library into the current process.
+      plugin    -- Commands for operating on a ProcessGDBRemote process.
+      save-core -- Save the current process as a core file using an appropriate file type.
+      signal    -- Send a UNIX signal to the current target process.
+      status    -- Show status and stop location for the current target process.
+      unload    -- Unload a shared library from the current process using the index returned by a previous call to "process load".
+
+For more help on any particular subcommand, type 'help <command> <subcommand>'.
+(lldb) proc save-core
+error: 'process save-core' takes one arguments:
+Usage: process save-core FILE
+(lldb) proc save-core /tmp/save-core.core
+error: Failed to save core file for process: process doesn't support getting memory region info
+(lldb) proc save-core /tmp/save-core.core
+
+
+
+
+(lldb) pro in
+Process 218 stopped
+* thread #2, stop reason = signal SIGSTOP
+    frame #0: 0x00000001b8ec7fa0 libsystem_kernel.dylib`__sigsuspend_nocancel + 8
+libsystem_kernel.dylib`__sigsuspend_nocancel:
+->  0x1b8ec7fa0 <+8>:  b.lo   0x1b8ec7fc0               ; <+40>
+    0x1b8ec7fa4 <+12>: pacibsp
+    0x1b8ec7fa8 <+16>: stp    x29, x30, [sp, #-0x10]!
+    0x1b8ec7fac <+20>: mov    x29, sp
+Target 0: (cryptexd) stopped.
+(lldb) launch
+error: 'launch' is not a valid command.
+(lldb) proc lau
+There is a running process, detach from it and restart?: [Y/n] y
+Process 218 detached
+error: the platform is not currently connected
+(lldb)
+
+
+
+

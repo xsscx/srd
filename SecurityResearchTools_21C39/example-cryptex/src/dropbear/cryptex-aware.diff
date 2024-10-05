@@ -1,0 +1,85 @@
+diff --git a/dbutil.c b/dbutil.c
+index 32920f7..6bb2eab 100644
+--- a/dbutil.c
++++ b/dbutil.c
+@@ -375,7 +375,9 @@ void run_shell_command(const char* cmd, unsigned int maxfd, char* usershell) {
+ 		m_close(i);
+ 	}
+ 
++	dropbear_log(LOG_INFO, "Starting usershell: '%s'", usershell);
+ 	execv(usershell, argv);
++	dropbear_log(LOG_WARNING, "Failed to exec '%s' due to error '%s'", usershell, strerror(errno));
+ }
+ 
+ #if DEBUG_TRACE
+diff --git a/svr-chansession.c b/svr-chansession.c
+index fff9dbc..2368cb7 100644
+--- a/svr-chansession.c
++++ b/svr-chansession.c
+@@ -919,7 +919,18 @@ static void addchildpid(struct ChanSess *chansess, pid_t pid) {
+  * the command/shell. This function does not return. */
+ static void execchild(const void *user_data) {
+ 	const struct ChanSess *chansess = user_data;
+-	char *usershell = NULL;
++	char *usershell = get_user_shell();
++	char *path = NULL;
++	char *cryptex_shell = getenv("CRYPTEX_SHELL");
++	char *cryptex_path = getenv("CRYPTEX_MOUNT_PATH");
++
++	asprintf(&path, "%s/sbin:%s/bin:%s/usr/bin:/sbin:/bin:/usr/bin",
++			cryptex_path, cryptex_path, cryptex_path);
++	if (cryptex_shell) {
++		asprintf(&usershell, "%s%s", cryptex_path, cryptex_shell);
++		dropbear_log(LOG_WARNING, "CRYPTEX_SHELL specified. User "
++			"shell is now '%s'", usershell);
++	}
+ 
+ 	/* with uClinux we'll have vfork()ed, so don't want to overwrite the
+ 	 * hostkey. can't think of a workaround to clear it */
+@@ -976,8 +987,26 @@ static void execchild(const void *user_data) {
+ 	addnewvar("USER", ses.authstate.pw_name);
+ 	addnewvar("LOGNAME", ses.authstate.pw_name);
+ 	addnewvar("HOME", ses.authstate.pw_dir);
+-	addnewvar("SHELL", get_user_shell());
+-	addnewvar("PATH", DEFAULT_PATH);
++
++	if (usershell) {
++		addnewvar("SHELL", usershell);
++		dropbear_log(LOG_INFO, "Setting SHELL to '%s'", usershell);
++	} else {
++		addnewvar("SHELL", "/bin/sh");
++	}
++
++	if (path) {
++        addnewvar("PATH", path);
++		dropbear_log(LOG_WARNING, "Setting PATH to '%s'", path);
++	} else {
++		addnewvar("PATH", "/bin:/usr/bin");
++	}
++
++	if (cryptex_path) {
++		addnewvar("CRYPTEX_MOUNT_PATH", cryptex_path);
++		dropbear_log(LOG_INFO, "Setting CRYPTEX_MOUNT_PATH to '%s'", cryptex_path);
++	}
++
+ 	if (chansess->term != NULL) {
+ 		addnewvar("TERM", chansess->term);
+ 	}
+@@ -1000,6 +1029,7 @@ static void execchild(const void *user_data) {
+ 
+ 	/* change directory */
+ 	if (chdir(ses.authstate.pw_dir) < 0) {
++		dropbear_log(LOG_WARNING, "Error changing directory: '%s'", ses.authstate.pw_dir);
+ 		dropbear_exit("Error changing directory");
+ 	}
+ 
+@@ -1012,7 +1042,8 @@ static void execchild(const void *user_data) {
+ 	svr_agentset(chansess);
+ #endif
+ 
+-	usershell = m_strdup(get_user_shell());
++	usershell = m_strdup(usershell);
++	dropbear_log(LOG_WARNING, "Starting shell: '%s'", usershell);
+ 	run_shell_command(chansess->cmd, ses.maxfd, usershell);
+ 
+ 	/* only reached on error */

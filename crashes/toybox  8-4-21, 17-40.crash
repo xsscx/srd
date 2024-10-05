@@ -1,0 +1,107 @@
+Incident Identifier: 0C8F3652-EE41-426E-9B89-5B7CFB2FD866
+CrashReporter Key:   5af6b906e0a689e0ad986397a7fda37ab6590ef2
+Hardware Model:      iPhone12,1
+Process:             toybox [686]
+Path:                /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.tmemK6/usr/bin/toybox
+Identifier:          toybox
+Version:             ???
+Code Type:           ARM-64 (Native)
+Role:                Unspecified
+Parent Process:      dropbear [685]
+Coalition:           com.example.cryptex.sshd [529]
+
+
+Date/Time:           2021-08-04 17:40:09.6054 -0400
+Launch Time:         2021-08-04 17:22:09.2670 -0400
+OS Version:          iPhone OS 14.7.1 (18G82)
+Release Type:        User
+Baseband Version:    2.05.01
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Triggered by Thread:  0
+
+Application Specific Information:
+abort() called
+
+Thread 0 name:  Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   libsystem_kernel.dylib        	0x00000001bd5c9334 __pthread_kill + 8
+1   libsystem_pthread.dylib       	0x00000001db04da9c pthread_kill + 272
+2   libsystem_c.dylib             	0x00000001987a5b84 abort + 124
+3   libsystem_malloc.dylib        	0x000000019ea4e4c8 _malloc_put + 0
+4   libsystem_malloc.dylib        	0x000000019ea4e6a8 malloc_report + 64
+5   libsystem_malloc.dylib        	0x000000019ea43410 free + 516
+6   sh                            	0x000000010443df74 0x104430000 + 57204
+7   sh                            	0x000000010443dff8 0x104430000 + 57336
+8   sh                            	0x00000001044501cc 0x104430000 + 131532
+9   sh                            	0x000000010444d10c 0x104430000 + 119052
+10  sh                            	0x000000010444dd5c 0x104430000 + 122204
+11  sh                            	0x0000000104442dc0 0x104430000 + 77248
+12  sh                            	0x0000000104442778 0x104430000 + 75640
+13  sh                            	0x0000000104442e08 0x104430000 + 77320
+14  libdyld.dylib                 	0x000000018f00dcf8 start + 4
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x0000000000000000   x2: 0x0000000000000000   x3: 0x0000000000000000
+    x4: 0x0000000000000000   x5: 0x0000000000000000   x6: 0x0000000000000001   x7: 0x0000000000000fb0
+    x8: 0x7c92690cc89f81cc   x9: 0x7cdaca0dcce2390c  x10: 0x0000000000000000  x11: 0x0000000000000036
+   x12: 0x000000000010c108  x13: 0x000000000000001d  x14: 0x0000000000002000  x15: 0x00000000000085e6
+   x16: 0x0000000000000148  x17: 0x00000001047db8c0  x18: 0x0000000000000000  x19: 0x0000000000000006
+   x20: 0x0000000000000103  x21: 0x00000001047db9a0  x22: 0x000000016b9cf130  x23: 0x00000001044d8000
+   x24: 0x0000000000000000  x25: 0x0000000000000000  x26: 0x000000016b9cfbb0  x27: 0x00000001047db8c0
+   x28: 0x0000000104488000   fp: 0x000000016b9cf040   lr: 0x00000001db04da9c
+    sp: 0x000000016b9cf020   pc: 0x00000001bd5c9334 cpsr: 0x40000000
+   esr: 0x56000080  Address size fault
+
+Binary Images:
+0x104430000 - 0x10447ffff sh arm64e  <a6349b5909a13c13bff81aef7b0b0436> /var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.tmemK6/usr/bin/sh
+0x10472c000 - 0x10479ffff dyld arm64e  <b8adece0d2cc3c958d01c5fa21bc74ea> /usr/lib/dyld
+0x18efc7000 - 0x18f00bfff libdispatch.dylib arm64e  <9555d7d99c923af39837ae1f5aa7da44> /usr/lib/system/libdispatch.dylib
+0x18f00c000 - 0x18f048fff libdyld.dylib arm64e  <ff7d256792773aa6b3dd2c5748e432a6> /usr/lib/system/libdyld.dylib
+0x198708000 - 0x19872dfff libsystem_info.dylib arm64e  <88a748c2a30b37939d05920396cb95ef> /usr/lib/system/libsystem_info.dylib
+0x19872e000 - 0x1987adfff libsystem_c.dylib arm64e  <117637f82c663b93b239a0e23fc95d62> /usr/lib/system/libsystem_c.dylib
+0x19ea30000 - 0x19ea53fff libsystem_malloc.dylib arm64e  <af32c646edef35d7b6980e33a0768e49> /usr/lib/system/libsystem_malloc.dylib
+0x1a0933000 - 0x1a0942fff libsystem_networkextension.dylib arm64e  <fbf4c1ba37d03e9d9e47dc6b4056fdeb> /usr/lib/system/libsystem_networkextension.dylib
+0x1a3ec0000 - 0x1a3ef7fff libobjc.A.dylib arm64e  <bf0467d5384c33f289d8b2d3b47a7ada> /usr/lib/libobjc.A.dylib
+0x1a3f5a000 - 0x1a3fb5fff libc++.1.dylib arm64e  <a0b465d224273dd08577866a3f211ebb> /usr/lib/libc++.1.dylib
+0x1a3fb6000 - 0x1a3fcffff libc++abi.dylib arm64e  <712b3f6e7bf03b8088b959f12b1a8a6d> /usr/lib/libc++abi.dylib
+0x1a5c26000 - 0x1a5c3cfff libsystem_trace.dylib arm64e  <e3e9dce11550349d904b564488150c9d> /usr/lib/system/libsystem_trace.dylib
+0x1a9f7c000 - 0x1a9f86fff libsystem_notify.dylib arm64e  <48c4f208b169312c89383730d38c242b> /usr/lib/system/libsystem_notify.dylib
+0x1aa035000 - 0x1aa0a8fff libcorecrypto.dylib arm64e  <db2986a1de6c3ad5b75dac2ca13e5efc> /usr/lib/system/libcorecrypto.dylib
+0x1aa1a4000 - 0x1aa1befff libsystem_asl.dylib arm64e  <5f1e3b9d53a533e5b7c06e8c23773c0d> /usr/lib/system/libsystem_asl.dylib
+0x1b1e4e000 - 0x1b1e55fff libsystem_symptoms.dylib arm64e  <2f500492952831b4a9fca8bb8c3be1c1> /usr/lib/system/libsystem_symptoms.dylib
+0x1bd5a0000 - 0x1bd5d2fff libsystem_kernel.dylib arm64e  <ef6b203fbeed30698623bf884b0f2bad> /usr/lib/system/libsystem_kernel.dylib
+0x1bff90000 - 0x1bff91fff libSystem.B.dylib arm64e  <5929c340b3113f1492aa1639b9558c49> /usr/lib/libSystem.B.dylib
+0x1da0a9000 - 0x1da0a9fff libcharset.1.dylib arm64e  <436a94ec1f9b33b29dbe3a36194a9767> /usr/lib/libcharset.1.dylib
+0x1da19a000 - 0x1da28bfff libiconv.2.dylib arm64e  <c9bc2b426e893c71878f10821c5cc83a> /usr/lib/libiconv.2.dylib
+0x1daadd000 - 0x1daaf5fff libresolv.9.dylib arm64e  <70ce845009ca37bfae9498119fb3aa30> /usr/lib/libresolv.9.dylib
+0x1dab40000 - 0x1dab43fff libutil.dylib arm64e  <3b79863ac1c03789bf9caeb661178106> /usr/lib/libutil.dylib
+0x1dac5f000 - 0x1dac70fff libz.1.dylib arm64e  <90e30088819e32309e4c910ee27c2819> /usr/lib/libz.1.dylib
+0x1daed0000 - 0x1daed5fff libcache.dylib arm64e  <4ebfeac2cce83be1ba2966f83009520d> /usr/lib/system/libcache.dylib
+0x1daed6000 - 0x1daee3fff libcommonCrypto.dylib arm64e  <e3ce468bb11c37f9aa82774a72ce03cc> /usr/lib/system/libcommonCrypto.dylib
+0x1daee4000 - 0x1daee7fff libcompiler_rt.dylib arm64e  <2444b290f11337acadae6e17aad40caa> /usr/lib/system/libcompiler_rt.dylib
+0x1daee8000 - 0x1daef0fff libcopyfile.dylib arm64e  <1e47076b135d350e921b6be66f63e3ee> /usr/lib/system/libcopyfile.dylib
+0x1dafd6000 - 0x1dafd6fff liblaunch.dylib arm64e  <aaab1db57f0f38eda4309823e1ea916b> /usr/lib/system/liblaunch.dylib
+0x1dafd7000 - 0x1dafdcfff libmacho.dylib arm64e  <80dfaea5f566361793eb773c9a707451> /usr/lib/system/libmacho.dylib
+0x1dafdd000 - 0x1dafdffff libremovefile.dylib arm64e  <8ab546bbf4c23e87b7d184c7462c8a86> /usr/lib/system/libremovefile.dylib
+0x1dafe0000 - 0x1dafe1fff libsystem_blocks.dylib arm64e  <995043539a163794b7b01869f2fb3610> /usr/lib/system/libsystem_blocks.dylib
+0x1dafe2000 - 0x1dafe4fff libsystem_collections.dylib arm64e  <4a005313615e3782965871798334a4fa> /usr/lib/system/libsystem_collections.dylib
+0x1dafe5000 - 0x1dafe9fff libsystem_configuration.dylib arm64e  <b0d800eaac65394aa510d6af7c974a92> /usr/lib/system/libsystem_configuration.dylib
+0x1dafea000 - 0x1daffcfff libsystem_containermanager.dylib arm64e  <b28eee6cbee73e9fa74075f6da89331b> /usr/lib/system/libsystem_containermanager.dylib
+0x1daffd000 - 0x1daffefff libsystem_coreservices.dylib arm64e  <13e1baaac63230a6b0f3803eabb610e1> /usr/lib/system/libsystem_coreservices.dylib
+0x1dafff000 - 0x1db008fff libsystem_darwin.dylib arm64e  <b8280082509a3d8fb92eb11205068eb9> /usr/lib/system/libsystem_darwin.dylib
+0x1db009000 - 0x1db011fff libsystem_dnssd.dylib arm64e  <0eae751caa2c32248e40ed0393698626> /usr/lib/system/libsystem_dnssd.dylib
+0x1db012000 - 0x1db014fff libsystem_featureflags.dylib arm64e  <a3ccb91ebca736afb16779cb14a2b37f> /usr/lib/system/libsystem_featureflags.dylib
+0x1db015000 - 0x1db042fff libsystem_m.dylib arm64e  <1454dccc3f3e365ea26a6e0abc0a6c70> /usr/lib/system/libsystem_m.dylib
+0x1db043000 - 0x1db049fff libsystem_platform.dylib arm64e  <987d48d53caa34d79141c0bd6e2351e8> /usr/lib/system/libsystem_platform.dylib
+0x1db04a000 - 0x1db04afff libsystem_product_info_filter.dylib arm64e  <71f4c0a002453bf29325dbd635e6be2b> /usr/lib/system/libsystem_product_info_filter.dylib
+0x1db04b000 - 0x1db056fff libsystem_pthread.dylib arm64e  <9f849e98f7423b3db01a61f75acf0540> /usr/lib/system/libsystem_pthread.dylib
+0x1db057000 - 0x1db05afff libsystem_sandbox.dylib arm64e  <036b2dd46cc139018ebf02b9a62dd64f> /usr/lib/system/libsystem_sandbox.dylib
+0x1db05b000 - 0x1db065fff libunwind.dylib arm64e  <d1609a0b770c3799ac8030a2248e6459> /usr/lib/system/libunwind.dylib
+0x1db066000 - 0x1db09cfff libxpc.dylib arm64e  <bdc5de3dfbf03f6b8f1cdc3cde64049d> /usr/lib/system/libxpc.dylib
+
+EOF
+

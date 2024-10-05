@@ -1,0 +1,187 @@
+FB9680107 | 19B5052f | SRT_20C80 | cryptexctl | com.apple.cryptexd | undefined behavior | segfault 11 | multiple cryptex | cryptex clobbering
+
+Published: October 5, 2021
+Discovered: January 27, 2021
+
+CRYPTEX CLOBBERING PoC
+// Show existing cryptex
+% cryptexctl list
+  com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bwKojU
+
+// Create a new cryptex
+% cryptexctl ${CRYPTEXCTL_FLAGS} create --replace ${CRYPTEXCTL_CREATE_FLAGS} -i cx.srd.cryptex -v 0.0.0.1 toyboxunstripped.dmg
+ 
+// Install a new cryptex
+% cryptexctl install cx.srd.cryptex.cptx
+
+// Where is com.example.cryptex?? 
+// com.example.cryptex has been cryptex clobbered
+% cryptexctl list
+cx.srd.cryptex
+  version = 0.0.0.1
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bwKojU
+cx.srd.cryptex
+  version = 0.0.0.1
+  device = /dev/disk3s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/cx.srd.cryptex.K4dgvc
+
+// unclobber the com.example.cryptex with Crash
+% cryptexctl uninstall cx.srd.cryptex
+
+% cryptexctl list
+com.example.cryptex
+  version = 1.3.3.7
+  device = /dev/disk2s1
+  mount point = /private/var/run/com.apple.security.cryptexd/mnt/com.example.cryptex.bwKojU
+  
+WORKAROUND == FB9567387 | Cryptex File System does not Persist upon Reboot. 
+User Experience (UX): Loss of Availability. 
+Hardware: iPhone 12,1 SRD. 
+Reason: Quality Assurance.
+
+
+
+-------------------------------------
+Translated Report (Full Report Below)
+-------------------------------------
+
+Process:               cryptexctl.research [34994]
+Path:                  /Volumes/VOLUME/*/cryptexctl.research
+Identifier:            cryptexctl.research
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        zsh [573]
+Responsible:           Terminal [569]
+User ID:               501
+
+Date/Time:             2021-10-29 14:01:11.5153 -0400
+OS Version:            macOS 12.0.1 (21A559)
+Report Version:        12
+Bridge OS Version:     6.0 (19P548)
+
+Time Awake Since Boot: 3700 seconds
+Time Since Wake:       2378 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x0000000070646d60
+Exception Codes:       0x0000000000000001, 0x0000000070646d60
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Reason:    Namespace SIGNAL, Code 11 Segmentation fault: 11
+Terminating Process:   exc handler [34994]
+
+VM Region Info: 0x70646d60 is not in any region.  Bytes before following region: 2634478240
+      REGION TYPE                    START - END         [ VSIZE] PRT/MAX SHRMOD  REGION DETAIL
+      UNUSED SPACE AT START
+--->  
+      __TEXT                      10d6b6000-10d6ee000    [  224K] r-x/r-x SM=COW  ...xctl.research
+
+Thread 0 Crashed::  Dispatch queue: com.apple.main-thread
+0   libsystem_platform.dylib      	    0x7ff8081de6f2 _platform_strlen + 18
+1   libsystem_c.dylib             	    0x7ff808098e11 __vfprintf + 5135
+2   libsystem_c.dylib             	    0x7ff8080978b5 __v2printf + 469
+3   libsystem_c.dylib             	    0x7ff8080ca9e2 _vasprintf + 279
+4   libsystem_c.dylib             	    0x7ff8080e66f8 _e_visprintf + 64
+5   libsystem_c.dylib             	    0x7ff8081174cb vwarnc + 97
+6   libsystem_c.dylib             	    0x7ff8081175ae warnc + 124
+7   cryptexctl.research           	       0x10d6cadda 0x10d6b6000 + 85466
+8   cryptexctl.research           	       0x10d6c9d4c 0x10d6b6000 + 81228
+9   cryptexctl.research           	       0x10d6c990b 0x10d6b6000 + 80139
+10  libsystem_darwin.dylib        	    0x7ff80a7fa7df os_subcommand_main + 671
+11  cryptexctl.research           	       0x10d6d1b2a 0x10d6b6000 + 113450
+12  dyld                          	       0x11539a4fe start + 462
+
+Thread 1:
+0   libsystem_pthread.dylib       	    0x7ff8081c700c start_wqthread + 0
+
+Thread 2:
+0   libsystem_pthread.dylib       	    0x7ff8081c700c start_wqthread + 0
+
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000070646d67  rbx: 0x0000000000000000  rcx: 0x0000000070646d67  rdx: 0x0000000070646d67
+  rdi: 0x0000000070646d60  rsi: 0xffffffffffffffff  rbp: 0x00007ff7b2847bc0  rsp: 0x00007ff7b2847bc0
+   r8: 0x0000000000000000   r9: 0x000000010d6e7fb3  r10: 0x0000000000000000  r11: 0x00007ff8499e0650
+  r12: 0x000000010d6e7fb3  r13: 0x0000000000000008  r14: 0x000000010d6e7fb5  r15: 0x0000000000000073
+  rip: 0x00007ff8081de6f2  rfl: 0x0000000000010206  cr2: 0x0000000070646d60
+  
+Logical CPU:     4
+Error Code:      0x00000004 (no mapping for user data read)
+Trap Number:     14
+
+Thread 0 instruction stream:
+  29 07 c5 fc 29 47 20 48-83 c7 40 48 83 ea 40 77  )...)G H..@H..@w
+  ed c5 fc 11 04 17 c5 fc-11 44 17 20 c5 f8 77 5d  .........D. ..w]
+  c3 48 89 34 17 48 83 ea-08 73 f6 48 83 c2 08 74  .H.4.H...s.H...t
+  0b 40 88 74 17 ff 48 83-ea 01 75 f5 5d c3 90 90  .@.t..H...u.]...
+  90 90 90 90 90 90 90 90-90 90 90 90 90 90 55 48  ..............UH
+  89 e5 48 89 f9 48 89 fa-48 83 e7 f0 66 0f ef c0  ..H..H..H...f...
+ [66]0f 74 07 66 0f d7 f0-48 83 e1 0f 48 83 c8 ff  f.t.f...H...H...	<==
+  48 d3 e0 21 c6 74 17 0f-bc c6 48 29 d7 48 01 f8  H..!.t....H).H..
+  5d c3 66 2e 0f 1f 84 00-00 00 00 00 66 90 48 83  ].f.........f.H.
+  c7 10 66 0f ef c0 66 0f-74 07 66 0f d7 f0 85 f6  ..f...f.t.f.....
+  74 ec eb d3 65 48 8b 0c-25 18 00 00 00 41 89 c8  t...eH..%....A..
+  31 c0 f0 4c 0f b1 07 0f-85 d3 1f 00 00 e9 00 00  1..L............
+
+Binary Images:
+    0x7ff8081dd000 -     0x7ff8081e6fff libsystem_platform.dylib (*) <e443252e-7302-3580-b8c8-9dacd0be818d> /usr/lib/system/libsystem_platform.dylib
+    0x7ff808096000 -     0x7ff80811efff libsystem_c.dylib (*) <991f58b7-b4c0-3c3a-84a8-c9c571de5a27> /usr/lib/system/libsystem_c.dylib
+       0x10d6b6000 -        0x10d6edfff cryptexctl.research (*) <719f42f5-7381-3981-a495-74e4b42c9e21> /Volumes/VOLUME/*/cryptexctl.research
+    0x7ff80a7f7000 -     0x7ff80a800fff libsystem_darwin.dylib (*) <907d9e83-ba0d-31ba-a637-749cdb79c527> /usr/lib/system/libsystem_darwin.dylib
+       0x115395000 -        0x115400fff dyld (*) <1a6ae033-9438-33c0-8077-988fd885250a> /usr/lib/dyld
+    0x7ff8081c5000 -     0x7ff8081d0fff libsystem_pthread.dylib (*) <29a2750e-f31b-3630-8761-242a6bc3e99e> /usr/lib/system/libsystem_pthread.dylib
+               0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=802.8M resident=0K(0%) swapped_out_or_unallocated=802.8M(100%)
+Writable regions: Total=593.5M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=593.5M(100%)
+
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Activity Tracing                   256K        1 
+Kernel Alloc Once                    8K        1 
+MALLOC                           200.2M       27 
+MALLOC guard page                   16K        4 
+MALLOC_NANO (reserved)           384.0M        1         reserved VM address space (unallocated)
+STACK GUARD                       56.0M        3 
+Stack                             9232K        3 
+VM_ALLOCATE                         16K        3 
+__CTF                               759        1 
+__DATA                            13.0M      238 
+__DATA_CONST                      8634K      138 
+__DATA_DIRTY                       301K       78 
+__FONT_DATA                          4K        1 
+__LINKEDIT                       636.2M        9 
+__OBJC_RO                         81.5M        1 
+__OBJC_RW                         3120K        2 
+__TEXT                           166.6M      253 
+__UNICODE                          588K        1 
+dyld private memory               1024K        1 
+mapped file                       28.3M        2 
+shared memory                       44K        4 
+===========                     =======  ======= 
+TOTAL                              1.6G      772 
+TOTAL, minus reserved VM space     1.2G      772 
