@@ -1,5 +1,8 @@
 # Welcome to Hoyt's SRD Repo
-<img src="https://xss.cx/2024/05/20/img/hoyts-apple-security-research-device-project-image.jpeg" alt="Hoyt's Apple Security Research Device Project Repository" style="height:1024px; width:1024px;"/>
+
+Last Updated: 2026-04-11 17:11:34 UTC
+
+Recap - I returned my Devices on December 15, 2022 and have not updated this Site since. that will change later in 2026.
 
 ## whoami
 I am David Hoyt.
